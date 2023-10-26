@@ -40,7 +40,7 @@ Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
-Relations: converted from manual (initially annotated in the SUD format)
+Relations: converted from manual
 Contributors: Pierre-Louis, Claudel, Jagodzińska, Sandra; Kahane, Sylvain; Savary, Agata; Schang, Emmanuel
 Contributing: here
 Contact: sylvain@kahane.fr
