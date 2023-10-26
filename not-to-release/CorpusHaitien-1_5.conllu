@@ -1,0 +1,162 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = my_sample__81
+# text = M ta renmen w fè m plezi pou w akonpanye m menmsi w pa ta rete pou jiskaske l fini," li ajoute.
+# text_fr = J'aimerais que tu me fasses le plaisir pour que tu m'accompagnes même si tu ne resterais pas jusqu'à ce que tu le termines : ajoute-il.
+# Status = SILVER
+1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	ta	ta	AUX	_	_	3	aux	_	Gloss=COND
+3	renmen	renmen	VERB	_	_	0	root	_	Gloss=aimer
+4	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=2SG
+5	fè	fè	VERB	_	Mood=Cnd|Tense=Pres	3	ccomp	_	Gloss=faire
+6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	dep:comp	_	Gloss=1SG
+7	plezi	plezi	NOUN	_	_	5	dep:comp	_	Gloss=plaisir
+8	pou	pou	ADP	_	_	10	mark	_	Gloss=pour
+9	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	Gloss=2SG
+10	akonpanye	akonpanye	VERB	_	_	5	dep	_	Gloss=accompagner
+11	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obj	_	Gloss=1SG
+12	menmsi	menmsi	ADV	_	_	10	advmod	_	Gloss=même si
+13	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	Gloss=2SG
+14	pa	pa	ADV	_	_	16	advmod	_	Gloss=NEG
+15	ta	ta	AUX	_	_	16	aux	_	Gloss=COND
+16	rete	rete	VERB	_	Mood=Cnd	12	ccomp	_	Gloss=rester
+17	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
+18	jiskaske	jiskaske	ADV	_	_	20	advmod	_	Gloss=jusqu'à ce que
+19	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	20	nsubj	_	Gloss=3SG
+20	fini	fini	VERB	_	Tense=Pres	16	dep	_	Gloss=finir|SpaceAfter=No
+21	,"	,"	PUNCT	_	_	23	punct	_	_
+22	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	23	nsubj	_	Gloss=3SG
+23	ajoute	ajoute	VERB	_	Tense=Pres	3	parataxis:insert	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = my_sample__82
+# text = M rete san di anyen paske l enposib pou mwen pou m ta la, sof si m ta di manman m se yon obligasyon pou m rete pou fen desanm sa a.
+# text_fr = je reste sans rien dire parce que il est impossible pour moi d'être là, sauf si je dirait à ma maman que c'est une obligation pour que je reste  pour la fin de cette année.
+# Status = SILVER
+1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
+2	rete	rete	VERB	_	Tense=Pres	0	root	_	Gloss=rester
+3	san	san	ADP	_	Tense=Pres	4	mark	_	Gloss=sans
+4	di	di	VERB	_	Tense=Pres	2	dep	_	Gloss=dire
+5	anyen	anyen	PRON	_	_	4	obj	_	Gloss=rien
+6	paske	paske	SCONJ	_	_	8	mark	_	Gloss=parce que
+7	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Gloss=3SG
+8	enposib	enposib	ADJ	_	VerbForm=Vadj	2	advcl	_	Gloss=impossible
+9	pou	pou	ADP	_	_	10	case	_	Gloss=pour
+10	mwen	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	8	obl	_	Gloss=1SG
+11	pou	pou	ADP	_	_	14	case	_	Gloss=pour
+12	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
+13	ta	ta	AUX	_	_	14	aux	_	Gloss=COND
+14	la	la	ADV	_	VerbForm=Vadv	8	advmod	_	Gloss=être là|SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	sof	sof	ADP	_	_	20	mark	_	Gloss=sauf
+17	si	si	SCONJ	_	_	20	mark	_	Gloss=si
+18	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	Gloss=1SG
+19	ta	ta	AUX	_	_	20	aux	_	Gloss=COND
+20	di	di	VERB	_	Tense=Pres	8	advcl	_	Gloss=dire
+21	manman	manman	NOUN	_	_	20	dep:comp	_	Gloss=maman
+22	m	mwen	DET	_	Number=Sing|Person=1|PronType=Prs	21	det	_	Gloss=1SG
+23	se	se	VERB	_	Tense=Pres	20	ccomp:T	_	Gloss=être
+24	yon	yon	DET	_	Definite=Ind|Number=Sing	25	det	_	Gloss=DET
+25	obligasyon	obligasyon	NOUN	_	_	23	obj	_	Gloss=obligation
+26	pou	pou	ADP	_	_	28	mark	_	Gloss=pour
+27	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	Gloss=1SG
+28	rete	rete	VERB	_	Tense=Pres	25	acl	_	Gloss=rester
+29	pou	pou	ADP	_	_	31	case	_	Gloss=pour
+30	fen	fen	NOUN	_	_	31	nmod	_	Gloss=fin
+31	desanm	desanm	NOUN	_	_	28	obl	_	Gloss=décembre
+32	sa	sa	DET	_	Number=Sing|PronType=Dem	31	det	_	Gloss=DET
+33	a	a	DET	_	Number=Sing|PronType=Dem	31	det	_	Gloss=le|SpaceAfter=No
+34	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = my_sample__83
+# text = Tout panse m fè te abouti ak yon sèl konklizyon, fòk m al jwenn fanmi m yo Jakmèl.
+# text_fr = Toute la réflexion que j'ai faite a abouti à une seule conclusion, il faut que j'aille trouver mes  familles à Jacmel.
+# Status = SILVER
+1	Tout	tout	DET	_	_	2	det	_	Gloss=tout
+2	panse	panse	NOUN	_	Tense=Pres	6	nsubj	_	Gloss=penser
+3	m	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	4	nsubj	_	Gloss=1SG
+4	fè	fè	VERB	_	Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	_
+5	te	te	AUX	_	_	6	aux	_	Gloss=PAST
+6	abouti	abouti	VERB	_	VerbForm=Inf	0	root	_	Gloss=aboutir
+7	ak	ak	ADP	_	_	10	case	_	Gloss=à, avec
+8	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	_
+9	sèl	sèl	ADJ	_	_	10	amod	_	Gloss=seule
+10	konklizyon	konklizyon	NOUN	_	_	6	obl	_	Gloss=conclusion|SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	fòk	fòk	VERB	_	Mood=Imp	10	appos	_	Gloss=devoir, falloir
+13	m	m	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
+14	al	ale	VERB	_	Tense=Pres	12	ccomp	_	Gloss=aller
+15	jwenn	jwenn	VERB	_	VerbForm=Inf	14	ccomp	_	Gloss=trouver
+16	fanmi	fanmi	NOUN	_	_	15	obj	_	Gloss=famille
+17	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	16	det	_	Gloss=1SG
+18	yo	yo	DET	_	Number=Plur|Person=3	16	det	_	Gloss=3PL
+19	Jakmèl	Jakmèl	PROPN	_	_	14	obl:arg	_	Gloss=Jakmèl|SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = my_sample__84
+# text = Kidonk, m di l li jan l ye a epi m ret a repons m ba li a, ki se "NON".
+# text_fr = donc, je lui ai dit tel qu'il est, puis je reste avec la réponse que je lui ai donnée. Qui est non.
+# Status = SILVER
+1	Kidonk	Kidonk	ADV	_	_	4	advmod	_	Gloss=donc|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=1SG
+4	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+5	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	dep:comp	_	Gloss=3SG
+6	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	dep:comp	_	_
+7	jan	jan	NOUN	_	_	4	obl:mod	_	Gloss=tel, façon
+8	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Gloss=3SG
+9	ye	ye	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=être
+10	a	a	DET	_	Definite=Def|Number=Sing	9	det	_	_
+11	epi	epi	CCONJ	_	_	13	cc	_	Gloss=puis
+12	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	ret	ret	VERB	_	Tense=Pres	4	conj	_	Gloss=rester
+14	a	a	ADP	_	_	15	case	_	Gloss=à, avec
+15	repons	repons	NOUN	_	_	13	obl:arg	_	Gloss=réponse
+16	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
+17	ba	bay	VERB	_	_	15	acl:relcl	_	Gloss=donner
+18	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	17	obj	_	Gloss=3SG
+19	a	a	DET	_	_	17	det	_	Gloss=DET|SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	ki	ki	PRON	_	_	22	nsubj	_	Gloss=qui
+22	se	se	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=être
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	NON	non	NOUN	_	_	22	obj	_	Gloss=non|SpaceAfter=No
+25	".	".	PUNCT	_	_	24	punct	_	_
+
+# sent_id = my_sample__85
+# text = "Hmm...! li reponn.
+# text_fr = Humm..! Il répond.
+# Status = SILVER
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Hmm	hmm	INTJ	_	_	0	root	_	Gloss=humm|SpaceAfter=No
+3	...!	...!	PUNCT	_	_	2	punct	_	_
+4	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	reponn	reponn	VERB	_	Tense=Pres	2	parataxis:insert	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = my_sample__86
+# text = Ebyen mèsi paske w refize m, m pat atann a sa non, men m pa ka fòse w.
+# text_fr = Et bien merci parce que tu m' as refusé, je ne m'attendais pas à cela, mais je ne peux pas t'efforcer.
+# Status = SILVER
+1	Ebyen	Ebyen	ADV	_	_	2	advmod	_	Gloss=et bien
+2	mèsi	mèsi	INTJ	_	_	0	root	_	Gloss=merci
+3	paske	paske	SCONJ	_	_	5	mark	_	Gloss=parce que
+4	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=2SG
+5	refize	refize	VERB	_	Tense=Pres	2	advcl	_	Gloss=refuser
+6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=1SG|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Gloss=1SG
+9	pa	pa	ADV	_	_	11	advmod	_	Gloss=NEG|SpaceAfter=No
+10	t	te	AUX	_	_	11	aux	_	Gloss=PAST|wordform=pat
+11	atann	atann	VERB	_	Tense=Pres	5	acl:relcl	_	Gloss=attendre
+12	a	a	ADP	_	_	13	case	_	Gloss=à
+13	sa	sa	PRON	_	Number=Sing|PronType=Dem	11	obl:arg	_	Gloss=cela
+14	non	non	DET	_	_	13	det	_	Gloss=DET|SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	men	men	CCONJ	_	_	19	cc	_	Gloss=mais
+17	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Gloss=1SG
+18	pa	pa	ADV	_	_	19	advmod	_	Gloss=NEG
+19	ka	ka	VERB	_	Tense=Pres	11	conj	_	Gloss=pouvoir
+20	fòse	fòse	VERB	_	_	19	ccomp	_	Gloss=forcer
+21	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	20	obj	_	Gloss=2SG|SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+

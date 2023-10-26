@@ -1,0 +1,100 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# sent_id = my_sample__1
+# text = Larisi Lanse Egzèsis ak Fòs Misil Nikleyè li yo
+# text_fr = la Russie lance un exercice avec ses forces de missiles nucléaire.
+# Status = SILVER
+1	Larisi	larisi	PROPN	_	_	2	nsubj	_	Gloss=Russie
+2	Lanse	lanse	VERB	_	Tense=Pres	0	root	_	Gloss=lancer
+3	Egzèsis	egzèsis	NOUN	_	_	2	obj	_	Gloss=exercice
+4	ak	ak	ADP	_	_	5	case	_	Gloss=avec
+5	Fòs	fòs	NOUN	_	_	3	nmod	_	Gloss=force
+6	Misil	misil	NOUN	_	_	5	obj	_	Gloss=missile
+7	Nikleyè	nikleyè	ADJ	_	_	6	amod	_	Gloss=nucléaire
+8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	5	det	_	Gloss=3SG
+9	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	5	det	_	Gloss=3PL
+
+# sent_id = my_sample__2
+# text = MOSCOU (AP) — Lame Ris ap fè egzèsis ak fòs misil estratejik li yo pou montre gwo kapasite nikleyè peyi a.
+# text_fr = Moscou, l'armée de la Russe fait des exercices avec ses forces de missiles stratégiques pour montrer pour montrer la grande capacité nucléaire du pays.
+# Status = SILVER
+1	MOSCOU	moscou	PROPN	_	_	6	parataxis	_	Gloss=Moscou
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	AP	ap	PROPN	_	_	1	dep	_	Gloss=Associated Press|SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	—	—	PUNCT	_	_	1	punct	_	_
+6	Lame	lame	NOUN	_	_	9	nsubj	_	Gloss=armée
+7	Ris	ris	PROPN	_	_	6	nmod	_	Gloss=russe
+8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
+9	fè	fè	VERB	_	Tense=Pres	0	root	_	Gloss=faire
+10	egzèsis	egzèsis	NOUN	_	_	9	obj	_	Gloss=exercice
+11	ak	ak	ADP	_	_	12	case	_	Gloss=avec
+12	fòs	fòs	NOUN	_	_	10	nmod	_	Gloss=force
+13	misil	misil	NOUN	_	_	12	obj	_	Gloss=missile
+14	estratejik	estratejik	ADJ	_	_	12	amod	_	Gloss=stratégique
+15	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	12	det	_	Gloss=3SG
+16	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	12	det	_	Gloss=3PL
+17	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
+18	montre	montre	VERB	_	_	9	dep	_	Gloss=montrer
+19	gwo	gwo	ADJ	_	_	20	amod	_	Gloss=grande
+20	kapasite	kapasite	NOUN	_	_	18	obj	_	Gloss=capacité
+21	nikleyè	nikleyè	ADJ	_	_	20	amod	_	Gloss=nucléaire
+22	peyi	peyi	NOUN	_	_	20	obj	_	Gloss=pays
+23	a	a	DET	_	_	22	det	_	Gloss=la|SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = my_sample__3
+# text = Ministè Defans Ris la di Mèkredi ke lans misil mobil Yars pral fè mannèv nan 3 rejyon nan Siberi.
+# text_fr = Le ministère de la défense russe dit mercredi que la lance missile mobile Yars fera des manœuvres dans trois régions  en Sibérie.
+# Status = SILVER
+1	Ministè	ministè	NOUN	_	_	5	nsubj	_	Gloss=ministère
+2	Defans	defans	NOUN	_	_	1	obj	_	Gloss=défense
+3	Ris	ris	PROPN	_	_	2	nmod	_	Gloss=russe
+4	la	la	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=le
+5	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+6	Mèkredi	mèkredi	NOUN	_	_	5	obl:mod	_	Gloss=mercredi
+7	ke	ke	SCONJ	_	_	13	mark	_	Gloss=que
+8	lans	lans	NOUN	_	_	13	nsubj	_	Gloss=lance
+9	misil	misil	NOUN	_	_	8	nmod	_	Gloss=missile
+10	mobil	mobil	ADJ	_	_	9	amod	_	Gloss=mobile
+11	Yars	yars	PROPN	_	_	8	appos	_	Gloss=Yars
+12	pral	pral	AUX	_	_	13	aux	_	Gloss=FUT
+13	fè	fè	VERB	_	Tense=Pres	5	ccomp	_	Gloss=faire
+14	mannèv	mannèv	NOUN	_	_	13	obj	_	Gloss=manœuvre
+15	nan	nan	ADP	_	_	17	case	_	Gloss=dans
+16	3	3	NUM	_	_	17	nummod	_	Gloss=3
+17	rejyon	rejyon	NOUN	_	_	14	nmod	_	Gloss=région
+18	nan	nan	ADP	_	_	19	case	_	Gloss=en
+19	Siberi	siberi	PROPN	_	_	17	nmod	_	Gloss=Sibérie|SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = my_sample__4
+# text = Ministè a pa pale de okenn plan pou pratike lansman men li di manèv yo enplike apeprè 300 machin ak 3,000 sòlda nan lès Siberi.
+# text_fr = le ministère n'a parlé d'aucun plan pour pratiquer le lancement mais il dit que les manœuvres impliquent à peu près 300 véhicules avec 3000 soldats dans l'ouest de Sibérie.
+# Status = SILVER
+1	Ministè	ministè	NOUN	_	_	4	nsubj	_	Gloss=ministère
+2	a	a	DET	_	_	1	det	_	Gloss=le
+3	pa	pa	ADV	_	_	4	advmod	_	Gloss=ne pas
+4	pale	pale	VERB	_	_	0	root	_	Gloss=parler
+5	de	de	ADP	_	_	7	case	_	Gloss=de
+6	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun
+7	plan	plan	NOUN	_	_	4	obl	_	Gloss=plan
+8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
+9	pratike	pratike	VERB	_	VerbForm=Inf	7	acl	_	Gloss=pratiquer
+10	lansman	lansman	NOUN	_	_	9	obj	_	Gloss=lancement
+11	men	men	CCONJ	_	_	13	cc	_	Gloss=mais
+12	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Gloss=3SG
+13	di	di	VERB	_	Tense=Pres	9	conj	_	Gloss=dire
+14	manèv	manèv	NOUN	_	_	16	nsubj	_	Gloss=manœuvre
+15	yo	yo	DET	_	Definite=Ind|Number=Sing	14	det	_	Gloss=DET
+16	enplike	enplike	VERB	_	Tense=Pres	13	ccomp	_	Gloss=impliquer
+17	apeprè	apeprè	ADP	_	_	19	dep	_	Gloss=à peu près
+18	300	300	NUM	_	_	19	nummod	_	Gloss=300
+19	machin	machin	NOUN	_	_	16	obj	_	Gloss=véhicule
+20	ak	ak	ADP	_	_	22	case	_	Gloss=avec
+21	3,000	3,000	NUM	_	_	22	nummod	_	Gloss=3000
+22	sòlda	sòlda	NOUN	_	_	19	nmod	_	Gloss=soldat
+23	nan	nan	ADP	_	_	24	case	_	Gloss=dans
+24	lès	lès	NOUN	_	_	22	nmod	_	Gloss=Est
+25	Siberi	siberi	PROPN	_	_	24	nmod	_	Gloss=Sibérie|SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
