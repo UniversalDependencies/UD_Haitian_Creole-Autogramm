@@ -10,6 +10,7 @@ This treebank contains a selection of sentences from the following sources:
 * extracts of a novel: Roy (2021) "Lanmou titato"
 * newspaper texts from "VOA kreyol" and "PAPDA"
 The corpus contains 144 sentences and 3418 tokens.
+The annotation was done in ArboratorGew
 
 # Acknowledgments
 
@@ -39,7 +40,7 @@ Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
-Relations: manual native
+Relations: converted from manual (initially annotated in the SUD format)
 Contributors: Pierre-Louis, Claudel, Jagodzińska, Sandra; Kahane, Sylvain; Savary, Agata; Schang, Emmanuel
 Contributing: here
 Contact: sylvain@kahane.fr
