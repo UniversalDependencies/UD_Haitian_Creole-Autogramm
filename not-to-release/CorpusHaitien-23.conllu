@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 23__1
 # text = Depatman Deta Konfime yo Kidnape 2 Sitwayen Ameriken an Ayiti
 # text_fr = Le département d'Etat confirme qu'ils  ont kidnappé deux citoyens américains en Haïti.
 # Status = SILVER
@@ -14,7 +14,7 @@
 9	an	an	ADP	_	_	10	case	_	Gloss=en
 10	Ayiti	Ayiti	PROPN	_	_	5	obl	_	Gloss=Haïti
 
-# sent_id = my_sample__2
+# sent_id = 23__2
 # text = Jean-Dickens Toussaint ak madanm ni Abigail Michael Toussaint poze pou yon foto jou maryaj yo nan Pompano Beach, Florid.
 # text_fr = Jean-Dickens  Toussaint et sa femme, Abigail Michael Toussaint reste pour prendre une photo le jour de leur mariage à Pompano Beach, Floride.
 # Status = SILVER
@@ -40,7 +40,7 @@
 20	Florid	Florid	PROPN	_	_	18	appos	_	Gloss=Floride|SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 23__3
 # text = Pòtpawol adjwen Depatman Deta a, Vendant Patel konfime Jedi 30 mas 2023 ke yo kidnape 2 sitwayen Ameriken an Ayiti.
 # text_fr = Le porte-parole adjoint du département d'Etat, Vendant Patel confirme le jeudi 30 mars 2023 qu'ils ont kidnappé deux citoyens américains en Haïti.
 # Status = SILVER
@@ -67,7 +67,7 @@
 21	Ayiti	Ayiti	PROPN	_	_	16	obl	_	Gloss=Haïti|SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 23__4
 # text = Li ajoute ke Washington an kontak ak otorite Ayisyen yo e ke Etazini pral kontinye travay ak yo.
 # text_fr = Il ajoute que Washington est en contact avec les autorités haïtiennes et que les Etats-Unis continueront de travailler avec eux.
 # Status = SILVER
@@ -91,7 +91,7 @@
 18	yo	yo	PRON	_	Definite=Def|Number=Plur|PronType=Prs	16	nmod	_	Gloss=3PL|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 23__5
 # text = Patel te refize bay okenn lòt detay sou dosye a.
 # text_fr = Patel refusait de donner d'autres détails sur le dossier.
 # Status = SILVER

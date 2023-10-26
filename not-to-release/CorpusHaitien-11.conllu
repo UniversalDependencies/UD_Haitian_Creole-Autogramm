@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 11__1
 # text = Meksik Arete 5 Moun an Koneksyon ak Dife ki Pete nan Sant pou Migran an
 # text_fr = Mexique arrête 5 personnes en rapport avec l'incendie qui a éclaté dans le centre du migrant
 # Status = SILVER
@@ -19,7 +19,7 @@
 14	Migran	migran	NOUN	_	_	12	nmod	_	Gloss=migrant
 15	an	an	DET	_	Definite=Def|Number=Sing	14	det	_	Gloss=DET
 
-# sent_id = my_sample__2
+# sent_id = 11__2
 # text = Otorite meksiken arete 5 moun pou swadizan koneksyon yo ak yon dife ki te pete nan yon sant meksiken ki kenbe migran, kote 30 migran pèdi lavi yo.
 # text_fr = L'autorité mexicaine arrête 5 personnes pour leur soi-disant connexion avec l'incendie qui a éclaté dans un centre mexicain qui accueille les migrants, où 30 migrants perdent leur vie
 # Status = SILVER
@@ -54,7 +54,7 @@
 29	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	28	det	_	Gloss=3PL|SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 11__3
 # text = Anons arestasyon an fèt jedi, yon jou apre minis jistis Meksik la te anonse yon ankèt sou ansasinay nan kesyon dife a, apre yon video siveyans sanble moutre gad sekirite ki pa te fè anyen pou ede migran yo chape poul yo lè dife t ap anvayi selil kote yo te fèmen.
 # text_fr = L'annonce de l'arrestation est publiée jeudi, un jour après que le ministre de la justice de Mexique a annoncé une enquête sur l'assassinat dans la question de l'incendie, après qu'une vidéo de surveillance semble montrer l'agent de sécurité qui n'a rien fait pour aider les migrants à sauver leur peau quand l'incendie avait envahi la salle où ils ont été fermés.
 # Status = SILVER

@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 19__1
 # text = Anpil Ikrenyen Pa Konn sa pou yo Fè Akoz Pèmisyon yo te Genyen pou Rete nan Etazini Ekspire
 # text_fr = beaucoup d'ukrainiens ne savent pas ce qu'il faut faire à cause leur permis qu'il avait pour rester aux Etats-Unis est expiré.
 # Status = SILVER
@@ -22,7 +22,7 @@
 17	Etazini	Etazini	PROPN	_	_	15	obl	_	Gloss=Etats-Unis
 18	Ekspire	ekspire	VERB	_	Tense=Pres	8	advcl	_	Gloss=expirer
 
-# sent_id = my_sample__2
+# sent_id = 19__2
 # text = SAN DIEGO (AP) — Plis pase 20,000 Ikrenyen ki te jwenn pèmisyon pou yo rete sou teritwa ameriken an pou yon ane, apre yo te kouri kite peyi yo akoz envazyon Larisi te lanse lakay yo, yo ap fè fas gwo pwoblèm akoz Pwogram Pawòl imanitè ki ekpire pou yo.
 # text_fr = San Diego,  plus que 20 000 ukrainiens qui trouvaient leur permis pour qu'ils restent  sur le territoire américain pour une année, après qu'ils ont couru de quitter leur pays à cause de l'invasion que la Russie avait lancé  chez eux.  Ils font face à une grande difficulté à cause du programme humanitaire qui est expiré pour  eux.
 # Status = SILVER
@@ -82,7 +82,7 @@
 54	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	52	obl	_	Gloss=3PL|SpaceAfter=No
 55	.	.	PUNCT	_	_	43	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 19__3
 # text = Moun ki ap defann imigran sa yo di ke administrasyon Biden nan enfòme yo ke li ap travay pou ranje sitiyasyon an, men ke li pa di ki sa moun yo ka fè pou yo pwolonje estati yo, ki mache ak avantaj tankou èd lòjman ak koupon manje, ki rele ann angle “Food Stamps”.
 # text_fr = La personne qui défend ces migrants disent que l'administration de Biden les informe qu'elle travaille arranger la situation, mais elle n'a pas dit  ce qu'ils peuvent faire pour changer leur statut, qui marche avec des avantages tels que des aides au logement,  kit  alimentaire,  qui s'appelle en anglais Food Stamps.
 # Status = SILVER
@@ -147,7 +147,7 @@
 59	”	”	PUNCT	_	_	57	punct	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 19__4
 # text = Pifò Ikrenyen te jwenn otorizasyon pou yo patisipe nan pwogram imanitè sa pou yon ane apre yo te fin travèse fwontyè Etazini ak Meksik pandan kèk mwa lè lagè a te koumanse.
 # Status = SILVER
 # text_fr = la majorité des ukrainiens ont trouvé l'autorisation pour participer à ce programme humanitaire pour une année après qu'ils ont fini de traverser la frontière des Etats-Unis avec le Mexique pendant quelques mois quand la guerre avait commencé.
@@ -185,7 +185,7 @@
 32	koumanse	koumanse	VERB	_	Tense=Past	27	acl	_	Gloss=commencer|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 19__5
 # text = Anpil moun di ensètitid la ba yo tèt-chaje.
 # text_fr = beaucoup de gens disent que l'incertitude leur donne du problème.
 # Status = SILVER

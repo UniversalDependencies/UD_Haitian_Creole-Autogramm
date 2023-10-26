@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 12__1
 # text = Meksik di l ap Mennen ankèt sou 8 Moun nan Dife ki te Touye Moun nan yon Sant pou Migran
 # text_fr = Mexique dit qu'il mène une enquête sur 8 personnes dans l'incendie qui a tué des gens dans un centre pour migrant.
 # Status = SILVER
@@ -24,7 +24,7 @@
 19	pou	pou	ADP	_	_	20	case	_	Gloss=pour
 20	Migran	migran	NOUN	_	_	18	nmod	_	Gloss=migrant
 
-# sent_id = my_sample__2
+# sent_id = 12__2
 # text = CIUDAD JUAREZ, Meksik (AP) — Otorite Meksiken yo di y ap mennen ankèt sou 8 anplwaye oswa otorite pou konnen si se move konduit nan yon sant kote yo kenbe migran ki te lakoz dife ki pran lavi 39 moun ki te anba kòd nan sant la.
 # text_fr = Ville Juarez, Mexique , les autorités mexicaines disent qu'ils mènent une enquête sur 8 employés ou bien des autorités pour savoir si c'est une mauvaise conduite  dans un centre où ils accueillent les migrants qui  a occasionné l'incendie qui ôte la vie de 39 personnes qui ont été emprisonnés dans le centre.
 # Status = SILVER
@@ -80,7 +80,7 @@
 50	la	la	DET	_	Definite=Def|Number=Sing	49	det	_	Gloss=le|SpaceAfter=No
 51	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 12__3
 # text = Kòlè ak fristrasyon apre dife a nan vil Ciudad Juarez te kontinye Mèkredi pandan plizyè santèn imigran t ap mache pou rive nan yon pòtay ki toupre fwontyè peyi a ak Lèzetazini nan espwa ke yo ka travèse an mas.
 # text_fr = La colère et la frustration après l'incendie dans la ville de Ciudad Juarez continuaient mercredi pendant plusieurs centaines immigrants étaient en train de marcher pour arriver dans un portail qui est tout prêt de la frontière du pays avec les Etats-Unis dans l'espoir qu'ils peuvent traverser en mars.
 # Status = SILVER
@@ -126,7 +126,7 @@
 40	mas	mas	NOUN	_	_	38	obl	_	Gloss=mars|SpaceAfter=No
 41	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 12__4
 # text = Otorite Meksiken yo sanble lage responsablite lanmò yo sou kontraktè prive ki t ap travay kòm gad sekirite.
 # text_fr = Les autorités mexicaines semblent donner la responsabilité des morts à des contracteurs privés qui étaient en train de travailler comme agent de sécurité.
 # Status = SILVER
@@ -150,7 +150,7 @@
 18	sekirite	sekirite	NOUN	_	_	17	obj	_	Gloss=sécurité|SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 12__5
 # text = Videyo te montre gad yo ki t ap kouri pou lafimen san yo pa chache libere prizonye yo.
 # text_fr = La vidéo a montré que les gardes qui couraient pour la fumée sans qu'ils ne menent aucune action pour libérer les prisoniers
 # Status = SILVER

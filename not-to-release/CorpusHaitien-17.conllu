@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 17__1
 # text = Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen
 # text_fr = Joe Biden rencontrera avec le président de la commission européenne, Ursula Von Der Leyen .
 # Status = SILVER
@@ -16,7 +16,7 @@
 11	Der	Der	PROPN	_	_	9	flat:name	_	Gloss=Der
 12	Leyen	Leyen	PROPN	_	_	9	flat:name	_	Gloss=Leyen
 
-# sent_id = my_sample__2
+# sent_id = 17__2
 # text = Prezidan Etazini Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen vandredi nan Mezon Blanch pou yo pale sou sanksyon posib kont LaChin pandan gen kè-sote kòmkwa LaChin ap pare pou voye zam bay LaRisi, ak fristrasyon Ewòp poutèt plan Washington genyen pou bay konpayi ameriken yo sibvansyon nan kad Lwa pou Redui Enflasyon an.
 # text_fr = Le président des Etats-Unis, Joe Biden, rencontrera avec le président de la commission européenne Ursula Von Der Leyen vendredi dans la maison Blanche pour qu'ils parlent sur la sanction possible contre la Chine pendant qu'il y'a une inquiétude comme quoi la Chine se prépare pour envoyer des armes à la Russie, avec la frustration de l'Europe à cause le plan de Washington a pour donner aux compagnies américaines une subvention dans le cadre de loi pour réduire l'inflation.
 # Status = SILVER
@@ -81,7 +81,7 @@
 59	an	an	DET	_	Definite=Def|Number=Sing	58	det	_	Gloss=DET|SpaceAfter=No
 60	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 17__3
 # text = Biden ak von der Leyen pwal pale tou sou jan Etazini ak Inyon Ewòp la ap kòdone ansanm pou konbat kriz klima a nan envesti nan teknoloji pwòp ki baze sou chèn distribisyon machandiz ki asire, se sa sekretè laprès Mezon Blanch Karine Jean-Pierre di nan yon deklarasyon.
 # text_fr = Biden et  Ursula Von Der Leyen parlera aussi sur la façon dont les Etats-Unis avec l'Européenne coordonne ensemble pour combattre la crise du climat dans l'investissement dans la technologie propre qui se base sur la chaîne de la distribution des marchandises qui est assuré, c'est ce que le secrétaire de la maison Blanche Karine Jean-Pierre dit dans une déclaration.
 # Status = SILVER
@@ -136,7 +136,7 @@
 49	deklarasyon	deklarasyon	NOUN	_	_	46	obl	_	Gloss=déclaration|SpaceAfter=No
 50	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 17__4
 # text = Rankont sa a se dènye nan yon seri reyinyon diplomatik nan wo-nivo ak lidè Ewòp yo pou kòdone sipò pou ede Ikrèn defann tèt li kont yon envazyon LaRisi.
 # text_fr = Cette rencontre est la dernière dans une série de réunion diplomatique au haut niveau avec les leaders d'Europe pour coordonner le support pour aider l'Ukraine se défendre contre l'invasion  de la Russie.
 # Status = SILVER
@@ -171,7 +171,7 @@
 29	LaRisi	Larisi	PROPN	_	_	28	nmod	_	Gloss=Russe|SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 17__5
 # text = Biden te rankontre ak chanselye alman Olaf Scholz nan Washington, semèn pase a.
 # text_fr = Biden a rencontré avec le chancelier  allemand Olaf Scholz à Washington, la semaine dernière.
 # Status = SILVER

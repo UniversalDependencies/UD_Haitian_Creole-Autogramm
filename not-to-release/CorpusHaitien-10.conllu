@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 10__1
 # text = Kisa pou w konnen sou Alvin Bragg, avoka distri Manhattan
 # text_fr = Qu'est-ce que tu dois connaitre sur Alvin Bragg, l'avocat du district de Manhattan
 # Status = SILVER
@@ -15,7 +15,7 @@
 10	distri	distri	NOUN	_	_	9	obj	_	Gloss=district
 11	Manhattan	Manhattan	PROPN	_	_	10	nmod	_	Gloss=Manhattan
 
-# sent_id = my_sample__2
+# sent_id = 10__2
 # text = Yon gran jiri New York k ap mennen ankèt sou peman anba tab ki te fèt sou non Donald Trump pandan kanpay prezidansyèl ane 2016 la vin santre atansyon sou avoka distri Manhattan nan k ap jere dosye a.
 # text_fr = Un grand jury de New York qui mène l'enquête sur le paiement illégale qui a été fait sur le nom de Donald Trump pendant  la campagne présidentielle l'année 2016 vient d'attirer de l' avocat du district de Manhattan qui gère le dossier.
 # Status = SILVER
@@ -60,7 +60,7 @@
 39	a	a	DET	_	_	38	det	_	Gloss=le|SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 10__3
 # text = Desizyon ke Alvin Bragg pran pou konvoke gran jiri sou dosye sa nan kòmansman ane 2023 kapab debouche sou akizasyon kriminèl kont yon ansyen prezidan ameriken.
 # text_fr = La décision qu'Alvin Bragg prend pour convoquer le grand jury sur ce dossier  dans le début de l'année 2023 peut déboucher sur une accusation criminelle contre l'ancien président américain.
 # Status = SILVER
@@ -92,7 +92,7 @@
 26	ameriken	ameriken	ADJ	_	_	25	amod	_	Gloss=américain|SpaceAfter=No
 27	.	.	PUNCT	_	_	17	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 10__4
 # text = Yo te eli Bragg kòm premye avoka Nwa nan distri Manhattan an Novanm 2021.
 # Status = SILVER
 # text_fr = Ils ont élu Bragg comme le premier avocat noir dans le district Manhattan en novembre 2021.
@@ -111,7 +111,7 @@
 13	Novanm	novanm	NOUN	_	_	3	obl:mod	_	Gloss=Novembre
 14	2021.	2021.	NUM	_	_	13	nmod	_	Gloss=2021
 
-# sent_id = my_sample__5
+# sent_id = 10__5
 # text = Karyè legal li gen ladan travay li te fè kòm yon pwosekitè federal ak avoka dwa sivik ki te reprezante manman Eric Garner.
 # Status = SILVER
 # text_fr = Sa carrière légale a inclue le travail qu'il a fait comme un procureur fédéral et un avocat du droit civique qui représentait  la maman d'Eric Garner

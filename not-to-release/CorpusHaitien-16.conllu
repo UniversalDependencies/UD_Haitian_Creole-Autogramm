@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 16__1
 # text = Aksyon Bank Credit Suisse Pèdi Valè nan Moman Kè Sote Global Pa Rapò ak Bank yo Ogmante
 # text_fr = L'action de la banque de crédit de la Suisse perd sa valeur dans le moment d'inquiétude globale par rapport aux banques qui augmentent
 # Status = SILVER
@@ -21,7 +21,7 @@
 16	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
 17	Ogmante	ogmante	VERB	_	Tense=Pres	13	acl	_	Gloss=augmenter
 
-# sent_id = my_sample__2
+# sent_id = 16__2
 # text = Yon afich ki gen non Credit Suisse make sou li sou pis Mache Labous Nouyok la (New York Stock Exchange) nan Nouyok, 15 Mas, 2023.
 # text_fr = Une affiche qui a le nom de Crédit Suisse figure sur elle sur la piste du marché de la bourse de New York ( New York Stock Exchange) à New York, le 15 mars 2023.
 # Status = SILVER
@@ -55,7 +55,7 @@
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	2023.	2023.	NUM	_	_	27	nmod	_	Gloss=2023
 
-# sent_id = my_sample__3
+# sent_id = 16__3
 # text = Aksyon bank Credit Suisse yo pedi plis pase yon ka valè yo sou mache d labous la.
 # text_fr = L'action des banques Crédits Suisse perd plus qu'un quart de leurs valeurs sur le marché de la bourse .
 # Status = SILVER
@@ -78,7 +78,7 @@
 17	la	la	DET	_	Definite=Def|Number=Sing	16	det	_	Gloss=DET|SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 16__4
 # text = Bès istorik sa a vini apre Bank Nasyonal Saoudyen an - ki kontwole majorite aksyon Credit Suisse yo - te di jounalis yo li pap bay bank Suis la okenn lòt lajan pou kontrekare pwoblèm li yo.
 # text_fr = cette baisse historique vient après que la Banque nationale saoudienne - qui contrôle la majorité d'action des  Crédits Suisse disaient aux journalistes qu'ils ne donneront aucun autre somme d'argent pour contrecarrer ses problèmes.
 # Status = SILVER
@@ -122,7 +122,7 @@
 38	yo	yo	DET	_	Definite=Def|Number=Plur	36	det	_	Gloss=DET|SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 16__5
 # text = Desizyon sa a te pran byen lontan anvan 2 bank Ameriken yo te fè fayit.
 # text_fr = Cette décision a été prise bien longtemps avant que les 2 banques américaines  ont fait faillite.
 # Status = SILVER
@@ -143,7 +143,7 @@
 15	fayit	fayit	NOUN	_	_	14	obj	_	Gloss=faillite|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 16__6
 # text = Tibilans sa koze Mèkredi te lakoz yo te kanpe lavant aksyon Credit Suisse yo sou mache Suis la.
 # text_fr = Cette turbulence qui surgit mercredi a suscité qu'ils cessent la vente des actions de Crédits Suisse  sur le marché de la Suisse.
 # Status = SILVER
@@ -167,7 +167,7 @@
 18	la	la	DET	_	Definite=Def|Number=Sing	16	det	_	Gloss=DET|SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 16__7
 # text = An menm tan sa te lakoz valè aksyon lòt bank Ewopeyen yo te plonje desann.
 # text_fr = Au  ce même moment, cela a  suscité la chute de beaucoup d'autre banque européenne.
 # Status = SILVER

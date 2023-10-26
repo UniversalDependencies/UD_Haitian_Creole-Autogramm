@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 01__1
 # text = Premye jou je m tonbe sou li a, m pat gen okenn presantiman lavi m ta pral chanje.
 # Status = SILVER
 # text_fr = Le premier jour que mes yeux tombent sur lui, je n'avais aucun présentiment que ma vie changerait.
@@ -25,7 +25,7 @@
 20	chanje	chanje	VERB	_	_	15	acl:relcl	_	Gloss=changer|SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__2
+# sent_id = 01__2
 # text = Jou sa lapli te kòmanse tonbe depi nan maten.
 # Status = SILVER
 # text_fr = Ce jour là, il commençait à pleuvoir dans la matinée.
@@ -40,7 +40,7 @@
 9	maten	maten	NOUN	_	_	7	obl	_	Gloss=matin|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 01__3
 # text = Yon fwa lè m te piti, m te anvi bwè dlo lapli a nan flè yo epi m te wè yon foumi ki mouri ladann.
 # text_fr = une fois quand j'étais petit, j'avais envie de boire de l'eau de pluie dans les fleurs et j'ai vu une fourmi qui y noyait (mourir).
 # Status = SILVER
@@ -72,7 +72,7 @@
 26	ladann	ladann	NOUN	_	_	25	obl:mod	_	Gloss=intérieur|SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 01__4
 # text = Yon ti souri parèt sou lèv mwen.
 # Status = SILVER
 # text_fr = un petit sourire apparait sur mes lèvres.
@@ -85,7 +85,7 @@
 7	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Gloss=DET|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 01__5
 # text = M te krache nan dlo a, manman m te fache paske, pou li, se te yon vye konpòtman.
 # text_fr = je crachais dans l'eau, ma maman était fâchée parce que, pou elle,  c'était un mauvais comportement.
 # Status = SILVER
@@ -112,7 +112,7 @@
 21	konpòtman	konpòtman	NOUN	_	_	17	obj	_	Gloss=comportement|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 01__6
 # text = Sa pase lontan sa.
 # text_fr = Cela s'est passé depuis longtemps.
 # Status = SILVER
@@ -122,7 +122,7 @@
 4	sa	sa	PRON	_	_	2	obj	_	Gloss=cela|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 01__7
 # text = M te chita sou yon chèz devan pòt klas la nan Fakilte Lenguistik, m t ap pale ak lòt kamarad mwen yo de maryaj yon sè m mwen t ale nan Petyonvil, epi n te tou pwofite pale de amitye nou lè n te piti.
 # text_fr = je m'asseyais sur une chaise devant la porte de la classe dans la Faculté de Linguistique, je parlais à mes camarades du mariage de ma sœur que j'allais à Pétion-Ville, puis nous avions profité de notre amitié  quand  nous  étions petits.
 # Status = SILVER
@@ -175,7 +175,7 @@
 47	piti	piti	VERB	_	_	42	acl	_	Gloss=petit|SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 01__8
 # text = Fòk m di nou, m gen 2 gran frè ak yon ti sè bò manman epi plizyè gran sè ak yon ti frè bò papa...
 # text_fr = il faut que je vous dise que j'ai 2 grands frères  et une sœur maternels et un petit frère paternel
 # Status = SILVER
@@ -207,7 +207,7 @@
 26	papa	papa	NOUN	_	_	24	nmod	_	Gloss=papa|SpaceAfter=No
 27	...	...	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 01__9
 # text = Pandan je m fèmen, m t ap panse ak sa k te rive m nan pase, se lè sa m tande pòt klas la ouvè.
 # text_fr = Pendant que mes yeux sont fermés, j'étais en train de penser à ce qui m'est arrivé dans le passé , c'est à ce moment que j'entend la porte de la classe s'ouvre.
 # Status = SILVER
@@ -240,7 +240,7 @@
 27	ouvè	ouvè	VERB	_	Tense=Pres	23	ccomp	_	Gloss=ouvrir|SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 01__10
 # text = Menm moman an, tout moun fè silans.
 # text_fr = le même moment, tout le monde fait silence.
 # Status = SILVER
@@ -254,7 +254,7 @@
 8	silans	silans	NOUN	_	_	7	obj	_	Gloss=silence|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 01__11
 # text = Mwen m toujou ret je fèmen epi tèt mwen bese sou biwo a.
 # Status = SILVER
 # text_fr = Moi , j''e reste toujours aux yeux fermés et ma tête baisse sur le bureau.
@@ -273,7 +273,7 @@
 13	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__12
+# sent_id = 01__12
 # text = "Bonswa, m ka fè yon ti pale pandan kèk minit ak nou si sa p ap deranje n?"
 # text_fr = bonsoir, je peux faire un petit échange pendant quelques minutes avec vous si ça vous dérange pas?
 # Status = SILVER
@@ -299,7 +299,7 @@
 20	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	19	obj	_	Gloss=2PL|SpaceAfter=No
 21	?"	?"	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__13
+# sent_id = 01__13
 # text = Mwen santi yon frison vyolan pran m nan tout kò m lè m ouvè je m pou m gade moun ki pale a mwen wè se yon jennon m wo ak tout souri sou lèv li ki te rantre epi l kanpe.
 # text_fr = je sens un violent frisson qui me traverse dans tout mon corps quand j'ouvre mes yeux pour que je regarde la personne qui parle, je vois que c'est jeune homme haut avec tout un sourire sur ses lèvres qui rentrait puis il se tenait débout.
 # Status = SILVER
@@ -347,7 +347,7 @@
 42	kanpe	kanpe	VERB	_	Tense=Past	39	conj	_	Gloss=tenir débout|SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__14
+# sent_id = 01__14
 # text = Li pa t lòt ke yon enkoni ki te nan dezyèm ane a.
 # text_fr = Il n'est autre qu'un inconnu qui était dans la deuxième année.
 # Status = SILVER
@@ -366,7 +366,7 @@
 13	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=DET|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__15
+# sent_id = 01__15
 # text = "Wi, avanse non mesye," klas la reponn.
 # text_fr = Oui, "avancez monsieur," la classe a répondu.
 # Status = SILVER
@@ -382,7 +382,7 @@
 10	reponn	reponn	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__16
+# sent_id = 01__16
 # text = Pawòl li yo t ap repete nan tèt mwen chak fwa m gade l.
 # text_fr = ses paroles remontaient dans ma tête à chaque que fois je lui regarde .
 # Status = SILVER
@@ -402,7 +402,7 @@
 14	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	obj	_	Gloss=3SG|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__17
+# sent_id = 01__17
 # text = Non jennonm sa se Claudy...
 # text_fr = Le nom de ce jeune homme est Claudy.
 # Status = SILVER
@@ -413,7 +413,7 @@
 5	Claudy	claudy	PROPN	_	_	4	obj	_	Gloss=claudy|SpaceAfter=No
 6	...	...	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__18
+# sent_id = 01__18
 # text = Aprè kèk mwa nou rantre nan Fakilte Lengwistik Aplike a, li te vin envite n nan fèt li t ap òganize nan mwa desanm pou klas li a (paske se li ki te prezidan).
 # text_fr = Après quelques nous rentrons à la Faculté de Linguistique Appliquée, il nous a invité à une fête qu'il organisait au mois de décembre pour sa  promotion (parce c'est lui qui était le président)
 # Status = SILVER
@@ -455,7 +455,7 @@
 36	prezidan	prezidan	NOUN	_	_	33	acl:relcl	_	Gloss=président|SpaceAfter=No
 37	).	).	PUNCT	_	_	14	punct	_	_
 
-# sent_id = my_sample__19
+# sent_id = 01__19
 # text = Yon sèl kou a, sèl panse ki monte nan tèt mwen se te "ale nan fèt la" pou m te ka wè l ankò.
 # text_fr = D'un coup, la seule chose qui m'est montée dans la tête était "d'aller à la fête" afin de le  voir à nouveau.
 # Status = SILVER
@@ -488,7 +488,7 @@
 27	ankò	ankò	ADV	_	_	25	advmod	_	Gloss=encore|SpaceAfter=No
 28	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__20
+# sent_id = 01__20
 # text = Je l ak cheve l yo te atire m anpil.
 # text_fr = Ses yeux et ses cheveux m'ont beaucoup attiré.
 # Status = SILVER

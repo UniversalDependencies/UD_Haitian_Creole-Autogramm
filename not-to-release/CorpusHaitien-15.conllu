@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 15__1
 # text = Biden Enpoze Premye Veto Prezidans li
 # text_fr = Biden impose son premier veto présidentiel.
 # Status = SILVER
@@ -10,7 +10,7 @@
 5	Prezidans	prezidans	NOUN	_	_	4	obj	_	Gloss=présidence
 6	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	4	det	_	Gloss=3SG
 
-# sent_id = my_sample__2
+# sent_id = 15__2
 # text = Prezidan Joe Biden pale ak jounalis yo nan Lamezonblanch, 20 Janvye 2023.
 # text_fr = le président Joe Biden parle avec les journalistes dans la maison Blanche , le 20 janvier 2023.
 # Status = SILVER
@@ -28,7 +28,7 @@
 12	Janvye	janvye	NOUN	_	_	11	nmod	_	Gloss=janvier
 13	2023.	2023.	NUM	_	_	12	nmod	_	Gloss=2023
 
-# sent_id = my_sample__3
+# sent_id = 15__3
 # text = Prezidan Joe Biden enpoze premye veto prezidans li nan yon siy ki montre relasyon ant Lamezonblanch ak Kongrè a chanje apre Repibliken yo pran kontwòl Lachanm Depite yo nan mwad Janvye a.
 # text_fr = Le président Joe Biden impose son premier veto présidentiel dans un signe qui montre la relation entre la maison Blanche et le congrès qui change après que les républicains prennent le contrôle de la chambre des députés  au mois de janvier.
 # Status = SILVER
@@ -66,7 +66,7 @@
 32	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	Gloss=le|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 15__4
 # text = Ak veto li enpoze Lendi, Biden tap chache bloke yon mezi Repibliken yo adopte ki entèdi gouvenman an konsidere chanjman klimatik ni pwose potansyèl lè lap fè envestisman pou plan retrèt sitwayen Ameriken yo.
 # text_fr = avec le véto qu'il a imposé lundi, Biden cherchait à bloquer une mesure que les Républicains ont adopté qui interdit au gouvernement de considérer le changement  climatique et le procès potentiel quand il fait l'investissement pour le plan de retraite des citoyens américains
 # Status = SILVER

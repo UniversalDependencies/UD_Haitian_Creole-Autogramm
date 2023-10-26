@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 13__1
 # text = 39 Moun Mouri nan Dife nan Sant Migran Meksik Toupre Fwontyè ak Etazini
 # text_fr = 39 personnes meurent dans un incendie dans le centre des migrants au Mexique tout prêt  de la frontière avec les Etats-Unis.
 # Status = SILVER
@@ -17,7 +17,7 @@
 12	ak	ak	ADP	_	_	13	case	_	Gloss=avec
 13	Etazini	Etazini	PROPN	_	_	11	nmod	_	Gloss=Etats-Unis
 
-# sent_id = my_sample__2
+# sent_id = 13__2
 # text = MEXICO CITY (AP) — Plis pase twa douzèn migran pèdi lavi yo nan yon dife ki pran nan yon dòtwa nan yon sant kote yo fèmen migran Meksiken toupre fwontyè Etazini.
 # text_fr = La ville de Mexico - Plus que trois douzaines migrants ont perdu leur vie dans un incendie qui éclaté dans un dortoir dans un centre où ils ferment les migrants mexicains tout prêt la frontière des Etats-Unis.
 # Status = SILVER
@@ -56,7 +56,7 @@
 33	Etazini	Etazini	PROPN	_	_	32	obj	_	Gloss=Etats-Unis|SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 13__3
 # text = Se youn nan ensidan kote plis moun mouri nan yon sant pou kenbe migran nan peyi a.
 # text_fr = C'est l'un des incidents où beaucoup de gens meurent dans un centre pour accueillir les migrant du pays.
 # Status = SILVER
@@ -79,7 +79,7 @@
 17	a	a	DET	_	_	16	det	_	Gloss=du|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 13__4
 # text = Kèk èdtan apre dife a te eklate Lendi swa, yo te aliyen kèk kadav ke yo te kouvri anba dra deyò etablisman an nan Ciudad Juarez, anfas El Paso, Texas.
 # text_fr = Quelques heures de temps après l'incendie a éclaté lundi soir, ils ont aligné quelques cadavres qu'ils ont couverts sous le drap dehors de l'établissement dans la ville de Juarez, en face de El Paso, Texas.
 # Status = SILVER
@@ -118,7 +118,7 @@
 33	Texas	Texas	PROPN	_	_	30	appos	_	Gloss=Texas|SpaceAfter=No
 34	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 13__5
 # text = Anbilans, ponpye ak lòt kamyon ki soti nan mòg la te anvayi lye ensidan an.
 # text_fr = Ambulance, pompier et autres camions qui sortent dans la morgue ont envahi le lieu de l'incident.
 # Status = SILVER

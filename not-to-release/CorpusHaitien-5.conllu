@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 05__1
 # text = Biden: 'Etazini Pa Ekate Posibilite pou Itilize Lafòs pou Tabli Lapè an Ayiti'
 # text_fr = Biden: "les Etats-Unis n'écartent pas la possibilité pour utiliser la force afin d'établir la paix en Haïti".
 # Status = SILVER
@@ -19,7 +19,7 @@
 14	an	an	ADP	_	_	15	case	_	Gloss=en
 15	Ayiti'	Ayiti'	PROPN	_	_	12	obl:mod	_	Gloss=Haïti
 
-# sent_id = my_sample__2
+# sent_id = 05__2
 # text = Prezidan Joe Biden pale pandan yon konferans pou lapres ak Premye Minis Kanadyen Justin Trudeau nan Ottawa, Kanada, 24 Mas, 2023.
 # text_fr = Le président Joe Biden parle pendant une conférence pour la presse, avec le premier ministre canadien Justin Trudeau à Ottawa, Canada, le 24 mars, 2023.
 # Status = SILVER
@@ -48,7 +48,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	2023.	2023.	NUM	_	_	22	nmod	_	Gloss=2023
 
-# sent_id = my_sample__3
+# sent_id = 05__3
 # text = Etazini ap chache sipò pou fòs polis nasyonal Ayiti e lap etidye posibilite pou Nasyonzini ta jwe yon wol nan jefò pou tabli lape an Ayiti.
 # text_fr = Les Etats-Unis sont en train de chercher un support pour la force de la police nationale d'Haïti et ils étudient la possibilité pour les Nations Unies joueraient un rôle dans l'effort pour établir la paix en Haïti.
 # Status = SILVER
@@ -81,7 +81,7 @@
 27	Ayiti	Ayiti	PROPN	_	_	24	nmod	_	Gloss=Haïti|SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 05__4
 # text = Se sa Prezidan Joe Biden fe konnen pandan vizit li nan peyi Kanada Vandredi 24 Mas la.
 # text_fr = c'est ce que le Président Joe Biden a fait savoir pendant sa visite au Canada le vendredi 24 mars .
 # Status = SILVER
@@ -104,7 +104,7 @@
 17	la	la	DET	_	Definite=Def|Number=Sing	15	dep	_	Gloss=DET|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 05__5
 # text = "Nempòt ki desizyon pa rapo ak yon fòs milite - ke nou diskite souvan, ta dwe fèt an konsiltasyon ak Nasyonzini epi gouvenman Ayisyen an.
 # text_fr = N'importe quelle décision par rapport à une force militaire - que nous discutons souvent, devrait se faire en consultation avec les Nations Unies puis le gouvernement haïtien.
 # Status = SILVER
@@ -137,7 +137,7 @@
 27	an	an	DET	_	Definite=Def|Number=Sing	25	det	_	Gloss=DET|SpaceAfter=No
 28	.	.	PUNCT	_	_	18	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 05__6
 # text = Donk nou pa ekate posibilite a men se pa yon bagay nou anvizaje fè kounyela a."
 # text_fr = Donc, nous n'écartons pas la possibilité, mais c'est pas quelque chose que nous envisageons de faire maintenant .
 # Status = SILVER
@@ -159,7 +159,7 @@
 16	a	a	DET	_	Definite=Def|Number=Sing	13	det	_	SpaceAfter=No
 17	."	."	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 05__7
 # text = Prezidan Biden di, yap gade pou wè si kominote entènasyonal la pata jwe yon pi gwo wòl nan jefò a.
 # text_fr = Le Président Biden a dit: Ils regardent pour si la communauté internationale ne jouerait pas un plus grand rôle dans l'effort .
 # Status = SILVER
@@ -188,7 +188,7 @@
 23	a	a	DET	_	Definite=Def|Number=Sing	22	det	_	Gloss=DET|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 05__8
 # text = Li te pale de aktivite gang yo tou.
 # text_fr = Il parlait des activités des gangs aussi.
 # Status = SILVER
@@ -202,7 +202,7 @@
 8	tou	tou	ADV	_	_	3	advmod	_	Gloss=aussi|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 05__9
 # text = " Lide sou kijan nou pral fè fas ak sakap pase an Ayiti, kote gang yo esansyèlman ranplase gouvènman an, an efè yap dirije peyi a.
 # text_fr = L'idée sur la façon dont nous ferrons face à  ce qui ce passe en Haïti, où les gangs remplacent essentiellement le gouvernement,  en effet, ils dirigent le pays.
 # Status = SILVER
@@ -239,7 +239,7 @@
 31	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 05__10
 # text = Kidonk mwen kwè sa Premye Minis Trudeau di sou koze a fè anpil sans.
 # text_fr = donc, je crois à ce que le premier Ministre Trudeau a dit sur l'affaire fait beaucoup de sens .
 # Status = SILVER
@@ -259,7 +259,7 @@
 14	sans	sans	NOUN	_	_	12	obj	_	Gloss=sens|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 05__11
 # text = Pi gwo bagay nou ka fè e se yon bagay kap pran tan, se ogmante kapasite polis nasyonal la genyen pou fè fas ak pwoblèm yo konstate.
 # text_fr = la plus grande chose que nous pouvons faire e c'est quelque chose qui prendra du temps, c'et d'augmenter la capacité qu'a  la police nationale  pour faire face aux problème  qu'ils constatent.
 # Status = SILVER
@@ -294,7 +294,7 @@
 29	konstate	konstate	VERB	_	Tense=Pres	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	_
 
-# sent_id = my_sample__12
+# sent_id = 05__12
 # text = Nap gade tou pou wè si kominote entènasyonal la pa l entèmedyè Nasyonzini taka jwe yon pi gwo wòl nan jefò sa a.
 # Status = SILVER
 # text_fr = Nous regardons aussi pour voir si la communauté internationale par son intermédiaire des Nations Unies pourrait jouer un plus grand rôle dans cet effort.
@@ -325,7 +325,7 @@
 25	a	a	DET	_	_	23	det	_	Gloss=DET|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__13
+# sent_id = 05__13
 # text = Men vreman vre, se yon gwo ke sote pou nou."
 # text_fr = mais en réalité, c'est une grande préoccupation pour nous.
 # Status = SILVER
@@ -342,7 +342,7 @@
 11	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	obl	_	Gloss=1PL|SpaceAfter=No
 12	."	."	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__14
+# sent_id = 05__14
 # text = Ayiti sete youn nan kestyon prensipal Prezidan Joe Biden te diskite ak Premye Minis Justin Trudeau pandan vizit 2 jou li nan Ottawa.
 # text_fr = Haïti était l'une des questions principales que le Président Joe Biden discutait avec le premier ministre Justin Trudeau pendant sa visite de deux jours à Ottawa.
 # Status = SILVER

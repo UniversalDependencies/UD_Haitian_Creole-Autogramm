@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__21
+# sent_id = 01__21
 # text = Mwen pa bezwen di nou pou BOUCH li.
 # Status = SILVER
 # text_fr = Je n'ai pas besoin de vous dire pour sa bouche.
@@ -13,7 +13,7 @@
 8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	7	det	_	Gloss=3SG|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__22
+# sent_id = 01__22
 # text = M pa konn si se sa yo rele kout foud la, men sèl sa m konnen, m te tonbe menm moman an.
 # text_fr = je ne sais pas si c'est ce qu'on appelle le coude de foudre, mais la seule chose que je connais, j'ai été séduit le même moment.
 # Status = SILVER
@@ -43,7 +43,7 @@
 24	an	an	DET	_	Definite=Def|Number=Sing	23	det	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__23
+# sent_id = 01__23
 # text = Malerezman m pa t ka la nan fèt la paske fòk m te rantre Jakmèl pou konje desanm.
 # Status = SILVER
 # text_fr = Malheureusement, je ne pouvais pas être là dans la fête parce que je devais rentrer à Jacmel pour le congé du décembre.
@@ -67,7 +67,7 @@
 18	desanm	desanm	NOUN	_	_	17	nmod	_	Gloss=décembre|SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__24
+# sent_id = 01__24
 # text = Se yon koutim familyal m pa t ka rate.
 # Status = SILVER
 # text_fr = C'est une coutume familiale que je ne peux pas rater.
@@ -82,7 +82,7 @@
 9	rate	rate	VERB	_	_	8	ccomp	_	Gloss=rater|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__25_1
+# sent_id = 01__25_1
 # text = Chak moun bay non yo aprè l fin pale, sof mwen ki te ba l nimewo m paske m pa t ap la, jis pou n te ka toujou pale.
 # Status = SILVER
 # text_fr = chaque personne a donné son nom après avoir fini de parler, sauf moi qu'il lui a donné mon numéro parce que je ne serais pas là, juste pour qu'on se parle.
@@ -120,7 +120,7 @@
 32	pale	pale	VERB	_	Tense=Pres	30	ccomp	_	Gloss=parler|SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__25_2
+# sent_id = 01__25_2
 # text = "Ou pa janm konnen sa k ap vin dèyè envitasyon sa m rate a..."
 # Status = SILVER
 # text_fr = "On ne sait jamais ce qui viendrait après cette invitation que j'ai raté..."
@@ -141,7 +141,7 @@
 15	a	a	DET	_	Definite=Ind|Number=Sing	14	det	_	Gloss=DET|SpaceAfter=No
 16	..."	..."	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__26
+# sent_id = 01__26
 # text = Li apiye sou pòt la, ap tann repons nou, aprè li remèsye n epi l ale.
 # Status = SILVER
 # text_fr = il appuie sur la porte en train d'attendre notre réponse, après il nous remercie et s'en va.
@@ -165,7 +165,7 @@
 18	ale	ale	VERB	_	_	2	conj	_	Gloss=partir|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__27
+# sent_id = 01__27
 # text = Nan yon ti tan ankò, enkoni sa retounen pase devan klas la, pandan m t ap sòti pou m al lakay mwen.
 # text_fr = dans peu de temps encore, cet inconnu est repassé devant la classe, pendant j'étais en train de sortir pour aller chez moi .
 # Status = SILVER
@@ -195,7 +195,7 @@
 24	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	23	det	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__28
+# sent_id = 01__28
 # text = Li te mete yon bèl mayo ki byen tonbe sou li, e ki gen yon koulè ki atiran.
 # text_fr = Il a mis un beau t-shirt qui lui convient, et qui a une couleur qui est attirante.
 # Status = SILVER
@@ -220,7 +220,7 @@
 19	atiran	atiran	VERB	_	_	17	acl:relcl	_	Gloss=attirant|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__29
+# sent_id = 01__29
 # text = Mwen vire pou m pale ak yon kamarad, lè m tounen pou m swiv li, li gentan "disparèt".
 # text_fr = je me tourne pour parler à un camarade, quand je reviens pour le suivre, Il est déjà disparu.
 # Status = SILVER
@@ -248,7 +248,7 @@
 22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__30
+# sent_id = 01__30
 # text = M pa bezwen di n kijanm santi m.
 # Status = SILVER
 # text_fr = je n'ai pas besoin de vous dire comment je me sens.
@@ -262,7 +262,7 @@
 8	m	mwen	DET	_	Number=Sing|Person=1|PronType=Prs	7	det	_	Gloss=1SG|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__31
+# sent_id = 01__31
 # text = Akoz lapli ki t ap tonbe a, tan an te sonb, e m te dwe rantre lakay mwen rapid.
 # text_fr = étant donné qu'il pleuvait, le temps était sombre, et je devais rentrer chez moi rapidement.
 # Status = SILVER
@@ -289,7 +289,7 @@
 21	rapid	rapid	ADJ	_	_	18	advcl	_	Gloss=rapide|SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__32
+# sent_id = 01__32
 # text = Mwen te abite Lamentin 54, Kafou.
 # text_fr = j'habitais à Lamentin 54, Carefourre
 # Status = SILVER
@@ -302,7 +302,7 @@
 7	Kafou	Kafou	PROPN	_	_	4	appos	_	Gloss=kafou|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__33
+# sent_id = 01__33
 # text = M te kouri al pran bis pou m ale.
 # Status = SILVER
 # text_fr = je courrais pour prendre le bus pour m'en aller.
@@ -317,7 +317,7 @@
 9	ale	ale	VERB	_	Tense=Pres	5	dep	_	Gloss=aller|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__34
+# sent_id = 01__34
 # text = Pandan m chita nan bis la mwen apiye tèt mwen sou fenèt la m ap panse ak tout sa m ta fè pou m patisipe nan fèt la.
 # text_fr = pendant je m'assois dans le bus, j'appuie ma tête contre la fenêtre, je pense à tout ce que je ferrais pour participer à cette fête.
 # Status = SILVER
@@ -351,21 +351,21 @@
 28	la	la	DET	_	Definite=Def|Number=Sing	27	det	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__35
+# sent_id = 01__35
 # text = Men...
 # text_fr = mais...
 # Status = SILVER
 1	Men	men	INTJ	_	_	0	root	_	Gloss=mais|SpaceAfter=No
 2	...	...	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__36
+# sent_id = 01__36
 # text = Elas!
 # Status = SILVER
 # text_fr = hélas
 1	Elas	Elas	INTJ	_	_	0	root	_	Gloss=elas|SpaceAfter=No
 2	!	!	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__37
+# sent_id = 01__37
 # text = Èske vrèman se yon enkoni ki te vin nan klas la ?
 # Status = SILVER
 # text_fr = est ce que c'était vraiment un inconnu qui était venu dans la classe.
@@ -382,7 +382,7 @@
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=DET
 12	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__38
+# sent_id = 01__38
 # text = Nou pa imajine n kijanm anvi konn moun ki kache dèyè stati sa, m pa ka tann pou l ekri m-- byenke m pat gen asirans sa.
 # text_fr = Nous nous n'imaginons pas comment j'ai envie de connaitre la personne qui se cache derrière ce statut, je ne peux pas attendre pour qu'il m'écrive - bien que je n'avais pas cette assurance.
 # Status = SILVER
@@ -417,7 +417,7 @@
 29	sa	sa	DET	_	Number=Sing|PronType=Dem	28	det	_	Gloss=cette|SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__39
+# sent_id = 01__39
 # text = M desann bis la tou dezole paske m pa t gentan pale avè l pou m konnen l plis.
 # text_fr = je descends le bus tout avec un regret parce que je n'ai pas eu le temps de le parler pour que je le connaisse mieux.
 # Status = SILVER
@@ -442,7 +442,7 @@
 19	plis	plis	ADV	_	_	17	advmod	_	Gloss=plus|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__40
+# sent_id = 01__40
 # text = Lè m rive lakay mwen, m retire rad sou mwen epi m lage kò m sou kabann nan pou m repase imaj sa m te wè a nan panse m.
 # text_fr = Quand je suis arrivé chez moi, j'enlève mes vêtements et je m'allonge sur le lit pour revivre cette image que j'ai vu dans ma pensée.
 # Status = SILVER

@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 21__1
 # text = Larisi Lanse Egzèsis ak Fòs Misil Nikleyè li yo
 # text_fr = la Russie lance un exercice avec ses forces de missiles nucléaire.
 # Status = SILVER
@@ -13,7 +13,7 @@
 8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	5	det	_	Gloss=3SG
 9	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	5	det	_	Gloss=3PL
 
-# sent_id = my_sample__2
+# sent_id = 21__2
 # text = MOSCOU (AP) — Lame Ris ap fè egzèsis ak fòs misil estratejik li yo pou montre gwo kapasite nikleyè peyi a.
 # text_fr = Moscou, l'armée de la Russe fait des exercices avec ses forces de missiles stratégiques pour montrer pour montrer la grande capacité nucléaire du pays.
 # Status = SILVER
@@ -42,7 +42,7 @@
 23	a	a	DET	_	_	22	det	_	Gloss=la|SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 21__3
 # text = Ministè Defans Ris la di Mèkredi ke lans misil mobil Yars pral fè mannèv nan 3 rejyon nan Siberi.
 # text_fr = Le ministère de la défense russe dit mercredi que la lance missile mobile Yars fera des manœuvres dans trois régions  en Sibérie.
 # Status = SILVER
@@ -67,7 +67,7 @@
 19	Siberi	siberi	PROPN	_	_	17	nmod	_	Gloss=Sibérie|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 21__4
 # text = Ministè a pa pale de okenn plan pou pratike lansman men li di manèv yo enplike apeprè 300 machin ak 3,000 sòlda nan lès Siberi.
 # text_fr = le ministère n'a parlé d'aucun plan pour pratiquer le lancement mais il dit que les manœuvres impliquent à peu près 300 véhicules avec 3000 soldats dans l'ouest de Sibérie.
 # Status = SILVER

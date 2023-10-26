@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 18__1
 # text = LaRisi Tire 6 Misil Hypersonik Kinzhal
 # text_fr = La Russie a lancé 6 missiles hyper sonique Kinzhal.
 # Status = SILVER
@@ -10,7 +10,7 @@
 5	Hypersonik	hypersonik	ADJ	_	_	4	amod	_	Gloss=hypersonique
 6	Kinzhal	kinzhal	PROPN	_	_	4	appos	_	Gloss=Kinzhal
 
-# sent_id = my_sample__2
+# sent_id = 18__2
 # text = Nan foto sa a ke Lapolis Ikreynen distribye bay lapres ponpye ap enspekte dega ki fet nan yon bilding apre yoon atak ak misil sou vil Kyev, kapital Ikren, Vandredi 25 Fevriye 2022.
 # text_fr = Dans cette photo que la distribue à la presse du pompier qui inspecte le dégât ki se fait dans un building après une attaque avec missile sur la ville Kiev, la capitale de l'Ukraine, vendredi 25 févier 2022.
 # Status = SILVER
@@ -50,7 +50,7 @@
 34	Fevriye	fevriye	NOUN	_	_	32	nmod	_	Gloss=février
 35	2022.	2022.	NUM	_	_	34	nmod	_	Gloss=2022
 
-# sent_id = my_sample__3
+# sent_id = 18__3
 # text = Apre vag frap misil ke LaRisi te lanse jedi sou Ikrèn, Ministè Defans Grand Bretay la di vandredi ke pwal gen plis tan ki pase anvan jan de frap sa yo fèt.
 # text_fr = après les vagues frappes de missiles que la Russie a lancé jeudi sur l'Ukraine, le ministère de la défense de la Grande Bretagne dit vendredi qu'il y aura plus de temps  qui se passent avant que ces genres de frappes ont été réalisées.
 # Status = SILVER
@@ -89,7 +89,7 @@
 33	fèt	fèt	VERB	_	Tense=Pres	28	acl:relcl	_	Gloss=faire, réaliser|SpaceAfter=No
 34	.	.	PUNCT	_	_	18	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 18__4
 # text = Ministè a di LaRisi bezwen plis tan « pou li rasanble gwo mas misil ki fèk soti dirèkteman nan endistri a anvan li gen ase resous pou li debòde kapasite defans aeryen Ikrèn. »
 # text_fr = le ministère de la Russie a besoin plus de temps pour qu'elle rassemble les grandes masses de missiles qui viennent tout juste sortir dans l'industrie avant qu'elle ait assez de ressources aériennes déranger la capacité de défense aérienne de l'Ukraine.
 # Status = SILVER
@@ -129,7 +129,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 35	»	»	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 18__5
 # text = LaRisi te lanse yon pakèt atak misil toupatou nan Ikrèn jedi, kote li touye pou pi piti 6 moun e kite dè milye san chofaj ak elektrisite.
 # text_fr = la Russie a lancé de nombreuses attaques missiles dans tous les endroits à l'Ukraine jeudi, où elle a tué au minimum 6 personnes et a laissé des milliers de gens sans chauffage e sans électricité.
 # Status = SILVER
@@ -163,7 +163,7 @@
 28	elektrisite	elektrisite	NOUN	_	_	26	conj	_	Gloss=électricité|SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 18__6
 # text = Sete pi gwo atak konsa ki fèt sou Ikrèn depi 3 semèn, kote fòs Ikrèn yo di yo desann 34 sou 81 misil ke LaRisi tire, kidonk yon pousantaj pi piti lontan pase sa li konn bare, epi li di li desann 4 drone ke Iran fabrike.
 # text_fr = C'était une grande attaque qui est faite sur l'Ukraine depuis 3 semaines, où les forces ukrainiennes disent  qu'ils descendent 34 missiles sur 81 missiles que la Russie a tirée, donc un pourcentage plus petit par rapport à ce qu'elle sait intercepter, puis elle dit qu'elle descend 4 drones que l'Iran a fabriqué.
 # Status = SILVER
@@ -220,7 +220,7 @@
 51	fabrike	fabrike	VERB	_	Tense=Pres	48	acl:relcl	_	Gloss=fabriquer|SpaceAfter=No
 52	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 18__7
 # text = Ministè Defans ris la di frap yo sete kòm revanj pou yon atak ki te fèt lòt jou la a sou rejyon Bryansk nan lwès LaRisi, e ki se, dapre Moskou, travay sabotè ki te soti Ikrèn.
 # text_fr = Le ministère de la défense ruse  dit que ces frappes étaient un revanche contre une attaque qui a été faite sur la région l'ouest de la Russie, et qui c'est, d'après Moscou, travail du saboteur qui sortait en Ukraine .
 # Status = SILVER
@@ -267,7 +267,7 @@
 41	Ikrèn	Ikrèn	PROPN	_	_	40	obj	_	Gloss=Ukraine|SpaceAfter=No
 42	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 18__8
 # text = Ikrèn demanti akizasyon an e li di ke Moskou ka sèvi ak sa pou jistifye desizyon li pou ogmante pwòp ofansiv li.
 # text_fr = l'Ukraine a démenti l'accusation et elle dit que Moscou peut servir avec cela pour justifier sa décision pour augmenter  sa propre offensive.
 # Status = SILVER

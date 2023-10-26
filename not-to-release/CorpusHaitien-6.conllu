@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 06__1
 # text = Lachin Lanse yon Pinga bay Lidè Taiwan Akoz yon Rankont li Pral Fè ak Responsab Ameriken
 # text_fr = la Chine lance une mise en garde au leader du Taiwan à cause d'une rencontre qu'elle fera avec les responsables américains.
 # Status = SILVER
@@ -20,7 +20,7 @@
 15	Responsab	responsab	NOUN	_	_	13	obl	_	Gloss=responsable
 16	Ameriken	ameriken	ADJ	_	_	15	amod	_	Gloss=américain
 
-# sent_id = my_sample__2
+# sent_id = 06__2
 # text = Prezidan Taiwan Tsai Ing-wen (mitan) ak sekrete jeneral biwo prezidans la Lin Chia-lung (a goch) epi Minis Afe Etranje Joseph Wu (a dwat), nan Taipei, Taiwan, 29 Mas, 2023.
 # text_fr = le Président du Taïwan Tsai Ing-wen au milieu et le secrétaire général  du bureau de la présidence Lin Chia-Lung à gauche puis le Ministre des Affaires étrangères Joseph Wu à droite, à Taipei, le 29 mars 2023.
 # Status = SILVER
@@ -63,7 +63,7 @@
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	2023.	2023.	NUM	_	_	36	nmod	_	Gloss=2023.
 
-# sent_id = my_sample__3
+# sent_id = 06__3
 # text = Lachin menase pou l "kontrekare yon fason rezolu" rankont prezidan Taiwan nan ap planifye pou fè ak Lide Lachanm Depite Etazini pandan yon vizit nan vil Los Angeles.
 # text_fr = La chine menace pour qu'elle affronte d'une manière résolue la rencontre que le président de Taiwan planifie à faire avec le leader de la Chambre des députés des Etats-Unis pendant une visite dans la ville de Los Angeles.
 # Status = SILVER
@@ -99,7 +99,7 @@
 30	Angeles	Angeles	PROPN	_	_	29	flat:name	_	Gloss=Angeles|SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 06__4
 # text = Biwo Chinwa pou Zafè ki gen pou wè ak Taiwan nan mande pou oken responsab Ameriken pa rankontre Prezidan Taiwanèz Tsai Ing-wen.
 # text_fr = le bureau chinois pour l'affaire qui a à voir avec Taiwan demande pour  qu'aucun responsable américain ne rencontre la président taiwanaise  Tsai Ing-wen.
 # Status = SILVER
@@ -127,7 +127,7 @@
 22	Ing-wen	Ing-wen	PROPN	_	_	21	flat:name	_	Gloss=Ing-wen|SpaceAfter=No
 23	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 06__5
 # text = Tsai pati kite Taiwan Mekredi pou peyi etranje.
 # text_fr = Tsai a laissé Taïwan mercredi pour aller à un pays étranger.
 # Status = SILVER
@@ -141,7 +141,7 @@
 8	etranje	etranje	ADJ	_	_	7	amod	_	Gloss=étranger|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 06__6
 # text = Li pral vizite Guatemala ak Belize.
 # text_fr = Elle visitera le Guatemala et la Belize.
 # Status = SILVER
@@ -153,7 +153,7 @@
 6	Belize	Belize	PROPN	_	_	4	conj	_	Gloss=Belize|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 06__7
 # text = Prezidan an sipoze fè yon pase Los Angeles 5 Avril la anvan li retounen Taiwan.
 # text_fr = La présidente devrait faire son passage à Los Angeles le 5 avril avant qu'elle retourne à Taiwan.
 # Status = SILVER
@@ -174,7 +174,7 @@
 15	Taiwan	Taiwan	PROPN	_	_	14	obj	_	Gloss=Taiwan|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 06__8
 # text = Se pandan eskal sa a ke li gen entansyon rankontre Lidè Lachanm Kevin McCarthy.
 # text_fr = c'est pendant cet escale qu'il avait l'intention de rencontrer le leader de la chambre Kevin McCarthy.
 # Status = SILVER
@@ -194,7 +194,7 @@
 14	McCarthy	Mccarthy	PROPN	_	_	13	flat:name	_	Gloss=McCarthy|SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 06__9
 # text = Ministe Afè Etranjè Lachin nan blame Washington pou tansyon ki egziste ant Peken ak Etazini.
 # text_fr = le ministère des affaires de la Chine blâme le Washington pour la tension qui existe entre le Pékin et les Etats-Unis.
 # Status = SILVER
@@ -215,7 +215,7 @@
 15	Etazini	Etazini	PROPN	_	_	13	conj	_	Gloss=Etats-Unis|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 06__10
 # text = Li di se paske Washington ogmante relasyon ni ak Tsai.
 # text_fr = Elle dit que c'est parce que le Washington augmente ses relation avec Tsai.
 # Status = SILVER
@@ -231,7 +231,7 @@
 10	Tsai	Tsai	PROPN	_	_	7	nmod	_	Gloss=Tsai|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 06__11
 # text = Taiwan te separe ak Lachin apre yon gè sivil an 1949.
 # text_fr = Taiwan a été séparé avec la Chine après la guerre civile en 1949.
 # Status = SILVER
@@ -248,7 +248,7 @@
 11	1949	1949	NUM	_	_	3	obl:mod	_	Gloss=1949|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__12
+# sent_id = 06__12
 # text = Kounyea zile a endepandan.
 # text_fr = Maintenant, l'île est indépendante.
 # Status = SILVER

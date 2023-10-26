@@ -1,5 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = my_sample__1
+# sent_id = 01__1
 # text = Premye jou je m tonbe sou li a, m pat gen okenn presantiman lavi m ta pral chanje.
 # Status = SILVER
 # text_fr = Le premier jour que mes yeux tombent sur lui, je n'avais aucun présentiment que ma vie changerait.
@@ -25,7 +25,7 @@
 20	chanje	chanje	VERB	_	_	15	acl:relcl	_	Gloss=changer|SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__2
+# sent_id = 01__2
 # text = Jou sa lapli te kòmanse tonbe depi nan maten.
 # Status = SILVER
 # text_fr = Ce jour là, il commençait à pleuvoir dans la matinée.
@@ -40,7 +40,7 @@
 9	maten	maten	NOUN	_	_	7	obl	_	Gloss=matin|SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 01__3
 # text = Yon fwa lè m te piti, m te anvi bwè dlo lapli a nan flè yo epi m te wè yon foumi ki mouri ladann.
 # text_fr = une fois quand j'étais petit, j'avais envie de boire de l'eau de pluie dans les fleurs et j'ai vu une fourmi qui y noyait (mourir).
 # Status = SILVER
@@ -72,7 +72,7 @@
 26	ladann	ladann	NOUN	_	_	25	obl:mod	_	Gloss=intérieur|SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 01__4
 # text = Yon ti souri parèt sou lèv mwen.
 # Status = SILVER
 # text_fr = un petit sourire apparait sur mes lèvres.
@@ -85,7 +85,7 @@
 7	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Gloss=DET|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 01__5
 # text = M te krache nan dlo a, manman m te fache paske, pou li, se te yon vye konpòtman.
 # text_fr = je crachais dans l'eau, ma maman était fâchée parce que, pou elle,  c'était un mauvais comportement.
 # Status = SILVER
@@ -112,7 +112,7 @@
 21	konpòtman	konpòtman	NOUN	_	_	17	obj	_	Gloss=comportement|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 01__6
 # text = Sa pase lontan sa.
 # text_fr = Cela s'est passé depuis longtemps.
 # Status = SILVER
@@ -122,7 +122,7 @@
 4	sa	sa	PRON	_	_	2	obj	_	Gloss=cela|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 01__7
 # text = M te chita sou yon chèz devan pòt klas la nan Fakilte Lenguistik, m t ap pale ak lòt kamarad mwen yo de maryaj yon sè m mwen t ale nan Petyonvil, epi n te tou pwofite pale de amitye nou lè n te piti.
 # text_fr = je m'asseyais sur une chaise devant la porte de la classe dans la Faculté de Linguistique, je parlais à mes camarades du mariage de ma sœur que j'allais à Pétion-Ville, puis nous avions profité de notre amitié  quand  nous  étions petits.
 # Status = SILVER
@@ -175,7 +175,7 @@
 47	piti	piti	VERB	_	_	42	acl	_	Gloss=petit|SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 01__8
 # text = Fòk m di nou, m gen 2 gran frè ak yon ti sè bò manman epi plizyè gran sè ak yon ti frè bò papa...
 # text_fr = il faut que je vous dise que j'ai 2 grands frères  et une sœur maternels et un petit frère paternel
 # Status = SILVER
@@ -207,7 +207,7 @@
 26	papa	papa	NOUN	_	_	24	nmod	_	Gloss=papa|SpaceAfter=No
 27	...	...	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 01__9
 # text = Pandan je m fèmen, m t ap panse ak sa k te rive m nan pase, se lè sa m tande pòt klas la ouvè.
 # text_fr = Pendant que mes yeux sont fermés, j'étais en train de penser à ce qui m'est arrivé dans le passé , c'est à ce moment que j'entend la porte de la classe s'ouvre.
 # Status = SILVER
@@ -240,7 +240,7 @@
 27	ouvè	ouvè	VERB	_	Tense=Pres	23	ccomp	_	Gloss=ouvrir|SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 01__10
 # text = Menm moman an, tout moun fè silans.
 # text_fr = le même moment, tout le monde fait silence.
 # Status = SILVER
@@ -254,7 +254,7 @@
 8	silans	silans	NOUN	_	_	7	obj	_	Gloss=silence|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 01__11
 # text = Mwen m toujou ret je fèmen epi tèt mwen bese sou biwo a.
 # Status = SILVER
 # text_fr = Moi , j''e reste toujours aux yeux fermés et ma tête baisse sur le bureau.
@@ -273,7 +273,7 @@
 13	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__12
+# sent_id = 01__12
 # text = "Bonswa, m ka fè yon ti pale pandan kèk minit ak nou si sa p ap deranje n?"
 # text_fr = bonsoir, je peux faire un petit échange pendant quelques minutes avec vous si ça vous dérange pas?
 # Status = SILVER
@@ -299,7 +299,7 @@
 20	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	19	obj	_	Gloss=2PL|SpaceAfter=No
 21	?"	?"	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__13
+# sent_id = 01__13
 # text = Mwen santi yon frison vyolan pran m nan tout kò m lè m ouvè je m pou m gade moun ki pale a mwen wè se yon jennon m wo ak tout souri sou lèv li ki te rantre epi l kanpe.
 # text_fr = je sens un violent frisson qui me traverse dans tout mon corps quand j'ouvre mes yeux pour que je regarde la personne qui parle, je vois que c'est jeune homme haut avec tout un sourire sur ses lèvres qui rentrait puis il se tenait débout.
 # Status = SILVER
@@ -347,7 +347,7 @@
 42	kanpe	kanpe	VERB	_	Tense=Past	39	conj	_	Gloss=tenir débout|SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__14
+# sent_id = 01__14
 # text = Li pa t lòt ke yon enkoni ki te nan dezyèm ane a.
 # text_fr = Il n'est autre qu'un inconnu qui était dans la deuxième année.
 # Status = SILVER
@@ -366,7 +366,7 @@
 13	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=DET|SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__15
+# sent_id = 01__15
 # text = "Wi, avanse non mesye," klas la reponn.
 # text_fr = Oui, "avancez monsieur," la classe a répondu.
 # Status = SILVER
@@ -382,7 +382,7 @@
 10	reponn	reponn	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__16
+# sent_id = 01__16
 # text = Pawòl li yo t ap repete nan tèt mwen chak fwa m gade l.
 # text_fr = ses paroles remontaient dans ma tête à chaque que fois je lui regarde .
 # Status = SILVER
@@ -402,7 +402,7 @@
 14	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	obj	_	Gloss=3SG|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__17
+# sent_id = 01__17
 # text = Non jennonm sa se Claudy...
 # text_fr = Le nom de ce jeune homme est Claudy.
 # Status = SILVER
@@ -413,7 +413,7 @@
 5	Claudy	claudy	PROPN	_	_	4	obj	_	Gloss=claudy|SpaceAfter=No
 6	...	...	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__18
+# sent_id = 01__18
 # text = Aprè kèk mwa nou rantre nan Fakilte Lengwistik Aplike a, li te vin envite n nan fèt li t ap òganize nan mwa desanm pou klas li a (paske se li ki te prezidan).
 # text_fr = Après quelques nous rentrons à la Faculté de Linguistique Appliquée, il nous a invité à une fête qu'il organisait au mois de décembre pour sa  promotion (parce c'est lui qui était le président)
 # Status = SILVER
@@ -455,7 +455,7 @@
 36	prezidan	prezidan	NOUN	_	_	33	acl:relcl	_	Gloss=président|SpaceAfter=No
 37	).	).	PUNCT	_	_	14	punct	_	_
 
-# sent_id = my_sample__19
+# sent_id = 01__19
 # text = Yon sèl kou a, sèl panse ki monte nan tèt mwen se te "ale nan fèt la" pou m te ka wè l ankò.
 # text_fr = D'un coup, la seule chose qui m'est montée dans la tête était "d'aller à la fête" afin de le  voir à nouveau.
 # Status = SILVER
@@ -488,7 +488,7 @@
 27	ankò	ankò	ADV	_	_	25	advmod	_	Gloss=encore|SpaceAfter=No
 28	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__20
+# sent_id = 01__20
 # text = Je l ak cheve l yo te atire m anpil.
 # text_fr = Ses yeux et ses cheveux m'ont beaucoup attiré.
 # Status = SILVER
@@ -504,7 +504,7 @@
 10	anpil	anpil	ADV	_	_	8	advmod	_	Gloss=beaucoup|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__21
+# sent_id = 01__21
 # text = Mwen pa bezwen di nou pou BOUCH li.
 # Status = SILVER
 # text_fr = Je n'ai pas besoin de vous dire pour sa bouche.
@@ -518,7 +518,7 @@
 8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	7	det	_	Gloss=3SG|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__22
+# sent_id = 01__22
 # text = M pa konn si se sa yo rele kout foud la, men sèl sa m konnen, m te tonbe menm moman an.
 # text_fr = je ne sais pas si c'est ce qu'on appelle le coude de foudre, mais la seule chose que je connais, j'ai été séduit le même moment.
 # Status = SILVER
@@ -548,7 +548,7 @@
 24	an	an	DET	_	Definite=Def|Number=Sing	23	det	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__23
+# sent_id = 01__23
 # text = Malerezman m pa t ka la nan fèt la paske fòk m te rantre Jakmèl pou konje desanm.
 # Status = SILVER
 # text_fr = Malheureusement, je ne pouvais pas être là dans la fête parce que je devais rentrer à Jacmel pour le congé du décembre.
@@ -572,7 +572,7 @@
 18	desanm	desanm	NOUN	_	_	17	nmod	_	Gloss=décembre|SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__24
+# sent_id = 01__24
 # text = Se yon koutim familyal m pa t ka rate.
 # Status = SILVER
 # text_fr = C'est une coutume familiale que je ne peux pas rater.
@@ -587,7 +587,7 @@
 9	rate	rate	VERB	_	_	8	ccomp	_	Gloss=rater|SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__25_1
+# sent_id = 01__25_1
 # text = Chak moun bay non yo aprè l fin pale, sof mwen ki te ba l nimewo m paske m pa t ap la, jis pou n te ka toujou pale.
 # Status = SILVER
 # text_fr = chaque personne a donné son nom après avoir fini de parler, sauf moi qu'il lui a donné mon numéro parce que je ne serais pas là, juste pour qu'on se parle.
@@ -625,7 +625,7 @@
 32	pale	pale	VERB	_	Tense=Pres	30	ccomp	_	Gloss=parler|SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__25_2
+# sent_id = 01__25_2
 # text = "Ou pa janm konnen sa k ap vin dèyè envitasyon sa m rate a..."
 # Status = SILVER
 # text_fr = "On ne sait jamais ce qui viendrait après cette invitation que j'ai raté..."
@@ -646,7 +646,7 @@
 15	a	a	DET	_	Definite=Ind|Number=Sing	14	det	_	Gloss=DET|SpaceAfter=No
 16	..."	..."	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__26
+# sent_id = 01__26
 # text = Li apiye sou pòt la, ap tann repons nou, aprè li remèsye n epi l ale.
 # Status = SILVER
 # text_fr = il appuie sur la porte en train d'attendre notre réponse, après il nous remercie et s'en va.
@@ -670,7 +670,7 @@
 18	ale	ale	VERB	_	_	2	conj	_	Gloss=partir|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__27
+# sent_id = 01__27
 # text = Nan yon ti tan ankò, enkoni sa retounen pase devan klas la, pandan m t ap sòti pou m al lakay mwen.
 # text_fr = dans peu de temps encore, cet inconnu est repassé devant la classe, pendant j'étais en train de sortir pour aller chez moi .
 # Status = SILVER
@@ -700,7 +700,7 @@
 24	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	23	det	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__28
+# sent_id = 01__28
 # text = Li te mete yon bèl mayo ki byen tonbe sou li, e ki gen yon koulè ki atiran.
 # text_fr = Il a mis un beau t-shirt qui lui convient, et qui a une couleur qui est attirante.
 # Status = SILVER
@@ -725,7 +725,7 @@
 19	atiran	atiran	VERB	_	_	17	acl:relcl	_	Gloss=attirant|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__29
+# sent_id = 01__29
 # text = Mwen vire pou m pale ak yon kamarad, lè m tounen pou m swiv li, li gentan "disparèt".
 # text_fr = je me tourne pour parler à un camarade, quand je reviens pour le suivre, Il est déjà disparu.
 # Status = SILVER
@@ -753,7 +753,7 @@
 22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__30
+# sent_id = 01__30
 # text = M pa bezwen di n kijanm santi m.
 # Status = SILVER
 # text_fr = je n'ai pas besoin de vous dire comment je me sens.
@@ -767,7 +767,7 @@
 8	m	mwen	DET	_	Number=Sing|Person=1|PronType=Prs	7	det	_	Gloss=1SG|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__31
+# sent_id = 01__31
 # text = Akoz lapli ki t ap tonbe a, tan an te sonb, e m te dwe rantre lakay mwen rapid.
 # text_fr = étant donné qu'il pleuvait, le temps était sombre, et je devais rentrer chez moi rapidement.
 # Status = SILVER
@@ -794,7 +794,7 @@
 21	rapid	rapid	ADJ	_	_	18	advcl	_	Gloss=rapide|SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__32
+# sent_id = 01__32
 # text = Mwen te abite Lamentin 54, Kafou.
 # text_fr = j'habitais à Lamentin 54, Carefourre
 # Status = SILVER
@@ -807,7 +807,7 @@
 7	Kafou	Kafou	PROPN	_	_	4	appos	_	Gloss=kafou|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__33
+# sent_id = 01__33
 # text = M te kouri al pran bis pou m ale.
 # Status = SILVER
 # text_fr = je courrais pour prendre le bus pour m'en aller.
@@ -822,7 +822,7 @@
 9	ale	ale	VERB	_	Tense=Pres	5	dep	_	Gloss=aller|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__34
+# sent_id = 01__34
 # text = Pandan m chita nan bis la mwen apiye tèt mwen sou fenèt la m ap panse ak tout sa m ta fè pou m patisipe nan fèt la.
 # text_fr = pendant je m'assois dans le bus, j'appuie ma tête contre la fenêtre, je pense à tout ce que je ferrais pour participer à cette fête.
 # Status = SILVER
@@ -856,21 +856,21 @@
 28	la	la	DET	_	Definite=Def|Number=Sing	27	det	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__35
+# sent_id = 01__35
 # text = Men...
 # text_fr = mais...
 # Status = SILVER
 1	Men	men	INTJ	_	_	0	root	_	Gloss=mais|SpaceAfter=No
 2	...	...	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__36
+# sent_id = 01__36
 # text = Elas!
 # Status = SILVER
 # text_fr = hélas
 1	Elas	Elas	INTJ	_	_	0	root	_	Gloss=elas|SpaceAfter=No
 2	!	!	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__37
+# sent_id = 01__37
 # text = Èske vrèman se yon enkoni ki te vin nan klas la ?
 # Status = SILVER
 # text_fr = est ce que c'était vraiment un inconnu qui était venu dans la classe.
@@ -887,7 +887,7 @@
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=DET
 12	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__38
+# sent_id = 01__38
 # text = Nou pa imajine n kijanm anvi konn moun ki kache dèyè stati sa, m pa ka tann pou l ekri m-- byenke m pat gen asirans sa.
 # text_fr = Nous nous n'imaginons pas comment j'ai envie de connaitre la personne qui se cache derrière ce statut, je ne peux pas attendre pour qu'il m'écrive - bien que je n'avais pas cette assurance.
 # Status = SILVER
@@ -922,7 +922,7 @@
 29	sa	sa	DET	_	Number=Sing|PronType=Dem	28	det	_	Gloss=cette|SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__39
+# sent_id = 01__39
 # text = M desann bis la tou dezole paske m pa t gentan pale avè l pou m konnen l plis.
 # text_fr = je descends le bus tout avec un regret parce que je n'ai pas eu le temps de le parler pour que je le connaisse mieux.
 # Status = SILVER
@@ -947,7 +947,7 @@
 19	plis	plis	ADV	_	_	17	advmod	_	Gloss=plus|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__40
+# sent_id = 01__40
 # text = Lè m rive lakay mwen, m retire rad sou mwen epi m lage kò m sou kabann nan pou m repase imaj sa m te wè a nan panse m.
 # text_fr = Quand je suis arrivé chez moi, j'enlève mes vêtements et je m'allonge sur le lit pour revivre cette image que j'ai vu dans ma pensée.
 # Status = SILVER
@@ -984,7 +984,7 @@
 31	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	det	_	Gloss=1SG|SpaceAfter=No
 32	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__81
+# sent_id = 01__81
 # text = M ta renmen w fè m plezi pou w akonpanye m menmsi w pa ta rete pou jiskaske l fini," li ajoute.
 # text_fr = J'aimerais que tu me fasses le plaisir pour que tu m'accompagnes même si tu ne resterais pas jusqu'à ce que tu le termines : ajoute-il.
 # Status = SILVER
@@ -1013,7 +1013,7 @@
 23	ajoute	ajoute	VERB	_	Tense=Pres	3	parataxis:insert	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__82
+# sent_id = 01__82
 # text = M rete san di anyen paske l enposib pou mwen pou m ta la, sof si m ta di manman m se yon obligasyon pou m rete pou fen desanm sa a.
 # text_fr = je reste sans rien dire parce que il est impossible pour moi d'être là, sauf si je dirait à ma maman que c'est une obligation pour que je reste  pour la fin de cette année.
 # Status = SILVER
@@ -1052,7 +1052,7 @@
 33	a	a	DET	_	Number=Sing|PronType=Dem	31	det	_	Gloss=le|SpaceAfter=No
 34	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__83
+# sent_id = 01__83
 # text = Tout panse m fè te abouti ak yon sèl konklizyon, fòk m al jwenn fanmi m yo Jakmèl.
 # text_fr = Toute la réflexion que j'ai faite a abouti à une seule conclusion, il faut que j'aille trouver mes  familles à Jacmel.
 # Status = SILVER
@@ -1077,7 +1077,7 @@
 19	Jakmèl	Jakmèl	PROPN	_	_	14	obl:arg	_	Gloss=Jakmèl|SpaceAfter=No
 20	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__84
+# sent_id = 01__84
 # text = Kidonk, m di l li jan l ye a epi m ret a repons m ba li a, ki se "NON".
 # text_fr = donc, je lui ai dit tel qu'il est, puis je reste avec la réponse que je lui ai donnée. Qui est non.
 # Status = SILVER
@@ -1107,7 +1107,7 @@
 24	NON	non	NOUN	_	_	22	obj	_	Gloss=non|SpaceAfter=No
 25	".	".	PUNCT	_	_	24	punct	_	_
 
-# sent_id = my_sample__85
+# sent_id = 01__85
 # text = "Hmm...! li reponn.
 # text_fr = Humm..! Il répond.
 # Status = SILVER
@@ -1118,7 +1118,7 @@
 5	reponn	reponn	VERB	_	Tense=Pres	2	parataxis:insert	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__86
+# sent_id = 01__86
 # text = Ebyen mèsi paske w refize m, m pat atann a sa non, men m pa ka fòse w.
 # text_fr = Et bien merci parce que tu m' as refusé, je ne m'attendais pas à cela, mais je ne peux pas t'efforcer.
 # Status = SILVER
@@ -1145,7 +1145,7 @@
 21	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	20	obj	_	Gloss=2SG|SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 04__1
 # text = SAN JUAN, Pòtoriko (AP) — Fanmi yon koup ameriken ke bandi kidnape ann Ayiti ap plede pou yo jwenn liberasyon.
 # Status = SILVER
 # text_fr = SAN JUAN, Porto Rico - et la famille d'un couple américain que les bandits ont kidnappé en Haïti est en train de plaider pour qu' ils trouvent leur libération.
@@ -1174,7 +1174,7 @@
 23	liberasyon	liberasyon	NOUN	_	_	22	obj	_	Gloss=libération|SpaceAfter=No
 24	.	.	PUNCT	_	_	19	punct	_	_
 
-# sent_id = my_sample__2
+# sent_id = 04__2
 # text = Nikese Toussaint di ke gang te kidnape frè l, madanm li ak yon twazyèm moun ki t ap vwayaje avèk yo 18 mas pase.
 # text_fr = Nikese Toussaint a dit que les gangs ont kidnappé son frère, sa femme et une troisième personne qui voyageaient avec eux le 18 mars dernier.
 # Status = SILVER
@@ -1205,7 +1205,7 @@
 25	pase	pase	ADJ	_	_	24	amod	_	Gloss=passé|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 04__3
 # text = Toussaint di nan yon entèvyou nan telefòn lendi ke gang nan mande $200,000 pou chak moun, e ke fanmi li pa gen kalite lajan sa a.
 # text_fr = Toussaint a dit dans un interview par téléphone lundi que le gang demande $200,000 pour chaque personne et que sa famille n'a pas cette somme d'argent.
 # Status = SILVER
@@ -1239,7 +1239,7 @@
 28	a	a	DET	_	Number=Sing	26	det	_	Gloss=le|SpaceAfter=No
 29	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 04__4
 # text = Li te di ke FBI ap ede jwenn liberasyon yo.
 # text_fr = Il disait que le FBI aiderait à trouver leur libération.
 # Status = SILVER
@@ -1255,7 +1255,7 @@
 10	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	9	det	_	Gloss=3PL|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 05__1
 # text = Biden: 'Etazini Pa Ekate Posibilite pou Itilize Lafòs pou Tabli Lapè an Ayiti'
 # text_fr = Biden: "les Etats-Unis n'écartent pas la possibilité pour utiliser la force afin d'établir la paix en Haïti".
 # Status = SILVER
@@ -1275,7 +1275,7 @@
 14	an	an	ADP	_	_	15	case	_	Gloss=en
 15	Ayiti'	Ayiti'	PROPN	_	_	12	obl:mod	_	Gloss=Haïti
 
-# sent_id = my_sample__2
+# sent_id = 05__2
 # text = Prezidan Joe Biden pale pandan yon konferans pou lapres ak Premye Minis Kanadyen Justin Trudeau nan Ottawa, Kanada, 24 Mas, 2023.
 # text_fr = Le président Joe Biden parle pendant une conférence pour la presse, avec le premier ministre canadien Justin Trudeau à Ottawa, Canada, le 24 mars, 2023.
 # Status = SILVER
@@ -1304,7 +1304,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	2023.	2023.	NUM	_	_	22	nmod	_	Gloss=2023
 
-# sent_id = my_sample__3
+# sent_id = 05__3
 # text = Etazini ap chache sipò pou fòs polis nasyonal Ayiti e lap etidye posibilite pou Nasyonzini ta jwe yon wol nan jefò pou tabli lape an Ayiti.
 # text_fr = Les Etats-Unis sont en train de chercher un support pour la force de la police nationale d'Haïti et ils étudient la possibilité pour les Nations Unies joueraient un rôle dans l'effort pour établir la paix en Haïti.
 # Status = SILVER
@@ -1337,7 +1337,7 @@
 27	Ayiti	Ayiti	PROPN	_	_	24	nmod	_	Gloss=Haïti|SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 05__4
 # text = Se sa Prezidan Joe Biden fe konnen pandan vizit li nan peyi Kanada Vandredi 24 Mas la.
 # text_fr = c'est ce que le Président Joe Biden a fait savoir pendant sa visite au Canada le vendredi 24 mars .
 # Status = SILVER
@@ -1360,7 +1360,7 @@
 17	la	la	DET	_	Definite=Def|Number=Sing	15	dep	_	Gloss=DET|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 05__5
 # text = "Nempòt ki desizyon pa rapo ak yon fòs milite - ke nou diskite souvan, ta dwe fèt an konsiltasyon ak Nasyonzini epi gouvenman Ayisyen an.
 # text_fr = N'importe quelle décision par rapport à une force militaire - que nous discutons souvent, devrait se faire en consultation avec les Nations Unies puis le gouvernement haïtien.
 # Status = SILVER
@@ -1393,7 +1393,7 @@
 27	an	an	DET	_	Definite=Def|Number=Sing	25	det	_	Gloss=DET|SpaceAfter=No
 28	.	.	PUNCT	_	_	18	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 05__6
 # text = Donk nou pa ekate posibilite a men se pa yon bagay nou anvizaje fè kounyela a."
 # text_fr = Donc, nous n'écartons pas la possibilité, mais c'est pas quelque chose que nous envisageons de faire maintenant .
 # Status = SILVER
@@ -1415,7 +1415,7 @@
 16	a	a	DET	_	Definite=Def|Number=Sing	13	det	_	SpaceAfter=No
 17	."	."	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 05__7
 # text = Prezidan Biden di, yap gade pou wè si kominote entènasyonal la pata jwe yon pi gwo wòl nan jefò a.
 # text_fr = Le Président Biden a dit: Ils regardent pour si la communauté internationale ne jouerait pas un plus grand rôle dans l'effort .
 # Status = SILVER
@@ -1444,7 +1444,7 @@
 23	a	a	DET	_	Definite=Def|Number=Sing	22	det	_	Gloss=DET|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 05__8
 # text = Li te pale de aktivite gang yo tou.
 # text_fr = Il parlait des activités des gangs aussi.
 # Status = SILVER
@@ -1458,7 +1458,7 @@
 8	tou	tou	ADV	_	_	3	advmod	_	Gloss=aussi|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 05__9
 # text = " Lide sou kijan nou pral fè fas ak sakap pase an Ayiti, kote gang yo esansyèlman ranplase gouvènman an, an efè yap dirije peyi a.
 # text_fr = L'idée sur la façon dont nous ferrons face à  ce qui ce passe en Haïti, où les gangs remplacent essentiellement le gouvernement,  en effet, ils dirigent le pays.
 # Status = SILVER
@@ -1495,7 +1495,7 @@
 31	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 05__10
 # text = Kidonk mwen kwè sa Premye Minis Trudeau di sou koze a fè anpil sans.
 # text_fr = donc, je crois à ce que le premier Ministre Trudeau a dit sur l'affaire fait beaucoup de sens .
 # Status = SILVER
@@ -1515,7 +1515,7 @@
 14	sans	sans	NOUN	_	_	12	obj	_	Gloss=sens|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 05__11
 # text = Pi gwo bagay nou ka fè e se yon bagay kap pran tan, se ogmante kapasite polis nasyonal la genyen pou fè fas ak pwoblèm yo konstate.
 # text_fr = la plus grande chose que nous pouvons faire e c'est quelque chose qui prendra du temps, c'et d'augmenter la capacité qu'a  la police nationale  pour faire face aux problème  qu'ils constatent.
 # Status = SILVER
@@ -1550,7 +1550,7 @@
 29	konstate	konstate	VERB	_	Tense=Pres	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	_
 
-# sent_id = my_sample__12
+# sent_id = 05__12
 # text = Nap gade tou pou wè si kominote entènasyonal la pa l entèmedyè Nasyonzini taka jwe yon pi gwo wòl nan jefò sa a.
 # Status = SILVER
 # text_fr = Nous regardons aussi pour voir si la communauté internationale par son intermédiaire des Nations Unies pourrait jouer un plus grand rôle dans cet effort.
@@ -1581,7 +1581,7 @@
 25	a	a	DET	_	_	23	det	_	Gloss=DET|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__13
+# sent_id = 05__13
 # text = Men vreman vre, se yon gwo ke sote pou nou."
 # text_fr = mais en réalité, c'est une grande préoccupation pour nous.
 # Status = SILVER
@@ -1598,7 +1598,7 @@
 11	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	obl	_	Gloss=1PL|SpaceAfter=No
 12	."	."	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__14
+# sent_id = 05__14
 # text = Ayiti sete youn nan kestyon prensipal Prezidan Joe Biden te diskite ak Premye Minis Justin Trudeau pandan vizit 2 jou li nan Ottawa.
 # text_fr = Haïti était l'une des questions principales que le Président Joe Biden discutait avec le premier ministre Justin Trudeau pendant sa visite de deux jours à Ottawa.
 # Status = SILVER
@@ -1628,7 +1628,7 @@
 24	Ottawa	Ottawa	PROPN	_	_	19	nmod	_	Gloss=Ottawa|SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 06__1
 # text = Lachin Lanse yon Pinga bay Lidè Taiwan Akoz yon Rankont li Pral Fè ak Responsab Ameriken
 # text_fr = la Chine lance une mise en garde au leader du Taiwan à cause d'une rencontre qu'elle fera avec les responsables américains.
 # Status = SILVER
@@ -1649,7 +1649,7 @@
 15	Responsab	responsab	NOUN	_	_	13	obl	_	Gloss=responsable
 16	Ameriken	ameriken	ADJ	_	_	15	amod	_	Gloss=américain
 
-# sent_id = my_sample__2
+# sent_id = 06__2
 # text = Prezidan Taiwan Tsai Ing-wen (mitan) ak sekrete jeneral biwo prezidans la Lin Chia-lung (a goch) epi Minis Afe Etranje Joseph Wu (a dwat), nan Taipei, Taiwan, 29 Mas, 2023.
 # text_fr = le Président du Taïwan Tsai Ing-wen au milieu et le secrétaire général  du bureau de la présidence Lin Chia-Lung à gauche puis le Ministre des Affaires étrangères Joseph Wu à droite, à Taipei, le 29 mars 2023.
 # Status = SILVER
@@ -1692,7 +1692,7 @@
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	2023.	2023.	NUM	_	_	36	nmod	_	Gloss=2023.
 
-# sent_id = my_sample__3
+# sent_id = 06__3
 # text = Lachin menase pou l "kontrekare yon fason rezolu" rankont prezidan Taiwan nan ap planifye pou fè ak Lide Lachanm Depite Etazini pandan yon vizit nan vil Los Angeles.
 # text_fr = La chine menace pour qu'elle affronte d'une manière résolue la rencontre que le président de Taiwan planifie à faire avec le leader de la Chambre des députés des Etats-Unis pendant une visite dans la ville de Los Angeles.
 # Status = SILVER
@@ -1728,7 +1728,7 @@
 30	Angeles	Angeles	PROPN	_	_	29	flat:name	_	Gloss=Angeles|SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 06__4
 # text = Biwo Chinwa pou Zafè ki gen pou wè ak Taiwan nan mande pou oken responsab Ameriken pa rankontre Prezidan Taiwanèz Tsai Ing-wen.
 # text_fr = le bureau chinois pour l'affaire qui a à voir avec Taiwan demande pour  qu'aucun responsable américain ne rencontre la président taiwanaise  Tsai Ing-wen.
 # Status = SILVER
@@ -1756,7 +1756,7 @@
 22	Ing-wen	Ing-wen	PROPN	_	_	21	flat:name	_	Gloss=Ing-wen|SpaceAfter=No
 23	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 06__5
 # text = Tsai pati kite Taiwan Mekredi pou peyi etranje.
 # text_fr = Tsai a laissé Taïwan mercredi pour aller à un pays étranger.
 # Status = SILVER
@@ -1770,7 +1770,7 @@
 8	etranje	etranje	ADJ	_	_	7	amod	_	Gloss=étranger|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 06__6
 # text = Li pral vizite Guatemala ak Belize.
 # text_fr = Elle visitera le Guatemala et la Belize.
 # Status = SILVER
@@ -1782,7 +1782,7 @@
 6	Belize	Belize	PROPN	_	_	4	conj	_	Gloss=Belize|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 06__7
 # text = Prezidan an sipoze fè yon pase Los Angeles 5 Avril la anvan li retounen Taiwan.
 # text_fr = La présidente devrait faire son passage à Los Angeles le 5 avril avant qu'elle retourne à Taiwan.
 # Status = SILVER
@@ -1803,7 +1803,7 @@
 15	Taiwan	Taiwan	PROPN	_	_	14	obj	_	Gloss=Taiwan|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 06__8
 # text = Se pandan eskal sa a ke li gen entansyon rankontre Lidè Lachanm Kevin McCarthy.
 # text_fr = c'est pendant cet escale qu'il avait l'intention de rencontrer le leader de la chambre Kevin McCarthy.
 # Status = SILVER
@@ -1823,7 +1823,7 @@
 14	McCarthy	Mccarthy	PROPN	_	_	13	flat:name	_	Gloss=McCarthy|SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 06__9
 # text = Ministe Afè Etranjè Lachin nan blame Washington pou tansyon ki egziste ant Peken ak Etazini.
 # text_fr = le ministère des affaires de la Chine blâme le Washington pour la tension qui existe entre le Pékin et les Etats-Unis.
 # Status = SILVER
@@ -1844,7 +1844,7 @@
 15	Etazini	Etazini	PROPN	_	_	13	conj	_	Gloss=Etats-Unis|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 06__10
 # text = Li di se paske Washington ogmante relasyon ni ak Tsai.
 # text_fr = Elle dit que c'est parce que le Washington augmente ses relation avec Tsai.
 # Status = SILVER
@@ -1860,7 +1860,7 @@
 10	Tsai	Tsai	PROPN	_	_	7	nmod	_	Gloss=Tsai|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 06__11
 # text = Taiwan te separe ak Lachin apre yon gè sivil an 1949.
 # text_fr = Taiwan a été séparé avec la Chine après la guerre civile en 1949.
 # Status = SILVER
@@ -1877,7 +1877,7 @@
 11	1949	1949	NUM	_	_	3	obl:mod	_	Gloss=1949|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__12
+# sent_id = 06__12
 # text = Kounyea zile a endepandan.
 # text_fr = Maintenant, l'île est indépendante.
 # Status = SILVER
@@ -1887,7 +1887,7 @@
 4	endepandan	endepandan	VERB	_	Tense=Pres	0	root	_	Gloss=indépendante|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 10__1
 # text = Kisa pou w konnen sou Alvin Bragg, avoka distri Manhattan
 # text_fr = Qu'est-ce que tu dois connaitre sur Alvin Bragg, l'avocat du district de Manhattan
 # Status = SILVER
@@ -1903,7 +1903,7 @@
 10	distri	distri	NOUN	_	_	9	obj	_	Gloss=district
 11	Manhattan	Manhattan	PROPN	_	_	10	nmod	_	Gloss=Manhattan
 
-# sent_id = my_sample__2
+# sent_id = 10__2
 # text = Yon gran jiri New York k ap mennen ankèt sou peman anba tab ki te fèt sou non Donald Trump pandan kanpay prezidansyèl ane 2016 la vin santre atansyon sou avoka distri Manhattan nan k ap jere dosye a.
 # text_fr = Un grand jury de New York qui mène l'enquête sur le paiement illégale qui a été fait sur le nom de Donald Trump pendant  la campagne présidentielle l'année 2016 vient d'attirer de l' avocat du district de Manhattan qui gère le dossier.
 # Status = SILVER
@@ -1948,7 +1948,7 @@
 39	a	a	DET	_	_	38	det	_	Gloss=le|SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 10__3
 # text = Desizyon ke Alvin Bragg pran pou konvoke gran jiri sou dosye sa nan kòmansman ane 2023 kapab debouche sou akizasyon kriminèl kont yon ansyen prezidan ameriken.
 # text_fr = La décision qu'Alvin Bragg prend pour convoquer le grand jury sur ce dossier  dans le début de l'année 2023 peut déboucher sur une accusation criminelle contre l'ancien président américain.
 # Status = SILVER
@@ -1980,7 +1980,7 @@
 26	ameriken	ameriken	ADJ	_	_	25	amod	_	Gloss=américain|SpaceAfter=No
 27	.	.	PUNCT	_	_	17	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 10__4
 # text = Yo te eli Bragg kòm premye avoka Nwa nan distri Manhattan an Novanm 2021.
 # Status = SILVER
 # text_fr = Ils ont élu Bragg comme le premier avocat noir dans le district Manhattan en novembre 2021.
@@ -1999,7 +1999,7 @@
 13	Novanm	novanm	NOUN	_	_	3	obl:mod	_	Gloss=Novembre
 14	2021.	2021.	NUM	_	_	13	nmod	_	Gloss=2021
 
-# sent_id = my_sample__5
+# sent_id = 10__5
 # text = Karyè legal li gen ladan travay li te fè kòm yon pwosekitè federal ak avoka dwa sivik ki te reprezante manman Eric Garner.
 # Status = SILVER
 # text_fr = Sa carrière légale a inclue le travail qu'il a fait comme un procureur fédéral et un avocat du droit civique qui représentait  la maman d'Eric Garner
@@ -2028,7 +2028,7 @@
 23	Garner	Garner	PROPN	_	_	22	flat:name	_	Gloss=Garner|SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 11__1
 # text = Meksik Arete 5 Moun an Koneksyon ak Dife ki Pete nan Sant pou Migran an
 # text_fr = Mexique arrête 5 personnes en rapport avec l'incendie qui a éclaté dans le centre du migrant
 # Status = SILVER
@@ -2048,7 +2048,7 @@
 14	Migran	migran	NOUN	_	_	12	nmod	_	Gloss=migrant
 15	an	an	DET	_	Definite=Def|Number=Sing	14	det	_	Gloss=DET
 
-# sent_id = my_sample__2
+# sent_id = 11__2
 # text = Otorite meksiken arete 5 moun pou swadizan koneksyon yo ak yon dife ki te pete nan yon sant meksiken ki kenbe migran, kote 30 migran pèdi lavi yo.
 # text_fr = L'autorité mexicaine arrête 5 personnes pour leur soi-disant connexion avec l'incendie qui a éclaté dans un centre mexicain qui accueille les migrants, où 30 migrants perdent leur vie
 # Status = SILVER
@@ -2083,7 +2083,7 @@
 29	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	28	det	_	Gloss=3PL|SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 11__3
 # text = Anons arestasyon an fèt jedi, yon jou apre minis jistis Meksik la te anonse yon ankèt sou ansasinay nan kesyon dife a, apre yon video siveyans sanble moutre gad sekirite ki pa te fè anyen pou ede migran yo chape poul yo lè dife t ap anvayi selil kote yo te fèmen.
 # text_fr = L'annonce de l'arrestation est publiée jeudi, un jour après que le ministre de la justice de Mexique a annoncé une enquête sur l'assassinat dans la question de l'incendie, après qu'une vidéo de surveillance semble montrer l'agent de sécurité qui n'a rien fait pour aider les migrants à sauver leur peau quand l'incendie avait envahi la salle où ils ont été fermés.
 # Status = SILVER
@@ -2143,7 +2143,7 @@
 54	fèmen	fèmen	VERB	_	_	50	acl:relcl	_	Gloss=fermer|SpaceAfter=No
 55	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 12__1
 # text = Meksik di l ap Mennen ankèt sou 8 Moun nan Dife ki te Touye Moun nan yon Sant pou Migran
 # text_fr = Mexique dit qu'il mène une enquête sur 8 personnes dans l'incendie qui a tué des gens dans un centre pour migrant.
 # Status = SILVER
@@ -2168,7 +2168,7 @@
 19	pou	pou	ADP	_	_	20	case	_	Gloss=pour
 20	Migran	migran	NOUN	_	_	18	nmod	_	Gloss=migrant
 
-# sent_id = my_sample__2
+# sent_id = 12__2
 # text = CIUDAD JUAREZ, Meksik (AP) — Otorite Meksiken yo di y ap mennen ankèt sou 8 anplwaye oswa otorite pou konnen si se move konduit nan yon sant kote yo kenbe migran ki te lakoz dife ki pran lavi 39 moun ki te anba kòd nan sant la.
 # text_fr = Ville Juarez, Mexique , les autorités mexicaines disent qu'ils mènent une enquête sur 8 employés ou bien des autorités pour savoir si c'est une mauvaise conduite  dans un centre où ils accueillent les migrants qui  a occasionné l'incendie qui ôte la vie de 39 personnes qui ont été emprisonnés dans le centre.
 # Status = SILVER
@@ -2224,7 +2224,7 @@
 50	la	la	DET	_	Definite=Def|Number=Sing	49	det	_	Gloss=le|SpaceAfter=No
 51	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 12__3
 # text = Kòlè ak fristrasyon apre dife a nan vil Ciudad Juarez te kontinye Mèkredi pandan plizyè santèn imigran t ap mache pou rive nan yon pòtay ki toupre fwontyè peyi a ak Lèzetazini nan espwa ke yo ka travèse an mas.
 # text_fr = La colère et la frustration après l'incendie dans la ville de Ciudad Juarez continuaient mercredi pendant plusieurs centaines immigrants étaient en train de marcher pour arriver dans un portail qui est tout prêt de la frontière du pays avec les Etats-Unis dans l'espoir qu'ils peuvent traverser en mars.
 # Status = SILVER
@@ -2270,7 +2270,7 @@
 40	mas	mas	NOUN	_	_	38	obl	_	Gloss=mars|SpaceAfter=No
 41	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 12__4
 # text = Otorite Meksiken yo sanble lage responsablite lanmò yo sou kontraktè prive ki t ap travay kòm gad sekirite.
 # text_fr = Les autorités mexicaines semblent donner la responsabilité des morts à des contracteurs privés qui étaient en train de travailler comme agent de sécurité.
 # Status = SILVER
@@ -2294,7 +2294,7 @@
 18	sekirite	sekirite	NOUN	_	_	17	obj	_	Gloss=sécurité|SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 12__5
 # text = Videyo te montre gad yo ki t ap kouri pou lafimen san yo pa chache libere prizonye yo.
 # text_fr = La vidéo a montré que les gardes qui couraient pour la fumée sans qu'ils ne menent aucune action pour libérer les prisoniers
 # Status = SILVER
@@ -2318,7 +2318,7 @@
 18	yo	yo	DET	_	Definite=Def|Number=Plur	17	det	_	Gloss=les|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 13__1
 # text = 39 Moun Mouri nan Dife nan Sant Migran Meksik Toupre Fwontyè ak Etazini
 # text_fr = 39 personnes meurent dans un incendie dans le centre des migrants au Mexique tout prêt  de la frontière avec les Etats-Unis.
 # Status = SILVER
@@ -2336,7 +2336,7 @@
 12	ak	ak	ADP	_	_	13	case	_	Gloss=avec
 13	Etazini	Etazini	PROPN	_	_	11	nmod	_	Gloss=Etats-Unis
 
-# sent_id = my_sample__2
+# sent_id = 13__2
 # text = MEXICO CITY (AP) — Plis pase twa douzèn migran pèdi lavi yo nan yon dife ki pran nan yon dòtwa nan yon sant kote yo fèmen migran Meksiken toupre fwontyè Etazini.
 # text_fr = La ville de Mexico - Plus que trois douzaines migrants ont perdu leur vie dans un incendie qui éclaté dans un dortoir dans un centre où ils ferment les migrants mexicains tout prêt la frontière des Etats-Unis.
 # Status = SILVER
@@ -2375,7 +2375,7 @@
 33	Etazini	Etazini	PROPN	_	_	32	obj	_	Gloss=Etats-Unis|SpaceAfter=No
 34	.	.	PUNCT	_	_	12	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 13__3
 # text = Se youn nan ensidan kote plis moun mouri nan yon sant pou kenbe migran nan peyi a.
 # text_fr = C'est l'un des incidents où beaucoup de gens meurent dans un centre pour accueillir les migrant du pays.
 # Status = SILVER
@@ -2398,7 +2398,7 @@
 17	a	a	DET	_	_	16	det	_	Gloss=du|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 13__4
 # text = Kèk èdtan apre dife a te eklate Lendi swa, yo te aliyen kèk kadav ke yo te kouvri anba dra deyò etablisman an nan Ciudad Juarez, anfas El Paso, Texas.
 # text_fr = Quelques heures de temps après l'incendie a éclaté lundi soir, ils ont aligné quelques cadavres qu'ils ont couverts sous le drap dehors de l'établissement dans la ville de Juarez, en face de El Paso, Texas.
 # Status = SILVER
@@ -2437,7 +2437,7 @@
 33	Texas	Texas	PROPN	_	_	30	appos	_	Gloss=Texas|SpaceAfter=No
 34	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 13__5
 # text = Anbilans, ponpye ak lòt kamyon ki soti nan mòg la te anvayi lye ensidan an.
 # text_fr = Ambulance, pompier et autres camions qui sortent dans la morgue ont envahi le lieu de l'incident.
 # Status = SILVER
@@ -2459,7 +2459,7 @@
 16	an	an	DET	_	Definite=Def|Number=Sing	14	det	_	Gloss=l'|SpaceAfter=No
 17	.	.	PUNCT	_	_	13	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 15__1
 # text = Biden Enpoze Premye Veto Prezidans li
 # text_fr = Biden impose son premier veto présidentiel.
 # Status = SILVER
@@ -2470,7 +2470,7 @@
 5	Prezidans	prezidans	NOUN	_	_	4	obj	_	Gloss=présidence
 6	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	4	det	_	Gloss=3SG
 
-# sent_id = my_sample__2
+# sent_id = 15__2
 # text = Prezidan Joe Biden pale ak jounalis yo nan Lamezonblanch, 20 Janvye 2023.
 # text_fr = le président Joe Biden parle avec les journalistes dans la maison Blanche , le 20 janvier 2023.
 # Status = SILVER
@@ -2488,7 +2488,7 @@
 12	Janvye	janvye	NOUN	_	_	11	nmod	_	Gloss=janvier
 13	2023.	2023.	NUM	_	_	12	nmod	_	Gloss=2023
 
-# sent_id = my_sample__3
+# sent_id = 15__3
 # text = Prezidan Joe Biden enpoze premye veto prezidans li nan yon siy ki montre relasyon ant Lamezonblanch ak Kongrè a chanje apre Repibliken yo pran kontwòl Lachanm Depite yo nan mwad Janvye a.
 # text_fr = Le président Joe Biden impose son premier veto présidentiel dans un signe qui montre la relation entre la maison Blanche et le congrès qui change après que les républicains prennent le contrôle de la chambre des députés  au mois de janvier.
 # Status = SILVER
@@ -2526,7 +2526,7 @@
 32	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	Gloss=le|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 15__4
 # text = Ak veto li enpoze Lendi, Biden tap chache bloke yon mezi Repibliken yo adopte ki entèdi gouvenman an konsidere chanjman klimatik ni pwose potansyèl lè lap fè envestisman pou plan retrèt sitwayen Ameriken yo.
 # text_fr = avec le véto qu'il a imposé lundi, Biden cherchait à bloquer une mesure que les Républicains ont adopté qui interdit au gouvernement de considérer le changement  climatique et le procès potentiel quand il fait l'investissement pour le plan de retraite des citoyens américains
 # Status = SILVER
@@ -2569,7 +2569,7 @@
 37	yo	yo	DET	_	Definite=Def|Number=Plur	35	det	_	Gloss=les|SpaceAfter=No
 38	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 16__1
 # text = Aksyon Bank Credit Suisse Pèdi Valè nan Moman Kè Sote Global Pa Rapò ak Bank yo Ogmante
 # text_fr = L'action de la banque de crédit de la Suisse perd sa valeur dans le moment d'inquiétude globale par rapport aux banques qui augmentent
 # Status = SILVER
@@ -2591,7 +2591,7 @@
 16	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
 17	Ogmante	ogmante	VERB	_	Tense=Pres	13	acl	_	Gloss=augmenter
 
-# sent_id = my_sample__2
+# sent_id = 16__2
 # text = Yon afich ki gen non Credit Suisse make sou li sou pis Mache Labous Nouyok la (New York Stock Exchange) nan Nouyok, 15 Mas, 2023.
 # text_fr = Une affiche qui a le nom de Crédit Suisse figure sur elle sur la piste du marché de la bourse de New York ( New York Stock Exchange) à New York, le 15 mars 2023.
 # Status = SILVER
@@ -2625,7 +2625,7 @@
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	2023.	2023.	NUM	_	_	27	nmod	_	Gloss=2023
 
-# sent_id = my_sample__3
+# sent_id = 16__3
 # text = Aksyon bank Credit Suisse yo pedi plis pase yon ka valè yo sou mache d labous la.
 # text_fr = L'action des banques Crédits Suisse perd plus qu'un quart de leurs valeurs sur le marché de la bourse .
 # Status = SILVER
@@ -2648,7 +2648,7 @@
 17	la	la	DET	_	Definite=Def|Number=Sing	16	det	_	Gloss=DET|SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 16__4
 # text = Bès istorik sa a vini apre Bank Nasyonal Saoudyen an - ki kontwole majorite aksyon Credit Suisse yo - te di jounalis yo li pap bay bank Suis la okenn lòt lajan pou kontrekare pwoblèm li yo.
 # text_fr = cette baisse historique vient après que la Banque nationale saoudienne - qui contrôle la majorité d'action des  Crédits Suisse disaient aux journalistes qu'ils ne donneront aucun autre somme d'argent pour contrecarrer ses problèmes.
 # Status = SILVER
@@ -2692,7 +2692,7 @@
 38	yo	yo	DET	_	Definite=Def|Number=Plur	36	det	_	Gloss=DET|SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 16__5
 # text = Desizyon sa a te pran byen lontan anvan 2 bank Ameriken yo te fè fayit.
 # text_fr = Cette décision a été prise bien longtemps avant que les 2 banques américaines  ont fait faillite.
 # Status = SILVER
@@ -2713,7 +2713,7 @@
 15	fayit	fayit	NOUN	_	_	14	obj	_	Gloss=faillite|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 16__6
 # text = Tibilans sa koze Mèkredi te lakoz yo te kanpe lavant aksyon Credit Suisse yo sou mache Suis la.
 # text_fr = Cette turbulence qui surgit mercredi a suscité qu'ils cessent la vente des actions de Crédits Suisse  sur le marché de la Suisse.
 # Status = SILVER
@@ -2737,7 +2737,7 @@
 18	la	la	DET	_	Definite=Def|Number=Sing	16	det	_	Gloss=DET|SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 16__7
 # text = An menm tan sa te lakoz valè aksyon lòt bank Ewopeyen yo te plonje desann.
 # text_fr = Au  ce même moment, cela a  suscité la chute de beaucoup d'autre banque européenne.
 # Status = SILVER
@@ -2758,7 +2758,7 @@
 15	desann	desann	VERB	_	_	14	ccomp	_	Gloss=descendre|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 17__1
 # text = Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen
 # text_fr = Joe Biden rencontrera avec le président de la commission européenne, Ursula Von Der Leyen .
 # Status = SILVER
@@ -2775,7 +2775,7 @@
 11	Der	Der	PROPN	_	_	9	flat:name	_	Gloss=Der
 12	Leyen	Leyen	PROPN	_	_	9	flat:name	_	Gloss=Leyen
 
-# sent_id = my_sample__2
+# sent_id = 17__2
 # text = Prezidan Etazini Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen vandredi nan Mezon Blanch pou yo pale sou sanksyon posib kont LaChin pandan gen kè-sote kòmkwa LaChin ap pare pou voye zam bay LaRisi, ak fristrasyon Ewòp poutèt plan Washington genyen pou bay konpayi ameriken yo sibvansyon nan kad Lwa pou Redui Enflasyon an.
 # text_fr = Le président des Etats-Unis, Joe Biden, rencontrera avec le président de la commission européenne Ursula Von Der Leyen vendredi dans la maison Blanche pour qu'ils parlent sur la sanction possible contre la Chine pendant qu'il y'a une inquiétude comme quoi la Chine se prépare pour envoyer des armes à la Russie, avec la frustration de l'Europe à cause le plan de Washington a pour donner aux compagnies américaines une subvention dans le cadre de loi pour réduire l'inflation.
 # Status = SILVER
@@ -2840,7 +2840,7 @@
 59	an	an	DET	_	Definite=Def|Number=Sing	58	det	_	Gloss=DET|SpaceAfter=No
 60	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 17__3
 # text = Biden ak von der Leyen pwal pale tou sou jan Etazini ak Inyon Ewòp la ap kòdone ansanm pou konbat kriz klima a nan envesti nan teknoloji pwòp ki baze sou chèn distribisyon machandiz ki asire, se sa sekretè laprès Mezon Blanch Karine Jean-Pierre di nan yon deklarasyon.
 # text_fr = Biden et  Ursula Von Der Leyen parlera aussi sur la façon dont les Etats-Unis avec l'Européenne coordonne ensemble pour combattre la crise du climat dans l'investissement dans la technologie propre qui se base sur la chaîne de la distribution des marchandises qui est assuré, c'est ce que le secrétaire de la maison Blanche Karine Jean-Pierre dit dans une déclaration.
 # Status = SILVER
@@ -2895,7 +2895,7 @@
 49	deklarasyon	deklarasyon	NOUN	_	_	46	obl	_	Gloss=déclaration|SpaceAfter=No
 50	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 17__4
 # text = Rankont sa a se dènye nan yon seri reyinyon diplomatik nan wo-nivo ak lidè Ewòp yo pou kòdone sipò pou ede Ikrèn defann tèt li kont yon envazyon LaRisi.
 # text_fr = Cette rencontre est la dernière dans une série de réunion diplomatique au haut niveau avec les leaders d'Europe pour coordonner le support pour aider l'Ukraine se défendre contre l'invasion  de la Russie.
 # Status = SILVER
@@ -2930,7 +2930,7 @@
 29	LaRisi	Larisi	PROPN	_	_	28	nmod	_	Gloss=Russe|SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 17__5
 # text = Biden te rankontre ak chanselye alman Olaf Scholz nan Washington, semèn pase a.
 # text_fr = Biden a rencontré avec le chancelier  allemand Olaf Scholz à Washington, la semaine dernière.
 # Status = SILVER
@@ -2950,7 +2950,7 @@
 14	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=DET|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 18__1
 # text = LaRisi Tire 6 Misil Hypersonik Kinzhal
 # text_fr = La Russie a lancé 6 missiles hyper sonique Kinzhal.
 # Status = SILVER
@@ -2961,7 +2961,7 @@
 5	Hypersonik	hypersonik	ADJ	_	_	4	amod	_	Gloss=hypersonique
 6	Kinzhal	kinzhal	PROPN	_	_	4	appos	_	Gloss=Kinzhal
 
-# sent_id = my_sample__2
+# sent_id = 18__2
 # text = Nan foto sa a ke Lapolis Ikreynen distribye bay lapres ponpye ap enspekte dega ki fet nan yon bilding apre yoon atak ak misil sou vil Kyev, kapital Ikren, Vandredi 25 Fevriye 2022.
 # text_fr = Dans cette photo que la distribue à la presse du pompier qui inspecte le dégât ki se fait dans un building après une attaque avec missile sur la ville Kiev, la capitale de l'Ukraine, vendredi 25 févier 2022.
 # Status = SILVER
@@ -3001,7 +3001,7 @@
 34	Fevriye	fevriye	NOUN	_	_	32	nmod	_	Gloss=février
 35	2022.	2022.	NUM	_	_	34	nmod	_	Gloss=2022
 
-# sent_id = my_sample__3
+# sent_id = 18__3
 # text = Apre vag frap misil ke LaRisi te lanse jedi sou Ikrèn, Ministè Defans Grand Bretay la di vandredi ke pwal gen plis tan ki pase anvan jan de frap sa yo fèt.
 # text_fr = après les vagues frappes de missiles que la Russie a lancé jeudi sur l'Ukraine, le ministère de la défense de la Grande Bretagne dit vendredi qu'il y aura plus de temps  qui se passent avant que ces genres de frappes ont été réalisées.
 # Status = SILVER
@@ -3040,7 +3040,7 @@
 33	fèt	fèt	VERB	_	Tense=Pres	28	acl:relcl	_	Gloss=faire, réaliser|SpaceAfter=No
 34	.	.	PUNCT	_	_	18	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 18__4
 # text = Ministè a di LaRisi bezwen plis tan « pou li rasanble gwo mas misil ki fèk soti dirèkteman nan endistri a anvan li gen ase resous pou li debòde kapasite defans aeryen Ikrèn. »
 # text_fr = le ministère de la Russie a besoin plus de temps pour qu'elle rassemble les grandes masses de missiles qui viennent tout juste sortir dans l'industrie avant qu'elle ait assez de ressources aériennes déranger la capacité de défense aérienne de l'Ukraine.
 # Status = SILVER
@@ -3080,7 +3080,7 @@
 34	.	.	PUNCT	_	_	3	punct	_	_
 35	»	»	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 18__5
 # text = LaRisi te lanse yon pakèt atak misil toupatou nan Ikrèn jedi, kote li touye pou pi piti 6 moun e kite dè milye san chofaj ak elektrisite.
 # text_fr = la Russie a lancé de nombreuses attaques missiles dans tous les endroits à l'Ukraine jeudi, où elle a tué au minimum 6 personnes et a laissé des milliers de gens sans chauffage e sans électricité.
 # Status = SILVER
@@ -3114,7 +3114,7 @@
 28	elektrisite	elektrisite	NOUN	_	_	26	conj	_	Gloss=électricité|SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 18__6
 # text = Sete pi gwo atak konsa ki fèt sou Ikrèn depi 3 semèn, kote fòs Ikrèn yo di yo desann 34 sou 81 misil ke LaRisi tire, kidonk yon pousantaj pi piti lontan pase sa li konn bare, epi li di li desann 4 drone ke Iran fabrike.
 # text_fr = C'était une grande attaque qui est faite sur l'Ukraine depuis 3 semaines, où les forces ukrainiennes disent  qu'ils descendent 34 missiles sur 81 missiles que la Russie a tirée, donc un pourcentage plus petit par rapport à ce qu'elle sait intercepter, puis elle dit qu'elle descend 4 drones que l'Iran a fabriqué.
 # Status = SILVER
@@ -3171,7 +3171,7 @@
 51	fabrike	fabrike	VERB	_	Tense=Pres	48	acl:relcl	_	Gloss=fabriquer|SpaceAfter=No
 52	.	.	PUNCT	_	_	1	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 18__7
 # text = Ministè Defans ris la di frap yo sete kòm revanj pou yon atak ki te fèt lòt jou la a sou rejyon Bryansk nan lwès LaRisi, e ki se, dapre Moskou, travay sabotè ki te soti Ikrèn.
 # text_fr = Le ministère de la défense ruse  dit que ces frappes étaient un revanche contre une attaque qui a été faite sur la région l'ouest de la Russie, et qui c'est, d'après Moscou, travail du saboteur qui sortait en Ukraine .
 # Status = SILVER
@@ -3218,7 +3218,7 @@
 41	Ikrèn	Ikrèn	PROPN	_	_	40	obj	_	Gloss=Ukraine|SpaceAfter=No
 42	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 18__8
 # text = Ikrèn demanti akizasyon an e li di ke Moskou ka sèvi ak sa pou jistifye desizyon li pou ogmante pwòp ofansiv li.
 # text_fr = l'Ukraine a démenti l'accusation et elle dit que Moscou peut servir avec cela pour justifier sa décision pour augmenter  sa propre offensive.
 # Status = SILVER
@@ -3246,7 +3246,7 @@
 22	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	21	det	_	Gloss=DET|SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 19__1
 # text = Anpil Ikrenyen Pa Konn sa pou yo Fè Akoz Pèmisyon yo te Genyen pou Rete nan Etazini Ekspire
 # text_fr = beaucoup d'ukrainiens ne savent pas ce qu'il faut faire à cause leur permis qu'il avait pour rester aux Etats-Unis est expiré.
 # Status = SILVER
@@ -3269,7 +3269,7 @@
 17	Etazini	Etazini	PROPN	_	_	15	obl	_	Gloss=Etats-Unis
 18	Ekspire	ekspire	VERB	_	Tense=Pres	8	advcl	_	Gloss=expirer
 
-# sent_id = my_sample__2
+# sent_id = 19__2
 # text = SAN DIEGO (AP) — Plis pase 20,000 Ikrenyen ki te jwenn pèmisyon pou yo rete sou teritwa ameriken an pou yon ane, apre yo te kouri kite peyi yo akoz envazyon Larisi te lanse lakay yo, yo ap fè fas gwo pwoblèm akoz Pwogram Pawòl imanitè ki ekpire pou yo.
 # text_fr = San Diego,  plus que 20 000 ukrainiens qui trouvaient leur permis pour qu'ils restent  sur le territoire américain pour une année, après qu'ils ont couru de quitter leur pays à cause de l'invasion que la Russie avait lancé  chez eux.  Ils font face à une grande difficulté à cause du programme humanitaire qui est expiré pour  eux.
 # Status = SILVER
@@ -3329,7 +3329,7 @@
 54	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	52	obl	_	Gloss=3PL|SpaceAfter=No
 55	.	.	PUNCT	_	_	43	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 19__3
 # text = Moun ki ap defann imigran sa yo di ke administrasyon Biden nan enfòme yo ke li ap travay pou ranje sitiyasyon an, men ke li pa di ki sa moun yo ka fè pou yo pwolonje estati yo, ki mache ak avantaj tankou èd lòjman ak koupon manje, ki rele ann angle “Food Stamps”.
 # text_fr = La personne qui défend ces migrants disent que l'administration de Biden les informe qu'elle travaille arranger la situation, mais elle n'a pas dit  ce qu'ils peuvent faire pour changer leur statut, qui marche avec des avantages tels que des aides au logement,  kit  alimentaire,  qui s'appelle en anglais Food Stamps.
 # Status = SILVER
@@ -3394,7 +3394,7 @@
 59	”	”	PUNCT	_	_	57	punct	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 19__4
 # text = Pifò Ikrenyen te jwenn otorizasyon pou yo patisipe nan pwogram imanitè sa pou yon ane apre yo te fin travèse fwontyè Etazini ak Meksik pandan kèk mwa lè lagè a te koumanse.
 # Status = SILVER
 # text_fr = la majorité des ukrainiens ont trouvé l'autorisation pour participer à ce programme humanitaire pour une année après qu'ils ont fini de traverser la frontière des Etats-Unis avec le Mexique pendant quelques mois quand la guerre avait commencé.
@@ -3432,7 +3432,7 @@
 32	koumanse	koumanse	VERB	_	Tense=Past	27	acl	_	Gloss=commencer|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 19__5
 # text = Anpil moun di ensètitid la ba yo tèt-chaje.
 # text_fr = beaucoup de gens disent que l'incertitude leur donne du problème.
 # Status = SILVER
@@ -3446,7 +3446,7 @@
 8	tèt-chaje	tèt-chaje	NOUN	_	_	6	dep:comp	_	Gloss=problème|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 21__1
 # text = Larisi Lanse Egzèsis ak Fòs Misil Nikleyè li yo
 # text_fr = la Russie lance un exercice avec ses forces de missiles nucléaire.
 # Status = SILVER
@@ -3460,7 +3460,7 @@
 8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	5	det	_	Gloss=3SG
 9	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	5	det	_	Gloss=3PL
 
-# sent_id = my_sample__2
+# sent_id = 21__2
 # text = MOSCOU (AP) — Lame Ris ap fè egzèsis ak fòs misil estratejik li yo pou montre gwo kapasite nikleyè peyi a.
 # text_fr = Moscou, l'armée de la Russe fait des exercices avec ses forces de missiles stratégiques pour montrer pour montrer la grande capacité nucléaire du pays.
 # Status = SILVER
@@ -3489,7 +3489,7 @@
 23	a	a	DET	_	_	22	det	_	Gloss=la|SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 21__3
 # text = Ministè Defans Ris la di Mèkredi ke lans misil mobil Yars pral fè mannèv nan 3 rejyon nan Siberi.
 # text_fr = Le ministère de la défense russe dit mercredi que la lance missile mobile Yars fera des manœuvres dans trois régions  en Sibérie.
 # Status = SILVER
@@ -3514,7 +3514,7 @@
 19	Siberi	siberi	PROPN	_	_	17	nmod	_	Gloss=Sibérie|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 21__4
 # text = Ministè a pa pale de okenn plan pou pratike lansman men li di manèv yo enplike apeprè 300 machin ak 3,000 sòlda nan lès Siberi.
 # text_fr = le ministère n'a parlé d'aucun plan pour pratiquer le lancement mais il dit que les manœuvres impliquent à peu près 300 véhicules avec 3000 soldats dans l'ouest de Sibérie.
 # Status = SILVER
@@ -3545,7 +3545,7 @@
 25	Siberi	siberi	PROPN	_	_	24	nmod	_	Gloss=Sibérie|SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 23__1
 # text = Depatman Deta Konfime yo Kidnape 2 Sitwayen Ameriken an Ayiti
 # text_fr = Le département d'Etat confirme qu'ils  ont kidnappé deux citoyens américains en Haïti.
 # Status = SILVER
@@ -3560,7 +3560,7 @@
 9	an	an	ADP	_	_	10	case	_	Gloss=en
 10	Ayiti	Ayiti	PROPN	_	_	5	obl	_	Gloss=Haïti
 
-# sent_id = my_sample__2
+# sent_id = 23__2
 # text = Jean-Dickens Toussaint ak madanm ni Abigail Michael Toussaint poze pou yon foto jou maryaj yo nan Pompano Beach, Florid.
 # text_fr = Jean-Dickens  Toussaint et sa femme, Abigail Michael Toussaint reste pour prendre une photo le jour de leur mariage à Pompano Beach, Floride.
 # Status = SILVER
@@ -3586,7 +3586,7 @@
 20	Florid	Florid	PROPN	_	_	18	appos	_	Gloss=Floride|SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 23__3
 # text = Pòtpawol adjwen Depatman Deta a, Vendant Patel konfime Jedi 30 mas 2023 ke yo kidnape 2 sitwayen Ameriken an Ayiti.
 # text_fr = Le porte-parole adjoint du département d'Etat, Vendant Patel confirme le jeudi 30 mars 2023 qu'ils ont kidnappé deux citoyens américains en Haïti.
 # Status = SILVER
@@ -3613,7 +3613,7 @@
 21	Ayiti	Ayiti	PROPN	_	_	16	obl	_	Gloss=Haïti|SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 23__4
 # text = Li ajoute ke Washington an kontak ak otorite Ayisyen yo e ke Etazini pral kontinye travay ak yo.
 # text_fr = Il ajoute que Washington est en contact avec les autorités haïtiennes et que les Etats-Unis continueront de travailler avec eux.
 # Status = SILVER
@@ -3637,7 +3637,7 @@
 18	yo	yo	PRON	_	Definite=Def|Number=Plur|PronType=Prs	16	nmod	_	Gloss=3PL|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 23__5
 # text = Patel te refize bay okenn lòt detay sou dosye a.
 # text_fr = Patel refusait de donner d'autres détails sur le dossier.
 # Status = SILVER
@@ -3653,7 +3653,7 @@
 10	a	a	DET	_	Definite=Def|Number=Sing	9	det	_	Gloss=le|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__1
+# sent_id = 24__1
 # text = Yon pòt pawòl Depatman d Eta deklare Samdi, gouvènman Ameriken an o kouran de rapò ki di kòm kwa gen 2 sitwayen Ameriken ki disparèt an Ayiti, apre laprès nan eta Florid rapòte yo kidnape yon koup.
 # text_fr = Un porte-parole du département d'Etat américain déclare samedi, que le gouvernement est au courant du rapport qui dit comme quoi qu'il y a deux citoyens américains qui sont disparus en Haïti , après que la presse dans l'Etat Floride rapporte qu'ils ont kidnappé un couple.
 # Status = SILVER
@@ -3698,7 +3698,7 @@
 39	koup	koup	NOUN	_	_	37	obj	_	Gloss=coupe|SpaceAfter=No
 40	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = my_sample__2
+# sent_id = 24__2
 # text = Abigail Toussaint ak Jean-Dickens Toussaint, 33 zan, disparèt nan Pòtoprens e gang yo kenbe yo depi plizyè jou, dapre yon petisyon yon dam ki di li sa fanmi koup la pibliye sou entènèt.
 # text_fr = Abigail Toussaint et Jean-Dickens Toussaint, 33 ans, ont disparu à Port-au-Prince et les gangs qui les capturent depuis plusieurs jours, d'après une pétition d'une dame qui lui a dit ce que la famille du couple a publié sur internet.
 # Status = SILVER
@@ -3740,7 +3740,7 @@
 36	entènèt	entènèt	NOUN	_	_	34	obl	_	Gloss=internet|SpaceAfter=No
 37	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__3
+# sent_id = 24__3
 # text = Koup la tap vizite fanmi yo an Ayiti epi asiste yon festival lè yo te kidnape yo nan yon otobis, dapre sa yon manm fanmi yo di CNN.
 # text_fr = Le couple visitait leur famille en Haïti et assistait à un festival quand ils les ont kidnappés dans un autobus, d'après ce qu'un membre de leur famille a dit à CNN.
 # Status = SILVER
@@ -3776,7 +3776,7 @@
 30	CNN	CNN	PROPN	_	_	29	obj	_	Gloss=CNN|SpaceAfter=No
 31	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__4
+# sent_id = 24__4
 # text = Pòtpawòl Depatman d Eta di: "Nou o kouran de rapò ki di gen 2 sitwayen Ameriken ki disparèt an Ayiti.
 # text_fr = Le porte du département d'Etat dit: "Nous sommes au courant du rapport qui dit qu'il y a deux citoyens américains qui ont disparus en Haïti.
 # Status = SILVER
@@ -3804,7 +3804,7 @@
 22	Ayiti	Ayiti	PROPN	_	_	20	obl	_	Gloss=Haiti|SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = my_sample__5
+# sent_id = 24__5
 # text = Lè yon sitwayen Ameriken disparèt, nou travay sere-sere ak otorite lokal yo pandan yap chache moun sa yo e nou pataje enfòmasyon ak fanmi yo nempòt kijan nou kapab."
 # text_fr = Quand un citoyen américain disparait, nous travaillons étroitement avec les autorités locales pendant qu'ils cherchent ces gens et nous partageons des informations avec leur famille  n'importe quelle façon dont nous pouvons.
 # Status = SILVER
@@ -3841,7 +3841,7 @@
 31	kapab	kapab	VERB	_	Tense=Pres	26	acl:relcl	_	Gloss=pouvoir|SpaceAfter=No
 32	."	."	PUNCT	_	_	8	punct	_	_
 
-# sent_id = my_sample__6
+# sent_id = 24__6
 # text = Yon pòt pawòl polis nasyonal Ayiti pat reponn demann Reuters te fè pou kòmantè.
 # text_fr = Un porte-parole de la police nationale d'Haïti n'avait pas répondu à la demande que Reuters  avait fait pour le commentaire.
 # Status = SILVER
@@ -3862,7 +3862,7 @@
 15	kòmantè	kòmantè	NOUN	_	_	13	obl	_	Gloss=commentaire|SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	_
 
-# sent_id = my_sample__7
+# sent_id = 24__7
 # text = Gang yo nan peyi d Ayiti ogmante pouvwa yo depi asasina Prezidan Jovenel Moise an 2021.
 # text_fr = Les gangs dans le pays d'Haïti augmentent leur pouvoir depuis l'assassinat du Président Jovenel Moise en 2021.
 # Status = SILVER
@@ -3884,7 +3884,7 @@
 16	2021	2021	NUM	_	_	11	nmod	_	Gloss=2021|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = my_sample__8
+# sent_id = 24__8
 # text = Kounyea yon kontwole yon gwo pòsyon kapital la ak pwovens yo.
 # text_fr = Maintenant, ils contrôlent une grande partie de la capitale et les provinces.
 # Status = SILVER
@@ -3901,7 +3901,7 @@
 11	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	Gloss=les|SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__9
+# sent_id = 24__9
 # text = Ensekirite a dejenere pi plis pandan mwa ki pase yo kote gang yo antre nan lese frape ak lapolis.
 # text_fr = L'insécurité dégénère beaucoup plus pendant les mois qui sont écoulés où les gangs se battent contre la police.
 # Status = SILVER
@@ -3926,7 +3926,7 @@
 19	lapolis	lapolis	NOUN	_	_	17	obl:arg	_	Gloss=police|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = my_sample__10
+# sent_id = 24__10
 # text = Batay ant gang yo pou kontwòl teritwa lakoz anpil san koule epi plizyè santèn milye moun oblije kouri kite kay yo.
 # text_fr = La lutte entre les gangs pour le contrôle des territoires  a fait couler beaucoup de sang et plusieurs  centaines de gens sont obligés de courir en laissant leur maison.
 # Status = SILVER
@@ -3953,7 +3953,7 @@
 21	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	20	det	_	Gloss=3PL|SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
-# sent_id = my_sample__11
+# sent_id = 24__11
 # text = Gen 17 misyonè ki moun Etazini ak Kanada ke yon gang te kenbe pou ranson an 2021 pandan yo tap travay pou Christian Aid Ministries ki gen katye jeneral li nan eta Ohio nan sant wès Etazini.
 # text_fr = Il y a 17 missionnaires qui sont des américains et canadiens  qu'un gang a capturé pour de l'argent en 2021 pendant qu'ils étaient en train de travailler pour Christian Aid Ministrie qui a son quartier général dans l'Etat Ohio dans le  centre Ouest des Etats-Unis.
 # Status = SILVER
