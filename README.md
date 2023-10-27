@@ -1,7 +1,7 @@
 # Summary
-
 This is a treebank of Haitian creole. It contains 144 sentences selected from 3 major genres: bible, literary texts, newspapers. 
 
+Kreyòl (Kreyòl Ayisyen, Haitian Creole, iso-639-1: ht) is the main language of Haïti. The dialect described here is the Cap Haïtien dialect which differs slightly in its lexicon with Center and South varieties.
 
 # Introduction
 
