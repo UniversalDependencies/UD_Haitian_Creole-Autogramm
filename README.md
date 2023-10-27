@@ -10,12 +10,12 @@ This treebank contains a selection of sentences from the following sources:
 * extracts of a novel: Roy (2021) "Lanmou titato"
 * newspaper texts from "VOA kreyol" and "PAPDA"
 The corpus contains 144 sentences and 3418 tokens.
-The annotation was done in ArboratorGew
+The annotation was done in ArboratorGrew in the SUD format and automatically converted to the UD format..
 
 # Acknowledgments
 
 This treebank is the outcome of a Master internship project by Sandra Jagodzińska (LACITO, CNRS, France) and Claudel Pierre-Louis (LISN, Université Paris-Saclay, CNRS, France).
-It funded by 
+It was funded by: 
   * an AIP project at the LISN laboratory et the Paris-Saclay University
   * the French ANR AUTOGRAMM project (ANR-21-CE38-0017)
 
