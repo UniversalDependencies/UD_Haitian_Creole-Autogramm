@@ -9,6 +9,7 @@ This treebank contains a selection of sentences from the following sources:
 * the bible in Haitian creole
 * extracts of a novel: Roy (2021) "Lanmou titato"
 * newspaper texts from "VOA kreyol" and "PAPDA"
+  
 The corpus contains 144 sentences and 3418 tokens.
 The annotation was done in ArboratorGrew in the SUD format and automatically converted to the UD format..
 
