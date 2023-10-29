@@ -68,10 +68,10 @@
 46	genyen	genyen	VERB	_	Tense=Pres	43	ccomp	_	Gloss=avoir
 47	pou	pou	ADP	_	_	48	mark	_	Gloss=pour
 48	bay	bay	VERB	_	VerbForm=Inf	46	dep	_	Gloss=donner
-49	konpayi	konpayi	NOUN	_	_	48	dep:comp	_	Gloss=compagnie
+49	konpayi	konpayi	NOUN	_	_	48	iobj	_	Gloss=compagnie
 50	ameriken	ameriken	ADJ	_	_	49	amod	_	Gloss=américaine
 51	yo	yo	DET	_	Definite=Def|Number=Plur	49	det	_	Gloss=DET.PL.
-52	sibvansyon	sibvansyon	NOUN	_	_	48	dep:comp	_	Gloss=subventions
+52	sibvansyon	sibvansyon	NOUN	_	_	48	obj	_	Gloss=subventions
 53	nan	nan	ADP	_	_	54	case	_	Gloss=dans
 54	kad	kad	NOUN	_	_	48	obl	_	Gloss=cadre
 55	Lwa	lwa	NOUN	_	_	54	obj	_	Gloss=loi
@@ -161,8 +161,8 @@
 19	sipò	sipò	NOUN	_	_	18	obj	_	Gloss=support
 20	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
 21	ede	ede	VERB	_	VerbForm=Inf	19	acl	_	Gloss=aider
-22	Ikrèn	ikrèn	PROPN	_	_	21	dep:comp	_	Gloss=Ukraine
-23	defann	defann	VERB	_	_	21	ccomp:T	_	Gloss=défendre
+22	Ikrèn	ikrèn	PROPN	_	_	21	iobj	_	Gloss=Ukraine
+23	defann	defann	VERB	_	_	21	ccomp	_	Gloss=défendre
 24	tèt	tèt	NOUN	_	_	23	obj	_	Gloss=tête
 25	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	24	det	_	Gloss=3SG
 26	kont	kont	ADP	_	_	28	case	_	Gloss=contre

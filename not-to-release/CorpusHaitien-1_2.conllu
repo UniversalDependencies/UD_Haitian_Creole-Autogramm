@@ -101,8 +101,8 @@
 13	ki	ki	PRON	_	_	15	nsubj	_	Gloss=qui
 14	te	te	AUX	_	_	15	aux	_	Gloss=PAST
 15	ba	ba	VERB	_	Tense=Past	12	acl:relcl	_	Gloss=donner
-16	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	15	dep:comp	_	Gloss=3SG
-17	nimewo	nimewo	NOUN	_	_	15	dep:comp	_	Gloss=numéro
+16	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	15	iobj	_	Gloss=3SG
+17	nimewo	nimewo	NOUN	_	_	15	obj	_	Gloss=numéro
 18	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	17	det	_	Gloss=1SG
 19	paske	paske	SCONJ	_	_	24	mark	_	Gloss=parce que
 20	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
@@ -256,9 +256,9 @@
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
 3	bezwen	bezwen	NOUN	_	_	0	root	_	Gloss=avoir besoin de
 4	di	di	VERB	_	Tense=Pres	3	ccomp	_	Gloss=dire
-5	n	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	4	dep:comp	_	Gloss=2PL
+5	n	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	Gloss=2PL
 6	kijanm	kijanm	SCONJ	_	_	7	case	_	Gloss=comment
-7	santi	santi	NOUN	_	_	4	dep:comp	_	Gloss=sentir
+7	santi	santi	NOUN	_	_	4	obj	_	Gloss=sentir
 8	m	mwen	DET	_	Number=Sing|Person=1|PronType=Prs	7	det	_	Gloss=1SG|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 

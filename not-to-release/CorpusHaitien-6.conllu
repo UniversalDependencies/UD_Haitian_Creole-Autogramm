@@ -6,9 +6,9 @@
 1	Lachin	lachin	PROPN	_	_	2	nsubj	_	Gloss=Chine
 2	Lanse	lanse	VERB	_	Tense=Pres	0	root	_	Gloss=lancer
 3	yon	yon	DET	_	Definite=Ind|Number=Sing	4	det	_	Gloss=DET
-4	Pinga	pinga	NOUN	_	_	5	dep:comp	_	Gloss=mise en garde
+4	Pinga	pinga	NOUN	_	_	5	obj	_	Gloss=mise en garde
 5	bay	bay	VERB	_	_	2	ccomp	_	Gloss=au, donner
-6	Lidè	lidè	NOUN	_	_	5	dep:comp	_	Gloss=leader
+6	Lidè	lidè	NOUN	_	_	5	iobj	_	Gloss=leader
 7	Taiwan	taiwan	PROPN	_	_	6	obj	_	Gloss=Taïwan
 8	Akoz	akoz	ADV	_	_	2	advmod	_	Gloss=à cause de
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	_

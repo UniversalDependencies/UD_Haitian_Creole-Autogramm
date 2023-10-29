@@ -23,7 +23,7 @@
 # Status = SILVER
 1	MEXICO	Mexico	PROPN	_	_	12	dep	_	Gloss=MEXICO
 2	city	city	PROPN	_	_	1	flat:name	_	Gloss=ville
-3	(	(	PUNCT	_	_	4	punct	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	AP	Ap	PROPN	_	_	2	dep	_	Gloss=Associated Press|SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 6	—	—	PUNCT	_	_	12	punct	_	_

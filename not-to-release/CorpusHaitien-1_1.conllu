@@ -182,10 +182,10 @@
 1	Fòk	Fòk	VERB	_	_	0	root	_	Gloss=falloir
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 3	di	di	VERB	_	Tense=Pres	1	ccomp	_	Gloss=dire
-4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	dep:comp	_	Gloss=1PL|SpaceAfter=No
+4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	iobj	_	Gloss=1PL|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=1SG
-7	gen	gen	VERB	_	Tense=Pres	3	ccomp:T	_	Gloss=avoir
+7	gen	gen	VERB	_	Tense=Pres	3	ccomp	_	Gloss=avoir
 8	2	2	NUM	_	_	10	nummod	_	Gloss=2
 9	gran	gran	ADJ	_	_	10	amod	_	Gloss=grand
 10	frè	frè	NOUN	_	_	7	obj	_	Gloss=frère
