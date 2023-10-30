@@ -22,7 +22,7 @@
 2	Toussaint	Toussaint	PROPN	_	_	1	flat:name	_	Gloss=Toussaint
 3	ak	ak	CCONJ	_	_	4	cc	_	Gloss=et
 4	madanm	madanm	NOUN	_	_	2	conj	_	Gloss=femme
-5	li	li	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gloss=3SG
+5	ni	ni	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gloss=3SG
 6	Abigail	Abigail	PROPN	_	_	4	appos	_	Gloss=Abigail
 7	Michael	Michael	PROPN	_	_	6	flat:name	_	Gloss=Michael
 8	Toussaint	Toussaint	PROPN	_	_	6	flat:name	_	Gloss=Toussaint
@@ -35,7 +35,7 @@
 15	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	14	det	_	Gloss=DET
 16	nan	nan	ADP	_	_	17	case	_	Gloss=à
 17	Pompano	Pompano	PROPN	_	_	9	obl	_	Gloss=Pompano
-18	Beach	Beach	PROPN	_	_	17	flat:name	_	Gloss=Beach
+18	Beach	Beach	PROPN	_	_	17	flat:name	_	Gloss=Beach|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	Florid	Florid	PROPN	_	_	18	appos	_	Gloss=Floride|SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_

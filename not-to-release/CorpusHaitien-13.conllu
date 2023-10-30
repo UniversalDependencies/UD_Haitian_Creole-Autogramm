@@ -9,8 +9,8 @@
 4	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 5	Dife	Dife	NOUN	_	_	3	obl:mod	_	Gloss=incendie
 6	nan	nan	ADP	_	_	7	case	_	Gloss=dans
-7	sant	sant	NOUN	_	_	5	nmod	_	Gloss=centre
-8	migran	migran	NOUN	_	_	7	nmod	_	Gloss=migrant
+7	Sant	sant	NOUN	_	_	5	nmod	_	Gloss=centre
+8	Migran	migran	NOUN	_	_	7	nmod	_	Gloss=migrant
 9	Meksik	meksik	PROPN	_	_	7	nmod	_	Gloss=Mexique
 10	Toupre	Toupre	ADV	_	_	11	advmod	_	Gloss=tout prêt
 11	Fwontyè	fwontyè	NOUN	_	_	3	obj	_	Gloss=frontière
@@ -22,7 +22,7 @@
 # text_fr = La ville de Mexico - Plus que trois douzaines migrants ont perdu leur vie dans un incendie qui éclaté dans un dortoir dans un centre où ils ferment les migrants mexicains tout prêt la frontière des Etats-Unis.
 # Status = SILVER
 1	MEXICO	Mexico	PROPN	_	_	12	dep	_	Gloss=MEXICO
-2	city	city	PROPN	_	_	1	flat:name	_	Gloss=ville
+2	CITY	city	PROPN	_	_	1	flat:name	_	Gloss=ville
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	AP	Ap	PROPN	_	_	2	dep	_	Gloss=Associated Press|SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
@@ -38,7 +38,7 @@
 15	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 16	yon	yon	DET	_	Definite=Ind|Number=Sing	17	det	_	Gloss=DET
 17	dife	dife	NOUN	_	_	12	obl	_	Gloss=incendie
-18	ki	ki	PRON	_	_	19	cc	_	Gloss=qui
+18	ki	ki	PRON	_	_	19	nsubj	_	Gloss=qui
 19	pran	pran	VERB	_	Tense=Pres	17	acl:relcl	_	Gloss=prendre
 20	nan	nan	ADP	_	_	22	case	_	Gloss=dans
 21	yon	yon	DET	_	Definite=Ind|Number=Sing	22	det	_	Gloss=un
@@ -61,8 +61,8 @@
 # text_fr = C'est l'un des incidents où beaucoup de gens meurent dans un centre pour accueillir les migrant du pays.
 # Status = SILVER
 1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
-2	youn	youn	NUM	_	_	1	expl:subj	_	Gloss=l'un
-3	nan	nan	ADP	_	Definite=Ind|Number=Plur	4	case	_	Gloss=de
+2	youn	youn	NUM	_	_	1	xcomp	_	Gloss=l'un
+3	nan	nan	ADP	_	_	4	case	_	Gloss=de
 4	ensidan	ensidan	NOUN	_	_	2	nmod	_	Gloss=incident
 5	kote	kote	PRON	_	PronType=Rel	8	obl:mod	_	Gloss=où
 6	plis	plis	ADV	_	_	7	advmod	_	Gloss=plus
@@ -70,7 +70,7 @@
 8	mouri	mouri	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=mourir
 9	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=un
-11	sant	sant	NOUN	_	_	8	obl	_	Gloss=centre
+11	sant	sant	NOUN	_	_	8	obl:mod	_	Gloss=centre
 12	pou	pou	ADP	_	_	13	mark	_	Gloss=pour
 13	kenbe	kenbe	VERB	_	_	11	acl	_	Gloss=accueillir
 14	migran	migran	NOUN	_	_	13	obj	_	Gloss=migrant

@@ -22,7 +22,7 @@
 3	konn	konnen	VERB	_	Tense=Pres	0	root	_	Gloss=savoir
 4	si	si	SCONJ	_	_	5	mark	_	Gloss=si
 5	se	se	VERB	_	Tense=Pres	3	advcl	_	Gloss=être
-6	sa	sa	PRON	_	Number=Sing|PronType=Dem	5	obj	_	Gloss=ce
+6	sa	sa	PRON	_	Number=Sing|PronType=Dem	5	xcomp	_	Gloss=ce
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
 8	rele	rele	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=appeler
 9	kout	kout	NOUN	_	_	8	obj	_	Gloss=coude
@@ -73,7 +73,7 @@
 # text_fr = C'est une coutume familiale que je ne peux pas rater.
 1	Se	se	VERB	_	_	0	root	_	Gloss=être
 2	yon	yon	DET	_	Definite=Ind|Number=Sing	3	det	_	Gloss=DET
-3	koutim	koutim	NOUN	_	_	1	obj	_	Gloss=coutume
+3	koutim	koutim	NOUN	_	_	1	xcomp	_	Gloss=coutume
 4	familyal	familyal	ADJ	_	_	3	amod	_	Gloss=familial
 5	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=1SG
 6	pa	pa	ADV	_	_	8	advmod	_	Gloss=NEG
@@ -373,7 +373,7 @@
 2	vrèman	vrèman	ADV	_	_	3	advmod	_	Gloss=vraiment
 3	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	5	det	_	Gloss=DET
-5	enkoni	enkoni	NOUN	_	_	3	obj	_	Gloss=inconnu
+5	enkoni	enkoni	NOUN	_	_	3	xcomp	_	Gloss=inconnu
 6	ki	ki	PRON	_	_	8	nsubj	_	Gloss=qui
 7	te	te	AUX	_	_	8	aux	_	Gloss=PAST
 8	vin	vini	VERB	_	Tense=Past	5	acl:relcl	_	Gloss=venir
@@ -389,13 +389,13 @@
 1	Nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
 3	imajine	imajine	VERB	_	Tense=Pres	0	root	_	Gloss=imaginer
-4	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	dep:comp	_	Gloss=1PL
+4	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	iobj	_	Gloss=1PL
 5	kijanm	kijanm	ADV	_	_	6	advmod	_	Gloss=comment
 6	anvi	anvi	VERB	_	Tense=Pres	3	ccomp	_	Gloss=avoir envie de
 7	konn	konnen	VERB	_	VerbForm=Inf	6	ccomp	_	Gloss=connaitre
 8	moun	moun	NOUN	_	_	7	obj	_	Gloss=personne
 9	ki	ki	PRON	_	_	10	nsubj	_	Gloss=qui
-10	kache	kache	VERB	_	Number=Plur|Person=3|Tense=Pres	8	acl:relcl	_	_
+10	kache	kache	VERB	_	Number=Plur|Person=3|Tense=Pres	8	acl:relcl	_	Gloss=cacher
 11	dèyè	dèyè	NOUN	_	_	10	obj	_	Gloss=derrière
 12	stati	stati	NOUN	_	_	11	obj	_	Gloss=statut
 13	sa	sa	DET	_	Number=Sing|Person=3|Poss=Yes	12	det	_	Gloss=3SG|SpaceAfter=No

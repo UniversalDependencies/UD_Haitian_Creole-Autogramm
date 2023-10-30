@@ -167,7 +167,7 @@
 # text = Sete pi gwo atak konsa ki fèt sou Ikrèn depi 3 semèn, kote fòs Ikrèn yo di yo desann 34 sou 81 misil ke LaRisi tire, kidonk yon pousantaj pi piti lontan pase sa li konn bare, epi li di li desann 4 drone ke Iran fabrike.
 # text_fr = C'était une grande attaque qui est faite sur l'Ukraine depuis 3 semaines, où les forces ukrainiennes disent  qu'ils descendent 34 missiles sur 81 missiles que la Russie a tirée, donc un pourcentage plus petit par rapport à ce qu'elle sait intercepter, puis elle dit qu'elle descend 4 drones que l'Iran a fabriqué.
 # Status = SILVER
-1	Se	Se	VERB	_	Tense=Pres	0	root	_	Gloss=être|wordform=Sete
+1	Se	Se	VERB	_	Tense=Pres	0	root	_	Gloss=être|SpaceAfter=No|wordform=Sete
 2	te	te	AUX	_	_	1	aux	_	Gloss=PAST
 3	pi	pi	ADV	_	_	5	advmod	_	Gloss=plus
 4	gwo	gwo	ADJ	_	_	5	amod	_	Gloss=grand
@@ -200,7 +200,7 @@
 31	yon	yon	DET	_	Definite=Ind|Number=Sing	32	det	_	Gloss=DET
 32	pousantaj	pousantaj	NOUN	_	_	25	nmod	_	Gloss=pourcentage
 33	pi	pi	ADV	_	_	34	advmod	_	Gloss=au minimum
-34	piti	piti	ADV	_	Tense=Pres	32	advmod	_	_
+34	piti	piti	ADV	_	_	32	advmod	_	_
 35	lontan	lontan	ADV	_	_	34	advmod	_	Gloss=longtemps
 36	pase	pase	NOUN	_	_	35	obj	_	Gloss=passé
 37	sa	sa	PRON	_	Number=Sing|PronType=Dem	36	det	_	_
@@ -231,10 +231,10 @@
 5	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
 6	frap	frap	NOUN	_	_	8	nsubj	_	Gloss=frappe
 7	yo	yo	DET	_	Definite=Def|Number=Plur	6	det	_	Gloss=DET
-8	se	se	VERB	_	_	5	ccomp	_	Gloss=être|wordform=sete
+8	se	se	VERB	_	_	5	ccomp	_	Gloss=être|SpaceAfter=No|wordform=sete
 9	te	te	AUX	_	_	8	aux	_	Gloss=PAST
 10	kòm	kòm	ADP	_	_	11	case	_	Gloss=comme
-11	revanj	revanj	NOUN	_	_	8	obl:mod	_	Gloss=révanche
+11	revanj	revanj	NOUN	_	_	8	xcomp	_	Gloss=révanche
 12	pou	pou	ADP	_	_	14	case	_	Gloss=pour
 13	yon	yon	DET	_	Definite=Ind|Number=Sing	14	det	_	Gloss=DET
 14	atak	atak	NOUN	_	_	11	nmod	_	Gloss=attaque
@@ -259,7 +259,7 @@
 33	dapre	dapre	ADP	_	_	34	case	_	Gloss=d'après
 34	Moskou	Moskou	PROPN	_	_	31	obl:mod	_	Gloss=Moscou|SpaceAfter=No
 35	,	,	PUNCT	_	_	34	punct	_	_
-36	travay	travay	NOUN	_	Tense=Pres	31	obj	_	Gloss=travail
+36	travay	travay	NOUN	_	_	31	xcomp	_	Gloss=travail
 37	sabotè	sabotè	NOUN	_	_	36	obj	_	Gloss=saboteur
 38	ki	ki	PRON	_	_	40	nsubj	_	Gloss=qui
 39	te	te	AUX	_	_	40	aux	_	Gloss=PAST

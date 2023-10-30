@@ -34,18 +34,18 @@
 # Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
 2	rete	rete	VERB	_	Tense=Pres	0	root	_	Gloss=rester
-3	san	san	ADP	_	Tense=Pres	4	mark	_	Gloss=sans
+3	san	san	ADP	_	_	4	mark	_	Gloss=sans
 4	di	di	VERB	_	Tense=Pres	2	dep	_	Gloss=dire
 5	anyen	anyen	PRON	_	_	4	obj	_	Gloss=rien
 6	paske	paske	SCONJ	_	_	8	mark	_	Gloss=parce que
 7	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Gloss=3SG
-8	enposib	enposib	ADJ	_	VerbForm=Vadj	2	advcl	_	Gloss=impossible
+8	enposib	enposib	ADJ	_	_	2	advcl	_	Gloss=impossible
 9	pou	pou	ADP	_	_	10	case	_	Gloss=pour
 10	mwen	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	8	obl	_	Gloss=1SG
 11	pou	pou	ADP	_	_	14	case	_	Gloss=pour
 12	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
 13	ta	ta	AUX	_	_	14	aux	_	Gloss=COND
-14	la	la	ADV	_	VerbForm=Vadv	8	advmod	_	Gloss=être là|SpaceAfter=No
+14	la	la	ADV	_	_	8	advmod	_	Gloss=là|SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	sof	sof	ADP	_	_	20	mark	_	Gloss=sauf
 17	si	si	SCONJ	_	_	20	mark	_	Gloss=si
@@ -56,7 +56,7 @@
 22	m	mwen	DET	_	Number=Sing|Person=1|PronType=Prs	21	det	_	Gloss=1SG
 23	se	se	VERB	_	Tense=Pres	20	ccomp	_	Gloss=être
 24	yon	yon	DET	_	Definite=Ind|Number=Sing	25	det	_	Gloss=DET
-25	obligasyon	obligasyon	NOUN	_	_	23	obj	_	Gloss=obligation
+25	obligasyon	obligasyon	NOUN	_	_	23	xcomp	_	Gloss=obligation
 26	pou	pou	ADP	_	_	28	mark	_	Gloss=pour
 27	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	Gloss=1SG
 28	rete	rete	VERB	_	Tense=Pres	25	acl	_	Gloss=rester
@@ -72,7 +72,7 @@
 # text_fr = Toute la réflexion que j'ai faite a abouti à une seule conclusion, il faut que j'aille trouver mes  familles à Jacmel.
 # Status = SILVER
 1	Tout	tout	DET	_	_	2	det	_	Gloss=tout
-2	panse	panse	NOUN	_	Tense=Pres	6	nsubj	_	Gloss=penser
+2	panse	panse	NOUN	_	_	6	nsubj	_	Gloss=pensée
 3	m	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	4	nsubj	_	Gloss=1SG
 4	fè	fè	VERB	_	Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	_
 5	te	te	AUX	_	_	6	aux	_	Gloss=PAST
@@ -119,7 +119,7 @@
 21	ki	ki	PRON	_	_	22	nsubj	_	Gloss=qui
 22	se	se	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=être
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	NON	non	NOUN	_	_	22	obj	_	Gloss=non|SpaceAfter=No
+24	NON	non	NOUN	_	_	22	xcomp	_	Gloss=non|SpaceAfter=No
 25	".	".	PUNCT	_	_	24	punct	_	_
 
 # sent_id = 01__85

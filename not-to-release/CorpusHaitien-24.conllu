@@ -7,18 +7,18 @@
 2	pòt	pòt	NOUN	_	_	7	nsubj	_	Gloss=porte
 3	pawòl	pawòl	NOUN	_	_	2	obj	_	Gloss=parole
 4	Depatman	Depatman	NOUN	_	_	3	obj	_	Gloss=département
-5	d	d	X	_	_	4	nmod	_	Gloss=d'
-6	Eta	Eta	NOUN	_	_	5	goeswith	_	Gloss=Eta
+5	d	d	NOUN	_	Typo=Yes	4	obj	_	Gloss=d'Etat
+6	Eta	_	X	_	_	5	goeswith	_	_
 7	deklare	deklare	VERB	_	Tense=Pres	0	root	_	Gloss=déclarer
 8	Samdi	Samdi	NOUN	_	_	7	obl:mod	_	Gloss=samedi|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	gouvènman	gouvènman	NOUN	_	_	13	nsubj	_	Gloss=gouvernement
 11	Ameriken	ameriken	ADJ	_	_	10	amod	_	Gloss=américain
 12	an	an	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=DET
-13	o	o	X	_	_	7	obj	_	Gloss=au
-14	kouran	kouran	NOUN	_	VerbForm=Vnoun	13	goeswith	_	Gloss=être au courant
+13	o	o	ADJ	_	Typo=Yes	7	obj	_	Gloss=au courant
+14	kouran	_	X	_	_	13	goeswith	_	_
 15	de	de	ADP	_	_	16	case	_	Gloss=de
-16	rapò	rapò	NOUN	_	_	14	nmod	_	Gloss=rapport
+16	rapò	rapò	NOUN	_	_	13	obl:arg	_	Gloss=rapport
 17	ki	ki	PRON	_	_	18	nsubj	_	Gloss=qui
 18	di	di	VERB	_	Tense=Pres	16	acl:relcl	_	Gloss=dire
 19	kòm	kòm	SCONJ	_	_	21	mark	_	Gloss=comme
@@ -30,7 +30,7 @@
 25	ki	ki	PRON	_	_	26	nsubj	_	Gloss=qui
 26	disparèt	disparèt	VERB	_	Tense=Pres	23	acl:relcl	_	Gloss=disparaître
 27	an	an	ADP	_	_	28	case	_	Gloss=en
-28	Ayiti	Aiti	PROPN	_	_	26	obl	_	Gloss=Haïti|SpaceAfter=No
+28	Ayiti	Aiti	PROPN	_	_	26	obl:mod	_	Gloss=Haïti|SpaceAfter=No
 29	,	,	PUNCT	_	_	26	punct	_	_
 30	apre	apre	ADP	_	_	31	dep	_	Gloss=après
 31	laprès	laprès	NOUN	_	_	35	nsubj	_	Gloss=la presse
@@ -128,16 +128,16 @@
 # Status = SILVER
 1	Pòtpawòl	Pòtpawòl	NOUN	_	_	5	nsubj	_	Gloss=Porte parole
 2	Depatman	Depatman	NOUN	_	_	1	obj	_	Gloss=département
-3	d	de	X	_	_	2	obj	_	Gloss=d'
-4	Eta	Eta	NOUN	_	_	3	goeswith	_	Gloss=Etat
+3	d	de	NOUN	_	Typo=Yes	2	obj	_	Gloss=d'Etat
+4	Eta	_	X	_	_	3	goeswith	_	_
 5	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire|SpaceAfter=No
 6	:	:	PUNCT	_	_	5	punct	_	_
 7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	Nou	Nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	Gloss=1PL
-9	o	o	X	_	_	5	obj	_	Gloss=au
-10	kouran	kouran	NOUN	_	VerbForm=Vnoun	9	goeswith	_	Gloss=courant
+9	o	o	ADJ	_	Typo=Yes	5	obj	_	Gloss=au courant
+10	kouran	_	X	_	_	9	goeswith	_	_
 11	de	de	ADP	_	_	12	case	_	Gloss=du
-12	rapò	rapò	NOUN	_	_	10	nmod	_	Gloss=rapport
+12	rapò	rapò	NOUN	_	_	9	obl:arg	_	Gloss=rapport
 13	ki	ki	PRON	_	_	14	nsubj	_	Gloss=qui
 14	di	di	VERB	_	Tense=Pres	12	acl:relcl	_	Gloss=dire
 15	gen	gen	VERB	_	Tense=Pres	14	ccomp	_	Gloss=avoir
@@ -181,7 +181,7 @@
 25	ak	ak	ADP	_	_	26	case	_	Gloss=avec
 26	fanmi	fanmi	NOUN	_	_	23	obl:arg	_	Gloss=familles
 27	yo	yo	DET	_	Number=Plur|Poss=Yes	26	det	_	Gloss=3PL
-28	nenpòt	nenpòt	ADV	_	_	31	advmod	_	Gloss=n'importe
+28	nempòt	nempòt	ADV	_	_	31	advmod	_	Gloss=n'importe
 29	kijan	kijan	ADV	_	_	28	dep	_	Gloss=comment
 30	nou	nou	PRON	_	Number=Sing|Person=1|PronType=Prs	31	nsubj	_	Gloss=1PL
 31	kapab	kapab	VERB	_	Tense=Pres	26	acl:relcl	_	Gloss=pouvoir|SpaceAfter=No
@@ -216,8 +216,8 @@
 2	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=les
 3	nan	nan	ADP	_	_	4	case	_	Gloss=en
 4	peyi	peyi	NOUN	_	_	7	obl:mod	_	Gloss=pays
-5	d	de	X	_	_	4	obj	_	Gloss=de
-6	Ayiti	Ayiti	PROPN	_	_	5	goeswith	_	Gloss=Haïti
+5	d	de	PROPN	_	Typo=Yes	4	obj	_	Gloss=de
+6	Ayiti	_	X	_	_	5	goeswith	_	_
 7	ogmante	ogmante	VERB	_	Tense=Pres	0	root	_	Gloss=augmenter
 8	pouvwa	pouvwa	NOUN	_	_	7	obj	_	Gloss=pouvoir
 9	yo	yo	DET	_	Number=Sing|Poss=Yes	8	det	_	Gloss=DET
@@ -235,7 +235,7 @@
 # text_fr = Maintenant, ils contrôlent une grande partie de la capitale et les provinces.
 # Status = SILVER
 1	Kounyea	Kounyea	ADV	_	_	3	advmod	_	Gloss=Mantenant
-2	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Gloss=3PL
+2	yon	yon	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Gloss=3PL
 3	kontwole	kontwole	VERB	_	Tense=Pres	0	root	_	Gloss=contrôler
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=une
 5	gwo	gwo	ADJ	_	_	6	amod	_	Gloss=grande
@@ -267,7 +267,7 @@
 14	antre	antre	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=entrer
 15	nan	nan	ADP	_	_	16	mark	_	Gloss=dans
 16	lese	lese	VERB	_	VerbForm=Inf	14	ccomp	_	Gloss=se battre
-17	frape	frape	VERB	_	VerbForm=Inf	16	aux	_	Gloss=se battre
+17	frape	frape	VERB	_	VerbForm=Inf	16	compound:svc	_	Gloss=se battre
 18	ak	ak	ADP	_	_	19	case	_	Gloss=à
 19	lapolis	lapolis	NOUN	_	_	17	obl:arg	_	Gloss=police|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
@@ -286,7 +286,7 @@
 8	lakoz	lakoz	ADP	_	_	10	case	_	Gloss=à cause
 9	anpil	anpil	ADJ	_	_	10	amod	_	Gloss=beacoup
 10	san	san	NOUN	_	_	0	root	_	Gloss=sang
-11	koule	koule	VERB	_	Tense=Pres	10	ccomp	_	Gloss=coulé
+11	koule	koule	VERB	_	_	10	ccomp	_	Gloss=couler
 12	epi	epi	CCONJ	_	_	17	cc	_	Gloss=et
 13	plizyè	plizyè	DET	_	_	14	det	_	Gloss=plusieurs
 14	santèn	santèn	NOUN	_	_	17	nsubj	_	Gloss=centaine
@@ -295,7 +295,7 @@
 17	oblije	oblije	VERB	_	Tense=Pres	10	conj	_	Gloss=obliger
 18	kouri	kouri	VERB	_	VerbForm=Inf	17	ccomp	_	Gloss=courir
 19	kite	kite	VERB	_	VerbForm=Inf	18	compound:svc	_	Gloss=quitter
-20	kay	kay	NOUN	_	_	19	obj	_	Gloss=maisons
+20	kay	kay	NOUN	_	_	19	obj	_	Gloss=maison
 21	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	20	det	_	Gloss=3PL|SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -335,7 +335,7 @@
 30	jeneral	jeneral	ADJ	_	_	29	amod	_	Gloss=général
 31	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	29	det	_	Gloss=3PL
 32	nan	nan	ADP	_	_	33	case	_	Gloss=dans
-33	Eta	Eta	NOUN	_	_	29	nmod	_	Gloss=état
+33	eta	eta	NOUN	_	_	29	nmod	_	Gloss=état
 34	Ohio	Ohio	PROPN	_	_	33	flat:name	_	Gloss=Ohio
 35	nan	nan	ADP	_	_	36	case	_	Gloss=dans
 36	sant	sant	NOUN	_	_	33	nmod	_	Gloss=centre

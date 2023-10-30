@@ -41,7 +41,7 @@
 14	Labous	labous	NOUN	_	_	13	obj	_	Gloss=bourse
 15	Nouyok	nouyok	PROPN	_	_	13	nmod	_	Gloss=New York
 16	la	la	DET	_	Definite=Def|Number=Sing	13	det	_	Gloss=DET
-17	(	(	PUNCT	_	_	18	punct	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	New	New	PROPN	_	_	13	appos	_	Gloss=New
 19	York	York	PROPN	_	_	18	flat:name	_	Gloss=York
 20	Stock	stock	PROPN	_	_	18	flat:name	_	Gloss=Stock
@@ -106,7 +106,7 @@
 22	jounalis	jounalis	NOUN	_	_	21	iobj	_	Gloss=journalist
 23	yo	yo	DET	_	Definite=Def|Number=Plur	22	det	_	Gloss=DET
 24	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes	27	nsubj	_	Gloss=3SG
-25	p	pa	ADV	_	_	27	advmod	_	Gloss=NEG
+25	p	pa	ADV	_	_	27	advmod	_	Gloss=NEG|SpaceAfter=No
 26	ap	ap	AUX	_	_	27	aux	_	Gloss=PROG|wordform=pap
 27	bay	bay	VERB	_	Tense=Pres	21	ccomp	_	Gloss=donner
 28	bank	bank	NOUN	_	_	27	iobj	_	Gloss=banque

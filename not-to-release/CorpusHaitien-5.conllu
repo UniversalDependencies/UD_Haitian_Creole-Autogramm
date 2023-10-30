@@ -151,7 +151,7 @@
 8	se	se	VERB	_	Tense=Pres	4	conj	_	Gloss=être
 9	pa	pa	ADV	_	_	8	advmod	_	Gloss=NEG
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=DET
-11	bagay	bagay	NOUN	_	_	8	obj	_	Gloss=chose
+11	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
 12	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	Gloss=1PL
 13	anvizaje	anvizaje	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=envisager
 14	fè	fè	VERB	_	VerbForm=Inf	13	ccomp	_	Gloss=faire
@@ -226,12 +226,12 @@
 18	gang	gang	NOUN	_	_	21	nsubj	_	Gloss=gang
 19	yo	yo	DET	_	Definite=Def|Number=Plur	18	det	_	_
 20	esansyèlman	esansyèlman	ADV	_	_	21	advmod	_	Gloss=essentiellement
-21	ranplase	ranplase	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=remplir
-22	gouvènman	gouvènman	NOUN	_	_	21	obj	_	_
+21	ranplase	ranplase	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=remplacer
+22	gouvènman	gouvènman	NOUN	_	_	21	obj	_	Gloss=gouvernement
 23	an	an	DET	_	Definite=Def|Number=Sing	22	det	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	an	an	ADP	_	Definite=Def|Number=Sing	21	dep	_	_
-26	efè	efè	ADV	_	_	25	dep	_	Gloss=effet
+25	an	an	ADP	_	_	21	dep	_	Gloss=en
+26	efè	efè	NOUN	_	_	25	dep	_	Gloss=effet
 27	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL|SpaceAfter=No
 28	ap	ap	AUX	_	_	29	aux	_	Gloss=PROG
 29	dirije	dirije	VERB	_	_	26	ccomp	_	Gloss=diriger
@@ -272,7 +272,7 @@
 7	e	e	CCONJ	_	_	8	cc	_	Gloss=et
 8	se	se	VERB	_	Tense=Pres	6	conj	_	Gloss=être
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
-10	bagay	bagay	NOUN	_	_	8	obj	_	Gloss=chose
+10	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
 13	pran	pran	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=prrendre
@@ -310,9 +310,9 @@
 10	la	la	DET	_	Definite=Def|Number=Sing	8	det	_	Gloss=DET
 11	pa	pa	ADP	_	_	13	case	_	Gloss=par
 12	l	li	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	Gloss=3SG
-13	entèmedyè	entèmedyè	NOUN	_	Tense=Pres	8	nmod	_	Gloss=intermédiaire
+13	entèmedyè	entèmedyè	NOUN	_	_	8	nmod	_	Gloss=intermédiaire
 14	Nasyonzini	Nasyonzini	PROPN	_	_	13	obj	_	Gloss=Nations Unies
-15	ta	ta	AUX	_	_	16	aux	_	Gloss=COND
+15	ta	ta	AUX	_	_	16	aux	_	Gloss=COND|SpaceAfter=No
 16	ka	ka	VERB	_	Mood=Cnd	6	ccomp	_	Gloss=pouvoir|wordform=taka
 17	jwe	jwe	VERB	_	_	16	ccomp	_	Gloss=jouer
 18	yon	yon	DET	_	Definite=Ind|Number=Sing	21	det	_	Gloss=DET

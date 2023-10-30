@@ -71,11 +71,11 @@
 2	menase	menase	VERB	_	Tense=Pres	0	root	_	_
 3	pou	pou	ADP	_	_	6	mark	_	Gloss=pour
 4	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Gloss=3SG
-5	"	"	PUNCT	_	_	6	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	kontrekare	kontrekare	VERB	_	Tense=Pres	2	dep	_	Gloss=affronter
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	_
 8	fason	fason	NOUN	_	_	6	obl:mod	_	Gloss=façon
-9	rezoli	rezolu	ADJ	_	_	8	amod	_	Gloss=résolu|SpaceAfter=No
+9	rezolu	rezolu	ADJ	_	_	8	amod	_	Gloss=résolu|SpaceAfter=No
 10	"	"	PUNCT	_	_	6	punct	_	_
 11	rankont	rankont	NOUN	_	_	6	obj	_	Gloss=rencontre
 12	prezidan	prezidan	NOUN	_	_	16	nsubj	_	Gloss=président
@@ -168,9 +168,9 @@
 9	5	5	NUM	_	_	4	obl:mod	_	Gloss=5
 10	Avril	avril	NOUN	_	_	9	nmod	_	Gloss=avril
 11	la	la	DET	_	Definite=Def|Number=Sing	9	det	_	_
-12	anvan	anvan	ADV	_	Tense=Pres	4	advmod	_	_
+12	anvan	anvan	ADV	_	_	4	advmod	_	Gloss=avant
 13	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Gloss=3SG
-14	retounen	retounen	VERB	_	Tense=Pres	12	ccomp	_	_
+14	retounen	retounen	VERB	_	Tense=Pres	12	ccomp	_	Gloss=retourner
 15	Taiwan	Taiwan	PROPN	_	_	14	obj	_	Gloss=Taiwan|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -179,7 +179,7 @@
 # text_fr = c'est pendant cet escale qu'il avait l'intention de rencontrer le leader de la chambre Kevin McCarthy.
 # Status = SILVER
 1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
-2	pandan	pandan	ADV	_	_	1	advmod	_	Gloss=pendant
+2	pandan	pandan	ADV	_	_	1	xcomp	_	Gloss=pendant
 3	eskal	eskal	NOUN	_	_	2	obj	_	Gloss=escale
 4	sa	sa	DET	_	Number=Sing|PronType=Dem	3	det	_	_
 5	a	a	DET	_	Definite=Def|Number=Sing	3	det	_	_
@@ -199,7 +199,7 @@
 # text_fr = le ministère des affaires de la Chine blâme le Washington pour la tension qui existe entre le Pékin et les Etats-Unis.
 # Status = SILVER
 1	Ministe	ministe	NOUN	_	_	6	nsubj	_	Gloss=ministère
-2	Afè	afè	NOUN	_	Tense=Pres	1	obj	_	Gloss=affaire
+2	Afè	afè	NOUN	_	_	1	obj	_	Gloss=affaire
 3	Etranjè	etranjè	ADJ	_	_	2	amod	_	Gloss=étranger
 4	Lachin	Lachin	PROPN	_	_	1	nmod	_	Gloss=Chine
 5	nan	nan	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=la
@@ -224,7 +224,7 @@
 3	se	se	VERB	_	Tense=Pres	2	ccomp	_	Gloss=être
 4	paske	paske	SCONJ	_	_	6	mark	_	Gloss=parce que
 5	Washington	Washington	PROPN	_	_	6	nsubj	_	Gloss=Washington
-6	ogmante	ogmante	VERB	_	Tense=Pres	3	advcl	_	Gloss=augmenter
+6	ogmante	ogmante	VERB	_	Tense=Pres	3	ccomp	_	Gloss=augmenter
 7	relasyon	relasyon	NOUN	_	_	6	obj	_	Gloss=relation
 8	ni	li	DET	_	Definite=Def|Number=Sing	7	det	_	_
 9	ak	ak	ADP	_	_	10	case	_	Gloss=avec

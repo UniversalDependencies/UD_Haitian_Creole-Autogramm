@@ -54,7 +54,7 @@
 24	si	si	SCONJ	_	_	25	mark	_	Gloss=si
 25	se	se	VERB	_	Tense=Pres	23	ccomp	_	Gloss=être
 26	move	move	ADJ	_	_	27	amod	_	Gloss=mauvaise
-27	konduit	konduit	NOUN	_	_	25	obj	_	Gloss=conduite
+27	konduit	konduit	NOUN	_	_	25	xcomp	_	Gloss=conduite
 28	nan	nan	ADP	_	_	30	case	_	Gloss=dans
 29	yon	yon	DET	_	Definite=Ind|Number=Sing	30	det	_	Gloss=un
 30	sant	sant	NOUN	_	_	27	nmod	_	Gloss=centre

@@ -12,8 +12,8 @@
 7	Komisyon	komisyon	NOUN	_	_	6	obj	_	Gloss=commission
 8	Ewopeyen	ewopeyen	ADJ	_	_	7	amod	_	Gloss=européenne
 9	Ursula	ursula	PROPN	_	_	6	appos	_	Gloss=Ursula
-10	Von	Von	PROPN	_	_	9	flat:name	_	Gloss=Von
-11	Der	Der	PROPN	_	_	9	flat:name	_	Gloss=Der
+10	von	von	PROPN	_	_	9	flat:name	_	Gloss=von
+11	der	der	PROPN	_	_	9	flat:name	_	Gloss=der
 12	Leyen	Leyen	PROPN	_	_	9	flat:name	_	Gloss=Leyen
 
 # sent_id = 17__2
@@ -90,7 +90,7 @@
 3	von	von	PROPN	_	_	1	conj	_	Gloss=von
 4	der	der	PROPN	_	_	3	flat:name	_	Gloss=der
 5	Leyen	Leyen	PROPN	_	_	3	flat:name	_	Gloss=Leyen
-6	pwal	pral	AUX	_	Tense=Pres	7	aux	_	Gloss=FUT
+6	pwal	pral	AUX	_	_	7	aux	_	Gloss=FUT
 7	pale	pale	VERB	_	VerbForm=Inf	0	root	_	Gloss=parler
 8	tou	tou	ADV	_	_	7	advmod	_	Gloss=aussi
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
@@ -123,7 +123,7 @@
 36	asire	asire	VERB	_	Tense=Pres	32	acl:relcl	_	Gloss=assurer|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	se	se	VERB	_	_	36	ccomp	_	Gloss=être
-39	sa	sa	PRON	_	Number=Sing|PronType=Dem	38	obj	_	Gloss=3SG
+39	sa	sa	PRON	_	Number=Sing|PronType=Dem	38	xcomp	_	Gloss=3SG
 40	sekretè	sekretè	NOUN	_	_	46	nsubj	_	Gloss=secrétaire
 41	laprès	laprès	NOUN	_	_	40	obj	_	Gloss=presse
 42	Mezon	mezon	PROPN	_	_	41	obj	_	Gloss=maison
@@ -144,10 +144,10 @@
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
 3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
 4	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
-5	dènye	dènye	ADJ	_	_	4	obj	_	Gloss=dernier
+5	dènye	dènye	ADJ	_	_	4	xcomp	_	Gloss=dernier
 6	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
-8	seri	seri	NOUN	_	_	5	nmod	_	Gloss=serie
+8	seri	seri	NOUN	_	_	5	obl	_	Gloss=serie
 9	reyinyon	reyinyon	NOUN	_	_	8	obj	_	Gloss=réunion
 10	diplomatik	diplomatik	ADJ	_	_	9	amod	_	Gloss=diplomatique
 11	nan	nan	ADP	_	_	12	case	_	Gloss=dans
