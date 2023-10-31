@@ -5,7 +5,7 @@
 # Status = SILVER
 1	39	39	NUM	_	_	2	nummod	_	Gloss=39
 2	Moun	moun	NOUN	_	_	3	nsubj	_	Gloss=personne
-3	Mouri	mouri	VERB	_	Tense=Pres	0	root	_	Gloss=mourir
+3	Mouri	mouri	VERB	_	_	0	root	_	Gloss=mourir
 4	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 5	Dife	Dife	NOUN	_	_	3	obl:mod	_	Gloss=incendie
 6	nan	nan	ADP	_	_	7	case	_	Gloss=dans
@@ -32,14 +32,14 @@
 9	twa	twa	NUM	_	_	10	nummod	_	Gloss=trois
 10	douzèn	douzèn	NOUN	_	_	12	nsubj	_	Gloss=douzaine
 11	migran	migran	NOUN	_	_	10	obj	_	Gloss=migrant
-12	pèdi	pèdi	VERB	_	Tense=Pres	0	root	_	Gloss=perdre
+12	pèdi	pèdi	VERB	_	_	0	root	_	Gloss=perdre
 13	lavi	lavi	NOUN	_	_	12	obj	_	Gloss=vie
 14	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	13	det	_	Gloss=3PL
 15	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 16	yon	yon	DET	_	Definite=Ind|Number=Sing	17	det	_	Gloss=DET
 17	dife	dife	NOUN	_	_	12	obl	_	Gloss=incendie
 18	ki	ki	PRON	_	_	19	nsubj	_	Gloss=qui
-19	pran	pran	VERB	_	Tense=Pres	17	acl:relcl	_	Gloss=prendre
+19	pran	pran	VERB	_	_	17	acl:relcl	_	Gloss=prendre
 20	nan	nan	ADP	_	_	22	case	_	Gloss=dans
 21	yon	yon	DET	_	Definite=Ind|Number=Sing	22	det	_	Gloss=un
 22	dòtwa	dòtwa	NOUN	_	_	19	obl	_	Gloss=dortoir
@@ -48,7 +48,7 @@
 25	sant	sant	NOUN	_	_	19	obl	_	Gloss=centre
 26	kote	kote	PRON	_	PronType=Rel	28	obl:mod	_	Gloss=où
 27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	28	nsubj	_	Gloss=3PL
-28	fèmen	fèmen	VERB	_	Tense=Pres	25	acl:relcl	_	Gloss=fermer
+28	fèmen	fèmen	VERB	_	_	25	acl:relcl	_	Gloss=fermer
 29	migran	migran	NOUN	_	_	28	obj	_	Gloss=migrant
 30	Meksiken	Meksiken	ADJ	_	_	29	amod	_	Gloss=méxicain
 31	toupre	toupre	ADP	_	_	32	case	_	Gloss=tout prêt
@@ -60,14 +60,14 @@
 # text = Se youn nan ensidan kote plis moun mouri nan yon sant pou kenbe migran nan peyi a.
 # text_fr = C'est l'un des incidents où beaucoup de gens meurent dans un centre pour accueillir les migrant du pays.
 # Status = SILVER
-1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+1	Se	se	VERB	_	_	0	root	_	Gloss=être
 2	youn	youn	NUM	_	_	1	xcomp	_	Gloss=l'un
-3	nan	nan	ADP	_	_	4	case	_	Gloss=de
+3	nan	nan	ADP	_	_	4	case	_	Gloss=dans
 4	ensidan	ensidan	NOUN	_	_	2	nmod	_	Gloss=incident
 5	kote	kote	PRON	_	PronType=Rel	8	obl:mod	_	Gloss=où
 6	plis	plis	ADV	_	_	7	advmod	_	Gloss=plus
 7	moun	moun	NOUN	_	_	8	nsubj	_	Gloss=gens, personne
-8	mouri	mouri	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=mourir
+8	mouri	mouri	VERB	_	_	4	acl:relcl	_	Gloss=mourir
 9	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=un
 11	sant	sant	NOUN	_	_	8	obl:mod	_	Gloss=centre
@@ -95,13 +95,13 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	13	nsubj	_	Gloss=3PL
 12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
-13	aliyen	aliyen	VERB	_	Tense=Pres	0	root	_	Gloss=aligner
+13	aliyen	aliyen	VERB	_	_	0	root	_	Gloss=aligner
 14	kèk	kèk	DET	_	_	15	det	_	Gloss=quelques
 15	kadav	kadav	NOUN	_	_	13	obj	_	Gloss=cadavre
 16	ke	ke	PRON	_	PronType=Rel	19	obj	_	Gloss=que
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Gloss=3PL
 18	te	te	AUX	_	_	19	aux	_	Gloss=PAST
-19	kouvri	kouvri	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=couvrir
+19	kouvri	kouvri	VERB	_	_	15	acl:relcl	_	Gloss=couvrir
 20	anba	anba	ADP	_	_	21	case	_	Gloss=sous
 21	dra	dra	NOUN	_	_	19	obl:mod	_	Gloss=drap
 22	deyò	deyò	ADP	_	_	23	case	_	Gloss=dehors
@@ -129,7 +129,7 @@
 5	lòt	lòt	DET	_	_	6	det	_	Gloss=autre
 6	kamyon	kamyon	NOUN	_	_	1	conj	_	Gloss=camion
 7	ki	ki	PRON	_	_	8	nsubj	_	Gloss=qui
-8	soti	soti	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=sortir
+8	soti	soti	VERB	_	_	6	acl:relcl	_	Gloss=sortir
 9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	mòg	mòg	NOUN	_	_	8	obl	_	Gloss=morgue
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=la

@@ -17,14 +17,14 @@
 12	ameriken	ameriken	ADJ	_	_	11	amod	_	Gloss=américaine
 13	ke	ke	PRON	_	_	15	obj	_	Gloss=que
 14	bandi	bandi	NOUN	_	_	15	nsubj	_	Gloss=bandit
-15	kidnape	kidnape	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=kidnapper
+15	kidnape	kidnape	VERB	_	_	11	acl:relcl	_	Gloss=kidnapper
 16	ann	ann	ADP	_	_	17	case	_	Gloss=en
 17	Ayiti	Ayiti	PROPN	_	_	15	obl	_	Gloss=Haïti
 18	ap	ap	AUX	_	_	19	aux	_	Gloss=PROG
-19	plede	plede	VERB	_	Tense=Pres	0	root	_	Gloss=demander
+19	plede	plede	VERB	_	_	0	root	_	Gloss=demander
 20	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 21	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nsubj	_	Gloss=3PL
-22	jwenn	jwenn	VERB	_	Tense=Pres	19	dep	_	Gloss=trouver
+22	jwenn	jwenn	VERB	_	_	19	dep	_	Gloss=trouver
 23	liberasyon	liberasyon	NOUN	_	_	22	obj	_	Gloss=libération|SpaceAfter=No
 24	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -34,11 +34,11 @@
 # Status = SILVER
 1	Nikese	Nikese	PROPN	_	_	3	nsubj	_	Gloss=Nikese
 2	Toussaint	Toussaint	PROPN	_	_	1	flat:name	_	Gloss=Toussaint
-3	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ke	ke	SCONJ	_	_	7	mark	_	Gloss=que
 5	gang	gang	NOUN	_	_	7	nsubj	_	Gloss=gang
 6	te	te	AUX	_	_	7	aux	_	Gloss=PAST
-7	kidnape	kidnape	VERB	_	Tense=Past	3	ccomp	_	Gloss=Kidnapper
+7	kidnape	kidnape	VERB	_	_	3	ccomp	_	Gloss=Kidnapper
 8	frè	frè	NOUN	_	_	7	obj	_	Gloss=frère
 9	l	li	DET	_	Number=Sing|Person=3|Poss=Yes	8	det	_	Gloss=3SG|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -51,7 +51,7 @@
 17	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
 18	t	te	AUX	_	_	20	aux	_	Gloss=PAST
 19	ap	ap	AUX	_	_	20	aux	_	Gloss=PROG
-20	vwayaje	vwayaje	VERB	_	Tense=Past	16	acl:relcl	_	Gloss=voyager
+20	vwayaje	vwayaje	VERB	_	_	16	acl:relcl	_	Gloss=voyager
 21	avèk	avèk	ADP	_	_	22	case	_	Gloss=avec
 22	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	20	obl	_	Gloss=3PL
 23	18	18	NUM	_	_	20	obl:mod	_	Gloss=18
@@ -64,17 +64,17 @@
 # text_fr = Toussaint a dit dans un interview par téléphone lundi que le gang demande $200,000 pour chaque personne et que sa famille n'a pas cette somme d'argent.
 # Status = SILVER
 1	Toussaint	Toussaint	PROPN	_	_	2	nsubj	_	Gloss=Toussaint
-2	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	5	det	_	Gloss=un
 5	entèvyou	entèvyou	NOUN	_	_	2	obl	_	Gloss=interview
-6	nan	nan	ADP	_	_	7	case	_	Gloss=au
+6	nan	nan	ADP	_	_	7	case	_	Gloss=dans
 7	telefòn	telefòn	NOUN	_	_	2	obl	_	Gloss=téléphone
 8	lendi	lendi	NOUN	_	_	2	obl:mod	_	Gloss=lundi
 9	ke	ke	SCONJ	_	_	12	mark	_	Gloss=que
 10	gang	gang	NOUN	_	_	12	nsubj	_	Gloss=gang
 11	nan	nan	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=le
-12	mande	mande	VERB	_	Tense=Pres	2	ccomp	_	Gloss=demander
+12	mande	mande	VERB	_	_	2	ccomp	_	Gloss=demander
 13	$	$	SYM	_	_	12	obj	_	Gloss=$|SpaceAfter=No
 14	200,000	200,000	NUM	_	NumType=Card	13	nummod	_	Gloss=200 000
 15	pou	pou	ADP	_	_	17	case	_	Gloss=pour
@@ -86,7 +86,7 @@
 21	fanmi	fanmi	NOUN	_	_	24	nsubj	_	Gloss=famille
 22	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	21	det	_	Gloss=3SG
 23	pa	pa	ADV	_	_	24	advmod	_	Gloss=NEG
-24	gen	gen	VERB	_	Tense=Pres	12	conj	_	Gloss=avoir
+24	gen	gen	VERB	_	_	12	conj	_	Gloss=avoir
 25	kalite	kalite	NOUN	_	_	26	nmod	_	Gloss=volume
 26	lajan	lajan	NOUN	_	_	24	obj	_	Gloss=argent
 27	sa	sa	DET	_	Number=Sing|PronType=Dem	26	dep	_	Gloss=cet
@@ -99,12 +99,12 @@
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	di	di	VERB	_	Tense=Past	0	root	_	Gloss=dire
+3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ke	ke	SCONJ	_	_	7	mark	_	Gloss=que
 5	FBI	FBI	PROPN	_	_	7	nsubj	_	Gloss=FBI
 6	ap	ap	AUX	_	_	7	aux	_	Gloss=PROG
-7	ede	ede	VERB	_	Tense=Pres	3	ccomp	_	Gloss=aider
-8	jwenn	jwenn	VERB	_	VerbForm=Inf	7	ccomp	_	Gloss=trouver
+7	ede	ede	VERB	_	_	3	ccomp	_	Gloss=aider
+8	jwenn	jwenn	VERB	_	_	7	ccomp	_	Gloss=trouver
 9	liberasyon	liberasyon	NOUN	_	_	8	obj	_	Gloss=libération
 10	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	9	det	_	Gloss=3PL|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_

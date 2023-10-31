@@ -7,7 +7,7 @@
 2	jou	jou	NOUN	_	_	13	obl:mod	_	Gloss=jour
 3	je	je	NOUN	_	_	5	nsubj	_	Gloss=yeux
 4	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	Gloss=DET
-5	tonbe	tonbe	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=tomber
+5	tonbe	tonbe	VERB	_	_	2	acl:relcl	_	Gloss=tomber
 6	sou	sou	ADP	_	_	7	case	_	Gloss=sur
 7	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod	_	Gloss=3SG
 8	a	a	DET	_	Definite=Ind|Number=Sing	5	det	_	SpaceAfter=No
@@ -15,7 +15,7 @@
 10	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Gloss=1SG
 11	pa	pa	ADV	_	_	13	advmod	_	Gloss=NEG|SpaceAfter=No
 12	t	te	AUX	_	_	13	aux	_	Gloss=PAST|wordform=pat
-13	gen	gen	VERB	_	Tense=Past	0	root	_	Gloss=avoir
+13	gen	gen	VERB	_	_	0	root	_	Gloss=avoir
 14	okenn	okenn	DET	_	_	15	det	_	Gloss=aucun
 15	presantiman	presantiman	NOUN	_	_	13	obj	_	Gloss=pressentiment
 16	lavi	lavi	NOUN	_	_	20	nsubj	_	Gloss=vie
@@ -33,8 +33,8 @@
 2	sa	sa	DET	_	PronType=Dem	1	dep	_	Gloss=DET
 3	lapli	lapli	NOUN	_	_	5	nsubj	_	Gloss=pluie
 4	te	te	AUX	_	_	5	aux	_	Gloss=PAST
-5	kòmanse	kòmanse	VERB	_	Tense=Past	0	root	_	Gloss=commencer
-6	tonbe	tonbe	VERB	_	VerbForm=Inf	5	ccomp	_	Gloss=tomber
+5	kòmanse	kòmanse	VERB	_	_	0	root	_	Gloss=commencer
+6	tonbe	tonbe	VERB	_	_	5	ccomp	_	Gloss=tomber
 7	depi	depi	ADV	_	_	5	advmod	_	Gloss=depuis
 8	nan	nan	ADP	_	_	9	case	_	Gloss=dans
 9	maten	maten	NOUN	_	_	7	obl	_	Gloss=matin|SpaceAfter=No
@@ -53,8 +53,8 @@
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Gloss=1SG
 9	te	te	AUX	_	_	10	aux	_	Gloss=PAST
-10	anvi	anvi	VERB	_	Tense=Pres	0	root	_	Gloss=avoir envie de
-11	bwè	bwè	VERB	_	VerbForm=Inf	10	ccomp	_	Gloss=boire
+10	anvi	anvi	VERB	_	_	0	root	_	Gloss=avoir envie de
+11	bwè	bwè	VERB	_	_	10	ccomp	_	Gloss=boire
 12	dlo	dlo	NOUN	_	_	11	obj	_	Gloss=eau
 13	lapli	lapli	NOUN	_	_	12	nmod	_	Gloss=pluie
 14	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=l'
@@ -64,11 +64,11 @@
 18	epi	epi	CCONJ	_	_	21	cc	_	Gloss=et
 19	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	Gloss=1SG
 20	te	te	AUX	_	_	21	aux	_	Gloss=PAST
-21	wè	wè	VERB	_	Tense=Pres	10	conj	_	Gloss=voir
+21	wè	wè	VERB	_	_	10	conj	_	Gloss=voir
 22	yon	yon	DET	_	Definite=Ind|Number=Sing	23	det	_	Gloss=DET
 23	foumi	foumi	NOUN	_	_	21	obj	_	Gloss=fourmi
 24	ki	ki	PRON	_	_	25	nsubj	_	Gloss=qui
-25	mouri	mouri	VERB	_	VerbForm=Inf	23	acl:relcl	_	Gloss=mourir, noyer
+25	mouri	mouri	VERB	_	_	23	acl:relcl	_	Gloss=mourir, noyer
 26	ladann	ladann	NOUN	_	_	25	obl:mod	_	Gloss=intérieur|SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -79,7 +79,7 @@
 1	Yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Gloss=un
 2	ti	ti	ADJ	_	_	3	amod	_	Gloss=petit
 3	souri	souri	NOUN	_	_	4	nsubj	_	Gloss=sourire
-4	parèt	parèt	VERB	_	Tense=Pres	0	root	_	Gloss=apparaître
+4	parèt	parèt	VERB	_	_	0	root	_	Gloss=apparaître
 5	sou	sou	ADP	_	_	6	case	_	Gloss=sur
 6	lèv	lèv	NOUN	_	_	4	obl	_	Gloss=lèvres
 7	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Gloss=DET|SpaceAfter=No
@@ -91,7 +91,7 @@
 # Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	krache	krache	VERB	_	Tense=Pres	0	root	_	Gloss=cracher
+3	krache	krache	VERB	_	_	0	root	_	Gloss=cracher
 4	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 5	dlo	dlo	NOUN	_	_	3	obl	_	Gloss=eau
 6	a	a	DET	_	Definite=Def|Number=Sing	5	det	_	SpaceAfter=No
@@ -99,13 +99,13 @@
 8	manman	manman	NOUN	_	_	11	nsubj	_	Gloss=maman
 9	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	8	det	_	Gloss=1SG
 10	te	te	AUX	_	_	11	aux	_	Gloss=PAST
-11	fache	fache	VERB	_	Tense=Pres	3	acl:relcl	_	Gloss=facher
+11	fache	fache	VERB	_	_	3	acl:relcl	_	Gloss=facher
 12	paske	paske	SCONJ	_	_	17	mark	_	Gloss=parce que|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	pou	pou	ADP	_	_	15	case	_	Gloss=pour
 15	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	17	obl:mod	_	Gloss=3SG|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	se	se	VERB	_	Tense=Pres	11	advcl	_	Gloss=être
+17	se	se	VERB	_	_	11	advcl	_	Gloss=être
 18	te	te	AUX	_	_	17	aux	_	Gloss=PAST
 19	yon	yon	DET	_	Definite=Ind|Number=Sing	21	det	_	_
 20	vye	vye	ADJ	_	_	21	amod	_	Gloss=vieux
@@ -117,7 +117,7 @@
 # text_fr = Cela s'est passé depuis longtemps.
 # Status = SILVER
 1	Sa	sa	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Gloss=cela
-2	pase	pase	VERB	_	Tense=Pres	0	root	_	Gloss=passer
+2	pase	pase	VERB	_	_	0	root	_	Gloss=passer
 3	lontan	lontan	ADV	_	_	2	advmod	_	Gloss=longtemps
 4	sa	sa	PRON	_	_	2	obj	_	Gloss=cela|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
@@ -128,7 +128,7 @@
 # Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	chita	chita	VERB	_	Tense=Pres	0	root	_	Gloss=s'assoir
+3	chita	chita	VERB	_	_	0	root	_	Gloss=s'assoir
 4	sou	sou	ADP	_	_	6	case	_	Gloss=sur
 5	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=DET
 6	chèz	chèz	NOUN	_	_	3	obl	_	Gloss=chaise
@@ -143,7 +143,7 @@
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	Gloss=1SG
 16	t	te	AUX	_	_	18	aux	_	Gloss=PAST
 17	ap	ap	AUX	_	_	18	aux	_	Gloss=PROG
-18	pale	pale	VERB	_	Tense=Pres	3	conj	_	Gloss=parler
+18	pale	pale	VERB	_	_	3	conj	_	Gloss=parler
 19	ak	ak	ADP	_	_	21	case	_	Gloss=à
 20	lòt	lòt	ADJ	_	_	21	amod	_	Gloss=autre
 21	kamarad	kamarad	NOUN	_	_	18	obl:arg	_	Gloss=camarade
@@ -156,16 +156,16 @@
 28	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	27	det	_	Gloss=DET
 29	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	31	nsubj	_	Gloss=1SG
 30	t	te	AUX	_	_	31	aux	_	Gloss=PAST
-31	ale	ale	VERB	_	Tense=Past	25	acl:relcl	_	_
-32	nan	nan	ADP	_	_	33	case	_	Gloss=à
+31	ale	ale	VERB	_	_	25	acl:relcl	_	Gloss=aller
+32	nan	nan	ADP	_	_	33	case	_	Gloss=dans
 33	Petyonvil	Petyonvil	PROPN	_	_	31	obl	_	Gloss=Pétion Ville|SpaceAfter=No
 34	,	,	PUNCT	_	_	39	punct	_	_
 35	epi	epi	CCONJ	_	_	39	cc	_	Gloss=et
 36	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	39	nsubj	_	Gloss=1PL
 37	te	te	AUX	_	_	39	aux	_	Gloss=PAST
 38	tou	tou	ADV	_	_	39	advmod	_	Gloss=tout
-39	pwofite	pwofite	VERB	_	Tense=Pres	3	conj	_	Gloss=profiter
-40	pale	pale	VERB	_	VerbForm=Inf	39	ccomp	_	Gloss=parler
+39	pwofite	pwofite	VERB	_	_	3	conj	_	Gloss=profiter
+40	pale	pale	VERB	_	_	39	ccomp	_	Gloss=parler
 41	de	de	ADP	_	_	42	case	_	Gloss=de
 42	amitye	amitye	NOUN	_	_	40	obj	_	Gloss=amitié
 43	nou	nou	DET	_	Number=Plur|Person=1|Poss=Yes	42	det	_	Gloss=1PL
@@ -181,11 +181,11 @@
 # Status = SILVER
 1	Fòk	Fòk	VERB	_	_	0	root	_	Gloss=falloir
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-3	di	di	VERB	_	Tense=Pres	1	ccomp	_	Gloss=dire
+3	di	di	VERB	_	_	1	ccomp	_	Gloss=dire
 4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	iobj	_	Gloss=1PL|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Gloss=1SG
-7	gen	gen	VERB	_	Tense=Pres	3	ccomp	_	Gloss=avoir
+7	gen	gen	VERB	_	_	3	ccomp	_	Gloss=avoir
 8	2	2	NUM	_	_	10	nummod	_	Gloss=2
 9	gran	gran	ADJ	_	_	10	amod	_	Gloss=grand
 10	frè	frè	NOUN	_	_	7	obj	_	Gloss=frère
@@ -214,30 +214,30 @@
 1	Pandan	Pandan	ADP	_	_	4	mark	_	Gloss=pendant
 2	je	je	NOUN	_	_	4	nsubj	_	Gloss=yeux
 3	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	2	det	_	Gloss=DET
-4	fèmen	fèmen	VERB	_	Tense=Pres	9	advcl	_	Gloss=fermer|SpaceAfter=No
+4	fèmen	fèmen	VERB	_	_	9	advcl	_	Gloss=fermer|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Gloss=1SG
 7	t	te	AUX	_	_	9	aux	_	Gloss=PAST
 8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
-9	panse	panse	VERB	_	Tense=Pres	0	root	_	Gloss=penser
+9	panse	panse	VERB	_	_	0	root	_	Gloss=penser
 10	ak	ak	ADP	_	_	11	case	_	Gloss=à
 11	sa	sa	PRON	_	Number=Sing|PronType=Dem	9	obl	_	Gloss=ce
 12	k	ki	PRON	_	_	14	nsubj	_	Gloss=qui
 13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
-14	rive	rive	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=arriver
+14	rive	rive	VERB	_	_	11	acl:relcl	_	Gloss=arriver
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	obj	_	Gloss=1SG
 16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	pase	pase	NOUN	_	_	14	obl	_	Gloss=passé|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	se	se	VERB	_	Tense=Pres	14	advcl	_	Gloss=être
+19	se	se	VERB	_	_	14	advcl	_	Gloss=être
 20	lè	lè	NOUN	_	_	19	xcomp	_	Gloss=moment
 21	sa	sa	ADJ	_	PronType=Dem	20	amod	_	Gloss=ce
 22	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	Gloss=1SG
-23	tande	tande	VERB	_	Tense=Pres	20	acl:relcl	_	Gloss=entendre
+23	tande	tande	VERB	_	_	20	acl:relcl	_	Gloss=entendre
 24	pòt	pòt	NOUN	_	_	27	obj	_	Gloss=porte
 25	klas	klas	NOUN	_	_	24	obj	_	Gloss=classe
 26	la	la	DET	_	Definite=Def|Number=Sing	24	det	_	Gloss=la
-27	ouvè	ouvè	VERB	_	Tense=Pres	23	ccomp	_	Gloss=ouvrir|SpaceAfter=No
+27	ouvè	ouvè	VERB	_	_	23	ccomp	_	Gloss=ouvrir|SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 01__10
@@ -250,7 +250,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	tout	tout	ADJ	_	_	6	amod	_	Gloss=tout
 6	moun	moun	NOUN	_	_	7	nsubj	_	Gloss=monde
-7	fè	fè	VERB	_	Tense=Pres	0	root	_	Gloss=faire
+7	fè	fè	VERB	_	_	0	root	_	Gloss=faire
 8	silans	silans	NOUN	_	_	7	obj	_	Gloss=silence|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -261,13 +261,13 @@
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	Gloss=1SG
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=1SG
 3	toujou	toujou	ADV	_	_	4	advmod	_	Gloss=toujours
-4	ret	ret	VERB	_	Tense=Pres	0	root	_	Gloss=rester
+4	ret	ret	VERB	_	_	0	root	_	Gloss=rester
 5	je	je	NOUN	_	_	4	obj	_	Gloss=yeux
 6	fèmen	fèmen	ADJ	_	_	5	amod	_	Gloss=fermés
 7	epi	epi	CCONJ	_	_	10	cc	_	Gloss=et
 8	tèt	tèt	NOUN	_	_	10	nsubj	_	Gloss=tête
 9	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	8	det	_	Gloss=DET
-10	bese	bese	VERB	_	Tense=Pres	4	conj	_	Gloss=baisser
+10	bese	bese	VERB	_	_	4	conj	_	Gloss=baisser
 11	sou	sou	ADP	_	_	12	case	_	Gloss=sur
 12	biwo	biwo	NOUN	_	_	10	obl	_	Gloss=bureau
 13	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	SpaceAfter=No
@@ -281,8 +281,8 @@
 2	Bonswa	Bonswa	INTJ	_	_	5	reparandum	_	Gloss=bonsoir|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Gloss=1SG
-5	ka	ka	VERB	_	Tense=Pres	0	root	_	Gloss=pouvoir
-6	fè	fè	VERB	_	VerbForm=Inf	5	ccomp	_	Gloss=faire
+5	ka	ka	VERB	_	_	0	root	_	Gloss=pouvoir
+6	fè	fè	VERB	_	_	5	ccomp	_	Gloss=faire
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	9	det	_	Gloss=DET
 8	ti	ti	ADJ	_	_	9	amod	_	Gloss=petit
 9	pale	pale	NOUN	_	_	6	obj	_	Gloss=échange
@@ -295,7 +295,7 @@
 16	sa	sa	PRON	_	Number=Sing|PronType=Dem	19	nsubj	_	Gloss=ça
 17	p	pa	ADV	_	_	19	advmod	_	Gloss=ne pas
 18	ap	ap	AUX	_	_	19	aux	_	Gloss=PROG
-19	deranje	deranje	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=déranger
+19	deranje	deranje	VERB	_	_	6	acl:relcl	_	Gloss=déranger
 20	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	19	obj	_	Gloss=2PL|SpaceAfter=No
 21	?"	?"	PUNCT	_	_	5	punct	_	_
 
@@ -304,11 +304,11 @@
 # text_fr = je sens un violent frisson qui me traverse dans tout mon corps quand j'ouvre mes yeux pour que je regarde la personne qui parle, je vois que c'est jeune homme haut avec tout un sourire sur ses lèvres qui rentrait puis il se tenait débout.
 # Status = SILVER
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
-2	santi	santi	VERB	_	Tense=Pres	0	root	_	Gloss=sentir
+2	santi	santi	VERB	_	_	0	root	_	Gloss=sentir
 3	yon	yon	DET	_	Definite=Ind|Number=Sing	4	det	_	Gloss=DET
 4	frison	frison	NOUN	_	_	2	obj	_	Gloss=frisson
 5	vyolan	vyolan	ADJ	_	_	4	amod	_	Gloss=violent
-6	pran	pran	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=traverser, prendre
+6	pran	pran	VERB	_	_	4	acl:relcl	_	Gloss=traverser, prendre
 7	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obj	_	Gloss=1SG
 8	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 9	tout	tout	ADJ	_	_	10	amod	_	Gloss=tout
@@ -316,19 +316,19 @@
 11	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Gloss=DET
 12	lè	lè	SCONJ	_	_	14	mark	_	Gloss=quand
 13	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
-14	ouvè	ouvè	VERB	_	Tense=Pres	6	advcl	_	Gloss=ouvrir
+14	ouvè	ouvè	VERB	_	_	6	advcl	_	Gloss=ouvrir
 15	je	je	NOUN	_	_	14	obj	_	Gloss=yeux
 16	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	15	det	_	Gloss=DET
 17	pou	pou	ADP	_	_	19	mark	_	Gloss=pour
 18	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Gloss=1SG
-19	gade	gade	VERB	_	Tense=Pres	14	dep	_	Gloss=regarder
+19	gade	gade	VERB	_	_	14	dep	_	Gloss=regarder
 20	moun	moun	NOUN	_	_	19	obj	_	Gloss=personne
 21	ki	ki	PRON	_	_	22	nsubj	_	Gloss=qui
-22	pale	pale	VERB	_	Tense=Pres	20	acl:relcl	_	Gloss=parler
+22	pale	pale	VERB	_	_	20	acl:relcl	_	Gloss=parler
 23	a	a	DET	_	Definite=Ind|Number=Sing	22	det	_	Gloss=DET
 24	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	Gloss=1SG
-25	wè	wè	VERB	_	Tense=Pres	14	conj	_	Gloss=voir
-26	se	se	VERB	_	VerbForm=Inf	25	ccomp	_	Gloss=être
+25	wè	wè	VERB	_	_	14	conj	_	Gloss=voir
+26	se	se	VERB	_	_	25	ccomp	_	Gloss=être
 27	yon	yon	DET	_	Definite=Ind|Number=Sing	28	det	_	Gloss=DET
 28	jennon	jennon	NOUN	_	Typo=Yes	26	xcomp	_	Gloss=jeune homme
 29	m	_	X	_	_	28	goeswith	_	_
@@ -341,10 +341,10 @@
 36	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	35	det	_	Gloss=3SG
 37	ki	ki	PRON	_	_	39	nsubj	_	Gloss=qui
 38	te	te	AUX	_	_	39	aux	_	Gloss=PAST
-39	rantre	rantre	VERB	_	Tense=Past	28	acl:relcl	_	Gloss=rentrer
+39	rantre	rantre	VERB	_	_	28	acl:relcl	_	Gloss=rentrer
 40	epi	epi	CCONJ	_	_	42	cc	_	Gloss=et
 41	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	42	nsubj	_	Gloss=3SG
-42	kanpe	kanpe	VERB	_	Tense=Past	39	conj	_	Gloss=tenir débout|SpaceAfter=No
+42	kanpe	kanpe	VERB	_	_	39	conj	_	Gloss=tenir débout|SpaceAfter=No
 43	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 01__14
@@ -373,13 +373,13 @@
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Wi	wi	INTJ	_	_	4	discourse	_	Gloss=oui|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	avanse	avanse	VERB	_	_	10	ccomp	_	Gloss=avancer
+4	avanse	avanse	VERB	_	_	10	parataxis:insert	_	Gloss=avancer
 5	non	non	DET	_	_	6	det	_	Gloss=DET
 6	mesye	mesye	NOUN	_	_	4	obj	_	Gloss=monsieur|SpaceAfter=No
 7	,"	,"	PUNCT	_	_	4	punct	_	_
 8	klas	klas	NOUN	_	_	10	nsubj	_	Gloss=classe
 9	la	la	DET	_	Definite=Def|Number=Sing	8	det	_	Gloss=la
-10	reponn	reponn	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
+10	reponn	reponn	VERB	_	Tense=Pres	0	root	_	Gloss=répondre|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 01__16
@@ -391,7 +391,7 @@
 3	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	1	det	_	Gloss=3PL
 4	t	te	AUX	_	_	6	aux	_	Gloss=PAST
 5	ap	ap	AUX	_	_	6	aux	_	Gloss=PROG
-6	repete	repete	VERB	_	Tense=Pres	0	root	_	Gloss=répéter, remonter
+6	repete	repete	VERB	_	_	0	root	_	Gloss=répéter, remonter
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 8	tèt	tèt	NOUN	_	_	6	obl	_	Gloss=tête
 9	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	Gloss=DET
@@ -409,7 +409,7 @@
 1	Non	non	NOUN	_	_	4	nsubj	_	Gloss=nom
 2	jennonm	jennonm	NOUN	_	_	1	obj	_	Gloss=jeune homme
 3	sa	sa	DET	_	Number=Sing|PronType=Dem	2	det	_	Gloss=ce
-4	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+4	se	se	VERB	_	_	0	root	_	Gloss=être
 5	Claudy	claudy	PROPN	_	_	4	xcomp	_	Gloss=claudy|SpaceAfter=No
 6	...	...	PUNCT	_	_	4	punct	_	_
 
@@ -421,8 +421,8 @@
 2	kèk	kèk	DET	_	_	3	det	_	Gloss=quelques
 3	mwa	mwa	NOUN	_	_	1	obj	_	Gloss=mois
 4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Gloss=1PL
-5	rantre	rantre	VERB	_	Tense=Pres	3	ccomp	_	Gloss=rentrer
-6	nan	nan	ADP	_	_	7	case	_	Gloss=à
+5	rantre	rantre	VERB	_	_	3	ccomp	_	Gloss=rentrer
+6	nan	nan	ADP	_	_	7	case	_	Gloss=dans
 7	Fakilte	fakilte	NOUN	_	_	5	obl	_	Gloss=faculté
 8	Lengwistik	lengwistik	NOUN	_	_	7	obj	_	Gloss=linguistique
 9	Aplike	aplike	ADJ	_	_	8	amod	_	Gloss=appliquée
@@ -430,16 +430,16 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Gloss=3SG
 13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
-14	vin	vini	VERB	_	Tense=Past	0	root	_	Gloss=venir
-15	envite	envite	VERB	_	VerbForm=Inf	14	ccomp	_	Gloss=inviter
+14	vin	vini	VERB	_	_	0	root	_	Gloss=venir
+15	envite	envite	VERB	_	_	14	ccomp	_	Gloss=inviter
 16	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	15	obj	_	Gloss=1PL
 17	nan	nan	ADP	_	_	18	case	_	Gloss=dans
 18	fèt	fèt	NOUN	_	_	15	obl	_	Gloss=fête
 19	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	22	nsubj	_	Gloss=3SG
 20	t	te	AUX	_	_	22	aux	_	Gloss=PAST
 21	ap	ap	AUX	_	_	22	aux	_	Gloss=PROG
-22	òganize	òganize	VERB	_	Tense=Past	18	acl:relcl	_	Gloss=organiser
-23	nan	nan	ADP	_	_	24	case	_	Gloss=au
+22	òganize	òganize	VERB	_	_	18	acl:relcl	_	Gloss=organiser
+23	nan	nan	ADP	_	_	24	case	_	Gloss=dans
 24	mwa	mwa	NOUN	_	_	22	obl	_	Gloss=mois
 25	desanm	desanm	NOUN	_	_	24	obj	_	Gloss=décembre
 26	pou	pou	ADP	_	_	27	case	_	Gloss=pour
@@ -448,7 +448,7 @@
 29	a	a	DET	_	Definite=Def|Number=Sing	27	det	_	_
 30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	paske	paske	SCONJ	_	_	32	mark	_	Gloss=parce que
-32	se	se	VERB	_	Tense=Pres	27	parataxis	_	Gloss=être
+32	se	se	VERB	_	_	27	parataxis	_	Gloss=être
 33	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	32	xcomp	_	Gloss=3SG
 34	ki	ki	PRON	_	_	36	nsubj	_	Gloss=qui
 35	te	te	AUX	_	_	36	aux	_	Gloss=PAST
@@ -467,14 +467,14 @@
 6	sèl	sèl	ADJ	_	_	7	amod	_	Gloss=seul
 7	panse	panse	NOUN	_	_	13	nsubj	_	Gloss=pensé
 8	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
-9	monte	monte	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=monter
+9	monte	monte	VERB	_	_	7	acl:relcl	_	Gloss=monter
 10	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 11	tèt	tèt	NOUN	_	_	9	obl	_	Gloss=tête
 12	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	11	det	_	Gloss=DET
-13	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+13	se	se	VERB	_	_	0	root	_	Gloss=être
 14	te	te	AUX	_	_	13	aux	_	Gloss=PAST
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	ale	ale	VERB	_	VerbForm=Inf	13	ccomp	_	Gloss=aller
+16	ale	ale	VERB	_	_	13	ccomp	_	Gloss=aller
 17	nan	nan	ADP	_	_	18	case	_	Gloss=dans
 18	fèt	fèt	NOUN	_	_	16	obl	_	Gloss=fête
 19	la	la	DET	_	_	18	det	_	Gloss=une|SpaceAfter=No
@@ -499,7 +499,7 @@
 5	l	li	DET	_	Poss=Yes|PronType=Prs	4	det	_	Gloss=3SG
 6	yo	yo	DET	_	Number=Plur|Person=3|PronType=Prs	4	det	_	Gloss=3PL
 7	te	te	AUX	_	_	8	aux	_	Gloss=PAST
-8	atire	atire	VERB	_	Tense=Past	0	root	_	Gloss=attirer
+8	atire	atire	VERB	_	_	0	root	_	Gloss=attirer
 9	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	Gloss=1SG
 10	anpil	anpil	ADV	_	_	8	advmod	_	Gloss=beaucoup|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
@@ -510,7 +510,7 @@
 # text_fr = Je n'ai pas besoin de vous dire pour sa bouche.
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
-3	bezwen	bezwen	VERB	_	Tense=Pres	0	root	_	Gloss=avoir besoin de
+3	bezwen	bezwen	VERB	_	_	0	root	_	Gloss=avoir besoin de
 4	di	di	VERB	_	_	3	ccomp	_	Gloss=dire
 5	nou	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	4	obj	_	Gloss=2PL
 6	pou	pou	ADP	_	_	7	case	_	Gloss=pour
@@ -524,12 +524,12 @@
 # Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
-3	konn	konnen	VERB	_	Tense=Pres	0	root	_	Gloss=savoir
+3	konn	konnen	VERB	_	_	0	root	_	Gloss=savoir
 4	si	si	SCONJ	_	_	5	mark	_	Gloss=si
-5	se	se	VERB	_	Tense=Pres	3	advcl	_	Gloss=être
+5	se	se	VERB	_	_	3	advcl	_	Gloss=être
 6	sa	sa	PRON	_	Number=Sing|PronType=Dem	5	xcomp	_	Gloss=ce
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
-8	rele	rele	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=appeler
+8	rele	rele	VERB	_	_	6	acl:relcl	_	Gloss=appeler
 9	kout	kout	NOUN	_	_	8	obj	_	Gloss=coude
 10	foud	foud	NOUN	_	_	9	obj	_	Gloss=foudre
 11	la	la	DET	_	Definite=Def|Number=Sing	9	det	_	Gloss=DET|SpaceAfter=No
@@ -538,11 +538,11 @@
 14	sèl	sèl	ADJ	_	_	15	amod	_	Gloss=seule
 15	sa	sa	PRON	_	_	3	conj	_	Gloss=cela, chose
 16	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
-17	konnen	konnen	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=savoir|SpaceAfter=No
+17	konnen	konnen	VERB	_	_	15	acl:relcl	_	Gloss=savoir|SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	Gloss=1SG
 20	te	te	AUX	_	_	21	aux	_	Gloss=PAST
-21	tonbe	tonbe	VERB	_	Tense=Pres	17	ccomp	_	Gloss=tomber
+21	tonbe	tonbe	VERB	_	_	17	ccomp	_	Gloss=tomber
 22	menm	menm	ADJ	_	_	23	amod	_	Gloss=même
 23	moman	moman	NOUN	_	_	21	obl:mod	_	Gloss=moment
 24	an	an	DET	_	Definite=Def|Number=Sing	23	det	_	SpaceAfter=No
@@ -556,13 +556,13 @@
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Gloss=1SG
 3	pa	pa	ADV	_	_	5	advmod	_	Gloss=NEG
 4	t	te	AUX	_	_	5	aux	_	Gloss=PAST
-5	ka	ka	VERB	_	Tense=Pres	0	root	_	Gloss=pouvoir
+5	ka	ka	VERB	_	_	0	root	_	Gloss=pouvoir
 6	la	la	ADV	_	_	5	obl:arg	_	Gloss=là
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 8	fèt	fèt	NOUN	_	_	6	obl:mod	_	Gloss=fête
 9	la	la	DET	_	Definite=Def	8	det	_	Gloss=la
 10	paske	paske	SCONJ	_	_	11	mark	_	Gloss=parce que
-11	fòk	fòk	VERB	_	Tense=Pres	5	advcl	_	Gloss=falloir
+11	fòk	fòk	VERB	_	_	5	advcl	_	Gloss=falloir
 12	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
 13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
 14	rantre	rantre	VERB	_	_	11	ccomp	_	Gloss=rejoindre
@@ -593,19 +593,19 @@
 # text_fr = chaque personne a donné son nom après avoir fini de parler, sauf moi qu'il lui a donné mon numéro parce que je ne serais pas là, juste pour qu'on se parle.
 1	Chak	chak	DET	_	_	2	det	_	Gloss=chaque
 2	moun	moun	NOUN	_	_	3	nsubj	_	Gloss=personne
-3	bay	bay	VERB	_	Tense=Pres	0	root	_	Gloss=donner
+3	bay	bay	VERB	_	_	0	root	_	Gloss=donner
 4	non	non	NOUN	_	_	3	obj	_	Gloss=nom
 5	yo	yo	DET	_	Definite=Def|Number=Plur	4	det	_	Gloss=DET
 6	aprè	aprè	ADP	_	_	8	mark	_	Gloss=après
 7	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Gloss=3SG
-8	fin	fin	VERB	_	Tense=Pres	3	advcl	_	Gloss=finir
-9	pale	pale	VERB	_	VerbForm=Inf	8	ccomp	_	Gloss=parler|SpaceAfter=No
+8	fin	fin	VERB	_	_	3	advcl	_	Gloss=finir
+9	pale	pale	VERB	_	_	8	ccomp	_	Gloss=parler|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	sof	sof	ADP	_	_	12	case	_	Gloss=sauf
 12	mwen	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	3	obl:mod	_	Gloss=1SG
 13	ki	ki	PRON	_	_	15	nsubj	_	Gloss=qui
 14	te	te	AUX	_	_	15	aux	_	Gloss=PAST
-15	ba	ba	VERB	_	Tense=Past	12	acl:relcl	_	Gloss=donner
+15	ba	ba	VERB	_	_	12	acl:relcl	_	Gloss=donner
 16	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	15	iobj	_	Gloss=3SG
 17	nimewo	nimewo	NOUN	_	_	15	obj	_	Gloss=numéro
 18	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	17	det	_	Gloss=1SG
@@ -620,9 +620,9 @@
 27	pou	pou	ADP	_	_	30	mark	_	Gloss=pour
 28	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	30	nsubj	_	Gloss=1PL
 29	te	te	AUX	_	_	30	aux	_	Gloss=PAST
-30	ka	ka	VERB	_	Tense=Past	24	ccomp	_	Gloss=pouvoir
+30	ka	ka	VERB	_	_	24	ccomp	_	Gloss=pouvoir
 31	toujou	toujou	ADV	_	_	30	advmod	_	Gloss=toujours
-32	pale	pale	VERB	_	Tense=Pres	30	ccomp	_	Gloss=parler|SpaceAfter=No
+32	pale	pale	VERB	_	_	30	ccomp	_	Gloss=parler|SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 01__25_2
@@ -633,7 +633,7 @@
 2	Ou	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=2SG
 3	pa	pa	ADV	_	_	5	advmod	_	Gloss=NEG
 4	janm	janm	ADV	_	_	5	advmod	_	Gloss=jamais
-5	konnen	konnen	VERB	_	Tense=Pres	0	root	_	Gloss=savoir
+5	konnen	konnen	VERB	_	_	0	root	_	Gloss=savoir
 6	sa	sa	PRON	_	Number=Sing|PronType=Dem	5	obj	_	_
 7	k	ki	PRON	_	_	9	nsubj	_	Gloss=qui
 8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
@@ -642,7 +642,7 @@
 11	envitasyon	envitasyon	NOUN	_	_	9	obl	_	Gloss=invitation
 12	sa	sa	DET	_	PronType=Dem	11	det	_	Gloss=cette
 13	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
-14	rate	rate	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=rater
+14	rate	rate	VERB	_	_	11	acl:relcl	_	Gloss=rater
 15	a	a	DET	_	Definite=Ind|Number=Sing	14	det	_	Gloss=DET|SpaceAfter=No
 16	..."	..."	PUNCT	_	_	5	punct	_	_
 
@@ -651,7 +651,7 @@
 # Status = SILVER
 # text_fr = il appuie sur la porte en train d'attendre notre réponse, après il nous remercie et s'en va.
 1	Li	li	PRON	_	_	2	nsubj	_	Gloss=3SG
-2	apiye	apiye	VERB	_	Tense=Pres	0	root	_	Gloss=appuier
+2	apiye	apiye	VERB	_	_	0	root	_	Gloss=appuier
 3	sou	sou	ADP	_	_	4	case	_	Gloss=sur
 4	pòt	pòt	NOUN	_	_	2	obl	_	Gloss=porte
 5	la	la	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=DET|SpaceAfter=No
@@ -683,7 +683,7 @@
 7	enkoni	enkoni	NOUN	_	_	9	nsubj	_	Gloss=inconnu
 8	sa	sa	DET	_	Number=Sing|PronType=Dem	7	det	_	Gloss=cet
 9	retounen	retounen	VERB	_	_	0	root	_	Gloss=retourner, repasser, revenir
-10	pase	pase	VERB	_	Number=Plur|Person=3|Tense=Pres	9	ccomp	_	_
+10	pase	pase	VERB	_	Number=Plur|Tense=Pres	9	compound:svc	_	_
 11	devan	devan	ADP	_	_	12	case	_	Gloss=devant
 12	klas	klas	NOUN	_	_	10	obl	_	Gloss=classe
 13	la	la	DET	_	Definite=Def|Number=Sing	12	det	_	SpaceAfter=No
@@ -706,13 +706,13 @@
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	mete	mete	VERB	_	Tense=Pres	0	root	_	Gloss=mettre
+3	mete	mete	VERB	_	_	0	root	_	Gloss=mettre
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=un
 5	bèl	bèl	ADJ	_	_	6	amod	_	Gloss=beau
 6	mayo	mayo	NOUN	_	_	3	obj	_	Gloss=t-shirt
 7	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
 8	byen	byen	ADV	_	_	9	advmod	_	Gloss=bien
-9	tonbe	tonbe	VERB	_	Tense=Past	6	acl:relcl	_	Gloss=tonbe
+9	tonbe	tonbe	VERB	_	_	6	acl:relcl	_	Gloss=tonbe
 10	sou	sou	ADP	_	_	11	case	_	Gloss=sur
 11	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obl	_	Gloss=3SG|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
@@ -730,26 +730,26 @@
 # text_fr = je me tourne pour parler à un camarade, quand je reviens pour le suivre, Il est déjà disparu.
 # Status = SILVER
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
-2	vire	vire	VERB	_	Tense=Pres	0	root	_	Gloss=tourner
+2	vire	vire	VERB	_	_	0	root	_	Gloss=tourner
 3	pou	pou	ADP	_	_	5	mark	_	Gloss=pour
 4	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Gloss=1SG
-5	pale	pale	VERB	_	Tense=Pres	2	dep	_	Gloss=parler
+5	pale	pale	VERB	_	_	2	dep	_	Gloss=parler
 6	ak	ak	ADP	_	_	8	case	_	Gloss=à, avec
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=un
 8	kamarad	kamarad	NOUN	_	_	5	obj	_	Gloss=camarade|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	lè	lè	SCONJ	_	_	12	mark	_	Gloss=quand
 11	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Gloss=1SG
-12	tounen	tounen	VERB	_	Tense=Pres	19	advcl	_	Gloss=retourner, revenir
+12	tounen	tounen	VERB	_	_	19	advcl	_	Gloss=retourner, revenir
 13	pou	pou	ADP	_	_	15	mark	_	Gloss=pour
 14	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Gloss=1SG
-15	swiv	swiv	VERB	_	Tense=Pres	12	dep	_	Gloss=suivre
+15	swiv	swiv	VERB	_	_	12	dep	_	Gloss=suivre
 16	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	15	obj	_	Gloss=3SG|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Gloss=3SG
 19	gentan	gentan	ADV	_	_	21	advmod	_	Gloss=déjà
 20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	disparèt	disparèt	VERB	_	Number=Plur|Person=3|Tense=Pres	2	conj	_	Gloss=disparaître|SpaceAfter=No
+21	disparèt	disparèt	VERB	_	_	2	conj	_	Gloss=disparaître|SpaceAfter=No
 22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -760,7 +760,7 @@
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
 3	bezwen	bezwen	NOUN	_	_	0	root	_	Gloss=avoir besoin de
-4	di	di	VERB	_	Tense=Pres	3	ccomp	_	Gloss=dire
+4	di	di	VERB	_	_	3	ccomp	_	Gloss=dire
 5	n	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	Gloss=2PL
 6	kijanm	kijanm	SCONJ	_	_	7	case	_	Gloss=comment
 7	santi	santi	NOUN	_	_	4	obj	_	Gloss=sentir
@@ -782,7 +782,7 @@
 9	tan	tan	NOUN	_	_	12	nsubj	_	Gloss=temps
 10	an	an	DET	_	Definite=Def|Number=Sing	9	det	_	Gloss=le
 11	te	te	AUX	_	_	12	aux	_	Gloss=PAST
-12	sonb	sonb	VERB	_	Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+12	sonb	sonb	ADJ	_	_	0	root	_	Gloss=sombre|SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	e	e	CCONJ	_	_	17	cc	_	Gloss=et
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
@@ -800,7 +800,7 @@
 # Status = SILVER
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	abite	abite	VERB	_	Number=Plur|Person=3|Tense=Pres	0	root	_	Gloss=habiter
+3	abite	abite	VERB	_	_	0	root	_	Gloss=habiter
 4	Lamentin	Lamentin	PROPN	_	_	3	obj	_	Gloss=lamentin
 5	54	54	NUM	_	_	4	nmod	_	Gloss=54|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -814,12 +814,12 @@
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
 3	kouri	kouri	VERB	_	_	0	root	_	Gloss=courir
-4	al	ale	VERB	_	VerbForm=Inf	3	ccomp	_	Gloss=aller
-5	pran	pran	VERB	_	VerbForm=Inf	4	ccomp	_	Gloss=prendre
+4	al	ale	VERB	_	_	3	ccomp	_	Gloss=aller
+5	pran	pran	VERB	_	_	4	ccomp	_	Gloss=prendre
 6	bis	bis	NOUN	_	_	5	obj	_	Gloss=bus
 7	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
 8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Gloss=1SG
-9	ale	ale	VERB	_	Tense=Pres	5	dep	_	Gloss=aller|SpaceAfter=No
+9	ale	ale	VERB	_	_	5	dep	_	Gloss=aller|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 01__34
@@ -828,12 +828,12 @@
 # Status = SILVER
 1	Pandan	Pandan	ADP	_	_	3	mark	_	Gloss=pendant
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-3	chita	chita	VERB	_	Tense=Pres	8	advcl	_	Gloss=s'assoir
+3	chita	chita	VERB	_	_	8	advcl	_	Gloss=s'assoir
 4	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 5	bis	bis	NOUN	_	_	3	obl	_	Gloss=bus
 6	la	la	DET	_	Definite=Def|Number=Sing	5	det	_	Gloss=DET
 7	mwen	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	8	nsubj	_	Gloss=1SG
-8	apiye	apiye	VERB	_	Tense=Pres	0	root	_	Gloss=appuyer
+8	apiye	apiye	VERB	_	_	0	root	_	Gloss=appuyer
 9	tèt	tèt	NOUN	_	_	8	obj	_	Gloss=tête
 10	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	9	det	_	Gloss=1SG
 11	sou	sou	ADP	_	_	12	case	_	Gloss=sur, contre
@@ -841,17 +841,17 @@
 13	la	la	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=DET
 14	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Gloss=1SG
 15	ap	ap	AUX	_	_	16	aux	_	Gloss=PROG
-16	panse	panse	VERB	_	Number=Plur|Person=3|Tense=Pres	8	conj	_	_
+16	panse	panse	VERB	_	_	8	conj	_	Gloss=penser
 17	ak	ak	ADP	_	_	19	case	_	Gloss=avec
 18	tout	tout	ADJ	_	_	19	amod	_	Gloss=tout
 19	sa	sa	PRON	_	Number=Sing|PronType=Dem	16	obl:arg	_	Gloss=ce
 20	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	Gloss=1SG
 21	ta	ta	AUX	_	_	22	aux	_	Gloss=COND
-22	fè	fè	VERB	_	Tense=Pres	19	acl:relcl	_	Gloss=faire
+22	fè	fè	VERB	_	_	19	acl:relcl	_	Gloss=faire
 23	pou	pou	ADP	_	_	25	mark	_	Gloss=pour
 24	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	Gloss=1SG
 25	patisipe	patisipe	VERB	_	_	22	dep	_	Gloss=participer
-26	nan	nan	ADP	_	_	27	case	_	Gloss=à, dans
+26	nan	nan	ADP	_	_	27	case	_	Gloss=dans
 27	fèt	fèt	NOUN	_	_	25	obl	_	Gloss=fête
 28	la	la	DET	_	Definite=Def|Number=Sing	27	det	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
@@ -876,12 +876,12 @@
 # text_fr = est ce que c'était vraiment un inconnu qui était venu dans la classe.
 1	Èske	èske	ADV	_	_	3	advmod	_	Gloss=est-ce que
 2	vrèman	vrèman	ADV	_	_	3	advmod	_	Gloss=vraiment
-3	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+3	se	se	VERB	_	_	0	root	_	Gloss=être
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	5	det	_	Gloss=DET
 5	enkoni	enkoni	NOUN	_	_	3	xcomp	_	Gloss=inconnu
 6	ki	ki	PRON	_	_	8	nsubj	_	Gloss=qui
 7	te	te	AUX	_	_	8	aux	_	Gloss=PAST
-8	vin	vini	VERB	_	Tense=Past	5	acl:relcl	_	Gloss=venir
+8	vin	vini	VERB	_	_	5	acl:relcl	_	Gloss=venir
 9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	klas	klas	NOUN	_	_	8	obl	_	Gloss=classe
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=DET
@@ -893,25 +893,25 @@
 # Status = SILVER
 1	Nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
-3	imajine	imajine	VERB	_	Tense=Pres	0	root	_	Gloss=imaginer
+3	imajine	imajine	VERB	_	_	0	root	_	Gloss=imaginer
 4	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	iobj	_	Gloss=1PL
 5	kijanm	kijanm	ADV	_	_	6	advmod	_	Gloss=comment
-6	anvi	anvi	VERB	_	Tense=Pres	3	ccomp	_	Gloss=avoir envie de
-7	konn	konnen	VERB	_	VerbForm=Inf	6	ccomp	_	Gloss=connaitre
+6	anvi	anvi	VERB	_	_	3	ccomp	_	Gloss=avoir envie de
+7	konn	konnen	VERB	_	_	6	ccomp	_	Gloss=connaitre
 8	moun	moun	NOUN	_	_	7	obj	_	Gloss=personne
 9	ki	ki	PRON	_	_	10	nsubj	_	Gloss=qui
-10	kache	kache	VERB	_	Number=Plur|Person=3|Tense=Pres	8	acl:relcl	_	Gloss=cacher
+10	kache	kache	VERB	_	_	8	acl:relcl	_	Gloss=cacher
 11	dèyè	dèyè	NOUN	_	_	10	obj	_	Gloss=derrière
 12	stati	stati	NOUN	_	_	11	obj	_	Gloss=statut
 13	sa	sa	DET	_	Number=Sing|Person=3|Poss=Yes	12	det	_	Gloss=3SG|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
 16	pa	pa	ADV	_	_	17	advmod	_	Gloss=NEG
-17	ka	ka	VERB	_	Tense=Pres	3	conj	_	Gloss=pouvoir
+17	ka	ka	VERB	_	_	3	conj	_	Gloss=pouvoir
 18	tann	tann	VERB	_	_	17	ccomp	_	Gloss=attendre
 19	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
 20	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Gloss=3SG
-21	ekri	ekri	VERB	_	Tense=Pres	18	dep	_	Gloss=écrire
+21	ekri	ekri	VERB	_	_	18	dep	_	Gloss=écrire
 22	m--	mwen--	PRON	_	Number=Sing|Person=1|Poss=Yes	21	obj	_	Gloss=1SG
 23	byenke	byenke	ADP	_	_	27	mark	_	Gloss=bien que
 24	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Gloss=1SG
@@ -927,7 +927,7 @@
 # text_fr = je descends le bus tout avec un regret parce que je n'ai pas eu le temps de le parler pour que je le connaisse mieux.
 # Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
-2	desann	desann	VERB	_	Tense=Pres	0	root	_	Gloss=descendre
+2	desann	desann	VERB	_	_	0	root	_	Gloss=descendre
 3	bis	bis	NOUN	_	_	2	obl:arg	_	Gloss=bus
 4	la	la	DET	_	Definite=Def|Number=Sing	3	det	_	Gloss=DET
 5	tou	tou	ADV	_	_	6	advmod	_	Gloss=tout
@@ -936,13 +936,13 @@
 8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Gloss=1SG
 9	pa	pa	ADV	_	_	11	advmod	_	Gloss=NEG
 10	t	te	AUX	_	_	11	aux	_	Gloss=PAST
-11	gentan	gentan	VERB	_	Tense=Past	6	advcl	_	Gloss=avoir
-12	pale	pale	VERB	_	VerbForm=Inf	11	ccomp	_	Gloss=parler
+11	gentan	gentan	VERB	_	_	6	advcl	_	Gloss=avoir
+12	pale	pale	VERB	_	_	11	ccomp	_	Gloss=parler
 13	avè	avè	ADP	_	_	14	case	_	Gloss=avec
 14	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obl	_	Gloss=3SG
 15	pou	pou	ADP	_	_	17	mark	_	Gloss=pour
 16	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
-17	konnen	konnen	VERB	_	Tense=Pres	12	dep	_	Gloss=connaître
+17	konnen	konnen	VERB	_	_	12	dep	_	Gloss=connaître
 18	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	17	obj	_	Gloss=3SG
 19	plis	plis	ADV	_	_	17	advmod	_	Gloss=plus|SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
@@ -953,18 +953,18 @@
 # Status = SILVER
 1	Lè	lè	SCONJ	_	_	3	mark	_	Gloss=quand
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-3	rive	rive	VERB	_	Tense=Pres	8	advcl	_	Gloss=arriver
+3	rive	rive	VERB	_	_	8	advcl	_	Gloss=arriver
 4	lakay	lakay	NOUN	_	_	3	obj	_	Gloss=maison
 5	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	4	det	_	Gloss=1SG|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=1SG
-8	retire	retire	VERB	_	Tense=Pres	0	root	_	Gloss=retirer
+8	retire	retire	VERB	_	_	0	root	_	Gloss=retirer
 9	rad	rad	NOUN	_	_	8	obj	_	Gloss=vêtements
 10	sou	sou	ADP	_	_	11	case	_	Gloss=sur
 11	mwen	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	9	nmod	_	Gloss=1SG
 12	epi	epi	CCONJ	_	_	14	cc	_	Gloss=et
 13	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
-14	lage	lage	VERB	_	Tense=Pres	8	conj	_	Gloss=allonger
+14	lage	lage	VERB	_	_	8	conj	_	Gloss=allonger
 15	kò	kò	NOUN	_	_	14	obj	_	Gloss=corps
 16	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	15	det	_	Gloss=1SG
 17	sou	sou	ADP	_	_	18	case	_	Gloss=sur
@@ -972,12 +972,12 @@
 19	nan	nan	DET	_	_	18	det	_	Gloss=le
 20	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 21	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	Gloss=1SG
-22	repase	repase	VERB	_	Tense=Pres	14	dep	_	Gloss=revoir
+22	repase	repase	VERB	_	_	14	dep	_	Gloss=revoir
 23	imaj	imaj	NOUN	_	_	22	obj	_	Gloss=image
 24	sa	sa	DET	_	Number=Sing|PronType=Dem	23	det	_	Gloss=DET
 25	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Gloss=1SG
 26	te	te	AUX	_	_	27	aux	_	Gloss=PAST
-27	wè	wè	VERB	_	Tense=Pres	23	acl:relcl	_	Gloss=voir
+27	wè	wè	VERB	_	_	23	acl:relcl	_	Gloss=voir
 28	a	a	DET	_	_	27	det	_	Gloss=DET
 29	nan	nan	ADP	_	_	30	case	_	Gloss=dans
 30	panse	panse	NOUN	_	_	27	nmod	_	Gloss=pensé
@@ -992,7 +992,7 @@
 2	ta	ta	AUX	_	_	3	aux	_	Gloss=COND
 3	renmen	renmen	VERB	_	_	0	root	_	Gloss=aimer
 4	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=2SG
-5	fè	fè	VERB	_	Mood=Cnd|Tense=Pres	3	ccomp	_	Gloss=faire
+5	fè	fè	VERB	_	Mood=Cnd	3	ccomp	_	Gloss=faire
 6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Gloss=1SG
 7	plezi	plezi	NOUN	_	_	5	obj	_	Gloss=plaisir
 8	pou	pou	ADP	_	_	10	mark	_	Gloss=pour
@@ -1007,10 +1007,10 @@
 17	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
 18	jiskaske	jiskaske	ADV	_	_	20	advmod	_	Gloss=jusqu'à ce que
 19	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	20	nsubj	_	Gloss=3SG
-20	fini	fini	VERB	_	Tense=Pres	16	dep	_	Gloss=finir|SpaceAfter=No
+20	fini	fini	VERB	_	_	16	dep	_	Gloss=finir|SpaceAfter=No
 21	,"	,"	PUNCT	_	_	23	punct	_	_
 22	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	23	nsubj	_	Gloss=3SG
-23	ajoute	ajoute	VERB	_	Tense=Pres	3	parataxis:insert	_	SpaceAfter=No
+23	ajoute	ajoute	VERB	_	_	3	parataxis:insert	_	Gloss=ajouter|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 01__82
@@ -1018,9 +1018,9 @@
 # text_fr = je reste sans rien dire parce que il est impossible pour moi d'être là, sauf si je dirait à ma maman que c'est une obligation pour que je reste  pour la fin de cette année.
 # Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
-2	rete	rete	VERB	_	Tense=Pres	0	root	_	Gloss=rester
+2	rete	rete	VERB	_	_	0	root	_	Gloss=rester
 3	san	san	ADP	_	_	4	mark	_	Gloss=sans
-4	di	di	VERB	_	Tense=Pres	2	dep	_	Gloss=dire
+4	di	di	VERB	_	_	2	dep	_	Gloss=dire
 5	anyen	anyen	PRON	_	_	4	obj	_	Gloss=rien
 6	paske	paske	SCONJ	_	_	8	mark	_	Gloss=parce que
 7	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Gloss=3SG
@@ -1036,15 +1036,15 @@
 17	si	si	SCONJ	_	_	20	mark	_	Gloss=si
 18	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	Gloss=1SG
 19	ta	ta	AUX	_	_	20	aux	_	Gloss=COND
-20	di	di	VERB	_	Tense=Pres	8	advcl	_	Gloss=dire
+20	di	di	VERB	_	_	8	advcl	_	Gloss=dire
 21	manman	manman	NOUN	_	_	20	iobj	_	Gloss=maman
 22	m	mwen	DET	_	Number=Sing|Person=1|PronType=Prs	21	det	_	Gloss=1SG
-23	se	se	VERB	_	Tense=Pres	20	ccomp	_	Gloss=être
+23	se	se	VERB	_	_	20	ccomp	_	Gloss=être
 24	yon	yon	DET	_	Definite=Ind|Number=Sing	25	det	_	Gloss=DET
 25	obligasyon	obligasyon	NOUN	_	_	23	xcomp	_	Gloss=obligation
 26	pou	pou	ADP	_	_	28	mark	_	Gloss=pour
 27	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	Gloss=1SG
-28	rete	rete	VERB	_	Tense=Pres	25	acl	_	Gloss=rester
+28	rete	rete	VERB	_	_	25	acl	_	Gloss=rester
 29	pou	pou	ADP	_	_	31	case	_	Gloss=pour
 30	fen	fen	NOUN	_	_	31	nmod	_	Gloss=fin
 31	desanm	desanm	NOUN	_	_	28	obl	_	Gloss=décembre
@@ -1059,9 +1059,9 @@
 1	Tout	tout	DET	_	_	2	det	_	Gloss=tout
 2	panse	panse	NOUN	_	_	6	nsubj	_	Gloss=pensée
 3	m	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	4	nsubj	_	Gloss=1SG
-4	fè	fè	VERB	_	Number=Sing|Person=3|Tense=Pres	2	acl:relcl	_	_
+4	fè	fè	VERB	_	_	2	acl:relcl	_	Gloss=faire
 5	te	te	AUX	_	_	6	aux	_	Gloss=PAST
-6	abouti	abouti	VERB	_	VerbForm=Inf	0	root	_	Gloss=aboutir
+6	abouti	abouti	VERB	_	_	0	root	_	Gloss=aboutir
 7	ak	ak	ADP	_	_	10	case	_	Gloss=à, avec
 8	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	_
 9	sèl	sèl	ADJ	_	_	10	amod	_	Gloss=seule
@@ -1069,8 +1069,8 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	fòk	fòk	VERB	_	Mood=Imp	10	appos	_	Gloss=devoir, falloir
 13	m	m	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
-14	al	ale	VERB	_	Tense=Pres	12	ccomp	_	Gloss=aller
-15	jwenn	jwenn	VERB	_	VerbForm=Inf	14	ccomp	_	Gloss=trouver
+14	al	ale	VERB	_	_	12	ccomp	_	Gloss=aller
+15	jwenn	jwenn	VERB	_	_	14	ccomp	_	Gloss=trouver
 16	fanmi	fanmi	NOUN	_	_	15	obj	_	Gloss=famille
 17	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	16	det	_	Gloss=1SG
 18	yo	yo	DET	_	Number=Plur|Person=3	16	det	_	Gloss=3PL
@@ -1084,16 +1084,16 @@
 1	Kidonk	Kidonk	ADV	_	_	4	advmod	_	Gloss=donc|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=1SG
-4	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+4	di	di	VERB	_	_	0	root	_	Gloss=dire
 5	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	Gloss=3SG
 6	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
 7	jan	jan	NOUN	_	_	4	obl:mod	_	Gloss=tel, façon
 8	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Gloss=3SG
-9	ye	ye	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=être
+9	ye	ye	VERB	_	_	7	acl:relcl	_	Gloss=être
 10	a	a	DET	_	Definite=Def|Number=Sing	9	det	_	_
 11	epi	epi	CCONJ	_	_	13	cc	_	Gloss=puis
 12	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-13	ret	ret	VERB	_	Tense=Pres	4	conj	_	Gloss=rester
+13	ret	ret	VERB	_	_	4	conj	_	Gloss=rester
 14	a	a	ADP	_	_	15	case	_	Gloss=à, avec
 15	repons	repons	NOUN	_	_	13	obl:arg	_	Gloss=réponse
 16	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
@@ -1102,7 +1102,7 @@
 19	a	a	DET	_	_	17	det	_	Gloss=DET|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	ki	ki	PRON	_	_	22	nsubj	_	Gloss=qui
-22	se	se	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=être
+22	se	se	VERB	_	_	15	acl:relcl	_	Gloss=être
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	NON	non	NOUN	_	_	22	xcomp	_	Gloss=non|SpaceAfter=No
 25	".	".	PUNCT	_	_	24	punct	_	_
@@ -1112,10 +1112,10 @@
 # text_fr = Humm..! Il répond.
 # Status = SILVER
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Hmm	hmm	INTJ	_	_	0	root	_	Gloss=humm|SpaceAfter=No
+2	Hmm	hmm	INTJ	_	_	0	root	_	Gloss=hum|SpaceAfter=No
 3	...!	...!	PUNCT	_	_	2	punct	_	_
 4	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	reponn	reponn	VERB	_	Tense=Pres	2	parataxis:insert	_	SpaceAfter=No
+5	reponn	reponn	VERB	_	_	2	parataxis:insert	_	Gloss=répondre|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 01__86
@@ -1126,13 +1126,13 @@
 2	mèsi	mèsi	INTJ	_	_	0	root	_	Gloss=merci
 3	paske	paske	SCONJ	_	_	5	mark	_	Gloss=parce que
 4	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=2SG
-5	refize	refize	VERB	_	Tense=Pres	2	advcl	_	Gloss=refuser
+5	refize	refize	VERB	_	_	2	advcl	_	Gloss=refuser
 6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	obj	_	Gloss=1SG|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Gloss=1SG
 9	pa	pa	ADV	_	_	11	advmod	_	Gloss=NEG|SpaceAfter=No
 10	t	te	AUX	_	_	11	aux	_	Gloss=PAST|wordform=pat
-11	atann	atann	VERB	_	Tense=Pres	5	acl:relcl	_	Gloss=attendre
+11	atann	atann	VERB	_	_	5	acl:relcl	_	Gloss=attendre
 12	a	a	ADP	_	_	13	case	_	Gloss=à
 13	sa	sa	PRON	_	Number=Sing|PronType=Dem	11	obl:arg	_	Gloss=cela
 14	non	non	DET	_	_	13	det	_	Gloss=DET|SpaceAfter=No
@@ -1140,7 +1140,7 @@
 16	men	men	CCONJ	_	_	19	cc	_	Gloss=mais
 17	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Gloss=1SG
 18	pa	pa	ADV	_	_	19	advmod	_	Gloss=NEG
-19	ka	ka	VERB	_	Tense=Pres	11	conj	_	Gloss=pouvoir
+19	ka	ka	VERB	_	_	11	conj	_	Gloss=pouvoir
 20	fòse	fòse	VERB	_	_	19	ccomp	_	Gloss=forcer
 21	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	20	obj	_	Gloss=2SG|SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	_
@@ -1163,14 +1163,14 @@
 12	ameriken	ameriken	ADJ	_	_	11	amod	_	Gloss=américaine
 13	ke	ke	PRON	_	_	15	obj	_	Gloss=que
 14	bandi	bandi	NOUN	_	_	15	nsubj	_	Gloss=bandit
-15	kidnape	kidnape	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=kidnapper
+15	kidnape	kidnape	VERB	_	_	11	acl:relcl	_	Gloss=kidnapper
 16	ann	ann	ADP	_	_	17	case	_	Gloss=en
 17	Ayiti	Ayiti	PROPN	_	_	15	obl	_	Gloss=Haïti
 18	ap	ap	AUX	_	_	19	aux	_	Gloss=PROG
-19	plede	plede	VERB	_	Tense=Pres	0	root	_	Gloss=demander
+19	plede	plede	VERB	_	_	0	root	_	Gloss=demander
 20	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 21	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nsubj	_	Gloss=3PL
-22	jwenn	jwenn	VERB	_	Tense=Pres	19	dep	_	Gloss=trouver
+22	jwenn	jwenn	VERB	_	_	19	dep	_	Gloss=trouver
 23	liberasyon	liberasyon	NOUN	_	_	22	obj	_	Gloss=libération|SpaceAfter=No
 24	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -1180,11 +1180,11 @@
 # Status = SILVER
 1	Nikese	Nikese	PROPN	_	_	3	nsubj	_	Gloss=Nikese
 2	Toussaint	Toussaint	PROPN	_	_	1	flat:name	_	Gloss=Toussaint
-3	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ke	ke	SCONJ	_	_	7	mark	_	Gloss=que
 5	gang	gang	NOUN	_	_	7	nsubj	_	Gloss=gang
 6	te	te	AUX	_	_	7	aux	_	Gloss=PAST
-7	kidnape	kidnape	VERB	_	Tense=Past	3	ccomp	_	Gloss=Kidnapper
+7	kidnape	kidnape	VERB	_	_	3	ccomp	_	Gloss=Kidnapper
 8	frè	frè	NOUN	_	_	7	obj	_	Gloss=frère
 9	l	li	DET	_	Number=Sing|Person=3|Poss=Yes	8	det	_	Gloss=3SG|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
@@ -1197,7 +1197,7 @@
 17	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
 18	t	te	AUX	_	_	20	aux	_	Gloss=PAST
 19	ap	ap	AUX	_	_	20	aux	_	Gloss=PROG
-20	vwayaje	vwayaje	VERB	_	Tense=Past	16	acl:relcl	_	Gloss=voyager
+20	vwayaje	vwayaje	VERB	_	_	16	acl:relcl	_	Gloss=voyager
 21	avèk	avèk	ADP	_	_	22	case	_	Gloss=avec
 22	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	20	obl	_	Gloss=3PL
 23	18	18	NUM	_	_	20	obl:mod	_	Gloss=18
@@ -1210,17 +1210,17 @@
 # text_fr = Toussaint a dit dans un interview par téléphone lundi que le gang demande $200,000 pour chaque personne et que sa famille n'a pas cette somme d'argent.
 # Status = SILVER
 1	Toussaint	Toussaint	PROPN	_	_	2	nsubj	_	Gloss=Toussaint
-2	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	5	det	_	Gloss=un
 5	entèvyou	entèvyou	NOUN	_	_	2	obl	_	Gloss=interview
-6	nan	nan	ADP	_	_	7	case	_	Gloss=au
+6	nan	nan	ADP	_	_	7	case	_	Gloss=dans
 7	telefòn	telefòn	NOUN	_	_	2	obl	_	Gloss=téléphone
 8	lendi	lendi	NOUN	_	_	2	obl:mod	_	Gloss=lundi
 9	ke	ke	SCONJ	_	_	12	mark	_	Gloss=que
 10	gang	gang	NOUN	_	_	12	nsubj	_	Gloss=gang
 11	nan	nan	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=le
-12	mande	mande	VERB	_	Tense=Pres	2	ccomp	_	Gloss=demander
+12	mande	mande	VERB	_	_	2	ccomp	_	Gloss=demander
 13	$	$	SYM	_	_	12	obj	_	Gloss=$|SpaceAfter=No
 14	200,000	200,000	NUM	_	NumType=Card	13	nummod	_	Gloss=200 000
 15	pou	pou	ADP	_	_	17	case	_	Gloss=pour
@@ -1232,7 +1232,7 @@
 21	fanmi	fanmi	NOUN	_	_	24	nsubj	_	Gloss=famille
 22	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	21	det	_	Gloss=3SG
 23	pa	pa	ADV	_	_	24	advmod	_	Gloss=NEG
-24	gen	gen	VERB	_	Tense=Pres	12	conj	_	Gloss=avoir
+24	gen	gen	VERB	_	_	12	conj	_	Gloss=avoir
 25	kalite	kalite	NOUN	_	_	26	nmod	_	Gloss=volume
 26	lajan	lajan	NOUN	_	_	24	obj	_	Gloss=argent
 27	sa	sa	DET	_	Number=Sing|PronType=Dem	26	dep	_	Gloss=cet
@@ -1245,12 +1245,12 @@
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	di	di	VERB	_	Tense=Past	0	root	_	Gloss=dire
+3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ke	ke	SCONJ	_	_	7	mark	_	Gloss=que
 5	FBI	FBI	PROPN	_	_	7	nsubj	_	Gloss=FBI
 6	ap	ap	AUX	_	_	7	aux	_	Gloss=PROG
-7	ede	ede	VERB	_	Tense=Pres	3	ccomp	_	Gloss=aider
-8	jwenn	jwenn	VERB	_	VerbForm=Inf	7	ccomp	_	Gloss=trouver
+7	ede	ede	VERB	_	_	3	ccomp	_	Gloss=aider
+8	jwenn	jwenn	VERB	_	_	7	ccomp	_	Gloss=trouver
 9	liberasyon	liberasyon	NOUN	_	_	8	obj	_	Gloss=libération
 10	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	9	det	_	Gloss=3PL|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
@@ -1264,10 +1264,10 @@
 3	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
 4	Etazini	Etazini	PROPN	_	_	6	nsubj	_	Gloss=États-Unis
 5	Pa	pa	ADV	_	_	6	advmod	_	Gloss=NEG
-6	Ekate	ekate	VERB	_	Tense=Pres	0	root	_	Gloss=écarter
+6	Ekate	ekate	VERB	_	_	0	root	_	Gloss=écarter
 7	Posibilite	posibilite	NOUN	_	_	6	obj	_	Gloss=possibilité
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
-9	Itilize	itilize	VERB	_	VerbForm=Inf	7	acl	_	Gloss=utiliser
+9	Itilize	itilize	VERB	_	_	7	acl	_	Gloss=utiliser
 10	Lafòs	lafòs	NOUN	_	_	9	obj	_	Gloss=force
 11	pou	pou	ADP	_	_	12	mark	_	Gloss=pour
 12	Tabli	tabli	VERB	_	_	9	dep	_	Gloss=établir
@@ -1282,7 +1282,7 @@
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
-4	pale	pale	VERB	_	Tense=Pres	0	root	_	Gloss=parler
+4	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 5	pandan	pandan	ADP	_	_	7	case	_	Gloss=pendant
 6	yon	yon	DET	_	Definite=Ind|Number=Sing	7	det	_	Gloss=DET
 7	konferans	konferans	NOUN	_	_	4	obl:mod	_	Gloss=conférence
@@ -1294,7 +1294,7 @@
 13	Kanadyen	kanadyen	ADJ	_	_	12	amod	_	Gloss=canadien
 14	Justin	Justin	PROPN	_	_	12	appos	_	Gloss=Justin
 15	Trudeau	Trudeau	PROPN	_	_	14	flat:name	_	Gloss=Trudeau
-16	nan	nan	ADP	_	_	17	case	_	Gloss=à
+16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	Ottawa	Ottawa	PROPN	_	_	4	obl:mod	_	Gloss=Ottawa|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Kanada	Kanada	PROPN	_	_	17	appos	_	Gloss=Kanada|SpaceAfter=No
@@ -1310,7 +1310,7 @@
 # Status = SILVER
 1	Etazini	Etazini	PROPN	_	_	3	nsubj	_	Gloss=États-Unis
 2	ap	ap	AUX	_	_	3	aux	_	Gloss=PROG
-3	chache	chache	VERB	_	Tense=Pres	0	root	_	Gloss=chercher
+3	chache	chache	VERB	_	_	0	root	_	Gloss=chercher
 4	sipò	sipò	NOUN	_	_	3	obj	_	Gloss=support
 5	pou	pou	ADP	_	_	6	case	_	Gloss=pour
 6	fòs	fòs	NOUN	_	_	4	nmod	_	Gloss=force
@@ -1320,12 +1320,12 @@
 10	e	e	CCONJ	_	_	13	cc	_	Gloss=et
 11	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Gloss=3SG|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	etidye	etidye	VERB	_	Tense=Pres	3	conj	_	Gloss=étudier
+13	etidye	etidye	VERB	_	_	3	conj	_	Gloss=étudier
 14	posibilite	posibilite	NOUN	_	_	13	obj	_	Gloss=possibilité
 15	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 16	Nasyonzini	Nasyonzini	PROPN	_	_	18	nsubj	_	Gloss=Nations Unies
 17	ta	ta	AUX	_	_	18	aux	_	Gloss=COND
-18	jwe	jwe	VERB	_	Tense=Pres	14	acl	_	Gloss=jouer
+18	jwe	jwe	VERB	_	_	14	acl	_	Gloss=jouer
 19	yon	yon	DET	_	Definite=Ind|Number=Sing	20	det	_	Gloss=DET
 20	wol	wol	NOUN	_	_	18	obj	_	Gloss=rôle
 21	nan	nan	ADP	_	_	22	case	_	Gloss=dans
@@ -1341,13 +1341,13 @@
 # text = Se sa Prezidan Joe Biden fe konnen pandan vizit li nan peyi Kanada Vandredi 24 Mas la.
 # text_fr = c'est ce que le Président Joe Biden a fait savoir pendant sa visite au Canada le vendredi 24 mars .
 # Status = SILVER
-1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+1	Se	se	VERB	_	_	0	root	_	Gloss=être
 2	sa	sa	PRON	_	Number=Sing|PronType=Dem	1	xcomp	_	Gloss=DET
 3	Prezidan	prezidan	NOUN	_	_	6	nsubj	_	Gloss=président
 4	Joe	Joe	PROPN	_	_	3	obj	_	Gloss=Joe
 5	Biden	Biden	PROPN	_	_	4	flat:name	_	Gloss=Biden
-6	fe	fe	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=faire
-7	konnen	konnen	VERB	_	VerbForm=Inf	6	ccomp	_	Gloss=savoir, connaitre
+6	fe	fe	VERB	_	_	2	acl:relcl	_	Gloss=faire
+7	konnen	konnen	VERB	_	_	6	ccomp	_	Gloss=savoir, connaitre
 8	pandan	pandan	ADP	_	_	9	case	_	Gloss=pendant
 9	vizit	vizit	NOUN	_	_	6	obl:mod	_	Gloss=visite
 10	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	9	det	_	Gloss=3SG
@@ -1377,12 +1377,12 @@
 11	-	-	PUNCT	_	_	12	punct	_	_
 12	ke	ke	PRON	_	_	14	obj	_	Gloss=que
 13	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	Gloss=1PL
-14	diskite	diskite	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=discuter
+14	diskite	diskite	VERB	_	_	4	acl:relcl	_	Gloss=discuter
 15	souvan	souvan	ADV	_	_	14	advmod	_	Gloss=souvent|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	ta	ta	AUX	_	_	18	aux	_	Gloss=COND
-18	dwe	dwe	VERB	_	Tense=Pres	0	root	_	Gloss=devoir
-19	fèt	fèt	VERB	_	VerbForm=Inf	18	ccomp	_	Gloss=faire
+18	dwe	dwe	VERB	_	_	0	root	_	Gloss=devoir
+19	fèt	fèt	VERB	_	_	18	ccomp	_	Gloss=faire
 20	an	an	ADP	_	_	21	case	_	Gloss=en
 21	konsiltasyon	konsiltasyon	NOUN	_	_	19	obl	_	Gloss=consultation
 22	ak	ak	ADP	_	_	23	case	_	Gloss=avec
@@ -1400,17 +1400,17 @@
 1	Donk	donk	ADV	_	_	4	advmod	_	Gloss=donc
 2	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Gloss=1PL
 3	pa	pa	ADV	_	_	4	advmod	_	Gloss=NEG
-4	ekate	ekate	VERB	_	Tense=Pres	0	root	_	Gloss=écarter
+4	ekate	ekate	VERB	_	_	0	root	_	Gloss=écarter
 5	posibilite	posibilite	NOUN	_	_	4	obj	_	Gloss=possibilité
 6	a	a	DET	_	Definite=Def|Number=Sing	5	det	_	Gloss=DET
 7	men	men	CCONJ	_	_	8	cc	_	Gloss=mais
-8	se	se	VERB	_	Tense=Pres	4	conj	_	Gloss=être
+8	se	se	VERB	_	_	4	conj	_	Gloss=être
 9	pa	pa	ADV	_	_	8	advmod	_	Gloss=NEG
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=DET
 11	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
 12	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	Gloss=1PL
-13	anvizaje	anvizaje	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=envisager
-14	fè	fè	VERB	_	VerbForm=Inf	13	ccomp	_	Gloss=faire
+13	anvizaje	anvizaje	VERB	_	_	11	acl:relcl	_	Gloss=envisager
+14	fè	fè	VERB	_	_	13	ccomp	_	Gloss=faire
 15	kounyela	kounya	ADV	_	_	13	advmod	_	Gloss=maintenant
 16	a	a	DET	_	Definite=Def|Number=Sing	13	det	_	SpaceAfter=No
 17	."	."	PUNCT	_	_	4	punct	_	_
@@ -1421,11 +1421,11 @@
 # Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	3	nsubj	_	Gloss=président
 2	Biden	Biden	PROPN	_	_	1	obj	_	Gloss=Biden
-3	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire|SpaceAfter=No
+3	di	di	VERB	_	_	0	root	_	Gloss=dire|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Gloss=3PL|SpaceAfter=No
 6	ap	ap	AUX	_	_	7	aux	_	Gloss=PROG
-7	gade	gade	VERB	_	Tense=Pres	3	ccomp	_	Gloss=regarder
+7	gade	gade	VERB	_	_	3	ccomp	_	Gloss=regarder
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
 9	wè	wè	VERB	_	_	7	dep	_	Gloss=voir
 10	si	si	SCONJ	_	_	16	mark	_	Gloss=si
@@ -1450,7 +1450,7 @@
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	pale	pale	VERB	_	Tense=Pres	0	root	_	Gloss=parler
+3	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 4	de	de	ADP	_	_	5	case	_	Gloss=de
 5	aktivite	aktivite	NOUN	_	_	3	obl	_	Gloss=activité
 6	gang	gang	NOUN	_	_	5	obj	_	Gloss=gang
@@ -1468,13 +1468,13 @@
 4	kijan	kijan	NOUN	_	_	7	obl:mod	_	Gloss=façon, comment
 5	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	Gloss=1PL
 6	pral	pral	AUX	_	_	7	aux	_	Gloss=FUT
-7	fè	fè	VERB	_	Tense=Fut	2	acl	_	Gloss=faire
+7	fè	fè	VERB	_	_	2	acl	_	Gloss=faire
 8	fas	fas	NOUN	_	_	7	obj	_	Gloss=face
 9	ak	ak	ADP	_	_	10	case	_	Gloss=à
 10	sa	sa	PRON	_	_	8	nmod	_	Gloss=3SG|SpaceAfter=No
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	pase	pase	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=passer
+13	pase	pase	VERB	_	_	10	acl:relcl	_	Gloss=passer
 14	an	an	ADP	_	_	15	case	_	Gloss=en
 15	Ayiti	Ayiti	PROPN	_	_	13	obl	_	Gloss=Haïti|SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
@@ -1482,7 +1482,7 @@
 18	gang	gang	NOUN	_	_	21	nsubj	_	Gloss=gang
 19	yo	yo	DET	_	Definite=Def|Number=Plur	18	det	_	_
 20	esansyèlman	esansyèlman	ADV	_	_	21	advmod	_	Gloss=essentiellement
-21	ranplase	ranplase	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=remplacer
+21	ranplase	ranplase	VERB	_	_	15	acl:relcl	_	Gloss=remplacer
 22	gouvènman	gouvènman	NOUN	_	_	21	obj	_	Gloss=gouvernement
 23	an	an	DET	_	Definite=Def|Number=Sing	22	det	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
@@ -1501,16 +1501,16 @@
 # Status = SILVER
 1	Kidonk	kidonk	ADV	_	_	3	advmod	_	Gloss=donc
 2	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-3	kwè	kwè	VERB	_	Tense=Pres	0	root	_	Gloss=croire
+3	kwè	kwè	VERB	_	_	0	root	_	Gloss=croire
 4	sa	sa	PRON	_	Number=Sing|PronType=Dem	12	nsubj	_	_
 5	Premye	premye	ADJ	_	_	6	amod	_	Gloss=premier
 6	Minis	minis	NOUN	_	_	8	nsubj	_	Gloss=ministre
 7	Trudeau	Trudeau	PROPN	_	_	6	nmod	_	Gloss=Trudeau
-8	di	di	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=dire
+8	di	di	VERB	_	_	4	acl:relcl	_	Gloss=dire
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	koze	koze	NOUN	_	_	8	obl	_	Gloss=affaire
 11	a	a	DET	_	Definite=Def|Number=Sing	10	det	_	_
-12	fè	fè	VERB	_	Tense=Pres	3	ccomp	_	Gloss=faire
+12	fè	fè	VERB	_	_	3	ccomp	_	Gloss=faire
 13	anpil	anpil	ADJ	_	_	12	advcl	_	Gloss=beaucoup
 14	sans	sans	NOUN	_	_	12	obj	_	Gloss=sens|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
@@ -1523,31 +1523,31 @@
 2	gwo	gwo	ADJ	_	_	3	amod	_	Gloss=grand
 3	bagay	bagay	NOUN	_	_	16	nsubj	_	Gloss=chose
 4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Gloss=1PL
-5	ka	ka	VERB	_	Tense=Pres	3	acl:relcl	_	Gloss=pouvoir
-6	fè	fè	VERB	_	VerbForm=Inf	5	ccomp	_	Gloss=faire
+5	ka	ka	VERB	_	_	3	acl:relcl	_	Gloss=pouvoir
+6	fè	fè	VERB	_	_	5	ccomp	_	Gloss=faire
 7	e	e	CCONJ	_	_	8	cc	_	Gloss=et
-8	se	se	VERB	_	Tense=Pres	6	conj	_	Gloss=être
+8	se	se	VERB	_	_	6	conj	_	Gloss=être
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
 10	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	pran	pran	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=prrendre
+13	pran	pran	VERB	_	_	10	acl:relcl	_	Gloss=prrendre
 14	tan	tan	NOUN	_	_	13	obj	_	Gloss=temps|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
-17	ogmante	ogmante	VERB	_	VerbForm=Inf	16	ccomp	_	Gloss=augmenter
+16	se	se	VERB	_	_	0	root	_	Gloss=être
+17	ogmante	ogmante	VERB	_	_	16	ccomp	_	Gloss=augmenter
 18	kapasite	kapasite	NOUN	_	_	17	obj	_	Gloss=capacité
 19	polis	polis	NOUN	_	_	22	nsubj	_	Gloss=police
 20	nasyonal	nasyonal	ADJ	_	_	19	amod	_	Gloss=national
 21	la	la	DET	_	Definite=Def|Number=Sing	19	det	_	Gloss=DET
-22	genyen	genyen	VERB	_	Tense=Pres	18	acl:relcl	_	Gloss=avoir
+22	genyen	genyen	VERB	_	_	18	acl:relcl	_	Gloss=avoir
 23	pou	pou	ADP	_	_	24	mark	_	Gloss=pour
 24	fè	fè	VERB	_	_	18	acl	_	Gloss=faire
 25	fas	fas	NOUN	_	_	24	obj	_	Gloss=face
 26	ak	ak	ADP	_	_	27	case	_	Gloss=à
 27	pwoblèm	pwoblèm	NOUN	_	_	25	nmod	_	Gloss=problème
 28	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL
-29	konstate	konstate	VERB	_	Tense=Pres	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
+29	konstate	konstate	VERB	_	_	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 05__12
@@ -1556,7 +1556,7 @@
 # text_fr = Nous regardons aussi pour voir si la communauté internationale par son intermédiaire des Nations Unies pourrait jouer un plus grand rôle dans cet effort.
 1	N	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Gloss=1PL|SpaceAfter=No
 2	ap	ap	AUX	_	_	3	aux	_	Gloss=PROG
-3	gade	gade	VERB	_	Tense=Pres	0	root	_	Gloss=regarder
+3	gade	gade	VERB	_	_	0	root	_	Gloss=regarder
 4	tou	tou	ADV	_	_	3	advmod	_	Gloss=aussi
 5	pou	pou	ADP	_	_	6	mark	_	Gloss=pour
 6	wè	wè	VERB	_	_	3	dep	_	Gloss=voir
@@ -1589,11 +1589,11 @@
 2	vreman	vreman	ADV	_	_	5	advmod	_	Gloss=en réalité
 3	vre	vre	ADJ	_	_	2	dep	_	Gloss=vrai|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+5	se	se	VERB	_	_	0	root	_	Gloss=être
 6	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
 7	gwo	gwo	ADJ	_	_	8	amod	_	Gloss=grand
 8	ke	kè	NOUN	_	_	9	nsubj	_	Gloss=coeur
-9	sote	sote	VERB	_	Tense=Pres	5	ccomp	_	Gloss=sauter
+9	sote	sote	VERB	_	_	5	ccomp	_	Gloss=sauter
 10	pou	pou	ADP	_	_	11	case	_	Gloss=pour
 11	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	obl	_	Gloss=1PL|SpaceAfter=No
 12	."	."	PUNCT	_	_	5	punct	_	_
@@ -1603,7 +1603,7 @@
 # text_fr = Haïti était l'une des questions principales que le Président Joe Biden discutait avec le premier ministre Justin Trudeau pendant sa visite de deux jours à Ottawa.
 # Status = SILVER
 1	Ayiti	Ayiti	PROPN	_	_	2	nsubj	_	Gloss=Haïti
-2	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être|SpaceAfter=No
+2	se	se	VERB	_	_	0	root	_	Gloss=être|SpaceAfter=No
 3	te	te	AUX	_	_	2	aux	_	Gloss=PAST
 4	youn	youn	NOUN	_	_	2	xcomp	_	Gloss=l'un
 5	nan	nan	ADP	_	_	6	case	_	Gloss=dans
@@ -1613,7 +1613,7 @@
 9	Joe	Joe	PROPN	_	_	8	obj	_	Gloss=Joe
 10	Biden	Biden	PROPN	_	_	9	flat:name	_	Gloss=Biden
 11	te	te	AUX	_	_	12	aux	_	Gloss=PAST
-12	diskite	diskite	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=discuter
+12	diskite	diskite	VERB	_	_	6	acl:relcl	_	Gloss=discuter
 13	ak	ak	ADP	_	_	15	case	_	Gloss=avec
 14	Premye	premye	ADJ	_	_	15	amod	_	Gloss=premier
 15	Minis	minis	NOUN	_	_	12	obl	_	Gloss=ministre
@@ -1633,7 +1633,7 @@
 # text_fr = la Chine lance une mise en garde au leader du Taiwan à cause d'une rencontre qu'elle fera avec les responsables américains.
 # Status = SILVER
 1	Lachin	lachin	PROPN	_	_	2	nsubj	_	Gloss=Chine
-2	Lanse	lanse	VERB	_	Tense=Pres	0	root	_	Gloss=lancer
+2	Lanse	lanse	VERB	_	_	0	root	_	Gloss=lancer
 3	yon	yon	DET	_	Definite=Ind|Number=Sing	4	det	_	Gloss=DET
 4	Pinga	pinga	NOUN	_	_	5	obj	_	Gloss=mise en garde
 5	bay	bay	VERB	_	_	2	ccomp	_	Gloss=au, donner
@@ -1644,7 +1644,7 @@
 10	Rankont	rankont	NOUN	_	_	8	obj	_	Gloss=rencontre
 11	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes	13	nsubj	_	Gloss=3SG
 12	Pral	pral	AUX	_	_	13	aux	_	Gloss=FUT
-13	Fè	fè	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=faire
+13	Fè	fè	VERB	_	_	10	acl:relcl	_	Gloss=faire
 14	ak	ak	ADP	_	_	15	case	_	Gloss=avec
 15	Responsab	responsab	NOUN	_	_	13	obl	_	Gloss=responsable
 16	Ameriken	ameriken	ADJ	_	_	15	amod	_	Gloss=américain
@@ -1682,7 +1682,7 @@
 27	a	a	DET	_	_	21	parataxis	_	Gloss=à
 28	dwat	dwat	NOUN	_	_	27	obj	_	Gloss=droite|SpaceAfter=No
 29	),	),	PUNCT	_	_	28	punct	_	_
-30	nan	nan	ADP	_	_	31	case	_	Gloss=à
+30	nan	nan	ADP	_	_	31	case	_	Gloss=dans
 31	Taipei	Taipei	PROPN	_	_	1	nmod	_	Gloss=Taipei|SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
 33	Taiwan	Taiwan	PROPN	_	_	31	appos	_	Gloss=Taiwan|SpaceAfter=No
@@ -1697,11 +1697,11 @@
 # text_fr = La chine menace pour qu'elle affronte d'une manière résolue la rencontre que le président de Taiwan planifie à faire avec le leader de la Chambre des députés des Etats-Unis pendant une visite dans la ville de Los Angeles.
 # Status = SILVER
 1	Lachin	Lachin	PROPN	_	_	2	nsubj	_	Gloss=Chine
-2	menase	menase	VERB	_	Tense=Pres	0	root	_	_
+2	menase	menase	VERB	_	_	0	root	_	Gloss=menacer
 3	pou	pou	ADP	_	_	6	mark	_	Gloss=pour
 4	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Gloss=3SG
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	kontrekare	kontrekare	VERB	_	Tense=Pres	2	dep	_	Gloss=affronter
+6	kontrekare	kontrekare	VERB	_	_	2	dep	_	Gloss=affronter
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	_
 8	fason	fason	NOUN	_	_	6	obl:mod	_	Gloss=façon
 9	rezolu	rezolu	ADJ	_	_	8	amod	_	Gloss=résolu|SpaceAfter=No
@@ -1711,7 +1711,7 @@
 13	Taiwan	taiwan	PROPN	_	_	12	nmod	_	Gloss=Taiwan
 14	nan	nan	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=le
 15	ap	ap	AUX	_	_	16	aux	_	Gloss=PAST
-16	planifye	planifye	VERB	_	Tense=Pres	11	acl:relcl	_	_
+16	planifye	planifye	VERB	_	_	11	acl:relcl	_	_
 17	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 18	fè	fè	VERB	_	_	16	dep	_	Gloss=faire
 19	ak	ak	ADP	_	_	20	case	_	Gloss=avec
@@ -1737,19 +1737,19 @@
 3	pou	pou	ADP	_	_	4	case	_	Gloss=pour
 4	Zafè	Zafè	NOUN	_	_	1	nmod	_	Gloss=affaire
 5	ki	ki	PRON	_	_	6	nsubj	_	Gloss=qui
-6	gen	gen	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=avoir
+6	gen	gen	VERB	_	_	4	acl:relcl	_	Gloss=avoir
 7	pou	pou	ADP	_	_	8	mark	_	Gloss=pour
-8	wè	wè	VERB	_	VerbForm=Inf	6	dep	_	Gloss=voir
+8	wè	wè	VERB	_	_	6	dep	_	Gloss=voir
 9	ak	ak	ADP	_	_	10	case	_	Gloss=à
 10	Taiwan	taiwan	PROPN	_	_	6	obl	_	Gloss=Taiwan
 11	nan	nan	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=le
-12	mande	mande	VERB	_	Tense=Pres	0	root	_	Gloss=demander
+12	mande	mande	VERB	_	_	0	root	_	Gloss=demander
 13	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 14	oken	oken	DET	_	_	15	det	_	Gloss=aucun
 15	responsab	responsab	NOUN	_	_	18	nsubj	_	Gloss=responsable
 16	Ameriken	ameriken	ADJ	_	_	15	amod	_	Gloss=américain
 17	pa	pa	ADV	_	_	18	advmod	_	Gloss=NEG
-18	rankontre	rankontre	VERB	_	Tense=Pres	12	dep	_	Gloss=rencontrer
+18	rankontre	rankontre	VERB	_	_	12	dep	_	Gloss=rencontrer
 19	Prezidan	prezidan	NOUN	_	_	18	obj	_	Gloss=présidente
 20	Taiwanèz	taiwanèz	ADJ	_	_	19	amod	_	Gloss=taiwanaise
 21	Tsai	Tsai	PROPN	_	_	19	appos	_	Gloss=Tsai
@@ -1761,8 +1761,8 @@
 # text_fr = Tsai a laissé Taïwan mercredi pour aller à un pays étranger.
 # Status = SILVER
 1	Tsai	tsai	PROPN	_	_	2	nsubj	_	Gloss=Tsai
-2	pati	pati	VERB	_	Tense=Pres	0	root	_	Gloss=partir
-3	kite	kite	VERB	_	VerbForm=Inf	2	ccomp	_	Gloss=quitter
+2	pati	pati	VERB	_	_	0	root	_	Gloss=partir
+3	kite	kite	VERB	_	_	2	ccomp	_	Gloss=quitter
 4	Taiwan	Taiwan	PROPN	_	_	3	obj	_	Gloss=Taiwan
 5	Mekredi	mekredi	NOUN	_	_	2	obl:mod	_	Gloss=mercredi
 6	pou	pou	ADP	_	_	7	case	_	Gloss=pour
@@ -1776,7 +1776,7 @@
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	pral	pral	AUX	_	_	3	aux	_	Gloss=FUT
-3	vizite	vizite	VERB	_	Tense=Pres	0	root	_	_
+3	vizite	vizite	VERB	_	_	0	root	_	Gloss=visiter
 4	Guatemala	Guatemala	PROPN	_	_	3	obj	_	Gloss=Guatemala
 5	ak	ak	CCONJ	_	_	6	cc	_	Gloss=et
 6	Belize	Belize	PROPN	_	_	4	conj	_	Gloss=Belize|SpaceAfter=No
@@ -1788,8 +1788,8 @@
 # Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	3	nsubj	_	Gloss=Présidente
 2	an	an	DET	_	_	1	det	_	Gloss=la
-3	sipoze	sipoze	VERB	_	Tense=Pres	0	root	_	Gloss=supposer
-4	fè	fè	VERB	_	VerbForm=Inf	3	ccomp	_	Gloss=faire
+3	sipoze	sipoze	VERB	_	_	0	root	_	Gloss=supposer
+4	fè	fè	VERB	_	_	3	ccomp	_	Gloss=faire
 5	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=une
 6	pase	pase	NOUN	_	_	4	obj	_	Gloss=visite
 7	Los	Los	PROPN	_	_	4	obl	_	Gloss=Los
@@ -1799,7 +1799,7 @@
 11	la	la	DET	_	Definite=Def|Number=Sing	9	det	_	_
 12	anvan	anvan	ADV	_	_	4	advmod	_	Gloss=avant
 13	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Gloss=3SG
-14	retounen	retounen	VERB	_	Tense=Pres	12	ccomp	_	Gloss=retourner
+14	retounen	retounen	VERB	_	_	12	ccomp	_	Gloss=retourner
 15	Taiwan	Taiwan	PROPN	_	_	14	obj	_	Gloss=Taiwan|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1807,16 +1807,16 @@
 # text = Se pandan eskal sa a ke li gen entansyon rankontre Lidè Lachanm Kevin McCarthy.
 # text_fr = c'est pendant cet escale qu'il avait l'intention de rencontrer le leader de la chambre Kevin McCarthy.
 # Status = SILVER
-1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+1	Se	se	VERB	_	_	0	root	_	Gloss=être
 2	pandan	pandan	ADV	_	_	1	xcomp	_	Gloss=pendant
 3	eskal	eskal	NOUN	_	_	2	obj	_	Gloss=escale
 4	sa	sa	DET	_	Number=Sing|PronType=Dem	3	det	_	_
 5	a	a	DET	_	Definite=Def|Number=Sing	3	det	_	_
 6	ke	ke	SCONJ	_	_	8	mark	_	Gloss=que
 7	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Gloss=3SG
-8	gen	gen	VERB	_	Tense=Pres	1	advcl:cleft	_	Gloss=avoir
+8	gen	gen	VERB	_	_	1	advcl:cleft	_	Gloss=avoir
 9	entansyon	entansyon	NOUN	_	_	8	obj	_	Gloss=intension
-10	rankontre	rankontre	VERB	_	VerbForm=Inf	9	ccomp	_	Gloss=rencontrer
+10	rankontre	rankontre	VERB	_	_	9	ccomp	_	Gloss=rencontrer
 11	Lidè	lidè	NOUN	_	_	10	obj	_	Gloss=leader
 12	Lachanm	lachanm	NOUN	_	_	11	obj	_	Gloss=chambre
 13	Kevin	Kevin	PROPN	_	_	11	appos	_	Gloss=Kevin
@@ -1832,12 +1832,12 @@
 3	Etranjè	etranjè	ADJ	_	_	2	amod	_	Gloss=étranger
 4	Lachin	Lachin	PROPN	_	_	1	nmod	_	Gloss=Chine
 5	nan	nan	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=la
-6	blame	blame	VERB	_	Tense=Pres	0	root	_	Gloss=blâmer
+6	blame	blame	VERB	_	_	0	root	_	Gloss=blâmer
 7	Washington	Washington	PROPN	_	_	6	obj	_	Gloss=Washington
 8	pou	pou	ADP	_	_	9	case	_	Gloss=pour
 9	tansyon	tansyon	NOUN	_	_	6	obl	_	Gloss=tension
 10	ki	ki	PRON	_	_	11	nsubj	_	Gloss=qui
-11	egziste	egziste	VERB	_	Tense=Pres	9	acl:relcl	_	Gloss=exister
+11	egziste	egziste	VERB	_	_	9	acl:relcl	_	Gloss=exister
 12	ant	ant	ADP	_	_	13	case	_	Gloss=entre
 13	Peken	Peken	PROPN	_	_	11	obl	_	Gloss=Pékin
 14	ak	ak	CCONJ	_	_	15	cc	_	Gloss=et
@@ -1849,11 +1849,11 @@
 # text_fr = Elle dit que c'est parce que le Washington augmente ses relation avec Tsai.
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
-2	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
-3	se	se	VERB	_	Tense=Pres	2	ccomp	_	Gloss=être
+2	di	di	VERB	_	_	0	root	_	Gloss=dire
+3	se	se	VERB	_	_	2	ccomp	_	Gloss=être
 4	paske	paske	SCONJ	_	_	6	mark	_	Gloss=parce que
 5	Washington	Washington	PROPN	_	_	6	nsubj	_	Gloss=Washington
-6	ogmante	ogmante	VERB	_	Tense=Pres	3	ccomp	_	Gloss=augmenter
+6	ogmante	ogmante	VERB	_	_	3	ccomp	_	Gloss=augmenter
 7	relasyon	relasyon	NOUN	_	_	6	obj	_	Gloss=relation
 8	ni	li	DET	_	Definite=Def|Number=Sing	7	det	_	_
 9	ak	ak	ADP	_	_	10	case	_	Gloss=avec
@@ -1866,7 +1866,7 @@
 # Status = SILVER
 1	Taiwan	Taiwan	PROPN	_	_	3	nsubj	_	Gloss=Taiwan
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	separe	separe	VERB	_	Tense=Pres	0	root	_	Gloss=séparer
+3	separe	separe	VERB	_	_	0	root	_	Gloss=séparer
 4	ak	ak	ADP	_	_	5	case	_	Gloss=avec
 5	Lachin	Lachin	PROPN	_	_	3	obl:mod	_	Gloss=Chine
 6	apre	apre	ADP	_	_	8	case	_	Gloss=après
@@ -1884,17 +1884,16 @@
 1	Kounyea	kounyea	ADV	_	_	4	advmod	_	Gloss=maintenant
 2	zile	zile	NOUN	_	_	1	obj	_	Gloss=île
 3	a	a	DET	_	Definite=Def|Number=Sing	2	det	_	Gloss=l'
-4	endepandan	endepandan	VERB	_	Tense=Pres	0	root	_	Gloss=indépendante|SpaceAfter=No
+4	endepandan	endepandan	VERB	_	_	0	root	_	Gloss=indépendante|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 10__1
 # text = Kisa pou w konnen sou Alvin Bragg, avoka distri Manhattan
 # text_fr = Qu'est-ce que tu dois connaitre sur Alvin Bragg, l'avocat du district de Manhattan
-# Status = SILVER
 1	Kisa	kisa	ADV	_	_	4	advmod	_	Gloss=qu'est-ce que
 2	pou	pou	ADP	_	_	1	dep	_	Gloss=pour
 3	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Gloss=2SG
-4	konnen	konnen	VERB	_	Tense=Pres	0	root	_	Gloss=connaître
+4	konnen	konnen	VERB	_	_	0	root	_	Gloss=connaître
 5	sou	sou	ADP	_	_	6	case	_	Gloss=sur
 6	Alvin	Alvin	PROPN	_	_	4	obl:arg	_	Gloss=Alvin
 7	Bragg	Bragg	PROPN	_	_	6	flat:name	_	Gloss=Bragg|SpaceAfter=No
@@ -1914,7 +1913,7 @@
 5	York	york	PROPN	_	_	4	flat:name	_	Gloss=York
 6	k	ke	PRON	_	_	8	nsubj	_	Gloss=qui
 7	ap	ap	AUX	_	_	8	aux	_	Gloss=PROG
-8	mennen	mennen	VERB	_	Tense=Pres	3	acl:relcl	_	Gloss=mener
+8	mennen	mennen	VERB	_	_	3	acl:relcl	_	Gloss=mener
 9	ankèt	ankèt	NOUN	_	_	8	obj	_	Gloss=enquête
 10	sou	sou	ADP	_	_	11	case	_	Gloss=sur
 11	peman	peman	NOUN	_	_	9	nmod	_	Gloss=paiement
@@ -1922,7 +1921,7 @@
 13	tab	tab	NOUN	_	_	11	nmod	_	Gloss=table
 14	ki	ki	PRON	_	_	16	nsubj	_	Gloss=qui
 15	te	te	AUX	_	_	16	aux	_	Gloss=PAST
-16	fèt	fèt	VERB	_	Tense=Past	11	acl:relcl	_	Gloss=faire
+16	fèt	fèt	VERB	_	_	11	acl:relcl	_	Gloss=faire
 17	sou	sou	ADP	_	_	18	case	_	Gloss=sous
 18	non	non	NOUN	_	_	16	obl	_	Gloss=nom
 19	Donald	donald	PROPN	_	_	18	obj	_	Gloss=Donald
@@ -1933,7 +1932,7 @@
 24	ane	ane	NOUN	_	_	16	obl:mod	_	Gloss=année
 25	2016	2016	NUM	_	_	24	nmod	_	Gloss=2016
 26	la	la	DET	_	_	24	det	_	Gloss=l'
-27	vin	vini	VERB	_	Tense=Pres	0	root	_	Gloss=venir
+27	vin	vini	VERB	_	_	0	root	_	Gloss=venir
 28	santre	santre	VERB	_	_	27	ccomp	_	Gloss=centrer
 29	atansyon	atansyon	NOUN	_	_	28	obj	_	Gloss=attention
 30	sou	sou	ADP	_	_	31	case	_	Gloss=sur
@@ -1943,7 +1942,7 @@
 34	nan	nan	DET	_	_	31	det	_	Gloss=le
 35	k	ki	PRON	_	_	37	nsubj	_	Gloss=qui
 36	ap	ap	AUX	_	_	37	aux	_	Gloss=PROG
-37	jere	jere	VERB	_	Tense=Pres	31	acl:relcl	_	Gloss=Gérer
+37	jere	jere	VERB	_	_	31	acl:relcl	_	Gloss=Gérer
 38	dosye	dosye	NOUN	_	_	37	obj	_	Gloss=dossier
 39	a	a	DET	_	_	38	det	_	Gloss=le|SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
@@ -1956,7 +1955,7 @@
 2	ke	ke	PRON	_	_	5	obj	_	Gloss=que
 3	Alvin	Alvin	PROPN	_	_	5	nsubj	_	Gloss=Alvin
 4	Bragg	Bragg	PROPN	_	_	3	flat:name	_	Gloss=Bragg
-5	pran	pran	VERB	_	Tense=Pres	1	acl:relcl	_	Gloss=prendre
+5	pran	pran	VERB	_	_	1	acl:relcl	_	Gloss=prendre
 6	pou	pou	ADP	_	_	7	mark	_	Gloss=pour
 7	konvoke	konvoke	VERB	_	_	5	dep	_	Gloss=convoquer
 8	gran	gran	ADJ	_	_	9	amod	_	Gloss=grand
@@ -1968,7 +1967,7 @@
 14	kòmansman	kòmansman	NOUN	_	_	15	nmod	_	Gloss=début
 15	ane	ane	NOUN	_	_	5	obl	_	Gloss=année
 16	2023	2023	NUM	_	_	15	nmod	_	Gloss=2023
-17	kapab	kapab	VERB	_	Tense=Pres	0	root	_	Gloss=pouvoir
+17	kapab	kapab	VERB	_	_	0	root	_	Gloss=pouvoir
 18	debouche	debouche	VERB	_	_	17	ccomp	_	Gloss=déboucher
 19	sou	sou	ADP	_	_	20	case	_	Gloss=sur
 20	akizasyon	akizasyon	NOUN	_	_	18	obl	_	Gloss=accusation
@@ -1986,7 +1985,7 @@
 # text_fr = Ils ont élu Bragg comme le premier avocat noir dans le district Manhattan en novembre 2021.
 1	Yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Gloss=3PL
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	eli	eli	VERB	_	Tense=Pres	0	root	_	Gloss=élire
+3	eli	eli	VERB	_	_	0	root	_	Gloss=élire
 4	Bragg	bragg	PROPN	_	_	3	obj	_	Gloss=Bragg
 5	kòm	kòm	SCONJ	_	_	7	case	_	Gloss=comme
 6	premye	premye	ADJ	_	_	7	amod	_	Gloss=premier
@@ -2006,12 +2005,12 @@
 1	Karyè	Karyè	NOUN	_	_	4	nsubj	_	Gloss=carrière
 2	legal	legal	ADJ	_	_	1	amod	_	Gloss=légale
 3	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	1	det	_	Gloss=DET
-4	gen	gen	VERB	_	Tense=Pres	0	root	_	Gloss=avoir
+4	gen	gen	VERB	_	_	0	root	_	Gloss=avoir
 5	ladan	ladan	NOUN	_	_	6	nmod	_	Gloss=intérieur
 6	travay	travay	NOUN	_	_	4	obj	_	Gloss=travail
 7	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Gloss=3SG
 8	te	te	AUX	_	_	9	aux	_	Gloss=PAST
-9	fè	fè	VERB	_	Tense=Past	6	acl:relcl	_	Gloss=faire
+9	fè	fè	VERB	_	_	6	acl:relcl	_	Gloss=faire
 10	kòm	kòm	ADV	_	_	9	advmod	_	Gloss=comme
 11	yon	yon	DET	_	Definite=Ind|Number=Sing	12	det	_	Gloss=un
 12	pwosekitè	pwosekitè	NOUN	_	_	10	obj	_	Gloss=procureur
@@ -2022,7 +2021,7 @@
 17	sivik	sivik	ADJ	_	_	16	amod	_	Gloss=civique
 18	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
 19	te	te	AUX	_	_	20	aux	_	Gloss=PAST
-20	reprezante	reprezante	VERB	_	Tense=Past	12	acl:relcl	_	Gloss=représenter
+20	reprezante	reprezante	VERB	_	_	12	acl:relcl	_	Gloss=représenter
 21	manman	manman	NOUN	_	_	20	obj	_	Gloss=maman
 22	Eric	Eric	PROPN	_	_	21	obj	_	Gloss=Eric
 23	Garner	Garner	PROPN	_	_	22	flat:name	_	Gloss=Garner|SpaceAfter=No
@@ -2033,7 +2032,7 @@
 # text_fr = Mexique arrête 5 personnes en rapport avec l'incendie qui a éclaté dans le centre du migrant
 # Status = SILVER
 1	Meksik	meksik	NOUN	_	_	2	nsubj	_	Gloss=Mexique
-2	Arete	arete	VERB	_	Tense=Pres	0	root	_	Gloss=arrêter
+2	Arete	arete	VERB	_	_	0	root	_	Gloss=arrêter
 3	5	5	NUM	_	_	4	nummod	_	Gloss=5
 4	Moun	moun	NOUN	_	_	2	obj	_	Gloss=personne
 5	an	an	ADP	_	_	6	case	_	Gloss=en
@@ -2041,7 +2040,7 @@
 7	ak	ak	ADP	_	_	8	case	_	Gloss=avec
 8	Dife	dife	NOUN	_	_	6	nmod	_	Gloss=incendie
 9	ki	ki	PRON	_	_	10	nsubj	_	Gloss=qui
-10	Pete	pete	VERB	_	Tense=Pres	8	acl:relcl	_	Gloss=éclater
+10	Pete	pete	VERB	_	_	8	acl:relcl	_	Gloss=éclater
 11	nan	nan	ADP	_	_	12	case	_	Gloss=dans
 12	Sant	sant	NOUN	_	_	10	obl	_	Gloss=centre
 13	pou	pou	ADP	_	_	14	case	_	Gloss=pour
@@ -2054,7 +2053,7 @@
 # Status = SILVER
 1	Otorite	otorite	NOUN	_	_	3	nsubj	_	Gloss=autorité
 2	meksiken	meksiken	ADJ	_	_	1	amod	_	Gloss=mexicaine
-3	arete	arete	VERB	_	Tense=Pres	0	root	_	Gloss=arrêter
+3	arete	arete	VERB	_	_	0	root	_	Gloss=arrêter
 4	5	5	NUM	_	_	5	nummod	_	Gloss=5
 5	moun	moun	NOUN	_	_	3	obj	_	Gloss=personne
 6	pou	pou	ADP	_	_	8	case	_	Gloss=pour
@@ -2072,13 +2071,13 @@
 18	sant	sant	NOUN	_	_	15	obl	_	Gloss=centre
 19	meksiken	meksiken	ADJ	_	_	18	amod	_	Gloss=mexicain
 20	ki	ki	PRON	_	_	21	nsubj	_	Gloss=qui
-21	kenbe	kenbe	VERB	_	Tense=Pres	18	acl:relcl	_	Gloss=accueille
+21	kenbe	kenbe	VERB	_	_	18	acl:relcl	_	Gloss=accueille
 22	migran	migran	NOUN	_	_	21	obj	_	Gloss=migrant|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	kote	kote	PRON	_	_	27	obl:mod	_	Gloss=où
 25	30	30	NUM	_	_	26	nummod	_	Gloss=30
 26	migran	migran	NOUN	_	_	27	nsubj	_	Gloss=migrant
-27	pèdi	pèdi	VERB	_	Tense=Pres	18	acl:relcl	_	Gloss=perdre
+27	pèdi	pèdi	VERB	_	_	18	acl:relcl	_	Gloss=perdre
 28	lavi	lavi	NOUN	_	_	27	obj	_	Gloss=vie
 29	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	28	det	_	Gloss=3PL|SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
@@ -2090,7 +2089,7 @@
 1	Anons	anons	NOUN	_	_	4	nsubj	_	Gloss=annonce
 2	arestasyon	arestasyon	NOUN	_	_	1	obj	_	Gloss=arrestation
 3	an	an	DET	_	Definite=Def|Number=Sing	2	det	_	Gloss=l'
-4	fèt	fèt	VERB	_	Tense=Pres	0	root	_	Gloss=faire
+4	fèt	fèt	VERB	_	_	0	root	_	Gloss=faire
 5	jedi	jedi	NOUN	_	_	4	obl:mod	_	Gloss=jeudi|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=un
@@ -2101,7 +2100,7 @@
 12	Meksik	meksik	NOUN	_	_	11	nmod	_	Gloss=Mexique
 13	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=le
 14	te	te	AUX	_	_	15	aux	_	Gloss=PAST
-15	anonse	anonse	VERB	_	Tense=Pres	9	ccomp	_	Gloss=annoncer
+15	anonse	anonse	VERB	_	_	9	ccomp	_	Gloss=annoncer
 16	yon	yon	DET	_	Definite=Ind|Number=Sing	17	det	_	Gloss=une
 17	ankèt	ankèt	NOUN	_	_	15	obj	_	Gloss=enquête
 18	sou	sou	ADP	_	_	19	case	_	Gloss=sur
@@ -2115,8 +2114,8 @@
 26	yon	yon	DET	_	Definite=Ind|Number=Sing	27	det	_	Gloss=une
 27	video	video	NOUN	_	_	29	nsubj	_	Gloss=vidéo
 28	siveyans	siveyans	NOUN	_	_	27	obj	_	Gloss=surveillance
-29	sanble	sanble	VERB	_	Tense=Pres	17	acl	_	Gloss=sembler
-30	moutre	moutre	VERB	_	VerbForm=Inf	29	ccomp	_	Gloss=montrer
+29	sanble	sanble	VERB	_	_	17	acl	_	Gloss=sembler
+30	moutre	moutre	VERB	_	_	29	ccomp	_	Gloss=montrer
 31	gad	gad	NOUN	_	_	30	obj	_	Gloss=agent
 32	sekirite	sekirite	NOUN	_	_	31	obj	_	Gloss=sécurité
 33	ki	ki	PRON	_	_	36	nsubj	_	Gloss=qui
@@ -2125,7 +2124,7 @@
 36	fè	fè	VERB	_	_	31	acl:relcl	_	Gloss=faire
 37	anyen	anyen	ADV	_	_	36	advmod	_	Gloss=rien
 38	pou	pou	ADP	_	_	39	mark	_	Gloss=pour
-39	ede	ede	VERB	_	VerbForm=Inf	36	dep	_	Gloss=aider
+39	ede	ede	VERB	_	_	36	dep	_	Gloss=aider
 40	migran	migran	NOUN	_	_	39	obj	_	Gloss=migrant
 41	yo	yo	DET	_	Definite=Def|Number=Plur	40	det	_	Gloss=les
 42	chape	chape	VERB	_	_	39	ccomp	_	Gloss=sauver
@@ -2148,10 +2147,10 @@
 # text_fr = Mexique dit qu'il mène une enquête sur 8 personnes dans l'incendie qui a tué des gens dans un centre pour migrant.
 # Status = SILVER
 1	Meksik	Meksik	PROPN	_	_	2	nsubj	_	Gloss=Mexique
-2	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=3SG
 4	ap	ap	AUX	_	_	5	aux	_	Gloss=PROG
-5	Mennen	Mennen	VERB	_	Tense=Pres	2	ccomp	_	Gloss=mener
+5	Mennen	Mennen	VERB	_	_	2	ccomp	_	Gloss=mener
 6	ankèt	ankèt	NOUN	_	_	5	obj	_	Gloss=enquête
 7	sou	sou	ADP	_	_	9	case	_	Gloss=sur
 8	8	8	NUM	_	_	9	nummod	_	Gloss=8
@@ -2183,10 +2182,10 @@
 9	Otorite	otorite	NOUN	_	_	12	nsubj	_	Gloss=autorité
 10	Meksiken	meksiken	ADJ	_	_	9	amod	_	Gloss=mexicaine
 11	yo	yo	DET	_	Definite=Def|Number=Plur	9	det	_	Gloss=les
-12	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+12	di	di	VERB	_	_	0	root	_	Gloss=dire
 13	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	Gloss=3PL
 14	ap	ap	AUX	_	_	15	aux	_	Gloss=PROG
-15	mennen	mennen	VERB	_	Tense=Pres	12	ccomp	_	Gloss=mener
+15	mennen	mennen	VERB	_	_	12	ccomp	_	Gloss=mener
 16	ankèt	ankèt	NOUN	_	_	15	obj	_	Gloss=enquête
 17	sou	sou	ADP	_	_	19	case	_	Gloss=sur
 18	8	8	NUM	_	_	19	nummod	_	Gloss=8
@@ -2196,7 +2195,7 @@
 22	pou	pou	ADP	_	_	23	mark	_	Gloss=pour
 23	konnen	konnen	VERB	_	_	16	acl	_	Gloss=savoir
 24	si	si	SCONJ	_	_	25	mark	_	Gloss=si
-25	se	se	VERB	_	Tense=Pres	23	ccomp	_	Gloss=être
+25	se	se	VERB	_	_	23	ccomp	_	Gloss=être
 26	move	move	ADJ	_	_	27	amod	_	Gloss=mauvaise
 27	konduit	konduit	NOUN	_	_	25	xcomp	_	Gloss=conduite
 28	nan	nan	ADP	_	_	30	case	_	Gloss=dans
@@ -2204,14 +2203,14 @@
 30	sant	sant	NOUN	_	_	27	nmod	_	Gloss=centre
 31	kote	kote	PRON	_	_	30	acl:relcl	_	Gloss=où
 32	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	33	nsubj	_	Gloss=3PL
-33	kenbe	kenbe	VERB	_	Tense=Pres	31	ccomp	_	Gloss=accueillir
+33	kenbe	kenbe	VERB	_	_	31	ccomp	_	Gloss=accueillir
 34	migran	migran	NOUN	_	_	33	obj	_	Gloss=migrant
 35	ki	ki	PRON	_	_	37	nsubj	_	Gloss=qui
 36	te	te	AUX	_	_	37	aux	_	Gloss=PAST
 37	lakoz	lakoz	VERB	_	_	27	acl:relcl	_	Gloss=occasionner
 38	dife	dife	NOUN	_	_	37	obj	_	Gloss=incendie
 39	ki	ki	PRON	_	_	40	nsubj	_	Gloss=qui
-40	pran	pran	VERB	_	Tense=Pres	38	acl:relcl	_	Gloss=prendre
+40	pran	pran	VERB	_	_	38	acl:relcl	_	Gloss=prendre
 41	lavi	lavi	NOUN	_	_	40	obj	_	Gloss=vie
 42	39	39	NUM	_	_	43	nummod	_	Gloss=39
 43	moun	moun	NOUN	_	_	41	obj	_	Gloss=personne
@@ -2277,8 +2276,8 @@
 1	Otorite	Otorite	NOUN	_	_	4	nsubj	_	Gloss=autorité
 2	Meksiken	Meksiken	ADJ	_	_	1	amod	_	Gloss=mexicaine
 3	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=DET
-4	sanble	sanble	VERB	_	Tense=Pres	0	root	_	Gloss=sembler
-5	lage	lage	VERB	_	VerbForm=Inf	4	ccomp	_	Gloss=donner
+4	sanble	sanble	VERB	_	_	0	root	_	Gloss=sembler
+5	lage	lage	VERB	_	_	4	ccomp	_	Gloss=donner
 6	responsablite	responsablite	NOUN	_	_	5	obl:arg	_	Gloss=responsabilité
 7	lanmò	lanmò	NOUN	_	_	6	obj	_	Gloss=mort
 8	yo	yo	DET	_	Definite=Def|Number=Plur	7	det	_	Gloss=les
@@ -2300,7 +2299,7 @@
 # Status = SILVER
 1	Videyo	Videyo	NOUN	_	_	3	nsubj	_	Gloss=vidéo
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	montre	montre	VERB	_	Tense=Pres	0	root	_	_
+3	montre	montre	VERB	_	_	0	root	_	Gloss=montrer
 4	gad	gad	NOUN	_	_	3	obj	_	Gloss=garde
 5	yo	yo	DET	_	Definite=Def|Number=Plur	4	det	_	Gloss=les
 6	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
@@ -2312,8 +2311,8 @@
 12	san	san	ADP	_	_	15	mark	_	Gloss=sans
 13	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	Gloss=3PL
 14	pa	pa	ADV	_	_	15	advmod	_	Gloss=NEG
-15	chache	chache	VERB	_	Tense=Pres	9	advcl	_	Gloss=chercher
-16	libere	libere	VERB	_	VerbForm=Inf	15	ccomp	_	Gloss=libérer
+15	chache	chache	VERB	_	_	9	advcl	_	Gloss=chercher
+16	libere	libere	VERB	_	_	15	ccomp	_	Gloss=libérer
 17	prizonye	prizonye	NOUN	_	_	16	obj	_	Gloss=prisonier
 18	yo	yo	DET	_	Definite=Def|Number=Plur	17	det	_	Gloss=les|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -2324,7 +2323,7 @@
 # Status = SILVER
 1	39	39	NUM	_	_	2	nummod	_	Gloss=39
 2	Moun	moun	NOUN	_	_	3	nsubj	_	Gloss=personne
-3	Mouri	mouri	VERB	_	Tense=Pres	0	root	_	Gloss=mourir
+3	Mouri	mouri	VERB	_	_	0	root	_	Gloss=mourir
 4	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 5	Dife	Dife	NOUN	_	_	3	obl:mod	_	Gloss=incendie
 6	nan	nan	ADP	_	_	7	case	_	Gloss=dans
@@ -2351,14 +2350,14 @@
 9	twa	twa	NUM	_	_	10	nummod	_	Gloss=trois
 10	douzèn	douzèn	NOUN	_	_	12	nsubj	_	Gloss=douzaine
 11	migran	migran	NOUN	_	_	10	obj	_	Gloss=migrant
-12	pèdi	pèdi	VERB	_	Tense=Pres	0	root	_	Gloss=perdre
+12	pèdi	pèdi	VERB	_	_	0	root	_	Gloss=perdre
 13	lavi	lavi	NOUN	_	_	12	obj	_	Gloss=vie
 14	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	13	det	_	Gloss=3PL
 15	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 16	yon	yon	DET	_	Definite=Ind|Number=Sing	17	det	_	Gloss=DET
 17	dife	dife	NOUN	_	_	12	obl	_	Gloss=incendie
 18	ki	ki	PRON	_	_	19	nsubj	_	Gloss=qui
-19	pran	pran	VERB	_	Tense=Pres	17	acl:relcl	_	Gloss=prendre
+19	pran	pran	VERB	_	_	17	acl:relcl	_	Gloss=prendre
 20	nan	nan	ADP	_	_	22	case	_	Gloss=dans
 21	yon	yon	DET	_	Definite=Ind|Number=Sing	22	det	_	Gloss=un
 22	dòtwa	dòtwa	NOUN	_	_	19	obl	_	Gloss=dortoir
@@ -2367,7 +2366,7 @@
 25	sant	sant	NOUN	_	_	19	obl	_	Gloss=centre
 26	kote	kote	PRON	_	PronType=Rel	28	obl:mod	_	Gloss=où
 27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	28	nsubj	_	Gloss=3PL
-28	fèmen	fèmen	VERB	_	Tense=Pres	25	acl:relcl	_	Gloss=fermer
+28	fèmen	fèmen	VERB	_	_	25	acl:relcl	_	Gloss=fermer
 29	migran	migran	NOUN	_	_	28	obj	_	Gloss=migrant
 30	Meksiken	Meksiken	ADJ	_	_	29	amod	_	Gloss=méxicain
 31	toupre	toupre	ADP	_	_	32	case	_	Gloss=tout prêt
@@ -2379,14 +2378,14 @@
 # text = Se youn nan ensidan kote plis moun mouri nan yon sant pou kenbe migran nan peyi a.
 # text_fr = C'est l'un des incidents où beaucoup de gens meurent dans un centre pour accueillir les migrant du pays.
 # Status = SILVER
-1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+1	Se	se	VERB	_	_	0	root	_	Gloss=être
 2	youn	youn	NUM	_	_	1	xcomp	_	Gloss=l'un
-3	nan	nan	ADP	_	_	4	case	_	Gloss=de
+3	nan	nan	ADP	_	_	4	case	_	Gloss=dans
 4	ensidan	ensidan	NOUN	_	_	2	nmod	_	Gloss=incident
 5	kote	kote	PRON	_	PronType=Rel	8	obl:mod	_	Gloss=où
 6	plis	plis	ADV	_	_	7	advmod	_	Gloss=plus
 7	moun	moun	NOUN	_	_	8	nsubj	_	Gloss=gens, personne
-8	mouri	mouri	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=mourir
+8	mouri	mouri	VERB	_	_	4	acl:relcl	_	Gloss=mourir
 9	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=un
 11	sant	sant	NOUN	_	_	8	obl:mod	_	Gloss=centre
@@ -2414,13 +2413,13 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	13	nsubj	_	Gloss=3PL
 12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
-13	aliyen	aliyen	VERB	_	Tense=Pres	0	root	_	Gloss=aligner
+13	aliyen	aliyen	VERB	_	_	0	root	_	Gloss=aligner
 14	kèk	kèk	DET	_	_	15	det	_	Gloss=quelques
 15	kadav	kadav	NOUN	_	_	13	obj	_	Gloss=cadavre
 16	ke	ke	PRON	_	PronType=Rel	19	obj	_	Gloss=que
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Gloss=3PL
 18	te	te	AUX	_	_	19	aux	_	Gloss=PAST
-19	kouvri	kouvri	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=couvrir
+19	kouvri	kouvri	VERB	_	_	15	acl:relcl	_	Gloss=couvrir
 20	anba	anba	ADP	_	_	21	case	_	Gloss=sous
 21	dra	dra	NOUN	_	_	19	obl:mod	_	Gloss=drap
 22	deyò	deyò	ADP	_	_	23	case	_	Gloss=dehors
@@ -2448,7 +2447,7 @@
 5	lòt	lòt	DET	_	_	6	det	_	Gloss=autre
 6	kamyon	kamyon	NOUN	_	_	1	conj	_	Gloss=camion
 7	ki	ki	PRON	_	_	8	nsubj	_	Gloss=qui
-8	soti	soti	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=sortir
+8	soti	soti	VERB	_	_	6	acl:relcl	_	Gloss=sortir
 9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	mòg	mòg	NOUN	_	_	8	obl	_	Gloss=morgue
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=la
@@ -2464,7 +2463,7 @@
 # text_fr = Biden impose son premier veto présidentiel.
 # Status = SILVER
 1	Biden	biden	PROPN	_	_	2	nsubj	_	Gloss=Biden
-2	Enpoze	enpoze	VERB	_	Tense=Pres	0	root	_	Gloss=imposer
+2	Enpoze	enpoze	VERB	_	_	0	root	_	Gloss=imposer
 3	Premye	premye	ADJ	_	_	4	amod	_	Gloss=premier
 4	Veto	veto	NOUN	_	_	2	obj	_	Gloss=veto
 5	Prezidans	prezidans	NOUN	_	_	4	obj	_	Gloss=présidence
@@ -2477,7 +2476,7 @@
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
-4	pale	pale	VERB	_	Tense=Pres	0	root	_	Gloss=parler
+4	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 5	ak	ak	ADP	_	_	6	case	_	Gloss=avec
 6	jounalis	jounalis	NOUN	_	_	4	obl	_	Gloss=journaliste
 7	yo	yo	DET	_	Definite=Def|Number=Plur	6	det	_	_
@@ -2495,32 +2494,32 @@
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
-4	enpoze	enpoze	VERB	_	Tense=Pres	0	root	_	Gloss=imposer
+4	enpoze	enpoze	VERB	_	_	0	root	_	Gloss=imposer
 5	premye	premye	ADJ	_	_	6	amod	_	Gloss=premier
 6	veto	veto	NOUN	_	_	4	obj	_	Gloss=veto
-7	prezidans	prezidans	NOUN	_	_	6	obj	_	_
+7	prezidans	prezidans	NOUN	_	_	6	obj	_	Gloss=présidence
 8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	6	det	_	_
 9	nan	nan	ADP	_	_	11	case	_	_
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	_
 11	siy	siy	NOUN	_	_	6	nmod	_	Gloss=signe
 12	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
-13	montre	montre	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=montrer
+13	montre	montre	VERB	_	_	11	acl:relcl	_	Gloss=montrer
 14	relasyon	relasyon	NOUN	_	_	20	nsubj	_	Gloss=relation
 15	ant	ant	ADP	_	_	16	case	_	Gloss=entre
 16	Lamezonblanch	lamezonblanch	NOUN	_	_	14	nmod	_	Gloss=maison blanche
 17	ak	ak	CCONJ	_	_	18	cc	_	Gloss=et
 18	Kongrè	kongrè	NOUN	_	_	16	conj	_	Gloss=congrès
 19	a	a	DET	_	Definite=Def|Number=Sing	18	det	_	Gloss=le
-20	chanje	chanje	VERB	_	Tense=Pres	13	ccomp	_	Gloss=changer
+20	chanje	chanje	VERB	_	_	13	ccomp	_	Gloss=changer
 21	apre	apre	ADP	_	_	24	mark	_	Gloss=après
 22	Repibliken	repibliken	NOUN	_	_	24	nsubj	_	Gloss=républicain
 23	yo	yo	DET	_	Definite=Def|Number=Plur	22	det	_	_
-24	pran	pran	VERB	_	Tense=Pres	20	advcl	_	Gloss=prendre
+24	pran	pran	VERB	_	_	20	advcl	_	Gloss=prendre
 25	kontwòl	kontwòl	NOUN	_	_	24	obj	_	Gloss=contrôle
 26	Lachanm	lachanm	NOUN	_	_	25	obj	_	Gloss=chambre
 27	Depite	depite	NOUN	_	_	26	obj	_	Gloss=député
 28	yo	yo	DET	_	Definite=Def|Number=Plur	26	det	_	_
-29	nan	nan	ADP	_	_	30	case	_	Gloss=au
+29	nan	nan	ADP	_	_	30	case	_	Gloss=dans
 30	mwad	mwa	NOUN	_	_	24	obl:mod	_	Gloss=mois
 31	Janvye	janvye	NOUN	_	_	30	obj	_	Gloss=janvier
 32	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	Gloss=le|SpaceAfter=No
@@ -2533,24 +2532,24 @@
 1	Ak	ak	ADP	_	_	2	case	_	Gloss=avec
 2	veto	veto	NOUN	_	_	10	obl:mod	_	Gloss=véto
 3	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=3SG
-4	enpoze	enpoze	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=imposer
+4	enpoze	enpoze	VERB	_	_	2	acl:relcl	_	Gloss=imposer
 5	Lendi	Lendi	PROPN	_	_	4	obj	_	Gloss=lundi|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Biden	Biden	PROPN	_	_	10	nsubj	_	Gloss=Biden
 8	t	te	AUX	_	_	10	aux	_	Gloss=PAST|SpaceAfter=No
 9	ap	ap	AUX	_	_	10	aux	_	Gloss=PROG
-10	chache	chache	VERB	_	Tense=Past	0	root	_	Gloss=chercher
-11	bloke	bloke	VERB	_	VerbForm=Inf	10	ccomp	_	Gloss=bloquer
+10	chache	chache	VERB	_	_	0	root	_	Gloss=chercher
+11	bloke	bloke	VERB	_	_	10	ccomp	_	Gloss=bloquer
 12	yon	yon	DET	_	Definite=Ind|Number=Sing	13	det	_	Gloss=une
 13	mezi	mezi	NOUN	_	_	11	obj	_	Gloss=mesure
 14	Repibliken	repibliken	NOUN	_	_	16	nsubj	_	Gloss=républicain
 15	yo	yo	DET	_	Definite=Def|Number=Plur	14	det	_	Gloss=les
-16	adopte	adopte	VERB	_	Tense=Pres	13	acl:relcl	_	_
+16	adopte	adopte	VERB	_	_	13	acl:relcl	_	Gloss=adopter
 17	ki	ki	PRON	_	_	18	nsubj	_	Gloss=qui
-18	entèdi	entèdi	VERB	_	Tense=Pres	13	acl:relcl	_	Gloss=interdire
+18	entèdi	entèdi	VERB	_	_	13	acl:relcl	_	Gloss=interdire
 19	gouvenman	gouvènman	NOUN	_	_	18	obj	_	Gloss=gouvernement
 20	an	an	DET	_	Definite=Def|Number=Sing	19	det	_	_
-21	konsidere	konsidere	VERB	_	Tense=Pres	18	ccomp	_	_
+21	konsidere	konsidere	VERB	_	_	18	ccomp	_	Gloss=considérer
 22	chanjman	chanjman	NOUN	_	_	21	obj	_	Gloss=changement
 23	klimatik	klimatik	ADJ	_	_	22	amod	_	Gloss=climatique
 24	ni	ni	CCONJ	_	_	25	cc	_	Gloss=et, ni
@@ -2559,7 +2558,7 @@
 27	lè	lè	SCONJ	_	_	30	mark	_	Gloss=quand
 28	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	30	nsubj	_	Gloss=3SG|SpaceAfter=No
 29	ap	ap	AUX	_	_	30	aux	_	Gloss=PROG
-30	fè	fè	VERB	_	Tense=Pres	21	advcl	_	Gloss=faire
+30	fè	fè	VERB	_	_	21	advcl	_	Gloss=faire
 31	envestisman	envestisman	NOUN	_	_	30	obj	_	Gloss=investissement
 32	pou	pou	ADP	_	_	33	case	_	Gloss=pour
 33	plan	plan	NOUN	_	_	31	nmod	_	Gloss=plan
@@ -2577,7 +2576,7 @@
 2	Bank	bank	NOUN	_	_	1	obj	_	Gloss=banque
 3	Credit	credit	PROPN	_	_	2	obj	_	Gloss=Crédit
 4	Suisse	suisse	PROPN	_	_	3	flat:name	_	Gloss=Suisse
-5	Pèdi	pèdi	VERB	_	Tense=Pres	0	root	_	Gloss=perdre
+5	Pèdi	pèdi	VERB	_	_	0	root	_	Gloss=perdre
 6	Valè	valè	NOUN	_	_	5	obj	_	Gloss=valeur
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 8	Moman	moman	NOUN	_	_	5	obl	_	Gloss=moment
@@ -2589,7 +2588,7 @@
 14	ak	ak	ADP	_	_	17	mark	_	Gloss=à
 15	Bank	bank	NOUN	_	_	17	nsubj	_	Gloss=banque
 16	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
-17	Ogmante	ogmante	VERB	_	Tense=Pres	13	acl	_	Gloss=augmenter
+17	Ogmante	ogmante	VERB	_	_	13	acl	_	Gloss=augmenter
 
 # sent_id = 16__2
 # text = Yon afich ki gen non Credit Suisse make sou li sou pis Mache Labous Nouyok la (New York Stock Exchange) nan Nouyok, 15 Mas, 2023.
@@ -2598,11 +2597,11 @@
 1	Yon	yon	DET	_	Definite=Ind|Number=Sing	2	det	_	Gloss=DET
 2	afich	afich	NOUN	_	_	8	nsubj	_	Gloss=affiche
 3	ki	ki	PRON	_	_	4	nsubj	_	Gloss=qui
-4	gen	gen	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=avoir
+4	gen	gen	VERB	_	_	2	acl:relcl	_	Gloss=avoir
 5	non	non	NOUN	_	_	4	obj	_	Gloss=nom
 6	Credit	credit	PROPN	_	_	5	obj	_	Gloss=Crédit
 7	Suisse	suisse	PROPN	_	_	6	flat:name	_	Gloss=Suisse
-8	make	make	VERB	_	Tense=Pres	0	root	_	Gloss=marquer, figure
+8	make	make	VERB	_	_	0	root	_	Gloss=marquer, figure
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obl	_	Gloss=3SG
 11	sou	sou	ADP	_	_	12	case	_	Gloss=sur
@@ -2617,7 +2616,7 @@
 20	Stock	stock	PROPN	_	_	18	flat:name	_	Gloss=Stock
 21	Exchange	exchange	PROPN	_	_	18	flat:name	_	Gloss=Exchange|SpaceAfter=No
 22	)	)	PUNCT	_	_	18	punct	_	_
-23	nan	nan	ADP	_	_	24	case	_	Gloss=à
+23	nan	nan	ADP	_	_	24	case	_	Gloss=dans
 24	Nouyok	Nouyok	PROPN	_	_	8	obl:mod	_	Gloss=New York|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	15	15	NUM	_	_	8	obl:mod	_	Gloss=15
@@ -2634,7 +2633,7 @@
 3	Credit	Credit	PROPN	_	_	2	obj	_	Gloss=Crédit
 4	Suisse	Suisse	PROPN	_	_	3	flat:name	_	Gloss=Suisse
 5	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=DET
-6	pedi	pedi	VERB	_	Tense=Pres	0	root	_	Gloss=perdre
+6	pedi	pedi	VERB	_	_	0	root	_	Gloss=perdre
 7	plis	plis	ADJ	_	_	10	amod	_	Gloss=plus
 8	pase	pase	ADJ	_	_	7	dep	_	Gloss=que
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
@@ -2656,7 +2655,7 @@
 2	istorik	istorik	ADJ	_	_	1	amod	_	Gloss=historique
 3	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
 4	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
-5	vini	vini	VERB	_	Tense=Pres	0	root	_	Gloss=venir
+5	vini	vini	VERB	_	_	0	root	_	Gloss=venir
 6	apre	apre	ADP	_	_	21	mark	_	Gloss=après
 7	Bank	bank	NOUN	_	_	21	nsubj	_	Gloss=banque
 8	Nasyonal	nasyonal	ADJ	_	_	7	amod	_	Gloss=national
@@ -2664,7 +2663,7 @@
 10	an	an	DET	_	Definite=Def|Number=Sing	7	det	_	Gloss=DET
 11	-	-	PUNCT	_	_	13	punct	_	_
 12	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
-13	kontwole	kontwole	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=contrôle
+13	kontwole	kontwole	VERB	_	_	7	acl:relcl	_	Gloss=contrôle
 14	majorite	majorite	NOUN	_	_	13	obj	_	Gloss=majorité
 15	aksyon	aksyon	NOUN	_	_	14	obj	_	Gloss=action
 16	Credit	credit	NOUN	_	_	15	obj	_	Gloss=Crédit
@@ -2672,13 +2671,13 @@
 18	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
 19	-	-	PUNCT	_	_	13	punct	_	_
 20	te	te	AUX	_	_	21	aux	_	Gloss=PAST
-21	di	di	VERB	_	Tense=Pres	5	advcl	_	Gloss=dire
+21	di	di	VERB	_	_	5	advcl	_	Gloss=dire
 22	jounalis	jounalis	NOUN	_	_	21	iobj	_	Gloss=journalist
 23	yo	yo	DET	_	Definite=Def|Number=Plur	22	det	_	Gloss=DET
 24	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes	27	nsubj	_	Gloss=3SG
 25	p	pa	ADV	_	_	27	advmod	_	Gloss=NEG|SpaceAfter=No
 26	ap	ap	AUX	_	_	27	aux	_	Gloss=PROG|wordform=pap
-27	bay	bay	VERB	_	Tense=Pres	21	ccomp	_	Gloss=donner
+27	bay	bay	VERB	_	_	21	ccomp	_	Gloss=donner
 28	bank	bank	NOUN	_	_	27	iobj	_	Gloss=banque
 29	Suis	suis	PROPN	_	_	28	nmod	_	Gloss=suisse
 30	la	la	DET	_	Definite=Def|Number=Sing	28	det	_	Gloss=DET
@@ -2700,7 +2699,7 @@
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	_
 3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	_
 4	te	te	AUX	_	_	5	aux	_	Gloss=PAST
-5	pran	pran	VERB	_	Tense=Pres	0	root	_	Gloss=prendre
+5	pran	pran	VERB	_	_	0	root	_	Gloss=prendre
 6	byen	byen	ADV	_	_	5	advmod	_	Gloss=bien
 7	lontan	lontan	ADV	_	_	5	advmod	_	Gloss=longtemps
 8	anvan	anvan	ADP	_	_	14	mark	_	Gloss=avant
@@ -2709,7 +2708,7 @@
 11	Ameriken	ameriken	ADJ	_	_	10	amod	_	Gloss=américain
 12	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	_
 13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
-14	fè	fè	VERB	_	Tense=Pres	5	advcl	_	Gloss=faire
+14	fè	fè	VERB	_	_	5	advcl	_	Gloss=faire
 15	fayit	fayit	NOUN	_	_	14	obj	_	Gloss=faillite|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -2719,13 +2718,13 @@
 # Status = SILVER
 1	Tibilans	Tibilans	NOUN	_	_	6	nsubj	_	Gloss=turbulence
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
-3	koze	koze	VERB	_	Tense=Pres	1	acl	_	Gloss=occasionne
+3	koze	koze	VERB	_	_	1	acl	_	Gloss=occasionne
 4	Mèkredi	mèkredi	NOUN	_	_	3	obl:mod	_	Gloss=mercredi
 5	te	te	AUX	_	_	6	aux	_	Gloss=PAST
-6	lakoz	lakoz	VERB	_	Tense=Past	0	root	_	Gloss=susciter
+6	lakoz	lakoz	VERB	_	_	0	root	_	Gloss=susciter
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Gloss=3PL
 8	te	te	AUX	_	_	9	aux	_	Gloss=PAST
-9	kanpe	kanpe	VERB	_	Tense=Pres	6	ccomp	_	Gloss=cesser
+9	kanpe	kanpe	VERB	_	_	6	ccomp	_	Gloss=cesser
 10	lavant	lavant	NOUN	_	_	9	obj	_	Gloss=vente
 11	aksyon	aksyon	NOUN	_	_	10	obj	_	Gloss=action
 12	Credit	credit	PROPN	_	_	11	obj	_	Gloss=Credit
@@ -2765,7 +2764,7 @@
 1	Joe	Joe	PROPN	_	_	4	nsubj	_	Gloss=Joe
 2	Biden	Biden	PROPN	_	_	1	flat:name	_	Gloss=Biden
 3	ap	ap	AUX	_	_	4	aux	_	Gloss=PROG
-4	rankontre	rankontre	VERB	_	Tense=Pres	0	root	_	Gloss=rencontrer
+4	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 5	ak	ak	ADP	_	_	6	case	_	Gloss=avec
 6	Prezidan	prezidan	NOUN	_	_	4	obl	_	Gloss=président
 7	Komisyon	komisyon	NOUN	_	_	6	obj	_	Gloss=commission
@@ -2784,7 +2783,7 @@
 3	Joe	Joe	PROPN	_	_	1	appos	_	Gloss=Joe
 4	Biden	Biden	PROPN	_	_	3	flat:name	_	Gloss=Biden
 5	ap	ap	AUX	_	_	6	aux	_	Gloss=PROG
-6	rankontre	rankontre	VERB	_	Tense=Pres	0	root	_	Gloss=rencontrer
+6	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 7	ak	ak	ADP	_	_	8	case	_	Gloss=avec
 8	Prezidan	prezidan	NOUN	_	_	6	obl	_	Gloss=président
 9	Komisyon	komisyon	NOUN	_	_	8	obj	_	Gloss=commission
@@ -2799,7 +2798,7 @@
 18	Blanch	blanch	PROPN	_	_	17	flat:name	_	Gloss=blanche
 19	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
 20	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	21	nsubj	_	Gloss=3PL
-21	pale	pale	VERB	_	Tense=Pres	6	dep	_	Gloss=parler
+21	pale	pale	VERB	_	_	6	dep	_	Gloss=parler
 22	sou	sou	ADP	_	_	23	case	_	Gloss=sur
 23	sanksyon	sanksyon	NOUN	_	_	21	obl	_	Gloss=sanction
 24	posib	posib	ADJ	_	_	23	amod	_	Gloss=possible
@@ -2811,9 +2810,9 @@
 30	kòmkwa	kòmkwa	ADP	_	_	33	dep	_	Gloss=comme quoi
 31	LaChin	Lachin	PROPN	_	_	33	nsubj	_	Gloss=Chine
 32	ap	ap	AUX	_	_	33	aux	_	Gloss=PROG
-33	pare	pare	VERB	_	Tense=Pres	29	acl:relcl	_	Gloss=préparer
+33	pare	pare	VERB	_	_	29	acl:relcl	_	Gloss=préparer
 34	pou	pou	ADP	_	_	35	mark	_	Gloss=pour
-35	voye	voye	VERB	_	VerbForm=Inf	33	dep	_	Gloss=envoyer
+35	voye	voye	VERB	_	_	33	dep	_	Gloss=envoyer
 36	zam	zam	NOUN	_	_	35	obj	_	Gloss=armée
 37	bay	bay	VERB	_	_	35	ccomp	_	Gloss=donner
 38	LaRisi	Larisi	PROPN	_	_	37	obj	_	Gloss=Russie|SpaceAfter=No
@@ -2824,9 +2823,9 @@
 43	poutèt	poutèt	NOUN	_	_	41	nmod	_	Gloss=à cause de
 44	plan	plan	NOUN	_	_	46	nsubj	_	Gloss=plan
 45	Washington	Washington	PROPN	_	_	44	nmod	_	Gloss=Washington
-46	genyen	genyen	VERB	_	Tense=Pres	43	ccomp	_	Gloss=avoir
+46	genyen	genyen	VERB	_	_	43	ccomp	_	Gloss=avoir
 47	pou	pou	ADP	_	_	48	mark	_	Gloss=pour
-48	bay	bay	VERB	_	VerbForm=Inf	46	dep	_	Gloss=donner
+48	bay	bay	VERB	_	_	46	dep	_	Gloss=donner
 49	konpayi	konpayi	NOUN	_	_	48	iobj	_	Gloss=compagnie
 50	ameriken	ameriken	ADJ	_	_	49	amod	_	Gloss=américaine
 51	yo	yo	DET	_	Definite=Def|Number=Plur	49	det	_	Gloss=DET.PL.
@@ -2835,7 +2834,7 @@
 54	kad	kad	NOUN	_	_	48	obl	_	Gloss=cadre
 55	Lwa	lwa	NOUN	_	_	54	obj	_	Gloss=loi
 56	pou	pou	ADP	_	_	57	mark	_	Gloss=pour
-57	Redui	redui	VERB	_	VerbForm=Inf	48	dep	_	Gloss=réduire
+57	Redui	redui	VERB	_	_	48	dep	_	Gloss=réduire
 58	Enflasyon	enflasyon	NOUN	_	_	57	obj	_	Gloss=inflation
 59	an	an	DET	_	Definite=Def|Number=Sing	58	det	_	Gloss=DET|SpaceAfter=No
 60	.	.	PUNCT	_	_	6	punct	_	_
@@ -2850,7 +2849,7 @@
 4	der	der	PROPN	_	_	3	flat:name	_	Gloss=der
 5	Leyen	Leyen	PROPN	_	_	3	flat:name	_	Gloss=Leyen
 6	pwal	pral	AUX	_	_	7	aux	_	Gloss=FUT
-7	pale	pale	VERB	_	VerbForm=Inf	0	root	_	Gloss=parler
+7	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 8	tou	tou	ADV	_	_	7	advmod	_	Gloss=aussi
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	jan	jan	NOUN	_	_	7	obl	_	Gloss=façon
@@ -2860,7 +2859,7 @@
 14	Ewòp	ewòp	PROPN	_	_	13	flat:name	_	Gloss=Européenne
 15	la	la	DET	_	Definite=Def|Number=Sing	13	det	_	_
 16	ap	ap	AUX	_	_	17	aux	_	Gloss=PROG
-17	kòdone	kòdone	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=coordonner
+17	kòdone	kòdone	VERB	_	_	10	acl:relcl	_	Gloss=coordonner
 18	ansanm	ansanm	ADV	_	_	17	advmod	_	Gloss=ensemble
 19	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
 20	konbat	konbat	VERB	_	_	17	dep	_	Gloss=combattre
@@ -2873,13 +2872,13 @@
 27	teknoloji	teknoloji	NOUN	_	_	25	nmod	_	Gloss=technologie
 28	pwòp	pwòp	NOUN	_	_	27	nmod	_	Gloss=propre
 29	ki	ki	PRON	_	_	30	nsubj	_	Gloss=qui
-30	baze	baze	VERB	_	Tense=Pres	27	acl:relcl	_	Gloss=baser
+30	baze	baze	VERB	_	_	27	acl:relcl	_	Gloss=baser
 31	sou	sou	ADP	_	_	32	case	_	Gloss=sur
 32	chèn	chèn	NOUN	_	_	30	obl	_	Gloss=chaîne
 33	distribisyon	distribisyon	NOUN	_	_	32	obj	_	Gloss=distribution
 34	machandiz	machandiz	NOUN	_	_	33	obj	_	Gloss=marchandise
 35	ki	ki	PRON	_	_	36	nsubj	_	Gloss=qui
-36	asire	asire	VERB	_	Tense=Pres	32	acl:relcl	_	Gloss=assurer|SpaceAfter=No
+36	asire	asire	VERB	_	_	32	acl:relcl	_	Gloss=assurer|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	se	se	VERB	_	_	36	ccomp	_	Gloss=être
 39	sa	sa	PRON	_	Number=Sing|PronType=Dem	38	xcomp	_	Gloss=3SG
@@ -2889,7 +2888,7 @@
 43	Blanch	blanch	PROPN	_	_	42	flat:name	_	Gloss=blanche
 44	Karine	Karine	PROPN	_	_	40	appos	_	Gloss=Karine
 45	Jean-Pierre	Jean-pierre	PROPN	_	_	44	flat:name	_	Gloss=Jean-Pierre
-46	di	di	VERB	_	Tense=Pres	39	acl:relcl	_	Gloss=dire
+46	di	di	VERB	_	_	39	acl:relcl	_	Gloss=dire
 47	nan	nan	ADP	_	_	49	case	_	Gloss=dans
 48	yon	yon	DET	_	Definite=Ind|Number=Sing	49	det	_	Gloss=DET
 49	deklarasyon	deklarasyon	NOUN	_	_	46	obl	_	Gloss=déclaration|SpaceAfter=No
@@ -2902,7 +2901,7 @@
 1	Rankont	Rankont	NOUN	_	_	4	nsubj	_	Gloss=rancontre
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
 3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
-4	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+4	se	se	VERB	_	_	0	root	_	Gloss=être
 5	dènye	dènye	ADJ	_	_	4	xcomp	_	Gloss=dernier
 6	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
@@ -2916,10 +2915,10 @@
 15	Ewòp	ewòp	PROPN	_	_	14	nmod	_	Gloss=Europe
 16	yo	yo	DET	_	Definite=Def|Number=Plur	14	det	_	Gloss=DET
 17	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
-18	kòdone	kòdone	VERB	_	VerbForm=Inf	9	acl	_	Gloss=coordonner
+18	kòdone	kòdone	VERB	_	_	9	acl	_	Gloss=coordonner
 19	sipò	sipò	NOUN	_	_	18	obj	_	Gloss=support
 20	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
-21	ede	ede	VERB	_	VerbForm=Inf	19	acl	_	Gloss=aider
+21	ede	ede	VERB	_	_	19	acl	_	Gloss=aider
 22	Ikrèn	ikrèn	PROPN	_	_	21	iobj	_	Gloss=Ukraine
 23	defann	defann	VERB	_	_	21	ccomp	_	Gloss=défendre
 24	tèt	tèt	NOUN	_	_	23	obj	_	Gloss=tête
@@ -2936,7 +2935,7 @@
 # Status = SILVER
 1	Biden	Biden	PROPN	_	_	3	nsubj	_	Gloss=Biden
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	rankontre	rankontre	VERB	_	Tense=Pres	0	root	_	Gloss=rencontrer
+3	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 4	ak	ak	ADP	_	_	5	case	_	Gloss=avec
 5	chanselye	chanselye	NOUN	_	_	3	obl	_	Gloss=chancelier
 6	alman	alman	ADJ	_	_	5	amod	_	Gloss=allemand
@@ -2955,7 +2954,7 @@
 # text_fr = La Russie a lancé 6 missiles hyper sonique Kinzhal.
 # Status = SILVER
 1	LaRisi	Larisi	PROPN	_	_	2	nsubj	_	Gloss=Russie
-2	Tire	tire	VERB	_	Tense=Pres	0	root	_	Gloss=lancer
+2	Tire	tire	VERB	_	_	0	root	_	Gloss=lancer
 3	6	6	NUM	_	_	4	nummod	_	Gloss=6
 4	Misil	misil	NOUN	_	_	2	obj	_	Gloss=missile
 5	Hypersonik	hypersonik	ADJ	_	_	4	amod	_	Gloss=hypersonique
@@ -2972,15 +2971,15 @@
 5	ke	ke	PRON	_	_	8	obj	_	Gloss=que
 6	Lapolis	Lapolis	NOUN	_	_	8	nsubj	_	Gloss=police
 7	Ikreynen	Ikreynen	ADJ	_	_	6	amod	_	Gloss=ukrainien
-8	distribye	distribye	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=distribuer
+8	distribye	distribye	VERB	_	_	2	acl:relcl	_	Gloss=distribuer
 9	bay	bay	VERB	_	_	8	ccomp	_	Gloss=donner
 10	lapres	lapres	NOUN	_	_	9	obj	_	Gloss=presse
 11	ponpye	ponpye	NOUN	_	_	13	nsubj	_	Gloss=pompier
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	enspekte	enspekte	VERB	_	Tense=Pres	0	root	_	Gloss=inspecter
+13	enspekte	enspekte	VERB	_	_	0	root	_	Gloss=inspecter
 14	dega	dega	NOUN	_	_	13	obj	_	Gloss=dégât
 15	ki	ki	PRON	_	_	16	nsubj	_	Gloss=qui
-16	fet	fet	VERB	_	Tense=Pres	14	acl:relcl	_	Gloss=faire
+16	fet	fet	VERB	_	_	14	acl:relcl	_	Gloss=faire
 17	nan	nan	ADP	_	_	19	case	_	Gloss=dans
 18	yon	yon	DET	_	Definite=Ind|Number=Sing	19	det	_	_
 19	bilding	bilding	NOUN	_	_	16	obl	_	Gloss=bâtiment
@@ -3012,7 +3011,7 @@
 5	ke	ke	PRON	_	_	8	obj	_	Gloss=que
 6	LaRisi	Larisi	PROPN	_	_	8	nsubj	_	Gloss=Russie
 7	te	te	AUX	_	_	8	aux	_	Gloss=PAST
-8	lanse	lanse	VERB	_	Tense=Pres	3	acl:relcl	_	Gloss=lancer
+8	lanse	lanse	VERB	_	_	3	acl:relcl	_	Gloss=lancer
 9	jedi	jedi	NOUN	_	_	8	obl:mod	_	Gloss=jeudi
 10	sou	sou	ADP	_	_	11	case	_	Gloss=sur
 11	Ikrèn	Ikrèn	NOUN	_	_	8	obl	_	Gloss=Ukraine|SpaceAfter=No
@@ -3022,22 +3021,22 @@
 15	Grand	grand	PROPN	_	_	14	nmod	_	Gloss=Grande
 16	Bretay	Bretay	PROPN	_	_	15	flat:name	_	Gloss=Bretagne
 17	la	la	DET	_	Definite=Def|Number=Sing	13	det	_	Gloss=DET
-18	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+18	di	di	VERB	_	_	0	root	_	Gloss=dire
 19	vandredi	vandredi	NOUN	_	_	18	obl:mod	_	Gloss=vendredi
 20	ke	ke	SCONJ	_	_	22	mark	_	Gloss=que
 21	pwal	pwal	AUX	_	_	22	aux	_	Gloss=FUT
-22	gen	gen	VERB	_	Tense=Pres	18	ccomp	_	Gloss=avoir
+22	gen	gen	VERB	_	_	18	ccomp	_	Gloss=avoir
 23	plis	plis	ADJ	_	_	24	amod	_	Gloss=plus
 24	tan	tan	NOUN	_	_	22	obj	_	Gloss=temps
 25	ki	ki	PRON	_	_	26	nsubj	_	Gloss=qui
-26	pase	pase	VERB	_	Tense=Pres	24	acl:relcl	_	Gloss=passer
+26	pase	pase	VERB	_	_	24	acl:relcl	_	Gloss=passer
 27	anvan	anvan	NOUN	_	_	26	obl:mod	_	Gloss=avant
 28	jan	jan	NOUN	_	_	27	obj	_	Gloss=genre
 29	de	de	ADP	_	_	30	case	_	Gloss=de
 30	frap	frap	NOUN	_	_	28	nmod	_	Gloss=frappe
 31	sa	sa	DET	_	Number=Sing|PronType=Dem	28	det	_	Gloss=DET
 32	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	33	nsubj	_	Gloss=3PL
-33	fèt	fèt	VERB	_	Tense=Pres	28	acl:relcl	_	Gloss=faire, réaliser|SpaceAfter=No
+33	fèt	fèt	VERB	_	_	28	acl:relcl	_	Gloss=faire, réaliser|SpaceAfter=No
 34	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = 18__4
@@ -3046,7 +3045,7 @@
 # Status = SILVER
 1	Ministè	ministè	NOUN	_	_	3	nsubj	_	Gloss=ministre
 2	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
-3	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	LaRisi	Larisi	PROPN	_	_	5	nsubj	_	Gloss=Russie
 5	bezwen	bezwen	NOUN	_	_	3	obj	_	Gloss=besoin
 6	plis	plis	ADJ	_	_	7	amod	_	Gloss=plus
@@ -3054,12 +3053,12 @@
 8	«	«	PUNCT	_	_	11	punct	_	_
 9	pou	pou	ADP	_	_	11	mark	_	Gloss=pour
 10	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Gloss=3SG
-11	rasanble	rasanble	VERB	_	Tense=Pres	7	acl	_	Gloss=rassembler
+11	rasanble	rasanble	VERB	_	_	7	acl	_	Gloss=rassembler
 12	gwo	gwo	ADJ	_	_	13	amod	_	Gloss=grand
 13	mas	mas	NOUN	_	_	11	obj	_	Gloss=masse
 14	misil	misil	NOUN	_	_	13	obj	_	Gloss=missile
 15	ki	ki	PRON	_	_	16	nsubj	_	Gloss=qui
-16	fèk	fèk	VERB	_	Tense=Pres	13	acl:relcl	_	Gloss=venir tout juste
+16	fèk	fèk	VERB	_	_	13	acl:relcl	_	Gloss=venir tout juste
 17	soti	soti	ADV	_	_	16	advmod	_	Gloss=à peine
 18	dirèkteman	dirèkteman	ADV	_	_	16	advmod	_	Gloss=directement
 19	nan	nan	ADP	_	_	20	case	_	Gloss=dans
@@ -3067,12 +3066,12 @@
 21	a	a	DET	_	Definite=Def|Number=Sing	20	det	_	Gloss=DET
 22	anvan	anvan	ADP	_	_	24	mark	_	Gloss=avant
 23	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	24	nsubj	_	Gloss=3SG
-24	gen	gen	VERB	_	Tense=Pres	16	advcl	_	Gloss=avoir
+24	gen	gen	VERB	_	_	16	advcl	_	Gloss=avoir
 25	ase	ase	ADV	_	_	24	advmod	_	Gloss=assez
 26	resous	resous	NOUN	_	_	24	obj	_	Gloss=ressource
 27	pou	pou	ADP	_	_	29	mark	_	Gloss=pour
 28	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	29	nsubj	_	Gloss=3SG
-29	debòde	debòde	VERB	_	Tense=Pres	26	acl	_	Gloss=déborder
+29	debòde	debòde	VERB	_	_	26	acl	_	Gloss=déborder
 30	kapasite	kapasite	NOUN	_	_	29	obj	_	Gloss=capacité
 31	defans	defans	NOUN	_	_	30	obj	_	Gloss=défense
 32	aeryen	aeryen	ADJ	_	_	31	amod	_	Gloss=aérienne
@@ -3086,7 +3085,7 @@
 # Status = SILVER
 1	LaRisi	Larisi	PROPN	_	_	3	nsubj	_	Gloss=Russie
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	lanse	lanse	VERB	_	Tense=Pres	0	root	_	Gloss=lancer
+3	lanse	lanse	VERB	_	_	0	root	_	Gloss=lancer
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	5	det	_	Gloss=DET
 5	pakèt	pakèt	NOUN	_	_	3	obj	_	Gloss=paquet
 6	atak	atak	NOUN	_	_	5	obj	_	Gloss=attaque
@@ -3098,14 +3097,14 @@
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	kote	kote	PRON	_	_	15	obl:mod	_	Gloss=où
 14	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Gloss=3SG
-15	touye	touye	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=tuer
+15	touye	touye	VERB	_	_	10	acl:relcl	_	Gloss=tuer
 16	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 17	pi	pi	ADV	_	_	18	advmod	_	Gloss=au moins
 18	piti	piti	VERB	_	_	15	advcl	_	Gloss=petit
 19	6	6	NUM	_	_	20	nummod	_	Gloss=6
 20	moun	moun	NOUN	_	_	15	obj	_	Gloss=personne
 21	e	e	CCONJ	_	_	22	cc	_	Gloss=et
-22	kite	kite	VERB	_	Tense=Pres	15	conj	_	Gloss=quitter
+22	kite	kite	VERB	_	_	15	conj	_	Gloss=quitter
 23	dè	dè	ADP	_	_	24	case	_	Gloss=des
 24	milye	milye	NOUN	_	_	22	obl	_	Gloss=milliers
 25	san	san	ADP	_	_	26	case	_	Gloss=sans
@@ -3151,7 +3150,7 @@
 31	yon	yon	DET	_	Definite=Ind|Number=Sing	32	det	_	Gloss=DET
 32	pousantaj	pousantaj	NOUN	_	_	25	nmod	_	Gloss=pourcentage
 33	pi	pi	ADV	_	_	34	advmod	_	Gloss=au minimum
-34	piti	piti	ADV	_	_	32	advmod	_	_
+34	piti	piti	ADJ	_	_	32	amod	_	Gloss=petit
 35	lontan	lontan	ADV	_	_	34	advmod	_	Gloss=longtemps
 36	pase	pase	NOUN	_	_	35	obj	_	Gloss=passé
 37	sa	sa	PRON	_	Number=Sing|PronType=Dem	36	det	_	_
@@ -3179,7 +3178,7 @@
 2	Defans	defans	NOUN	_	_	1	obj	_	Gloss=défense
 3	ris	ris	ADJ	_	_	1	amod	_	Gloss=russe
 4	la	la	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
-5	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+5	di	di	VERB	_	_	0	root	_	Gloss=dire
 6	frap	frap	NOUN	_	_	8	nsubj	_	Gloss=frappe
 7	yo	yo	DET	_	Definite=Def|Number=Plur	6	det	_	Gloss=DET
 8	se	se	VERB	_	_	5	ccomp	_	Gloss=être|SpaceAfter=No|wordform=sete
@@ -3191,7 +3190,7 @@
 14	atak	atak	NOUN	_	_	11	nmod	_	Gloss=attaque
 15	ki	ki	PRON	_	_	17	nsubj	_	Gloss=qui
 16	te	te	AUX	_	_	17	aux	_	Gloss=PAST
-17	fèt	fèt	VERB	_	Tense=Past	14	acl:relcl	_	Gloss=faire
+17	fèt	fèt	VERB	_	_	14	acl:relcl	_	Gloss=faire
 18	lòt	lòt	ADJ	_	_	19	amod	_	Gloss=autre
 19	jou	jou	NOUN	_	_	17	obl:mod	_	Gloss=jour
 20	la	la	DET	_	Definite=Def|Number=Sing	19	det	_	Gloss=DET
@@ -3205,7 +3204,7 @@
 28	,	,	PUNCT	_	_	17	punct	_	_
 29	e	e	CCONJ	_	_	31	cc	_	Gloss=et
 30	ki	ki	PRON	_	_	31	nsubj	_	Gloss=qui
-31	se	se	VERB	_	Tense=Pres	17	conj	_	Gloss=être|SpaceAfter=No
+31	se	se	VERB	_	_	17	conj	_	Gloss=être|SpaceAfter=No
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	dapre	dapre	ADP	_	_	34	case	_	Gloss=d'après
 34	Moskou	Moskou	PROPN	_	_	31	obl:mod	_	Gloss=Moscou|SpaceAfter=No
@@ -3228,7 +3227,7 @@
 4	an	an	DET	_	Definite=Def|Number=Sing	3	det	_	Gloss=DET
 5	e	e	CCONJ	_	_	7	cc	_	Gloss=et
 6	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Gloss=3SG
-7	di	di	VERB	_	Tense=Pres	2	conj	_	_
+7	di	di	VERB	_	Tense=Pres	2	conj	_	Gloss=dire
 8	ke	ke	SCONJ	_	_	10	mark	_	Gloss=que
 9	Moskou	Moskou	PROPN	_	_	10	nsubj	_	Gloss=Moscou
 10	ka	ka	VERB	_	Tense=Pres	7	ccomp	_	Gloss=pouvoir
@@ -3253,21 +3252,21 @@
 1	Anpil	anpil	ADV	_	_	2	advmod	_	Gloss=beaucoup
 2	Ikrenyen	ikrenyen	NOUN	_	_	4	nsubj	_	Gloss=ukrainien
 3	Pa	pa	ADV	_	_	4	advmod	_	Gloss=NEG
-4	Konn	konnen	VERB	_	Tense=Pres	0	root	_	Gloss=savoir, connaitre
+4	Konn	konnen	VERB	_	_	0	root	_	Gloss=savoir, connaitre
 5	sa	sa	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Gloss=ce
 6	pou	pou	VERB	_	_	5	ccomp	_	Gloss=falloir, devoir
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
-8	Fè	fè	VERB	_	Tense=Pres	6	ccomp	_	Gloss=faire
+8	Fè	fè	VERB	_	_	6	ccomp	_	Gloss=faire
 9	Akoz	akoz	ADP	_	_	18	mark	_	Gloss=à cause de
 10	Pèmisyon	pèmisyon	NOUN	_	_	18	nsubj	_	Gloss=permit
 11	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	_
 12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
-13	Genyen	genyen	VERB	_	Tense=Past	10	acl:relcl	_	Gloss=avoir
+13	Genyen	genyen	VERB	_	_	10	acl:relcl	_	Gloss=avoir
 14	pou	pou	ADP	_	_	15	mark	_	Gloss=pour
 15	Rete	rete	VERB	_	_	13	dep	_	Gloss=rester
-16	nan	nan	ADP	_	_	17	case	_	Gloss=à
+16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	Etazini	Etazini	PROPN	_	_	15	obl	_	Gloss=Etats-Unis
-18	Ekspire	ekspire	VERB	_	Tense=Pres	8	advcl	_	Gloss=expirer
+18	Ekspire	ekspire	VERB	_	_	8	advcl	_	Gloss=expirer
 
 # sent_id = 19__2
 # text = SAN DIEGO (AP) — Plis pase 20,000 Ikrenyen ki te jwenn pèmisyon pou yo rete sou teritwa ameriken an pou yon ane, apre yo te kouri kite peyi yo akoz envazyon Larisi te lanse lakay yo, yo ap fè fas gwo pwoblèm akoz Pwogram Pawòl imanitè ki ekpire pou yo.
@@ -3285,11 +3284,11 @@
 10	Ikrenyen	ikrenyen	NOUN	_	_	43	dislocated	_	Gloss=ukrainien
 11	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
 12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
-13	jwenn	jwenn	VERB	_	Tense=Past	10	acl:relcl	_	Gloss=trouver
+13	jwenn	jwenn	VERB	_	_	10	acl:relcl	_	Gloss=trouver
 14	pèmisyon	pèmisyon	NOUN	_	_	13	obj	_	Gloss=permis
 15	pou	pou	ADP	_	_	17	mark	_	Gloss=pour
 16	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Gloss=3PL
-17	rete	rete	VERB	_	Tense=Pres	14	acl	_	Gloss=rester
+17	rete	rete	VERB	_	_	14	acl	_	Gloss=rester
 18	sou	sou	ADP	_	_	19	case	_	Gloss=sur
 19	teritwa	teritwa	NOUN	_	_	17	obl	_	Gloss=territoire
 20	ameriken	ameriken	ADJ	_	_	19	amod	_	Gloss=américain
@@ -3301,21 +3300,21 @@
 26	apre	apre	ADP	_	_	29	mark	_	Gloss=après
 27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL
 28	te	te	AUX	_	_	29	aux	_	Gloss=PAST
-29	kouri	kouri	VERB	_	Tense=Pres	13	advcl	_	Gloss=courir
-30	kite	kite	VERB	_	VerbForm=Inf	29	ccomp	_	Gloss=quitter
+29	kouri	kouri	VERB	_	_	13	advcl	_	Gloss=courir
+30	kite	kite	VERB	_	_	29	ccomp	_	Gloss=quitter
 31	peyi	peyi	NOUN	_	_	30	obj	_	Gloss=pays
 32	yo	yo	DET	_	Definite=Def|Number=Plur	31	det	_	Gloss=3PL
 33	akoz	akoz	ADP	_	_	34	case	_	Gloss=à cause de
 34	envazyon	envazyon	NOUN	_	_	30	obl:mod	_	Gloss=invasion
 35	Larisi	larisi	PROPN	_	_	37	nsubj	_	Gloss=Russie
 36	te	te	AUX	_	_	37	aux	_	Gloss=PAST
-37	lanse	lanse	VERB	_	Tense=Past	34	acl:relcl	_	Gloss=lancer
+37	lanse	lanse	VERB	_	_	34	acl:relcl	_	Gloss=lancer
 38	lakay	lakay	NOUN	_	_	37	obj	_	Gloss=maison
 39	yo	yo	DET	_	Definite=Def|Number=Plur	38	det	_	Gloss=DET|SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	43	nsubj	_	Gloss=3PL
 42	ap	ap	AUX	_	_	43	aux	_	Gloss=PAST
-43	fè	fè	VERB	_	Tense=Pres	0	root	_	Gloss=faire
+43	fè	fè	VERB	_	_	0	root	_	Gloss=faire
 44	fas	fas	NOUN	_	_	43	obj	_	Gloss=face
 45	gwo	gwo	ADJ	_	_	46	amod	_	Gloss=gros
 46	pwoblèm	pwoblèm	NOUN	_	_	44	obj	_	Gloss=difficulté, problème
@@ -3324,7 +3323,7 @@
 49	Pawòl	pawòl	NOUN	_	_	48	obj	_	Gloss=parole
 50	imanitè	imanitè	NOUN	_	_	49	nmod	_	Gloss=humanitaire
 51	ki	ki	PRON	_	_	52	nsubj	_	Gloss=qui
-52	ekpire	ekpire	VERB	_	Tense=Pres	48	acl:relcl	_	Gloss=expirer
+52	ekpire	ekpire	VERB	_	_	48	acl:relcl	_	Gloss=expirer
 53	pou	pou	ADP	_	_	54	case	_	Gloss=pour
 54	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	52	obl	_	Gloss=3PL|SpaceAfter=No
 55	.	.	PUNCT	_	_	43	punct	_	_
@@ -3336,21 +3335,21 @@
 1	Moun	moun	NOUN	_	_	8	nsubj	_	Gloss=personne
 2	ki	ki	PRON	_	_	4	nsubj	_	Gloss=qui
 3	ap	ap	AUX	_	_	4	aux	_	Gloss=PROG
-4	defann	defann	VERB	_	Tense=Pres	1	acl:relcl	_	Gloss=défendre
+4	defann	defann	VERB	_	_	1	acl:relcl	_	Gloss=défendre
 5	imigran	imigran	NOUN	_	_	4	obj	_	Gloss=immigrant
 6	sa	sa	DET	_	Definite=Def|Number=Sing	5	det	_	_
 7	yo	yo	DET	_	Number=Plur|Person=3|PronType=Prs	5	det	_	_
-8	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+8	di	di	VERB	_	_	0	root	_	Gloss=dire
 9	ke	ke	SCONJ	_	_	13	mark	_	Gloss=que
 10	administrasyon	administrasyon	NOUN	_	_	13	nsubj	_	Gloss=administration
 11	Biden	Biden	PROPN	_	_	10	obj	_	Gloss=Biden
 12	nan	nan	DET	_	_	10	det	_	Gloss=de
-13	enfòme	enfòme	VERB	_	Tense=Pres	8	ccomp	_	Gloss=informer
+13	enfòme	enfòme	VERB	_	_	8	ccomp	_	Gloss=informer
 14	yo	yo	PRON	_	Definite=Def|Number=Plur	13	obj	_	Gloss=les
 15	ke	ke	SCONJ	_	_	18	mark	_	Gloss=que
 16	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	Gloss=3SG
 17	ap	ap	AUX	_	_	18	aux	_	Gloss=PROG
-18	travay	travay	VERB	_	Tense=Pres	13	ccomp	_	Gloss=travailler
+18	travay	travay	VERB	_	_	13	ccomp	_	Gloss=travailler
 19	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
 20	ranje	ranje	VERB	_	_	18	dep	_	Gloss=arranger
 21	sitiyasyon	sitiyasyon	NOUN	_	_	20	obj	_	Gloss=situation
@@ -3360,12 +3359,12 @@
 25	ke	ke	SCONJ	_	_	28	mark	_	Gloss=que
 26	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	Gloss=3SG
 27	pa	pa	ADV	_	_	28	advmod	_	Gloss=NEG
-28	di	di	VERB	_	Tense=Pres	18	conj	_	Gloss=dire
+28	di	di	VERB	_	_	18	conj	_	Gloss=dire
 29	ki	ki	PRON	_	_	28	obj	_	Gloss=qui
 30	sa	sa	PRON	_	Number=Sing|PronType=Dem	29	obj	_	_
 31	moun	moun	NOUN	_	_	33	nsubj	_	Gloss=gens, personne
 32	yo	yo	DET	_	Definite=Def|Number=Plur	31	det	_	_
-33	ka	ka	VERB	_	Tense=Pres	30	acl:relcl	_	Gloss=pouvoir
+33	ka	ka	VERB	_	_	30	acl:relcl	_	Gloss=pouvoir
 34	fè	fè	VERB	_	_	33	ccomp	_	Gloss=faire
 35	pou	pou	ADP	_	_	37	mark	_	Gloss=pour
 36	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	37	nsubj	_	Gloss=3PL
@@ -3374,7 +3373,7 @@
 39	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	38	det	_	Gloss=3SG|SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	ki	ki	PRON	_	_	42	nsubj	_	Gloss=qui
-42	mache	mache	VERB	_	Tense=Pres	38	acl:relcl	_	Gloss=marcher
+42	mache	mache	VERB	_	_	38	acl:relcl	_	Gloss=marcher
 43	ak	ak	ADP	_	_	44	case	_	Gloss=avec
 44	avantaj	avantaj	NOUN	_	_	42	obl:arg	_	Gloss=avantage
 45	tankou	tankou	ADV	_	_	44	advmod	_	Gloss=tel que, comme
@@ -3385,7 +3384,7 @@
 50	manje	manje	NOUN	_	_	49	nmod	_	Gloss=nourriture|SpaceAfter=No
 51	,	,	PUNCT	_	_	53	punct	_	_
 52	ki	ki	PRON	_	_	53	nsubj	_	Gloss=qui
-53	rele	rele	VERB	_	Tense=Pres	49	acl:relcl	_	Gloss=appeler
+53	rele	rele	VERB	_	_	49	acl:relcl	_	Gloss=appeler
 54	ann	an	ADP	_	_	55	case	_	Gloss=en
 55	angle	angle	NOUN	_	_	53	obl	_	Gloss=anglais
 56	“	“	PUNCT	_	_	57	punct	_	SpaceAfter=No
@@ -3401,12 +3400,12 @@
 1	Pifò	Pifò	NOUN	_	_	2	nmod	_	Gloss=majorité
 2	Ikrenyen	Ikrenyen	PROPN	_	_	4	nsubj	_	Gloss=ukrainien
 3	te	te	AUX	_	_	4	aux	_	Gloss=PAST
-4	jwenn	jwenn	VERB	_	Tense=Pres	0	root	_	Gloss=trouver
+4	jwenn	jwenn	VERB	_	_	0	root	_	Gloss=trouver
 5	otorizasyon	otorizasyon	NOUN	_	_	4	obj	_	Gloss=autorisation
 6	pou	pou	ADP	_	_	8	mark	_	Gloss=pour
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
-8	patisipe	patisipe	VERB	_	Tense=Pres	5	acl	_	Gloss=participer
-9	nan	nan	ADP	_	_	10	case	_	Gloss=à
+8	patisipe	patisipe	VERB	_	_	5	acl	_	Gloss=participer
+9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	pwogram	pwogram	NOUN	_	_	8	obl	_	Gloss=programme
 11	imanitè	imanitè	ADJ	_	_	10	amod	_	Gloss=humanitaire
 12	sa	sa	DET	_	Number=Sing|PronType=Dem	10	det	_	_
@@ -3416,8 +3415,8 @@
 16	apre	apre	ADP	_	_	19	mark	_	Gloss=après
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Gloss=3PL
 18	te	te	AUX	_	_	19	aux	_	Gloss=PAST
-19	fin	fini	VERB	_	Tense=Past	4	advcl	_	Gloss=finir
-20	travèse	travèse	VERB	_	VerbForm=Inf	19	ccomp	_	Gloss=traverser
+19	fin	fini	VERB	_	_	4	advcl	_	Gloss=finir
+20	travèse	travèse	VERB	_	_	19	ccomp	_	Gloss=traverser
 21	fwontyè	fwontyè	NOUN	_	_	20	obj	_	Gloss=frontière
 22	Etazini	Etazini	PROPN	_	_	21	obj	_	Gloss=Etats-Unis
 23	ak	ak	ADP	_	_	24	case	_	Gloss=avec
@@ -3429,7 +3428,7 @@
 29	lagè	lagè	NOUN	_	_	32	nsubj	_	Gloss=guerre
 30	a	a	DET	_	Definite=Def|Number=Sing	29	det	_	Gloss=la
 31	te	te	AUX	_	_	32	aux	_	Gloss=PAST
-32	koumanse	koumanse	VERB	_	Tense=Past	27	acl	_	Gloss=commencer|SpaceAfter=No
+32	koumanse	koumanse	VERB	_	_	27	acl	_	Gloss=commencer|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 19__5
@@ -3438,10 +3437,10 @@
 # Status = SILVER
 1	Anpil	anpil	ADV	_	_	2	advmod	_	Gloss=beaucoup
 2	moun	moun	NOUN	_	_	3	nsubj	_	Gloss=gens, personne
-3	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ensètitid	ensètitid	NOUN	_	_	6	nsubj	_	Gloss=incertitude
 5	la	la	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=l'
-6	ba	bay	VERB	_	Tense=Pres	3	ccomp	_	Gloss=donner
+6	ba	bay	VERB	_	_	3	ccomp	_	Gloss=donner
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	6	iobj	_	Gloss=3PL
 8	tèt-chaje	tèt-chaje	NOUN	_	_	6	obj	_	Gloss=problème|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -3451,7 +3450,7 @@
 # text_fr = la Russie lance un exercice avec ses forces de missiles nucléaire.
 # Status = SILVER
 1	Larisi	larisi	PROPN	_	_	2	nsubj	_	Gloss=Russie
-2	Lanse	lanse	VERB	_	Tense=Pres	0	root	_	Gloss=lancer
+2	Lanse	lanse	VERB	_	_	0	root	_	Gloss=lancer
 3	Egzèsis	egzèsis	NOUN	_	_	2	obj	_	Gloss=exercice
 4	ak	ak	ADP	_	_	5	case	_	Gloss=avec
 5	Fòs	fòs	NOUN	_	_	3	nmod	_	Gloss=force
@@ -3472,7 +3471,7 @@
 6	Lame	lame	NOUN	_	_	9	nsubj	_	Gloss=armée
 7	Ris	ris	PROPN	_	_	6	nmod	_	Gloss=russe
 8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
-9	fè	fè	VERB	_	Tense=Pres	0	root	_	Gloss=faire
+9	fè	fè	VERB	_	_	0	root	_	Gloss=faire
 10	egzèsis	egzèsis	NOUN	_	_	9	obj	_	Gloss=exercice
 11	ak	ak	ADP	_	_	12	case	_	Gloss=avec
 12	fòs	fòs	NOUN	_	_	10	nmod	_	Gloss=force
@@ -3497,7 +3496,7 @@
 2	Defans	defans	NOUN	_	_	1	obj	_	Gloss=défense
 3	Ris	ris	PROPN	_	_	2	nmod	_	Gloss=russe
 4	la	la	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=le
-5	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire
+5	di	di	VERB	_	_	0	root	_	Gloss=dire
 6	Mèkredi	mèkredi	NOUN	_	_	5	obl:mod	_	Gloss=mercredi
 7	ke	ke	SCONJ	_	_	13	mark	_	Gloss=que
 8	lans	lans	NOUN	_	_	13	nsubj	_	Gloss=lance
@@ -3505,12 +3504,12 @@
 10	mobil	mobil	ADJ	_	_	9	amod	_	Gloss=mobile
 11	Yars	yars	PROPN	_	_	8	appos	_	Gloss=Yars
 12	pral	pral	AUX	_	_	13	aux	_	Gloss=FUT
-13	fè	fè	VERB	_	Tense=Pres	5	ccomp	_	Gloss=faire
+13	fè	fè	VERB	_	_	5	ccomp	_	Gloss=faire
 14	mannèv	mannèv	NOUN	_	_	13	obj	_	Gloss=manœuvre
 15	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 16	3	3	NUM	_	_	17	nummod	_	Gloss=3
 17	rejyon	rejyon	NOUN	_	_	14	nmod	_	Gloss=région
-18	nan	nan	ADP	_	_	19	case	_	Gloss=en
+18	nan	nan	ADP	_	_	19	case	_	Gloss=dans
 19	Siberi	siberi	PROPN	_	_	17	nmod	_	Gloss=Sibérie|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -3526,14 +3525,14 @@
 6	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun
 7	plan	plan	NOUN	_	_	4	obl	_	Gloss=plan
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
-9	pratike	pratike	VERB	_	VerbForm=Inf	7	acl	_	Gloss=pratiquer
+9	pratike	pratike	VERB	_	_	7	acl	_	Gloss=pratiquer
 10	lansman	lansman	NOUN	_	_	9	obj	_	Gloss=lancement
 11	men	men	CCONJ	_	_	13	cc	_	Gloss=mais
 12	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Gloss=3SG
-13	di	di	VERB	_	Tense=Pres	9	conj	_	Gloss=dire
+13	di	di	VERB	_	_	9	conj	_	Gloss=dire
 14	manèv	manèv	NOUN	_	_	16	nsubj	_	Gloss=manœuvre
 15	yo	yo	DET	_	Definite=Ind|Number=Sing	14	det	_	Gloss=DET
-16	enplike	enplike	VERB	_	Tense=Pres	13	ccomp	_	Gloss=impliquer
+16	enplike	enplike	VERB	_	_	13	ccomp	_	Gloss=impliquer
 17	apeprè	apeprè	ADP	_	_	19	dep	_	Gloss=à peu près
 18	300	300	NUM	_	_	19	nummod	_	Gloss=300
 19	machin	machin	NOUN	_	_	16	obj	_	Gloss=véhicule
@@ -3551,9 +3550,9 @@
 # Status = SILVER
 1	Depatman	Depatman	NOUN	_	_	3	nsubj	_	Gloss=département
 2	Deta	Deta	NOUN	_	_	1	obj	_	Gloss=d'Eta
-3	Konfime	konfime	VERB	_	Tense=Pres	0	root	_	Gloss=confirmer
+3	Konfime	konfime	VERB	_	_	0	root	_	Gloss=confirmer
 4	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Gloss=3PL
-5	Kidnape	kidnape	VERB	_	Tense=Pres	3	ccomp	_	Gloss=kidnapper
+5	Kidnape	kidnape	VERB	_	_	3	ccomp	_	Gloss=kidnapper
 6	2	2	NUM	_	_	7	nummod	_	Gloss=deux
 7	Sitwayen	sitwayen	NOUN	_	_	5	obj	_	Gloss=citoyen
 8	Ameriken	ameriken	ADJ	_	_	7	amod	_	Gloss=américain
@@ -3572,14 +3571,14 @@
 6	Abigail	Abigail	PROPN	_	_	4	appos	_	Gloss=Abigail
 7	Michael	Michael	PROPN	_	_	6	flat:name	_	Gloss=Michael
 8	Toussaint	Toussaint	PROPN	_	_	6	flat:name	_	Gloss=Toussaint
-9	poze	poze	VERB	_	Tense=Pres	0	root	_	Gloss=prendre
+9	poze	poze	VERB	_	_	0	root	_	Gloss=prendre
 10	pou	pou	ADP	_	_	12	case	_	Gloss=pour
 11	yon	yon	DET	_	Definite=Ind|Number=Sing	12	det	_	Gloss=une
 12	foto	foto	NOUN	_	_	9	obl	_	Gloss=photo
 13	jou	jou	NOUN	_	_	9	obl:mod	_	Gloss=jour
 14	maryaj	maryaj	NOUN	_	_	13	nmod	_	Gloss=mariage
 15	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	14	det	_	Gloss=DET
-16	nan	nan	ADP	_	_	17	case	_	Gloss=à
+16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	Pompano	Pompano	PROPN	_	_	9	obl	_	Gloss=Pompano
 18	Beach	Beach	PROPN	_	_	17	flat:name	_	Gloss=Beach|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -3598,14 +3597,14 @@
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	Vendant	Vendant	PROPN	_	_	1	appos	_	Gloss=Vendant
 8	Patel	Patel	PROPN	_	_	7	flat:name	_	Gloss=Patel
-9	konfime	konfime	VERB	_	Tense=Pres	0	root	_	Gloss=confirmer
+9	konfime	konfime	VERB	_	_	0	root	_	Gloss=confirmer
 10	Jedi	jedi	NOUN	_	_	9	obl:mod	_	Gloss=jeudi
 11	30	30	NUM	_	_	10	nmod	_	Gloss=30
 12	mas	mas	NOUN	_	_	11	nmod	_	Gloss=mars
 13	2023	2023	NUM	_	_	12	nmod	_	Gloss=2023
 14	ke	ke	SCONJ	_	_	16	mark	_	Gloss=que
 15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Rel	16	nsubj	_	Gloss=3PL
-16	kidnape	kidnape	VERB	_	Tense=Pres	9	ccomp	_	Gloss=kidnapper
+16	kidnape	kidnape	VERB	_	_	9	ccomp	_	Gloss=kidnapper
 17	2	2	NUM	_	_	18	nummod	_	Gloss=2
 18	sitwayen	sitwayen	NOUN	_	_	16	obj	_	Gloss=citoyens
 19	Ameriken	Ameriken	ADJ	_	_	18	amod	_	Gloss=américain
@@ -3618,7 +3617,7 @@
 # text_fr = Il ajoute que Washington est en contact avec les autorités haïtiennes et que les Etats-Unis continueront de travailler avec eux.
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
-2	ajoute	ajoute	VERB	_	Tense=Pres	0	root	_	Gloss=ajouter
+2	ajoute	ajoute	VERB	_	_	0	root	_	Gloss=ajouter
 3	ke	ke	SCONJ	_	_	6	mark	_	Gloss=que
 4	Washington	Washington	PROPN	_	_	6	nsubj	_	Gloss=Washington
 5	an	an	ADP	_	_	6	case	_	Gloss=en
@@ -3631,7 +3630,7 @@
 12	ke	ke	SCONJ	_	_	15	mark	_	Gloss=que
 13	Etazini	Etazini	PROPN	_	_	15	nsubj	_	Gloss=Etats-Unis
 14	pral	pral	AUX	_	_	15	aux	_	Gloss=FUT
-15	kontinye	kontinye	VERB	_	Tense=Past	6	conj	_	Gloss=continuer
+15	kontinye	kontinye	VERB	_	_	6	conj	_	Gloss=continuer
 16	travay	travay	NOUN	_	_	15	obj	_	Gloss=travail
 17	ak	ak	ADP	_	_	18	case	_	Gloss=avec
 18	yo	yo	PRON	_	Definite=Def|Number=Plur|PronType=Prs	16	nmod	_	Gloss=3PL|SpaceAfter=No
@@ -3643,8 +3642,8 @@
 # Status = SILVER
 1	Patel	Patel	PROPN	_	_	3	nsubj	_	Gloss=Patel
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	refize	refize	VERB	_	Tense=Imp	0	root	_	Gloss=refuser
-4	bay	bay	VERB	_	VerbForm=Inf	3	ccomp	_	Gloss=donner
+3	refize	refize	VERB	_	_	0	root	_	Gloss=refuser
+4	bay	bay	VERB	_	_	3	ccomp	_	Gloss=donner
 5	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun
 6	lòt	lòt	ADJ	_	_	7	amod	_	Gloss=autre
 7	detay	detay	NOUN	_	_	4	obj	_	Gloss=détail
@@ -3663,7 +3662,7 @@
 4	Depatman	Depatman	NOUN	_	_	3	obj	_	Gloss=département
 5	d	d	NOUN	_	Typo=Yes	4	obj	_	Gloss=d'Etat
 6	Eta	_	X	_	_	5	goeswith	_	_
-7	deklare	deklare	VERB	_	Tense=Pres	0	root	_	Gloss=déclarer
+7	deklare	deklare	VERB	_	_	0	root	_	Gloss=déclarer
 8	Samdi	Samdi	NOUN	_	_	7	obl:mod	_	Gloss=samedi|SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	gouvènman	gouvènman	NOUN	_	_	13	nsubj	_	Gloss=gouvernement
@@ -3674,7 +3673,7 @@
 15	de	de	ADP	_	_	16	case	_	Gloss=de
 16	rapò	rapò	NOUN	_	_	13	obl:arg	_	Gloss=rapport
 17	ki	ki	PRON	_	_	18	nsubj	_	Gloss=qui
-18	di	di	VERB	_	Tense=Pres	16	acl:relcl	_	Gloss=dire
+18	di	di	VERB	_	_	16	acl:relcl	_	Gloss=dire
 19	kòm	kòm	SCONJ	_	_	21	mark	_	Gloss=comme
 20	kwa	kwa	PRON	_	_	21	dep	_	Gloss=quoi
 21	gen	gen	VERB	_	_	18	ccomp	_	Gloss=avoir
@@ -3682,7 +3681,7 @@
 23	sitwayen	sitwayen	NOUN	_	_	21	obj	_	Gloss=citoyen
 24	Ameriken	amirekèn	ADJ	_	_	23	amod	_	Gloss=américain
 25	ki	ki	PRON	_	_	26	nsubj	_	Gloss=qui
-26	disparèt	disparèt	VERB	_	Tense=Pres	23	acl:relcl	_	Gloss=disparaître
+26	disparèt	disparèt	VERB	_	_	23	acl:relcl	_	Gloss=disparaître
 27	an	an	ADP	_	_	28	case	_	Gloss=en
 28	Ayiti	Aiti	PROPN	_	_	26	obl:mod	_	Gloss=Haïti|SpaceAfter=No
 29	,	,	PUNCT	_	_	26	punct	_	_
@@ -3691,9 +3690,9 @@
 32	nan	nan	ADP	_	_	33	case	_	Gloss=dans
 33	eta	eta	NOUN	_	_	31	nmod	_	Gloss=eta
 34	Florid	Florid	PROPN	_	_	33	obj	_	Gloss=Floride
-35	rapòte	rapòte	VERB	_	Tense=Pres	7	conj	_	Gloss=rapporter
+35	rapòte	rapòte	VERB	_	_	7	conj	_	Gloss=rapporter
 36	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	37	nsubj	_	Gloss=3PL
-37	kidnape	kidnape	VERB	_	Tense=Pres	35	ccomp	_	Gloss=kidnapper
+37	kidnape	kidnape	VERB	_	_	35	ccomp	_	Gloss=kidnapper
 38	yon	yon	DET	_	Definite=Ind|Number=Sing	39	det	_	Gloss=une
 39	koup	koup	NOUN	_	_	37	obj	_	Gloss=coupe|SpaceAfter=No
 40	.	.	PUNCT	_	_	7	punct	_	_
@@ -3711,13 +3710,13 @@
 7	33	33	NUM	_	_	8	nummod	_	Gloss=33
 8	zan	zan	NOUN	_	_	1	parataxis	_	Gloss=ans|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	disparèt	disparèt	VERB	_	Tense=Pres	0	root	_	Gloss=disparaître
-11	nan	nan	ADP	_	_	12	case	_	Gloss=à
+10	disparèt	disparèt	VERB	_	_	0	root	_	Gloss=disparaître
+11	nan	nan	ADP	_	_	12	case	_	Gloss=dans
 12	Pòtoprens	Pòtoprens	PROPN	_	_	10	obl	_	Gloss=Port-au-Prince
 13	e	e	CCONJ	_	_	16	cc	_	Gloss=et
 14	gang	gang	NOUN	_	_	16	nsubj	_	Gloss=gangs
 15	yo	yo	DET	_	Definite=Def|Number=Plur	14	det	_	Gloss=les
-16	kenbe	kenbe	VERB	_	Tense=Pres	10	conj	_	Gloss=tenir
+16	kenbe	kenbe	VERB	_	_	10	conj	_	Gloss=tenir
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	16	obj	_	Gloss=3PL
 18	depi	depi	ADP	_	_	20	case	_	Gloss=depuis
 19	plizyè	plizyè	ADJ	_	_	20	amod	_	Gloss=plusieurs
@@ -3729,13 +3728,13 @@
 25	yon	yon	DET	_	Definite=Ind|Number=Sing	26	det	_	Gloss=une
 26	dam	dam	NOUN	_	_	24	obj	_	Gloss=dame
 27	ki	ki	PRON	_	_	28	nsubj	_	Gloss=qui
-28	di	di	VERB	_	Tense=Pres	24	acl:relcl	_	Gloss=dire
+28	di	di	VERB	_	_	24	acl:relcl	_	Gloss=dire
 29	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	28	iobj	_	Gloss=3SG
 30	sa	sa	DET	_	PronType=Dem	31	det	_	Gloss=ce
 31	fanmi	fanmi	NOUN	_	_	34	nsubj	_	Gloss=famille
 32	koup	koup	NOUN	_	_	31	obj	_	Gloss=famille
 33	la	la	DET	_	_	32	det	_	Gloss=du
-34	pibliye	pibliye	VERB	_	Tense=Pres	28	ccomp	_	Gloss=publier
+34	pibliye	pibliye	VERB	_	_	28	ccomp	_	Gloss=publier
 35	sou	sou	ADP	_	_	36	case	_	Gloss=sur
 36	entènèt	entènèt	NOUN	_	_	34	obl	_	Gloss=internet|SpaceAfter=No
 37	.	.	PUNCT	_	_	10	punct	_	_
@@ -3748,19 +3747,19 @@
 2	la	la	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=le
 3	t	te	AUX	_	_	5	aux	_	Gloss=PAST|SpaceAfter=No
 4	ap	ap	AUX	_	_	5	aux	_	Gloss=PROG
-5	vizite	vizite	VERB	_	Number=Sing|Person=3|Tense=Imp	0	root	_	Gloss=visiter
+5	vizite	vizite	VERB	_	_	0	root	_	Gloss=visiter
 6	fanmi	fanmi	NOUN	_	_	5	obj	_	Gloss=famille
 7	yo	yo	DET	_	Number=Sing|Person=3|Poss=Yes	6	det	_	Gloss=DET
 8	an	an	ADP	_	_	9	case	_	Gloss=en
 9	Ayiti	Ayiti	PROPN	_	_	5	obl	_	Gloss=Haïti
 10	epi	epi	CCONJ	_	_	11	cc	_	Gloss=puis
-11	asiste	asiste	VERB	_	Number=Sing|Person=3|Tense=Imp	5	conj	_	Gloss=assister
+11	asiste	asiste	VERB	_	_	5	conj	_	Gloss=assister
 12	yon	yon	DET	_	Definite=Ind|Number=Sing	13	det	_	Gloss=un
 13	festival	festival	NOUN	_	_	11	obj	_	Gloss=festival
 14	lè	lè	SCONJ	_	_	17	mark	_	Gloss=quand
 15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Gloss=PRON
 16	te	te	AUX	_	_	17	aux	_	Gloss=PAST
-17	kidnape	kidnape	VERB	_	Number=Plur|Person=3|Tense=Past	11	advcl	_	Gloss=kidnapper
+17	kidnape	kidnape	VERB	_	_	11	advcl	_	Gloss=kidnapper
 18	yo	yo	PRON	_	Definite=Def|Number=Plur	17	obj	_	Gloss=les
 19	nan	nan	ADP	_	_	21	case	_	Gloss=dans
 20	yon	yon	DET	_	Definite=Ind|Number=Sing	21	det	_	Gloss=un
@@ -3772,7 +3771,7 @@
 26	manm	manm	NOUN	_	_	29	nsubj	_	Gloss=membre
 27	fanmi	fanmi	NOUN	_	_	26	obj	_	Gloss=famille
 28	yo	yo	DET	_	Definite=Def|Number=Plur	27	det	_	Gloss=DET
-29	di	di	VERB	_	Number=Sing|Person=3|Tense=Past	24	acl:relcl	_	Gloss=dire
+29	di	di	VERB	_	_	24	acl:relcl	_	Gloss=dire
 30	CNN	CNN	PROPN	_	_	29	obj	_	Gloss=CNN|SpaceAfter=No
 31	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -3784,7 +3783,7 @@
 2	Depatman	Depatman	NOUN	_	_	1	obj	_	Gloss=département
 3	d	de	NOUN	_	Typo=Yes	2	obj	_	Gloss=d'Etat
 4	Eta	_	X	_	_	3	goeswith	_	_
-5	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire|SpaceAfter=No
+5	di	di	VERB	_	_	0	root	_	Gloss=dire|SpaceAfter=No
 6	:	:	PUNCT	_	_	5	punct	_	_
 7	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 8	Nou	Nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	Gloss=1PL
@@ -3793,13 +3792,13 @@
 11	de	de	ADP	_	_	12	case	_	Gloss=du
 12	rapò	rapò	NOUN	_	_	9	obl:arg	_	Gloss=rapport
 13	ki	ki	PRON	_	_	14	nsubj	_	Gloss=qui
-14	di	di	VERB	_	Tense=Pres	12	acl:relcl	_	Gloss=dire
-15	gen	gen	VERB	_	Tense=Pres	14	ccomp	_	Gloss=avoir
+14	di	di	VERB	_	_	12	acl:relcl	_	Gloss=dire
+15	gen	gen	VERB	_	_	14	ccomp	_	Gloss=avoir
 16	2	2	NUM	_	_	17	nummod	_	Gloss=deux
 17	sitwayen	sitwayen	NOUN	_	_	15	obj	_	Gloss=citoyens
 18	Ameriken	ameriken	ADJ	_	_	17	amod	_	Gloss=américains
 19	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
-20	disparèt	disparèt	VERB	_	Tense=Past	17	acl:relcl	_	Gloss=disparaittre
+20	disparèt	disparèt	VERB	_	_	17	acl:relcl	_	Gloss=disparaittre
 21	an	an	ADP	_	_	22	case	_	Gloss=en
 22	Ayiti	Ayiti	PROPN	_	_	20	obl	_	Gloss=Haiti|SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
@@ -3812,10 +3811,10 @@
 2	yon	yon	DET	_	Definite=Ind|Number=Sing	3	det	_	Gloss=un
 3	sitwayen	sitwayen	NOUN	_	_	5	nsubj	_	Gloss=citoyen
 4	Ameriken	Ameriken	ADJ	_	_	3	amod	_	Gloss=américain
-5	disparèt	disparèt	VERB	_	Number=Sing|Person=3|Tense=Pres	1	ccomp	_	Gloss=disparaitre|SpaceAfter=No
+5	disparèt	disparèt	VERB	_	_	1	ccomp	_	Gloss=disparaitre|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	Gloss=1PL
-8	travay	travay	VERB	_	Tense=Pres	0	root	_	Gloss=travailler
+8	travay	travay	VERB	_	_	0	root	_	Gloss=travailler
 9	sere-sere	sere-sere	ADV	_	_	8	advmod	_	Gloss=étroitement
 10	ak	ak	ADP	_	_	11	case	_	Gloss=avec
 11	otorite	otorite	NOUN	_	_	8	obl	_	Gloss=autorité
@@ -3824,13 +3823,13 @@
 14	pandan	pandan	ADP	_	_	17	mark	_	Gloss=pendant
 15	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Gloss=3PL|SpaceAfter=No
 16	ap	ap	AUX	_	_	17	aux	_	Gloss=PROG|wordform=yap
-17	chache	chache	VERB	_	Tense=Pres	8	advcl	_	Gloss=chercher
+17	chache	chache	VERB	_	_	8	advcl	_	Gloss=chercher
 18	moun	moun	NOUN	_	_	17	obj	_	Gloss=gens
 19	sa	sa	DET	_	PronType=Dem	18	dep	_	Gloss=DET
 20	yo	yo	DET	_	Number=Plur	18	det	_	Gloss=DET
 21	e	e	CCONJ	_	_	23	cc	_	Gloss=et
 22	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	23	nsubj	_	Gloss=1PL
-23	pataje	pataje	VERB	_	Tense=Pres	8	conj	_	Gloss=partageons
+23	pataje	pataje	VERB	_	_	8	conj	_	Gloss=partageons
 24	enfòmasyon	enfòmasyon	NOUN	_	_	23	obj	_	Gloss=informations
 25	ak	ak	ADP	_	_	26	case	_	Gloss=avec
 26	fanmi	fanmi	NOUN	_	_	23	obl:arg	_	Gloss=familles
@@ -3838,7 +3837,7 @@
 28	nempòt	nempòt	ADV	_	_	31	advmod	_	Gloss=n'importe
 29	kijan	kijan	ADV	_	_	28	dep	_	Gloss=comment
 30	nou	nou	PRON	_	Number=Sing|Person=1|PronType=Prs	31	nsubj	_	Gloss=1PL
-31	kapab	kapab	VERB	_	Tense=Pres	26	acl:relcl	_	Gloss=pouvoir|SpaceAfter=No
+31	kapab	kapab	VERB	_	_	26	acl:relcl	_	Gloss=pouvoir|SpaceAfter=No
 32	."	."	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 24__6
@@ -3853,11 +3852,11 @@
 6	Ayiti	Ayiti	PROPN	_	_	4	nmod	_	Gloss=Haïti
 7	pa	pa	ADV	_	_	9	advmod	_	Gloss=NEG|SpaceAfter=No
 8	t	te	AUX	_	_	9	aux	_	Gloss=PAST
-9	reponn	reponn	VERB	_	Tense=Past	0	root	_	Gloss=répondre
+9	reponn	reponn	VERB	_	_	0	root	_	Gloss=répondre
 10	demann	demann	NOUN	_	_	9	obl:arg	_	Gloss=demande
 11	Reuters	Reuters	PROPN	_	_	13	nsubj	_	Gloss=Reuters
 12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
-13	fè	fè	VERB	_	Tense=Past	10	acl:relcl	_	Gloss=faire
+13	fè	fè	VERB	_	_	10	acl:relcl	_	Gloss=faire
 14	pou	pou	ADP	_	_	15	case	_	Gloss=pour
 15	kòmantè	kòmantè	NOUN	_	_	13	obl	_	Gloss=commentaire|SpaceAfter=No
 16	.	.	PUNCT	_	_	9	punct	_	_
@@ -3868,11 +3867,11 @@
 # Status = SILVER
 1	Gang	Gang	NOUN	_	_	7	nsubj	_	Gloss=Gangs
 2	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=les
-3	nan	nan	ADP	_	_	4	case	_	Gloss=en
+3	nan	nan	ADP	_	_	4	case	_	Gloss=dans
 4	peyi	peyi	NOUN	_	_	7	obl:mod	_	Gloss=pays
 5	d	de	PROPN	_	Typo=Yes	4	obj	_	Gloss=de
 6	Ayiti	_	X	_	_	5	goeswith	_	_
-7	ogmante	ogmante	VERB	_	Tense=Pres	0	root	_	Gloss=augmenter
+7	ogmante	ogmante	VERB	_	_	0	root	_	Gloss=augmenter
 8	pouvwa	pouvwa	NOUN	_	_	7	obj	_	Gloss=pouvoir
 9	yo	yo	DET	_	Number=Sing|Poss=Yes	8	det	_	Gloss=DET
 10	depi	depi	ADV	_	_	7	advmod	_	Gloss=depuis
@@ -3890,7 +3889,7 @@
 # Status = SILVER
 1	Kounyea	Kounyea	ADV	_	_	3	advmod	_	Gloss=Mantenant
 2	yon	yon	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Gloss=3PL
-3	kontwole	kontwole	VERB	_	Tense=Pres	0	root	_	Gloss=contrôler
+3	kontwole	kontwole	VERB	_	_	0	root	_	Gloss=contrôler
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=une
 5	gwo	gwo	ADJ	_	_	6	amod	_	Gloss=grande
 6	pòsyon	pòsyon	NOUN	_	_	3	obj	_	Gloss=partie
@@ -3907,21 +3906,21 @@
 # Status = SILVER
 1	Ensekirite	Ensekirite	NOUN	_	_	3	nsubj	_	Gloss=Insécurité
 2	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=l'
-3	dejenere	dejenere	VERB	_	Tense=Pres	0	root	_	Gloss=dégénérer
+3	dejenere	dejenere	VERB	_	_	0	root	_	Gloss=dégénérer
 4	pi	pi	ADJ	_	_	3	advcl	_	Gloss=pire
 5	plis	plis	ADJ	_	_	4	amod	_	Gloss=plus
 6	pandan	pandan	ADP	_	_	7	case	_	Gloss=pendant
 7	mwa	mwa	NOUN	_	_	3	obl:mod	_	Gloss=mois
 8	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
-9	pase	pase	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=passer, écouler
+9	pase	pase	VERB	_	_	7	acl:relcl	_	Gloss=passer, écouler
 10	yo	yo	DET	_	Definite=Def|Number=Plur	7	det	_	Gloss=DET
 11	kote	kote	ADV	_	_	14	advmod	_	Gloss=Où
 12	gang	gang	NOUN	_	_	14	nsubj	_	Gloss=gangs
 13	yo	yo	DET	_	Definite=Def|Number=Plur	12	det	_	Gloss=DET
-14	antre	antre	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=entrer
+14	antre	antre	VERB	_	_	7	acl:relcl	_	Gloss=entrer
 15	nan	nan	ADP	_	_	16	mark	_	Gloss=dans
-16	lese	lese	VERB	_	VerbForm=Inf	14	ccomp	_	Gloss=se battre
-17	frape	frape	VERB	_	VerbForm=Inf	16	compound:svc	_	Gloss=se battre
+16	lese	lese	VERB	_	_	14	ccomp	_	Gloss=se battre
+17	frape	frape	VERB	_	_	16	compound:svc	_	Gloss=se battre
 18	ak	ak	ADP	_	_	19	case	_	Gloss=à
 19	lapolis	lapolis	NOUN	_	_	17	obl:arg	_	Gloss=police|SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
@@ -3946,9 +3945,9 @@
 14	santèn	santèn	NOUN	_	_	17	nsubj	_	Gloss=centaine
 15	milye	milye	NOUN	_	_	14	obj	_	Gloss=milliers
 16	moun	moun	NOUN	_	_	15	obj	_	Gloss=gens
-17	oblije	oblije	VERB	_	Tense=Pres	10	conj	_	Gloss=obliger
-18	kouri	kouri	VERB	_	VerbForm=Inf	17	ccomp	_	Gloss=courir
-19	kite	kite	VERB	_	VerbForm=Inf	18	compound:svc	_	Gloss=quitter
+17	oblije	oblije	VERB	_	_	10	conj	_	Gloss=obliger
+18	kouri	kouri	VERB	_	_	17	ccomp	_	Gloss=courir
+19	kite	kite	VERB	_	_	18	compound:svc	_	Gloss=quitter
 20	kay	kay	NOUN	_	_	19	obj	_	Gloss=maison
 21	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	20	det	_	Gloss=3PL|SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
@@ -3957,7 +3956,7 @@
 # text = Gen 17 misyonè ki moun Etazini ak Kanada ke yon gang te kenbe pou ranson an 2021 pandan yo tap travay pou Christian Aid Ministries ki gen katye jeneral li nan eta Ohio nan sant wès Etazini.
 # text_fr = Il y a 17 missionnaires qui sont des américains et canadiens  qu'un gang a capturé pour de l'argent en 2021 pendant qu'ils étaient en train de travailler pour Christian Aid Ministrie qui a son quartier général dans l'Etat Ohio dans le  centre Ouest des Etats-Unis.
 # Status = SILVER
-1	Gen	Gen	VERB	_	Tense=Pres	0	root	_	Gloss=Avoir
+1	Gen	Gen	VERB	_	_	0	root	_	Gloss=Avoir
 2	17	17	NUM	_	_	3	nummod	_	Gloss=17
 3	misyonè	misyonè	NOUN	_	_	1	obj	_	Gloss=missionnaire
 4	ki	ki	PRON	_	_	5	nsubj	_	Gloss=qui
@@ -3969,7 +3968,7 @@
 10	yon	yon	DET	_	_	11	det	_	Gloss=un
 11	gang	gang	NOUN	_	_	13	nsubj	_	Gloss=gang
 12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
-13	kenbe	kenbe	VERB	_	Tense=Imp	5	acl:relcl	_	Gloss=capturer
+13	kenbe	kenbe	VERB	_	_	5	acl:relcl	_	Gloss=capturer
 14	pou	pou	ADP	_	_	15	case	_	Gloss=pour
 15	ranson	ranson	NOUN	_	_	13	obl	_	Gloss=raison
 16	an	an	ADP	_	_	17	case	_	Gloss=la
@@ -3978,13 +3977,13 @@
 19	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nsubj	_	Gloss=3PL
 20	t	te	AUX	_	_	22	aux	_	Gloss=PAST|SpaceAfter=No
 21	ap	ap	AUX	_	_	22	aux	_	Gloss=PROG
-22	travay	travay	VERB	_	Tense=Past	13	advcl	_	Gloss=travailler
+22	travay	travay	VERB	_	_	13	advcl	_	Gloss=travailler
 23	pou	pou	ADP	_	_	24	case	_	Gloss=pour
 24	Christian	Christian	PROPN	_	_	22	obl	_	Gloss=Christian
 25	Aid	Aid	PROPN	_	_	24	flat:name	_	Gloss=Aid
 26	Ministries	Ministries	PROPN	_	_	24	flat:name	_	Gloss=Ministries
 27	ki	ki	PRON	_	_	28	nsubj	_	Gloss=qui
-28	gen	gen	VERB	_	Tense=Pres	24	acl:relcl	_	Gloss=avoir
+28	gen	gen	VERB	_	_	24	acl:relcl	_	Gloss=avoir
 29	katye	katye	NOUN	_	_	28	obj	_	Gloss=quartier
 30	jeneral	jeneral	ADJ	_	_	29	amod	_	Gloss=général
 31	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	29	det	_	Gloss=3PL

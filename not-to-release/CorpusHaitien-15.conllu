@@ -4,7 +4,7 @@
 # text_fr = Biden impose son premier veto présidentiel.
 # Status = SILVER
 1	Biden	biden	PROPN	_	_	2	nsubj	_	Gloss=Biden
-2	Enpoze	enpoze	VERB	_	Tense=Pres	0	root	_	Gloss=imposer
+2	Enpoze	enpoze	VERB	_	_	0	root	_	Gloss=imposer
 3	Premye	premye	ADJ	_	_	4	amod	_	Gloss=premier
 4	Veto	veto	NOUN	_	_	2	obj	_	Gloss=veto
 5	Prezidans	prezidans	NOUN	_	_	4	obj	_	Gloss=présidence
@@ -17,7 +17,7 @@
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
-4	pale	pale	VERB	_	Tense=Pres	0	root	_	Gloss=parler
+4	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 5	ak	ak	ADP	_	_	6	case	_	Gloss=avec
 6	jounalis	jounalis	NOUN	_	_	4	obl	_	Gloss=journaliste
 7	yo	yo	DET	_	Definite=Def|Number=Plur	6	det	_	_
@@ -35,32 +35,32 @@
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
-4	enpoze	enpoze	VERB	_	Tense=Pres	0	root	_	Gloss=imposer
+4	enpoze	enpoze	VERB	_	_	0	root	_	Gloss=imposer
 5	premye	premye	ADJ	_	_	6	amod	_	Gloss=premier
 6	veto	veto	NOUN	_	_	4	obj	_	Gloss=veto
-7	prezidans	prezidans	NOUN	_	_	6	obj	_	_
+7	prezidans	prezidans	NOUN	_	_	6	obj	_	Gloss=présidence
 8	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	6	det	_	_
 9	nan	nan	ADP	_	_	11	case	_	_
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	_
 11	siy	siy	NOUN	_	_	6	nmod	_	Gloss=signe
 12	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
-13	montre	montre	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=montrer
+13	montre	montre	VERB	_	_	11	acl:relcl	_	Gloss=montrer
 14	relasyon	relasyon	NOUN	_	_	20	nsubj	_	Gloss=relation
 15	ant	ant	ADP	_	_	16	case	_	Gloss=entre
 16	Lamezonblanch	lamezonblanch	NOUN	_	_	14	nmod	_	Gloss=maison blanche
 17	ak	ak	CCONJ	_	_	18	cc	_	Gloss=et
 18	Kongrè	kongrè	NOUN	_	_	16	conj	_	Gloss=congrès
 19	a	a	DET	_	Definite=Def|Number=Sing	18	det	_	Gloss=le
-20	chanje	chanje	VERB	_	Tense=Pres	13	ccomp	_	Gloss=changer
+20	chanje	chanje	VERB	_	_	13	ccomp	_	Gloss=changer
 21	apre	apre	ADP	_	_	24	mark	_	Gloss=après
 22	Repibliken	repibliken	NOUN	_	_	24	nsubj	_	Gloss=républicain
 23	yo	yo	DET	_	Definite=Def|Number=Plur	22	det	_	_
-24	pran	pran	VERB	_	Tense=Pres	20	advcl	_	Gloss=prendre
+24	pran	pran	VERB	_	_	20	advcl	_	Gloss=prendre
 25	kontwòl	kontwòl	NOUN	_	_	24	obj	_	Gloss=contrôle
 26	Lachanm	lachanm	NOUN	_	_	25	obj	_	Gloss=chambre
 27	Depite	depite	NOUN	_	_	26	obj	_	Gloss=député
 28	yo	yo	DET	_	Definite=Def|Number=Plur	26	det	_	_
-29	nan	nan	ADP	_	_	30	case	_	Gloss=au
+29	nan	nan	ADP	_	_	30	case	_	Gloss=dans
 30	mwad	mwa	NOUN	_	_	24	obl:mod	_	Gloss=mois
 31	Janvye	janvye	NOUN	_	_	30	obj	_	Gloss=janvier
 32	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	Gloss=le|SpaceAfter=No
@@ -73,24 +73,24 @@
 1	Ak	ak	ADP	_	_	2	case	_	Gloss=avec
 2	veto	veto	NOUN	_	_	10	obl:mod	_	Gloss=véto
 3	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=3SG
-4	enpoze	enpoze	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=imposer
+4	enpoze	enpoze	VERB	_	_	2	acl:relcl	_	Gloss=imposer
 5	Lendi	Lendi	PROPN	_	_	4	obj	_	Gloss=lundi|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Biden	Biden	PROPN	_	_	10	nsubj	_	Gloss=Biden
 8	t	te	AUX	_	_	10	aux	_	Gloss=PAST|SpaceAfter=No
 9	ap	ap	AUX	_	_	10	aux	_	Gloss=PROG
-10	chache	chache	VERB	_	Tense=Past	0	root	_	Gloss=chercher
-11	bloke	bloke	VERB	_	VerbForm=Inf	10	ccomp	_	Gloss=bloquer
+10	chache	chache	VERB	_	_	0	root	_	Gloss=chercher
+11	bloke	bloke	VERB	_	_	10	ccomp	_	Gloss=bloquer
 12	yon	yon	DET	_	Definite=Ind|Number=Sing	13	det	_	Gloss=une
 13	mezi	mezi	NOUN	_	_	11	obj	_	Gloss=mesure
 14	Repibliken	repibliken	NOUN	_	_	16	nsubj	_	Gloss=républicain
 15	yo	yo	DET	_	Definite=Def|Number=Plur	14	det	_	Gloss=les
-16	adopte	adopte	VERB	_	Tense=Pres	13	acl:relcl	_	_
+16	adopte	adopte	VERB	_	_	13	acl:relcl	_	Gloss=adopter
 17	ki	ki	PRON	_	_	18	nsubj	_	Gloss=qui
-18	entèdi	entèdi	VERB	_	Tense=Pres	13	acl:relcl	_	Gloss=interdire
+18	entèdi	entèdi	VERB	_	_	13	acl:relcl	_	Gloss=interdire
 19	gouvenman	gouvènman	NOUN	_	_	18	obj	_	Gloss=gouvernement
 20	an	an	DET	_	Definite=Def|Number=Sing	19	det	_	_
-21	konsidere	konsidere	VERB	_	Tense=Pres	18	ccomp	_	_
+21	konsidere	konsidere	VERB	_	_	18	ccomp	_	Gloss=considérer
 22	chanjman	chanjman	NOUN	_	_	21	obj	_	Gloss=changement
 23	klimatik	klimatik	ADJ	_	_	22	amod	_	Gloss=climatique
 24	ni	ni	CCONJ	_	_	25	cc	_	Gloss=et, ni
@@ -99,7 +99,7 @@
 27	lè	lè	SCONJ	_	_	30	mark	_	Gloss=quand
 28	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	30	nsubj	_	Gloss=3SG|SpaceAfter=No
 29	ap	ap	AUX	_	_	30	aux	_	Gloss=PROG
-30	fè	fè	VERB	_	Tense=Pres	21	advcl	_	Gloss=faire
+30	fè	fè	VERB	_	_	21	advcl	_	Gloss=faire
 31	envestisman	envestisman	NOUN	_	_	30	obj	_	Gloss=investissement
 32	pou	pou	ADP	_	_	33	case	_	Gloss=pour
 33	plan	plan	NOUN	_	_	31	nmod	_	Gloss=plan

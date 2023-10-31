@@ -7,7 +7,7 @@
 2	Bank	bank	NOUN	_	_	1	obj	_	Gloss=banque
 3	Credit	credit	PROPN	_	_	2	obj	_	Gloss=Crédit
 4	Suisse	suisse	PROPN	_	_	3	flat:name	_	Gloss=Suisse
-5	Pèdi	pèdi	VERB	_	Tense=Pres	0	root	_	Gloss=perdre
+5	Pèdi	pèdi	VERB	_	_	0	root	_	Gloss=perdre
 6	Valè	valè	NOUN	_	_	5	obj	_	Gloss=valeur
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 8	Moman	moman	NOUN	_	_	5	obl	_	Gloss=moment
@@ -19,7 +19,7 @@
 14	ak	ak	ADP	_	_	17	mark	_	Gloss=à
 15	Bank	bank	NOUN	_	_	17	nsubj	_	Gloss=banque
 16	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
-17	Ogmante	ogmante	VERB	_	Tense=Pres	13	acl	_	Gloss=augmenter
+17	Ogmante	ogmante	VERB	_	_	13	acl	_	Gloss=augmenter
 
 # sent_id = 16__2
 # text = Yon afich ki gen non Credit Suisse make sou li sou pis Mache Labous Nouyok la (New York Stock Exchange) nan Nouyok, 15 Mas, 2023.
@@ -28,11 +28,11 @@
 1	Yon	yon	DET	_	Definite=Ind|Number=Sing	2	det	_	Gloss=DET
 2	afich	afich	NOUN	_	_	8	nsubj	_	Gloss=affiche
 3	ki	ki	PRON	_	_	4	nsubj	_	Gloss=qui
-4	gen	gen	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=avoir
+4	gen	gen	VERB	_	_	2	acl:relcl	_	Gloss=avoir
 5	non	non	NOUN	_	_	4	obj	_	Gloss=nom
 6	Credit	credit	PROPN	_	_	5	obj	_	Gloss=Crédit
 7	Suisse	suisse	PROPN	_	_	6	flat:name	_	Gloss=Suisse
-8	make	make	VERB	_	Tense=Pres	0	root	_	Gloss=marquer, figure
+8	make	make	VERB	_	_	0	root	_	Gloss=marquer, figure
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obl	_	Gloss=3SG
 11	sou	sou	ADP	_	_	12	case	_	Gloss=sur
@@ -47,7 +47,7 @@
 20	Stock	stock	PROPN	_	_	18	flat:name	_	Gloss=Stock
 21	Exchange	exchange	PROPN	_	_	18	flat:name	_	Gloss=Exchange|SpaceAfter=No
 22	)	)	PUNCT	_	_	18	punct	_	_
-23	nan	nan	ADP	_	_	24	case	_	Gloss=à
+23	nan	nan	ADP	_	_	24	case	_	Gloss=dans
 24	Nouyok	Nouyok	PROPN	_	_	8	obl:mod	_	Gloss=New York|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	15	15	NUM	_	_	8	obl:mod	_	Gloss=15
@@ -64,7 +64,7 @@
 3	Credit	Credit	PROPN	_	_	2	obj	_	Gloss=Crédit
 4	Suisse	Suisse	PROPN	_	_	3	flat:name	_	Gloss=Suisse
 5	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=DET
-6	pedi	pedi	VERB	_	Tense=Pres	0	root	_	Gloss=perdre
+6	pedi	pedi	VERB	_	_	0	root	_	Gloss=perdre
 7	plis	plis	ADJ	_	_	10	amod	_	Gloss=plus
 8	pase	pase	ADJ	_	_	7	dep	_	Gloss=que
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
@@ -86,7 +86,7 @@
 2	istorik	istorik	ADJ	_	_	1	amod	_	Gloss=historique
 3	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
 4	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
-5	vini	vini	VERB	_	Tense=Pres	0	root	_	Gloss=venir
+5	vini	vini	VERB	_	_	0	root	_	Gloss=venir
 6	apre	apre	ADP	_	_	21	mark	_	Gloss=après
 7	Bank	bank	NOUN	_	_	21	nsubj	_	Gloss=banque
 8	Nasyonal	nasyonal	ADJ	_	_	7	amod	_	Gloss=national
@@ -94,7 +94,7 @@
 10	an	an	DET	_	Definite=Def|Number=Sing	7	det	_	Gloss=DET
 11	-	-	PUNCT	_	_	13	punct	_	_
 12	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
-13	kontwole	kontwole	VERB	_	Tense=Pres	7	acl:relcl	_	Gloss=contrôle
+13	kontwole	kontwole	VERB	_	_	7	acl:relcl	_	Gloss=contrôle
 14	majorite	majorite	NOUN	_	_	13	obj	_	Gloss=majorité
 15	aksyon	aksyon	NOUN	_	_	14	obj	_	Gloss=action
 16	Credit	credit	NOUN	_	_	15	obj	_	Gloss=Crédit
@@ -102,13 +102,13 @@
 18	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
 19	-	-	PUNCT	_	_	13	punct	_	_
 20	te	te	AUX	_	_	21	aux	_	Gloss=PAST
-21	di	di	VERB	_	Tense=Pres	5	advcl	_	Gloss=dire
+21	di	di	VERB	_	_	5	advcl	_	Gloss=dire
 22	jounalis	jounalis	NOUN	_	_	21	iobj	_	Gloss=journalist
 23	yo	yo	DET	_	Definite=Def|Number=Plur	22	det	_	Gloss=DET
 24	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes	27	nsubj	_	Gloss=3SG
 25	p	pa	ADV	_	_	27	advmod	_	Gloss=NEG|SpaceAfter=No
 26	ap	ap	AUX	_	_	27	aux	_	Gloss=PROG|wordform=pap
-27	bay	bay	VERB	_	Tense=Pres	21	ccomp	_	Gloss=donner
+27	bay	bay	VERB	_	_	21	ccomp	_	Gloss=donner
 28	bank	bank	NOUN	_	_	27	iobj	_	Gloss=banque
 29	Suis	suis	PROPN	_	_	28	nmod	_	Gloss=suisse
 30	la	la	DET	_	Definite=Def|Number=Sing	28	det	_	Gloss=DET
@@ -130,7 +130,7 @@
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	_
 3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	_
 4	te	te	AUX	_	_	5	aux	_	Gloss=PAST
-5	pran	pran	VERB	_	Tense=Pres	0	root	_	Gloss=prendre
+5	pran	pran	VERB	_	_	0	root	_	Gloss=prendre
 6	byen	byen	ADV	_	_	5	advmod	_	Gloss=bien
 7	lontan	lontan	ADV	_	_	5	advmod	_	Gloss=longtemps
 8	anvan	anvan	ADP	_	_	14	mark	_	Gloss=avant
@@ -139,7 +139,7 @@
 11	Ameriken	ameriken	ADJ	_	_	10	amod	_	Gloss=américain
 12	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	_
 13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
-14	fè	fè	VERB	_	Tense=Pres	5	advcl	_	Gloss=faire
+14	fè	fè	VERB	_	_	5	advcl	_	Gloss=faire
 15	fayit	fayit	NOUN	_	_	14	obj	_	Gloss=faillite|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -149,13 +149,13 @@
 # Status = SILVER
 1	Tibilans	Tibilans	NOUN	_	_	6	nsubj	_	Gloss=turbulence
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
-3	koze	koze	VERB	_	Tense=Pres	1	acl	_	Gloss=occasionne
+3	koze	koze	VERB	_	_	1	acl	_	Gloss=occasionne
 4	Mèkredi	mèkredi	NOUN	_	_	3	obl:mod	_	Gloss=mercredi
 5	te	te	AUX	_	_	6	aux	_	Gloss=PAST
-6	lakoz	lakoz	VERB	_	Tense=Past	0	root	_	Gloss=susciter
+6	lakoz	lakoz	VERB	_	_	0	root	_	Gloss=susciter
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Gloss=3PL
 8	te	te	AUX	_	_	9	aux	_	Gloss=PAST
-9	kanpe	kanpe	VERB	_	Tense=Pres	6	ccomp	_	Gloss=cesser
+9	kanpe	kanpe	VERB	_	_	6	ccomp	_	Gloss=cesser
 10	lavant	lavant	NOUN	_	_	9	obj	_	Gloss=vente
 11	aksyon	aksyon	NOUN	_	_	10	obj	_	Gloss=action
 12	Credit	credit	PROPN	_	_	11	obj	_	Gloss=Credit

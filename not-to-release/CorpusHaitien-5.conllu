@@ -8,10 +8,10 @@
 3	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
 4	Etazini	Etazini	PROPN	_	_	6	nsubj	_	Gloss=États-Unis
 5	Pa	pa	ADV	_	_	6	advmod	_	Gloss=NEG
-6	Ekate	ekate	VERB	_	Tense=Pres	0	root	_	Gloss=écarter
+6	Ekate	ekate	VERB	_	_	0	root	_	Gloss=écarter
 7	Posibilite	posibilite	NOUN	_	_	6	obj	_	Gloss=possibilité
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
-9	Itilize	itilize	VERB	_	VerbForm=Inf	7	acl	_	Gloss=utiliser
+9	Itilize	itilize	VERB	_	_	7	acl	_	Gloss=utiliser
 10	Lafòs	lafòs	NOUN	_	_	9	obj	_	Gloss=force
 11	pou	pou	ADP	_	_	12	mark	_	Gloss=pour
 12	Tabli	tabli	VERB	_	_	9	dep	_	Gloss=établir
@@ -26,7 +26,7 @@
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
-4	pale	pale	VERB	_	Tense=Pres	0	root	_	Gloss=parler
+4	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 5	pandan	pandan	ADP	_	_	7	case	_	Gloss=pendant
 6	yon	yon	DET	_	Definite=Ind|Number=Sing	7	det	_	Gloss=DET
 7	konferans	konferans	NOUN	_	_	4	obl:mod	_	Gloss=conférence
@@ -38,7 +38,7 @@
 13	Kanadyen	kanadyen	ADJ	_	_	12	amod	_	Gloss=canadien
 14	Justin	Justin	PROPN	_	_	12	appos	_	Gloss=Justin
 15	Trudeau	Trudeau	PROPN	_	_	14	flat:name	_	Gloss=Trudeau
-16	nan	nan	ADP	_	_	17	case	_	Gloss=à
+16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	Ottawa	Ottawa	PROPN	_	_	4	obl:mod	_	Gloss=Ottawa|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Kanada	Kanada	PROPN	_	_	17	appos	_	Gloss=Kanada|SpaceAfter=No
@@ -54,7 +54,7 @@
 # Status = SILVER
 1	Etazini	Etazini	PROPN	_	_	3	nsubj	_	Gloss=États-Unis
 2	ap	ap	AUX	_	_	3	aux	_	Gloss=PROG
-3	chache	chache	VERB	_	Tense=Pres	0	root	_	Gloss=chercher
+3	chache	chache	VERB	_	_	0	root	_	Gloss=chercher
 4	sipò	sipò	NOUN	_	_	3	obj	_	Gloss=support
 5	pou	pou	ADP	_	_	6	case	_	Gloss=pour
 6	fòs	fòs	NOUN	_	_	4	nmod	_	Gloss=force
@@ -64,12 +64,12 @@
 10	e	e	CCONJ	_	_	13	cc	_	Gloss=et
 11	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Gloss=3SG|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	etidye	etidye	VERB	_	Tense=Pres	3	conj	_	Gloss=étudier
+13	etidye	etidye	VERB	_	_	3	conj	_	Gloss=étudier
 14	posibilite	posibilite	NOUN	_	_	13	obj	_	Gloss=possibilité
 15	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 16	Nasyonzini	Nasyonzini	PROPN	_	_	18	nsubj	_	Gloss=Nations Unies
 17	ta	ta	AUX	_	_	18	aux	_	Gloss=COND
-18	jwe	jwe	VERB	_	Tense=Pres	14	acl	_	Gloss=jouer
+18	jwe	jwe	VERB	_	_	14	acl	_	Gloss=jouer
 19	yon	yon	DET	_	Definite=Ind|Number=Sing	20	det	_	Gloss=DET
 20	wol	wol	NOUN	_	_	18	obj	_	Gloss=rôle
 21	nan	nan	ADP	_	_	22	case	_	Gloss=dans
@@ -85,13 +85,13 @@
 # text = Se sa Prezidan Joe Biden fe konnen pandan vizit li nan peyi Kanada Vandredi 24 Mas la.
 # text_fr = c'est ce que le Président Joe Biden a fait savoir pendant sa visite au Canada le vendredi 24 mars .
 # Status = SILVER
-1	Se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+1	Se	se	VERB	_	_	0	root	_	Gloss=être
 2	sa	sa	PRON	_	Number=Sing|PronType=Dem	1	xcomp	_	Gloss=DET
 3	Prezidan	prezidan	NOUN	_	_	6	nsubj	_	Gloss=président
 4	Joe	Joe	PROPN	_	_	3	obj	_	Gloss=Joe
 5	Biden	Biden	PROPN	_	_	4	flat:name	_	Gloss=Biden
-6	fe	fe	VERB	_	Tense=Pres	2	acl:relcl	_	Gloss=faire
-7	konnen	konnen	VERB	_	VerbForm=Inf	6	ccomp	_	Gloss=savoir, connaitre
+6	fe	fe	VERB	_	_	2	acl:relcl	_	Gloss=faire
+7	konnen	konnen	VERB	_	_	6	ccomp	_	Gloss=savoir, connaitre
 8	pandan	pandan	ADP	_	_	9	case	_	Gloss=pendant
 9	vizit	vizit	NOUN	_	_	6	obl:mod	_	Gloss=visite
 10	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	9	det	_	Gloss=3SG
@@ -121,12 +121,12 @@
 11	-	-	PUNCT	_	_	12	punct	_	_
 12	ke	ke	PRON	_	_	14	obj	_	Gloss=que
 13	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	Gloss=1PL
-14	diskite	diskite	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=discuter
+14	diskite	diskite	VERB	_	_	4	acl:relcl	_	Gloss=discuter
 15	souvan	souvan	ADV	_	_	14	advmod	_	Gloss=souvent|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	ta	ta	AUX	_	_	18	aux	_	Gloss=COND
-18	dwe	dwe	VERB	_	Tense=Pres	0	root	_	Gloss=devoir
-19	fèt	fèt	VERB	_	VerbForm=Inf	18	ccomp	_	Gloss=faire
+18	dwe	dwe	VERB	_	_	0	root	_	Gloss=devoir
+19	fèt	fèt	VERB	_	_	18	ccomp	_	Gloss=faire
 20	an	an	ADP	_	_	21	case	_	Gloss=en
 21	konsiltasyon	konsiltasyon	NOUN	_	_	19	obl	_	Gloss=consultation
 22	ak	ak	ADP	_	_	23	case	_	Gloss=avec
@@ -144,17 +144,17 @@
 1	Donk	donk	ADV	_	_	4	advmod	_	Gloss=donc
 2	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Gloss=1PL
 3	pa	pa	ADV	_	_	4	advmod	_	Gloss=NEG
-4	ekate	ekate	VERB	_	Tense=Pres	0	root	_	Gloss=écarter
+4	ekate	ekate	VERB	_	_	0	root	_	Gloss=écarter
 5	posibilite	posibilite	NOUN	_	_	4	obj	_	Gloss=possibilité
 6	a	a	DET	_	Definite=Def|Number=Sing	5	det	_	Gloss=DET
 7	men	men	CCONJ	_	_	8	cc	_	Gloss=mais
-8	se	se	VERB	_	Tense=Pres	4	conj	_	Gloss=être
+8	se	se	VERB	_	_	4	conj	_	Gloss=être
 9	pa	pa	ADV	_	_	8	advmod	_	Gloss=NEG
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=DET
 11	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
 12	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	Gloss=1PL
-13	anvizaje	anvizaje	VERB	_	Tense=Pres	11	acl:relcl	_	Gloss=envisager
-14	fè	fè	VERB	_	VerbForm=Inf	13	ccomp	_	Gloss=faire
+13	anvizaje	anvizaje	VERB	_	_	11	acl:relcl	_	Gloss=envisager
+14	fè	fè	VERB	_	_	13	ccomp	_	Gloss=faire
 15	kounyela	kounya	ADV	_	_	13	advmod	_	Gloss=maintenant
 16	a	a	DET	_	Definite=Def|Number=Sing	13	det	_	SpaceAfter=No
 17	."	."	PUNCT	_	_	4	punct	_	_
@@ -165,11 +165,11 @@
 # Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	3	nsubj	_	Gloss=président
 2	Biden	Biden	PROPN	_	_	1	obj	_	Gloss=Biden
-3	di	di	VERB	_	Tense=Pres	0	root	_	Gloss=dire|SpaceAfter=No
+3	di	di	VERB	_	_	0	root	_	Gloss=dire|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Gloss=3PL|SpaceAfter=No
 6	ap	ap	AUX	_	_	7	aux	_	Gloss=PROG
-7	gade	gade	VERB	_	Tense=Pres	3	ccomp	_	Gloss=regarder
+7	gade	gade	VERB	_	_	3	ccomp	_	Gloss=regarder
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
 9	wè	wè	VERB	_	_	7	dep	_	Gloss=voir
 10	si	si	SCONJ	_	_	16	mark	_	Gloss=si
@@ -194,7 +194,7 @@
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	pale	pale	VERB	_	Tense=Pres	0	root	_	Gloss=parler
+3	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 4	de	de	ADP	_	_	5	case	_	Gloss=de
 5	aktivite	aktivite	NOUN	_	_	3	obl	_	Gloss=activité
 6	gang	gang	NOUN	_	_	5	obj	_	Gloss=gang
@@ -212,13 +212,13 @@
 4	kijan	kijan	NOUN	_	_	7	obl:mod	_	Gloss=façon, comment
 5	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	Gloss=1PL
 6	pral	pral	AUX	_	_	7	aux	_	Gloss=FUT
-7	fè	fè	VERB	_	Tense=Fut	2	acl	_	Gloss=faire
+7	fè	fè	VERB	_	_	2	acl	_	Gloss=faire
 8	fas	fas	NOUN	_	_	7	obj	_	Gloss=face
 9	ak	ak	ADP	_	_	10	case	_	Gloss=à
 10	sa	sa	PRON	_	_	8	nmod	_	Gloss=3SG|SpaceAfter=No
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	pase	pase	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=passer
+13	pase	pase	VERB	_	_	10	acl:relcl	_	Gloss=passer
 14	an	an	ADP	_	_	15	case	_	Gloss=en
 15	Ayiti	Ayiti	PROPN	_	_	13	obl	_	Gloss=Haïti|SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
@@ -226,7 +226,7 @@
 18	gang	gang	NOUN	_	_	21	nsubj	_	Gloss=gang
 19	yo	yo	DET	_	Definite=Def|Number=Plur	18	det	_	_
 20	esansyèlman	esansyèlman	ADV	_	_	21	advmod	_	Gloss=essentiellement
-21	ranplase	ranplase	VERB	_	Tense=Pres	15	acl:relcl	_	Gloss=remplacer
+21	ranplase	ranplase	VERB	_	_	15	acl:relcl	_	Gloss=remplacer
 22	gouvènman	gouvènman	NOUN	_	_	21	obj	_	Gloss=gouvernement
 23	an	an	DET	_	Definite=Def|Number=Sing	22	det	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
@@ -245,16 +245,16 @@
 # Status = SILVER
 1	Kidonk	kidonk	ADV	_	_	3	advmod	_	Gloss=donc
 2	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-3	kwè	kwè	VERB	_	Tense=Pres	0	root	_	Gloss=croire
+3	kwè	kwè	VERB	_	_	0	root	_	Gloss=croire
 4	sa	sa	PRON	_	Number=Sing|PronType=Dem	12	nsubj	_	_
 5	Premye	premye	ADJ	_	_	6	amod	_	Gloss=premier
 6	Minis	minis	NOUN	_	_	8	nsubj	_	Gloss=ministre
 7	Trudeau	Trudeau	PROPN	_	_	6	nmod	_	Gloss=Trudeau
-8	di	di	VERB	_	Tense=Pres	4	acl:relcl	_	Gloss=dire
+8	di	di	VERB	_	_	4	acl:relcl	_	Gloss=dire
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	koze	koze	NOUN	_	_	8	obl	_	Gloss=affaire
 11	a	a	DET	_	Definite=Def|Number=Sing	10	det	_	_
-12	fè	fè	VERB	_	Tense=Pres	3	ccomp	_	Gloss=faire
+12	fè	fè	VERB	_	_	3	ccomp	_	Gloss=faire
 13	anpil	anpil	ADJ	_	_	12	advcl	_	Gloss=beaucoup
 14	sans	sans	NOUN	_	_	12	obj	_	Gloss=sens|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
@@ -267,31 +267,31 @@
 2	gwo	gwo	ADJ	_	_	3	amod	_	Gloss=grand
 3	bagay	bagay	NOUN	_	_	16	nsubj	_	Gloss=chose
 4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Gloss=1PL
-5	ka	ka	VERB	_	Tense=Pres	3	acl:relcl	_	Gloss=pouvoir
-6	fè	fè	VERB	_	VerbForm=Inf	5	ccomp	_	Gloss=faire
+5	ka	ka	VERB	_	_	3	acl:relcl	_	Gloss=pouvoir
+6	fè	fè	VERB	_	_	5	ccomp	_	Gloss=faire
 7	e	e	CCONJ	_	_	8	cc	_	Gloss=et
-8	se	se	VERB	_	Tense=Pres	6	conj	_	Gloss=être
+8	se	se	VERB	_	_	6	conj	_	Gloss=être
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
 10	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
 12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
-13	pran	pran	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=prrendre
+13	pran	pran	VERB	_	_	10	acl:relcl	_	Gloss=prrendre
 14	tan	tan	NOUN	_	_	13	obj	_	Gloss=temps|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
-16	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
-17	ogmante	ogmante	VERB	_	VerbForm=Inf	16	ccomp	_	Gloss=augmenter
+16	se	se	VERB	_	_	0	root	_	Gloss=être
+17	ogmante	ogmante	VERB	_	_	16	ccomp	_	Gloss=augmenter
 18	kapasite	kapasite	NOUN	_	_	17	obj	_	Gloss=capacité
 19	polis	polis	NOUN	_	_	22	nsubj	_	Gloss=police
 20	nasyonal	nasyonal	ADJ	_	_	19	amod	_	Gloss=national
 21	la	la	DET	_	Definite=Def|Number=Sing	19	det	_	Gloss=DET
-22	genyen	genyen	VERB	_	Tense=Pres	18	acl:relcl	_	Gloss=avoir
+22	genyen	genyen	VERB	_	_	18	acl:relcl	_	Gloss=avoir
 23	pou	pou	ADP	_	_	24	mark	_	Gloss=pour
 24	fè	fè	VERB	_	_	18	acl	_	Gloss=faire
 25	fas	fas	NOUN	_	_	24	obj	_	Gloss=face
 26	ak	ak	ADP	_	_	27	case	_	Gloss=à
 27	pwoblèm	pwoblèm	NOUN	_	_	25	nmod	_	Gloss=problème
 28	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL
-29	konstate	konstate	VERB	_	Tense=Pres	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
+29	konstate	konstate	VERB	_	_	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 05__12
@@ -300,7 +300,7 @@
 # text_fr = Nous regardons aussi pour voir si la communauté internationale par son intermédiaire des Nations Unies pourrait jouer un plus grand rôle dans cet effort.
 1	N	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Gloss=1PL|SpaceAfter=No
 2	ap	ap	AUX	_	_	3	aux	_	Gloss=PROG
-3	gade	gade	VERB	_	Tense=Pres	0	root	_	Gloss=regarder
+3	gade	gade	VERB	_	_	0	root	_	Gloss=regarder
 4	tou	tou	ADV	_	_	3	advmod	_	Gloss=aussi
 5	pou	pou	ADP	_	_	6	mark	_	Gloss=pour
 6	wè	wè	VERB	_	_	3	dep	_	Gloss=voir
@@ -333,11 +333,11 @@
 2	vreman	vreman	ADV	_	_	5	advmod	_	Gloss=en réalité
 3	vre	vre	ADJ	_	_	2	dep	_	Gloss=vrai|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+5	se	se	VERB	_	_	0	root	_	Gloss=être
 6	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
 7	gwo	gwo	ADJ	_	_	8	amod	_	Gloss=grand
 8	ke	kè	NOUN	_	_	9	nsubj	_	Gloss=coeur
-9	sote	sote	VERB	_	Tense=Pres	5	ccomp	_	Gloss=sauter
+9	sote	sote	VERB	_	_	5	ccomp	_	Gloss=sauter
 10	pou	pou	ADP	_	_	11	case	_	Gloss=pour
 11	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	obl	_	Gloss=1PL|SpaceAfter=No
 12	."	."	PUNCT	_	_	5	punct	_	_
@@ -347,7 +347,7 @@
 # text_fr = Haïti était l'une des questions principales que le Président Joe Biden discutait avec le premier ministre Justin Trudeau pendant sa visite de deux jours à Ottawa.
 # Status = SILVER
 1	Ayiti	Ayiti	PROPN	_	_	2	nsubj	_	Gloss=Haïti
-2	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être|SpaceAfter=No
+2	se	se	VERB	_	_	0	root	_	Gloss=être|SpaceAfter=No
 3	te	te	AUX	_	_	2	aux	_	Gloss=PAST
 4	youn	youn	NOUN	_	_	2	xcomp	_	Gloss=l'un
 5	nan	nan	ADP	_	_	6	case	_	Gloss=dans
@@ -357,7 +357,7 @@
 9	Joe	Joe	PROPN	_	_	8	obj	_	Gloss=Joe
 10	Biden	Biden	PROPN	_	_	9	flat:name	_	Gloss=Biden
 11	te	te	AUX	_	_	12	aux	_	Gloss=PAST
-12	diskite	diskite	VERB	_	Tense=Pres	6	acl:relcl	_	Gloss=discuter
+12	diskite	diskite	VERB	_	_	6	acl:relcl	_	Gloss=discuter
 13	ak	ak	ADP	_	_	15	case	_	Gloss=avec
 14	Premye	premye	ADJ	_	_	15	amod	_	Gloss=premier
 15	Minis	minis	NOUN	_	_	12	obl	_	Gloss=ministre

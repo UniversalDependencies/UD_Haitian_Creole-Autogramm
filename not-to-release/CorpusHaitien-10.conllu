@@ -2,11 +2,10 @@
 # sent_id = 10__1
 # text = Kisa pou w konnen sou Alvin Bragg, avoka distri Manhattan
 # text_fr = Qu'est-ce que tu dois connaitre sur Alvin Bragg, l'avocat du district de Manhattan
-# Status = SILVER
 1	Kisa	kisa	ADV	_	_	4	advmod	_	Gloss=qu'est-ce que
 2	pou	pou	ADP	_	_	1	dep	_	Gloss=pour
 3	w	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Gloss=2SG
-4	konnen	konnen	VERB	_	Tense=Pres	0	root	_	Gloss=connaître
+4	konnen	konnen	VERB	_	_	0	root	_	Gloss=connaître
 5	sou	sou	ADP	_	_	6	case	_	Gloss=sur
 6	Alvin	Alvin	PROPN	_	_	4	obl:arg	_	Gloss=Alvin
 7	Bragg	Bragg	PROPN	_	_	6	flat:name	_	Gloss=Bragg|SpaceAfter=No
@@ -26,7 +25,7 @@
 5	York	york	PROPN	_	_	4	flat:name	_	Gloss=York
 6	k	ke	PRON	_	_	8	nsubj	_	Gloss=qui
 7	ap	ap	AUX	_	_	8	aux	_	Gloss=PROG
-8	mennen	mennen	VERB	_	Tense=Pres	3	acl:relcl	_	Gloss=mener
+8	mennen	mennen	VERB	_	_	3	acl:relcl	_	Gloss=mener
 9	ankèt	ankèt	NOUN	_	_	8	obj	_	Gloss=enquête
 10	sou	sou	ADP	_	_	11	case	_	Gloss=sur
 11	peman	peman	NOUN	_	_	9	nmod	_	Gloss=paiement
@@ -34,7 +33,7 @@
 13	tab	tab	NOUN	_	_	11	nmod	_	Gloss=table
 14	ki	ki	PRON	_	_	16	nsubj	_	Gloss=qui
 15	te	te	AUX	_	_	16	aux	_	Gloss=PAST
-16	fèt	fèt	VERB	_	Tense=Past	11	acl:relcl	_	Gloss=faire
+16	fèt	fèt	VERB	_	_	11	acl:relcl	_	Gloss=faire
 17	sou	sou	ADP	_	_	18	case	_	Gloss=sous
 18	non	non	NOUN	_	_	16	obl	_	Gloss=nom
 19	Donald	donald	PROPN	_	_	18	obj	_	Gloss=Donald
@@ -45,7 +44,7 @@
 24	ane	ane	NOUN	_	_	16	obl:mod	_	Gloss=année
 25	2016	2016	NUM	_	_	24	nmod	_	Gloss=2016
 26	la	la	DET	_	_	24	det	_	Gloss=l'
-27	vin	vini	VERB	_	Tense=Pres	0	root	_	Gloss=venir
+27	vin	vini	VERB	_	_	0	root	_	Gloss=venir
 28	santre	santre	VERB	_	_	27	ccomp	_	Gloss=centrer
 29	atansyon	atansyon	NOUN	_	_	28	obj	_	Gloss=attention
 30	sou	sou	ADP	_	_	31	case	_	Gloss=sur
@@ -55,7 +54,7 @@
 34	nan	nan	DET	_	_	31	det	_	Gloss=le
 35	k	ki	PRON	_	_	37	nsubj	_	Gloss=qui
 36	ap	ap	AUX	_	_	37	aux	_	Gloss=PROG
-37	jere	jere	VERB	_	Tense=Pres	31	acl:relcl	_	Gloss=Gérer
+37	jere	jere	VERB	_	_	31	acl:relcl	_	Gloss=Gérer
 38	dosye	dosye	NOUN	_	_	37	obj	_	Gloss=dossier
 39	a	a	DET	_	_	38	det	_	Gloss=le|SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
@@ -68,7 +67,7 @@
 2	ke	ke	PRON	_	_	5	obj	_	Gloss=que
 3	Alvin	Alvin	PROPN	_	_	5	nsubj	_	Gloss=Alvin
 4	Bragg	Bragg	PROPN	_	_	3	flat:name	_	Gloss=Bragg
-5	pran	pran	VERB	_	Tense=Pres	1	acl:relcl	_	Gloss=prendre
+5	pran	pran	VERB	_	_	1	acl:relcl	_	Gloss=prendre
 6	pou	pou	ADP	_	_	7	mark	_	Gloss=pour
 7	konvoke	konvoke	VERB	_	_	5	dep	_	Gloss=convoquer
 8	gran	gran	ADJ	_	_	9	amod	_	Gloss=grand
@@ -80,7 +79,7 @@
 14	kòmansman	kòmansman	NOUN	_	_	15	nmod	_	Gloss=début
 15	ane	ane	NOUN	_	_	5	obl	_	Gloss=année
 16	2023	2023	NUM	_	_	15	nmod	_	Gloss=2023
-17	kapab	kapab	VERB	_	Tense=Pres	0	root	_	Gloss=pouvoir
+17	kapab	kapab	VERB	_	_	0	root	_	Gloss=pouvoir
 18	debouche	debouche	VERB	_	_	17	ccomp	_	Gloss=déboucher
 19	sou	sou	ADP	_	_	20	case	_	Gloss=sur
 20	akizasyon	akizasyon	NOUN	_	_	18	obl	_	Gloss=accusation
@@ -98,7 +97,7 @@
 # text_fr = Ils ont élu Bragg comme le premier avocat noir dans le district Manhattan en novembre 2021.
 1	Yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Gloss=3PL
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	eli	eli	VERB	_	Tense=Pres	0	root	_	Gloss=élire
+3	eli	eli	VERB	_	_	0	root	_	Gloss=élire
 4	Bragg	bragg	PROPN	_	_	3	obj	_	Gloss=Bragg
 5	kòm	kòm	SCONJ	_	_	7	case	_	Gloss=comme
 6	premye	premye	ADJ	_	_	7	amod	_	Gloss=premier
@@ -118,12 +117,12 @@
 1	Karyè	Karyè	NOUN	_	_	4	nsubj	_	Gloss=carrière
 2	legal	legal	ADJ	_	_	1	amod	_	Gloss=légale
 3	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	1	det	_	Gloss=DET
-4	gen	gen	VERB	_	Tense=Pres	0	root	_	Gloss=avoir
+4	gen	gen	VERB	_	_	0	root	_	Gloss=avoir
 5	ladan	ladan	NOUN	_	_	6	nmod	_	Gloss=intérieur
 6	travay	travay	NOUN	_	_	4	obj	_	Gloss=travail
 7	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Gloss=3SG
 8	te	te	AUX	_	_	9	aux	_	Gloss=PAST
-9	fè	fè	VERB	_	Tense=Past	6	acl:relcl	_	Gloss=faire
+9	fè	fè	VERB	_	_	6	acl:relcl	_	Gloss=faire
 10	kòm	kòm	ADV	_	_	9	advmod	_	Gloss=comme
 11	yon	yon	DET	_	Definite=Ind|Number=Sing	12	det	_	Gloss=un
 12	pwosekitè	pwosekitè	NOUN	_	_	10	obj	_	Gloss=procureur
@@ -134,7 +133,7 @@
 17	sivik	sivik	ADJ	_	_	16	amod	_	Gloss=civique
 18	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
 19	te	te	AUX	_	_	20	aux	_	Gloss=PAST
-20	reprezante	reprezante	VERB	_	Tense=Past	12	acl:relcl	_	Gloss=représenter
+20	reprezante	reprezante	VERB	_	_	12	acl:relcl	_	Gloss=représenter
 21	manman	manman	NOUN	_	_	20	obj	_	Gloss=maman
 22	Eric	Eric	PROPN	_	_	21	obj	_	Gloss=Eric
 23	Garner	Garner	PROPN	_	_	22	flat:name	_	Gloss=Garner|SpaceAfter=No

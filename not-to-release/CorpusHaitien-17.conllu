@@ -6,7 +6,7 @@
 1	Joe	Joe	PROPN	_	_	4	nsubj	_	Gloss=Joe
 2	Biden	Biden	PROPN	_	_	1	flat:name	_	Gloss=Biden
 3	ap	ap	AUX	_	_	4	aux	_	Gloss=PROG
-4	rankontre	rankontre	VERB	_	Tense=Pres	0	root	_	Gloss=rencontrer
+4	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 5	ak	ak	ADP	_	_	6	case	_	Gloss=avec
 6	Prezidan	prezidan	NOUN	_	_	4	obl	_	Gloss=président
 7	Komisyon	komisyon	NOUN	_	_	6	obj	_	Gloss=commission
@@ -25,7 +25,7 @@
 3	Joe	Joe	PROPN	_	_	1	appos	_	Gloss=Joe
 4	Biden	Biden	PROPN	_	_	3	flat:name	_	Gloss=Biden
 5	ap	ap	AUX	_	_	6	aux	_	Gloss=PROG
-6	rankontre	rankontre	VERB	_	Tense=Pres	0	root	_	Gloss=rencontrer
+6	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 7	ak	ak	ADP	_	_	8	case	_	Gloss=avec
 8	Prezidan	prezidan	NOUN	_	_	6	obl	_	Gloss=président
 9	Komisyon	komisyon	NOUN	_	_	8	obj	_	Gloss=commission
@@ -40,7 +40,7 @@
 18	Blanch	blanch	PROPN	_	_	17	flat:name	_	Gloss=blanche
 19	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
 20	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	21	nsubj	_	Gloss=3PL
-21	pale	pale	VERB	_	Tense=Pres	6	dep	_	Gloss=parler
+21	pale	pale	VERB	_	_	6	dep	_	Gloss=parler
 22	sou	sou	ADP	_	_	23	case	_	Gloss=sur
 23	sanksyon	sanksyon	NOUN	_	_	21	obl	_	Gloss=sanction
 24	posib	posib	ADJ	_	_	23	amod	_	Gloss=possible
@@ -52,9 +52,9 @@
 30	kòmkwa	kòmkwa	ADP	_	_	33	dep	_	Gloss=comme quoi
 31	LaChin	Lachin	PROPN	_	_	33	nsubj	_	Gloss=Chine
 32	ap	ap	AUX	_	_	33	aux	_	Gloss=PROG
-33	pare	pare	VERB	_	Tense=Pres	29	acl:relcl	_	Gloss=préparer
+33	pare	pare	VERB	_	_	29	acl:relcl	_	Gloss=préparer
 34	pou	pou	ADP	_	_	35	mark	_	Gloss=pour
-35	voye	voye	VERB	_	VerbForm=Inf	33	dep	_	Gloss=envoyer
+35	voye	voye	VERB	_	_	33	dep	_	Gloss=envoyer
 36	zam	zam	NOUN	_	_	35	obj	_	Gloss=armée
 37	bay	bay	VERB	_	_	35	ccomp	_	Gloss=donner
 38	LaRisi	Larisi	PROPN	_	_	37	obj	_	Gloss=Russie|SpaceAfter=No
@@ -65,9 +65,9 @@
 43	poutèt	poutèt	NOUN	_	_	41	nmod	_	Gloss=à cause de
 44	plan	plan	NOUN	_	_	46	nsubj	_	Gloss=plan
 45	Washington	Washington	PROPN	_	_	44	nmod	_	Gloss=Washington
-46	genyen	genyen	VERB	_	Tense=Pres	43	ccomp	_	Gloss=avoir
+46	genyen	genyen	VERB	_	_	43	ccomp	_	Gloss=avoir
 47	pou	pou	ADP	_	_	48	mark	_	Gloss=pour
-48	bay	bay	VERB	_	VerbForm=Inf	46	dep	_	Gloss=donner
+48	bay	bay	VERB	_	_	46	dep	_	Gloss=donner
 49	konpayi	konpayi	NOUN	_	_	48	iobj	_	Gloss=compagnie
 50	ameriken	ameriken	ADJ	_	_	49	amod	_	Gloss=américaine
 51	yo	yo	DET	_	Definite=Def|Number=Plur	49	det	_	Gloss=DET.PL.
@@ -76,7 +76,7 @@
 54	kad	kad	NOUN	_	_	48	obl	_	Gloss=cadre
 55	Lwa	lwa	NOUN	_	_	54	obj	_	Gloss=loi
 56	pou	pou	ADP	_	_	57	mark	_	Gloss=pour
-57	Redui	redui	VERB	_	VerbForm=Inf	48	dep	_	Gloss=réduire
+57	Redui	redui	VERB	_	_	48	dep	_	Gloss=réduire
 58	Enflasyon	enflasyon	NOUN	_	_	57	obj	_	Gloss=inflation
 59	an	an	DET	_	Definite=Def|Number=Sing	58	det	_	Gloss=DET|SpaceAfter=No
 60	.	.	PUNCT	_	_	6	punct	_	_
@@ -91,7 +91,7 @@
 4	der	der	PROPN	_	_	3	flat:name	_	Gloss=der
 5	Leyen	Leyen	PROPN	_	_	3	flat:name	_	Gloss=Leyen
 6	pwal	pral	AUX	_	_	7	aux	_	Gloss=FUT
-7	pale	pale	VERB	_	VerbForm=Inf	0	root	_	Gloss=parler
+7	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 8	tou	tou	ADV	_	_	7	advmod	_	Gloss=aussi
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	jan	jan	NOUN	_	_	7	obl	_	Gloss=façon
@@ -101,7 +101,7 @@
 14	Ewòp	ewòp	PROPN	_	_	13	flat:name	_	Gloss=Européenne
 15	la	la	DET	_	Definite=Def|Number=Sing	13	det	_	_
 16	ap	ap	AUX	_	_	17	aux	_	Gloss=PROG
-17	kòdone	kòdone	VERB	_	Tense=Pres	10	acl:relcl	_	Gloss=coordonner
+17	kòdone	kòdone	VERB	_	_	10	acl:relcl	_	Gloss=coordonner
 18	ansanm	ansanm	ADV	_	_	17	advmod	_	Gloss=ensemble
 19	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
 20	konbat	konbat	VERB	_	_	17	dep	_	Gloss=combattre
@@ -114,13 +114,13 @@
 27	teknoloji	teknoloji	NOUN	_	_	25	nmod	_	Gloss=technologie
 28	pwòp	pwòp	NOUN	_	_	27	nmod	_	Gloss=propre
 29	ki	ki	PRON	_	_	30	nsubj	_	Gloss=qui
-30	baze	baze	VERB	_	Tense=Pres	27	acl:relcl	_	Gloss=baser
+30	baze	baze	VERB	_	_	27	acl:relcl	_	Gloss=baser
 31	sou	sou	ADP	_	_	32	case	_	Gloss=sur
 32	chèn	chèn	NOUN	_	_	30	obl	_	Gloss=chaîne
 33	distribisyon	distribisyon	NOUN	_	_	32	obj	_	Gloss=distribution
 34	machandiz	machandiz	NOUN	_	_	33	obj	_	Gloss=marchandise
 35	ki	ki	PRON	_	_	36	nsubj	_	Gloss=qui
-36	asire	asire	VERB	_	Tense=Pres	32	acl:relcl	_	Gloss=assurer|SpaceAfter=No
+36	asire	asire	VERB	_	_	32	acl:relcl	_	Gloss=assurer|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
 38	se	se	VERB	_	_	36	ccomp	_	Gloss=être
 39	sa	sa	PRON	_	Number=Sing|PronType=Dem	38	xcomp	_	Gloss=3SG
@@ -130,7 +130,7 @@
 43	Blanch	blanch	PROPN	_	_	42	flat:name	_	Gloss=blanche
 44	Karine	Karine	PROPN	_	_	40	appos	_	Gloss=Karine
 45	Jean-Pierre	Jean-pierre	PROPN	_	_	44	flat:name	_	Gloss=Jean-Pierre
-46	di	di	VERB	_	Tense=Pres	39	acl:relcl	_	Gloss=dire
+46	di	di	VERB	_	_	39	acl:relcl	_	Gloss=dire
 47	nan	nan	ADP	_	_	49	case	_	Gloss=dans
 48	yon	yon	DET	_	Definite=Ind|Number=Sing	49	det	_	Gloss=DET
 49	deklarasyon	deklarasyon	NOUN	_	_	46	obl	_	Gloss=déclaration|SpaceAfter=No
@@ -143,7 +143,7 @@
 1	Rankont	Rankont	NOUN	_	_	4	nsubj	_	Gloss=rancontre
 2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
 3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
-4	se	se	VERB	_	Tense=Pres	0	root	_	Gloss=être
+4	se	se	VERB	_	_	0	root	_	Gloss=être
 5	dènye	dènye	ADJ	_	_	4	xcomp	_	Gloss=dernier
 6	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
@@ -157,10 +157,10 @@
 15	Ewòp	ewòp	PROPN	_	_	14	nmod	_	Gloss=Europe
 16	yo	yo	DET	_	Definite=Def|Number=Plur	14	det	_	Gloss=DET
 17	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
-18	kòdone	kòdone	VERB	_	VerbForm=Inf	9	acl	_	Gloss=coordonner
+18	kòdone	kòdone	VERB	_	_	9	acl	_	Gloss=coordonner
 19	sipò	sipò	NOUN	_	_	18	obj	_	Gloss=support
 20	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
-21	ede	ede	VERB	_	VerbForm=Inf	19	acl	_	Gloss=aider
+21	ede	ede	VERB	_	_	19	acl	_	Gloss=aider
 22	Ikrèn	ikrèn	PROPN	_	_	21	iobj	_	Gloss=Ukraine
 23	defann	defann	VERB	_	_	21	ccomp	_	Gloss=défendre
 24	tèt	tèt	NOUN	_	_	23	obj	_	Gloss=tête
@@ -177,7 +177,7 @@
 # Status = SILVER
 1	Biden	Biden	PROPN	_	_	3	nsubj	_	Gloss=Biden
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	rankontre	rankontre	VERB	_	Tense=Pres	0	root	_	Gloss=rencontrer
+3	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 4	ak	ak	ADP	_	_	5	case	_	Gloss=avec
 5	chanselye	chanselye	NOUN	_	_	3	obl	_	Gloss=chancelier
 6	alman	alman	ADJ	_	_	5	amod	_	Gloss=allemand

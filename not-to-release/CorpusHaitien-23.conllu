@@ -5,9 +5,9 @@
 # Status = SILVER
 1	Depatman	Depatman	NOUN	_	_	3	nsubj	_	Gloss=département
 2	Deta	Deta	NOUN	_	_	1	obj	_	Gloss=d'Eta
-3	Konfime	konfime	VERB	_	Tense=Pres	0	root	_	Gloss=confirmer
+3	Konfime	konfime	VERB	_	_	0	root	_	Gloss=confirmer
 4	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Gloss=3PL
-5	Kidnape	kidnape	VERB	_	Tense=Pres	3	ccomp	_	Gloss=kidnapper
+5	Kidnape	kidnape	VERB	_	_	3	ccomp	_	Gloss=kidnapper
 6	2	2	NUM	_	_	7	nummod	_	Gloss=deux
 7	Sitwayen	sitwayen	NOUN	_	_	5	obj	_	Gloss=citoyen
 8	Ameriken	ameriken	ADJ	_	_	7	amod	_	Gloss=américain
@@ -26,14 +26,14 @@
 6	Abigail	Abigail	PROPN	_	_	4	appos	_	Gloss=Abigail
 7	Michael	Michael	PROPN	_	_	6	flat:name	_	Gloss=Michael
 8	Toussaint	Toussaint	PROPN	_	_	6	flat:name	_	Gloss=Toussaint
-9	poze	poze	VERB	_	Tense=Pres	0	root	_	Gloss=prendre
+9	poze	poze	VERB	_	_	0	root	_	Gloss=prendre
 10	pou	pou	ADP	_	_	12	case	_	Gloss=pour
 11	yon	yon	DET	_	Definite=Ind|Number=Sing	12	det	_	Gloss=une
 12	foto	foto	NOUN	_	_	9	obl	_	Gloss=photo
 13	jou	jou	NOUN	_	_	9	obl:mod	_	Gloss=jour
 14	maryaj	maryaj	NOUN	_	_	13	nmod	_	Gloss=mariage
 15	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	14	det	_	Gloss=DET
-16	nan	nan	ADP	_	_	17	case	_	Gloss=à
+16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	Pompano	Pompano	PROPN	_	_	9	obl	_	Gloss=Pompano
 18	Beach	Beach	PROPN	_	_	17	flat:name	_	Gloss=Beach|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
@@ -52,14 +52,14 @@
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	Vendant	Vendant	PROPN	_	_	1	appos	_	Gloss=Vendant
 8	Patel	Patel	PROPN	_	_	7	flat:name	_	Gloss=Patel
-9	konfime	konfime	VERB	_	Tense=Pres	0	root	_	Gloss=confirmer
+9	konfime	konfime	VERB	_	_	0	root	_	Gloss=confirmer
 10	Jedi	jedi	NOUN	_	_	9	obl:mod	_	Gloss=jeudi
 11	30	30	NUM	_	_	10	nmod	_	Gloss=30
 12	mas	mas	NOUN	_	_	11	nmod	_	Gloss=mars
 13	2023	2023	NUM	_	_	12	nmod	_	Gloss=2023
 14	ke	ke	SCONJ	_	_	16	mark	_	Gloss=que
 15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Rel	16	nsubj	_	Gloss=3PL
-16	kidnape	kidnape	VERB	_	Tense=Pres	9	ccomp	_	Gloss=kidnapper
+16	kidnape	kidnape	VERB	_	_	9	ccomp	_	Gloss=kidnapper
 17	2	2	NUM	_	_	18	nummod	_	Gloss=2
 18	sitwayen	sitwayen	NOUN	_	_	16	obj	_	Gloss=citoyens
 19	Ameriken	Ameriken	ADJ	_	_	18	amod	_	Gloss=américain
@@ -72,7 +72,7 @@
 # text_fr = Il ajoute que Washington est en contact avec les autorités haïtiennes et que les Etats-Unis continueront de travailler avec eux.
 # Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
-2	ajoute	ajoute	VERB	_	Tense=Pres	0	root	_	Gloss=ajouter
+2	ajoute	ajoute	VERB	_	_	0	root	_	Gloss=ajouter
 3	ke	ke	SCONJ	_	_	6	mark	_	Gloss=que
 4	Washington	Washington	PROPN	_	_	6	nsubj	_	Gloss=Washington
 5	an	an	ADP	_	_	6	case	_	Gloss=en
@@ -85,7 +85,7 @@
 12	ke	ke	SCONJ	_	_	15	mark	_	Gloss=que
 13	Etazini	Etazini	PROPN	_	_	15	nsubj	_	Gloss=Etats-Unis
 14	pral	pral	AUX	_	_	15	aux	_	Gloss=FUT
-15	kontinye	kontinye	VERB	_	Tense=Past	6	conj	_	Gloss=continuer
+15	kontinye	kontinye	VERB	_	_	6	conj	_	Gloss=continuer
 16	travay	travay	NOUN	_	_	15	obj	_	Gloss=travail
 17	ak	ak	ADP	_	_	18	case	_	Gloss=avec
 18	yo	yo	PRON	_	Definite=Def|Number=Plur|PronType=Prs	16	nmod	_	Gloss=3PL|SpaceAfter=No
@@ -97,8 +97,8 @@
 # Status = SILVER
 1	Patel	Patel	PROPN	_	_	3	nsubj	_	Gloss=Patel
 2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
-3	refize	refize	VERB	_	Tense=Imp	0	root	_	Gloss=refuser
-4	bay	bay	VERB	_	VerbForm=Inf	3	ccomp	_	Gloss=donner
+3	refize	refize	VERB	_	_	0	root	_	Gloss=refuser
+4	bay	bay	VERB	_	_	3	ccomp	_	Gloss=donner
 5	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun
 6	lòt	lòt	ADJ	_	_	7	amod	_	Gloss=autre
 7	detay	detay	NOUN	_	_	4	obj	_	Gloss=détail
