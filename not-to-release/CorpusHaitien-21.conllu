@@ -2,7 +2,6 @@
 # sent_id = 21__1
 # text = Larisi Lanse Egzèsis ak Fòs Misil Nikleyè li yo
 # text_fr = la Russie lance un exercice avec ses forces de missiles nucléaire.
-# Status = SILVER
 1	Larisi	larisi	PROPN	_	_	2	nsubj	_	Gloss=Russie
 2	Lanse	lanse	VERB	_	_	0	root	_	Gloss=lancer
 3	Egzèsis	egzèsis	NOUN	_	_	2	obj	_	Gloss=exercice
@@ -16,7 +15,6 @@
 # sent_id = 21__2
 # text = MOSCOU (AP) — Lame Ris ap fè egzèsis ak fòs misil estratejik li yo pou montre gwo kapasite nikleyè peyi a.
 # text_fr = Moscou, l'armée de la Russe fait des exercices avec ses forces de missiles stratégiques pour montrer pour montrer la grande capacité nucléaire du pays.
-# Status = SILVER
 1	MOSCOU	moscou	PROPN	_	_	6	parataxis	_	Gloss=Moscou
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	AP	ap	PROPN	_	_	1	dep	_	Gloss=Associated Press|SpaceAfter=No
@@ -24,7 +22,7 @@
 5	—	—	PUNCT	_	_	1	punct	_	_
 6	Lame	lame	NOUN	_	_	9	nsubj	_	Gloss=armée
 7	Ris	ris	PROPN	_	_	6	nmod	_	Gloss=russe
-8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
+8	ap	ap	AUX	_	Aspect=Prog	9	aux	_	Gloss=PROG
 9	fè	fè	VERB	_	_	0	root	_	Gloss=faire
 10	egzèsis	egzèsis	NOUN	_	_	9	obj	_	Gloss=exercice
 11	ak	ak	ADP	_	_	12	case	_	Gloss=avec
@@ -45,7 +43,6 @@
 # sent_id = 21__3
 # text = Ministè Defans Ris la di Mèkredi ke lans misil mobil Yars pral fè mannèv nan 3 rejyon nan Siberi.
 # text_fr = Le ministère de la défense russe dit mercredi que la lance missile mobile Yars fera des manœuvres dans trois régions  en Sibérie.
-# Status = SILVER
 1	Ministè	ministè	NOUN	_	_	5	nsubj	_	Gloss=ministère
 2	Defans	defans	NOUN	_	_	1	obj	_	Gloss=défense
 3	Ris	ris	PROPN	_	_	2	nmod	_	Gloss=russe
@@ -57,7 +54,7 @@
 9	misil	misil	NOUN	_	_	8	nmod	_	Gloss=missile
 10	mobil	mobil	ADJ	_	_	9	amod	_	Gloss=mobile
 11	Yars	yars	PROPN	_	_	8	appos	_	Gloss=Yars
-12	pral	pral	AUX	_	_	13	aux	_	Gloss=FUT
+12	pral	pral	AUX	_	Tense=Fut	13	aux	_	Gloss=FUT
 13	fè	fè	VERB	_	_	5	ccomp	_	Gloss=faire
 14	mannèv	mannèv	NOUN	_	_	13	obj	_	Gloss=manœuvre
 15	nan	nan	ADP	_	_	17	case	_	Gloss=dans
@@ -70,10 +67,9 @@
 # sent_id = 21__4
 # text = Ministè a pa pale de okenn plan pou pratike lansman men li di manèv yo enplike apeprè 300 machin ak 3,000 sòlda nan lès Siberi.
 # text_fr = le ministère n'a parlé d'aucun plan pour pratiquer le lancement mais il dit que les manœuvres impliquent à peu près 300 véhicules avec 3000 soldats dans l'ouest de Sibérie.
-# Status = SILVER
 1	Ministè	ministè	NOUN	_	_	4	nsubj	_	Gloss=ministère
 2	a	a	DET	_	_	1	det	_	Gloss=le
-3	pa	pa	ADV	_	_	4	advmod	_	Gloss=ne pas
+3	pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=ne pas
 4	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 5	de	de	ADP	_	_	7	case	_	Gloss=de
 6	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun

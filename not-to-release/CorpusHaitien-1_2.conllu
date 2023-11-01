@@ -1,10 +1,9 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 01__21
 # text = Mwen pa bezwen di nou pou BOUCH li.
-# Status = SILVER
 # text_fr = Je n'ai pas besoin de vous dire pour sa bouche.
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
+2	pa	pa	ADV	_	Polarity=Neg	3	advmod	_	Gloss=NEG
 3	bezwen	bezwen	VERB	_	_	0	root	_	Gloss=avoir besoin de
 4	di	di	VERB	_	_	3	ccomp	_	Gloss=dire
 5	nou	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	4	obj	_	Gloss=2PL
@@ -16,13 +15,12 @@
 # sent_id = 01__22
 # text = M pa konn si se sa yo rele kout foud la, men sèl sa m konnen, m te tonbe menm moman an.
 # text_fr = je ne sais pas si c'est ce qu'on appelle le coude de foudre, mais la seule chose que je connais, j'ai été séduit le même moment.
-# Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
+2	pa	pa	ADV	_	Polarity=Neg	3	advmod	_	Gloss=NEG
 3	konn	konnen	VERB	_	_	0	root	_	Gloss=savoir
-4	si	si	SCONJ	_	_	5	mark	_	Gloss=si
-5	se	se	VERB	_	_	3	advcl	_	Gloss=être
-6	sa	sa	PRON	_	Number=Sing|PronType=Dem	5	xcomp	_	Gloss=ce
+4	si	si	SCONJ	_	_	6	mark	_	Gloss=si
+5	se	se	AUX	_	_	6	cop	_	Gloss=être
+6	sa	sa	PRON	_	Number=Sing|PronType=Dem	3	advcl	_	Gloss=ce
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
 8	rele	rele	VERB	_	_	6	acl:relcl	_	Gloss=appeler
 9	kout	kout	NOUN	_	_	8	obj	_	Gloss=coude
@@ -36,7 +34,7 @@
 17	konnen	konnen	VERB	_	_	15	acl:relcl	_	Gloss=savoir|SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	Gloss=1SG
-20	te	te	AUX	_	_	21	aux	_	Gloss=PAST
+20	te	te	AUX	_	Tense=Past	21	aux	_	Gloss=PAST
 21	tonbe	tonbe	VERB	_	_	17	ccomp	_	Gloss=tomber
 22	menm	menm	ADJ	_	_	23	amod	_	Gloss=même
 23	moman	moman	NOUN	_	_	21	obl:mod	_	Gloss=moment
@@ -45,12 +43,11 @@
 
 # sent_id = 01__23
 # text = Malerezman m pa t ka la nan fèt la paske fòk m te rantre Jakmèl pou konje desanm.
-# Status = SILVER
 # text_fr = Malheureusement, je ne pouvais pas être là dans la fête parce que je devais rentrer à Jacmel pour le congé du décembre.
 1	Malerezman	Malerezman	ADV	_	_	5	advmod	_	Gloss=malheureusement
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Gloss=1SG
-3	pa	pa	ADV	_	_	5	advmod	_	Gloss=NEG
-4	t	te	AUX	_	_	5	aux	_	Gloss=PAST
+3	pa	pa	ADV	_	Polarity=Neg	5	advmod	_	Gloss=NEG
+4	t	te	AUX	_	Tense=Past	5	aux	_	Gloss=PAST
 5	ka	ka	VERB	_	_	0	root	_	Gloss=pouvoir
 6	la	la	ADV	_	_	5	obl:arg	_	Gloss=là
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
@@ -59,7 +56,7 @@
 10	paske	paske	SCONJ	_	_	11	mark	_	Gloss=parce que
 11	fòk	fòk	VERB	_	_	5	advcl	_	Gloss=falloir
 12	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Gloss=1SG
-13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
+13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
 14	rantre	rantre	VERB	_	_	11	ccomp	_	Gloss=rejoindre
 15	Jakmèl	jakmèl	PROPN	_	_	14	obj	_	Gloss=jakmèl
 16	pou	pou	ADP	_	_	17	case	_	Gloss=pour
@@ -69,22 +66,20 @@
 
 # sent_id = 01__24
 # text = Se yon koutim familyal m pa t ka rate.
-# Status = SILVER
 # text_fr = C'est une coutume familiale que je ne peux pas rater.
-1	Se	se	VERB	_	_	0	root	_	Gloss=être
+1	Se	se	AUX	_	_	3	cop	_	Gloss=être
 2	yon	yon	DET	_	Definite=Ind|Number=Sing	3	det	_	Gloss=DET
-3	koutim	koutim	NOUN	_	_	1	xcomp	_	Gloss=coutume
+3	koutim	koutim	NOUN	_	_	0	root	_	Gloss=coutume
 4	familyal	familyal	ADJ	_	_	3	amod	_	Gloss=familial
 5	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Gloss=1SG
-6	pa	pa	ADV	_	_	8	advmod	_	Gloss=NEG
-7	t	te	AUX	_	_	8	aux	_	Gloss=PAST
+6	pa	pa	ADV	_	Polarity=Neg	8	advmod	_	Gloss=NEG
+7	t	te	AUX	_	Tense=Past	8	aux	_	Gloss=PAST
 8	ka	ka	VERB	_	_	3	acl:relcl	_	Gloss=pouvoir
 9	rate	rate	VERB	_	_	8	ccomp	_	Gloss=rater|SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 01__25_1
 # text = Chak moun bay non yo aprè l fin pale, sof mwen ki te ba l nimewo m paske m pa t ap la, jis pou n te ka toujou pale.
-# Status = SILVER
 # text_fr = chaque personne a donné son nom après avoir fini de parler, sauf moi qu'il lui a donné mon numéro parce que je ne serais pas là, juste pour qu'on se parle.
 1	Chak	chak	DET	_	_	2	det	_	Gloss=chaque
 2	moun	moun	NOUN	_	_	3	nsubj	_	Gloss=personne
@@ -99,22 +94,22 @@
 11	sof	sof	ADP	_	_	12	case	_	Gloss=sauf
 12	mwen	mwen	PRON	_	Number=Sing|Person=1|Poss=Yes	3	obl:mod	_	Gloss=1SG
 13	ki	ki	PRON	_	_	15	nsubj	_	Gloss=qui
-14	te	te	AUX	_	_	15	aux	_	Gloss=PAST
+14	te	te	AUX	_	Tense=Past	15	aux	_	Gloss=PAST
 15	ba	ba	VERB	_	_	12	acl:relcl	_	Gloss=donner
 16	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	15	iobj	_	Gloss=3SG
 17	nimewo	nimewo	NOUN	_	_	15	obj	_	Gloss=numéro
 18	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	17	det	_	Gloss=1SG
 19	paske	paske	SCONJ	_	_	24	mark	_	Gloss=parce que
 20	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
-21	pa	pa	ADV	_	_	24	advmod	_	Gloss=NEG
-22	t	te	AUX	_	_	24	aux	_	Gloss=PAST
-23	ap	ap	AUX	_	_	24	aux	_	Gloss=PROG
+21	pa	pa	ADV	_	Polarity=Neg	24	advmod	_	Gloss=NEG
+22	t	te	AUX	_	Tense=Past	24	aux	_	Gloss=PAST
+23	ap	ap	AUX	_	Aspect=Prog	24	aux	_	Gloss=PROG
 24	la	la	ADV	_	_	15	advcl	_	Gloss=être là|SpaceAfter=No|VerbFrom=Vadv
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	jis	jis	ADV	_	_	24	advmod	_	Gloss=juste
 27	pou	pou	ADP	_	_	30	mark	_	Gloss=pour
 28	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	30	nsubj	_	Gloss=1PL
-29	te	te	AUX	_	_	30	aux	_	Gloss=PAST
+29	te	te	AUX	_	Tense=Past	30	aux	_	Gloss=PAST
 30	ka	ka	VERB	_	_	24	ccomp	_	Gloss=pouvoir
 31	toujou	toujou	ADV	_	_	30	advmod	_	Gloss=toujours
 32	pale	pale	VERB	_	_	30	ccomp	_	Gloss=parler|SpaceAfter=No
@@ -122,16 +117,15 @@
 
 # sent_id = 01__25_2
 # text = "Ou pa janm konnen sa k ap vin dèyè envitasyon sa m rate a..."
-# Status = SILVER
 # text_fr = "On ne sait jamais ce qui viendrait après cette invitation que j'ai raté..."
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Ou	ou	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Gloss=2SG
-3	pa	pa	ADV	_	_	5	advmod	_	Gloss=NEG
+3	pa	pa	ADV	_	Polarity=Neg	5	advmod	_	Gloss=NEG
 4	janm	janm	ADV	_	_	5	advmod	_	Gloss=jamais
 5	konnen	konnen	VERB	_	_	0	root	_	Gloss=savoir
 6	sa	sa	PRON	_	Number=Sing|PronType=Dem	5	obj	_	_
 7	k	ki	PRON	_	_	9	nsubj	_	Gloss=qui
-8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
+8	ap	ap	AUX	_	Aspect=Prog	9	aux	_	Gloss=PROG
 9	vin	vini	VERB	_	_	6	acl:relcl	_	Gloss=venir
 10	dèyè	dèyè	ADP	_	_	11	case	_	Gloss=après, derrière
 11	envitasyon	envitasyon	NOUN	_	_	9	obl	_	Gloss=invitation
@@ -143,7 +137,6 @@
 
 # sent_id = 01__26
 # text = Li apiye sou pòt la, ap tann repons nou, aprè li remèsye n epi l ale.
-# Status = SILVER
 # text_fr = il appuie sur la porte en train d'attendre notre réponse, après il nous remercie et s'en va.
 1	Li	li	PRON	_	_	2	nsubj	_	Gloss=3SG
 2	apiye	apiye	VERB	_	_	0	root	_	Gloss=appuier
@@ -151,7 +144,7 @@
 4	pòt	pòt	NOUN	_	_	2	obl	_	Gloss=porte
 5	la	la	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=DET|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
-7	ap	ap	AUX	_	_	8	aux	_	Gloss=PROG
+7	ap	ap	AUX	_	Aspect=Prog	8	aux	_	Gloss=PROG
 8	tann	tann	VERB	_	_	2	advcl	_	Gloss=attendre
 9	repons	repons	NOUN	_	_	8	obj	_	Gloss=réponse
 10	nou	nou	DET	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	Gloss=1PL|SpaceAfter=No
@@ -168,7 +161,6 @@
 # sent_id = 01__27
 # text = Nan yon ti tan ankò, enkoni sa retounen pase devan klas la, pandan m t ap sòti pou m al lakay mwen.
 # text_fr = dans peu de temps encore, cet inconnu est repassé devant la classe, pendant j'étais en train de sortir pour aller chez moi .
-# Status = SILVER
 1	Nan	nan	ADP	_	_	4	case	_	Gloss=dans
 2	yon	yon	DET	_	Definite=Ind|Number=Sing	4	det	_	Gloss=DET
 3	ti	ti	ADJ	_	_	4	amod	_	Gloss=petit
@@ -178,7 +170,7 @@
 7	enkoni	enkoni	NOUN	_	_	9	nsubj	_	Gloss=inconnu
 8	sa	sa	DET	_	Number=Sing|PronType=Dem	7	det	_	Gloss=cet
 9	retounen	retounen	VERB	_	_	0	root	_	Gloss=retourner, repasser, revenir
-10	pase	pase	VERB	_	Number=Plur|Tense=Pres	9	compound:svc	_	_
+10	pase	pase	VERB	_	Number=Plur|Person=3	9	compound:svc	_	_
 11	devan	devan	ADP	_	_	12	case	_	Gloss=devant
 12	klas	klas	NOUN	_	_	10	obl	_	Gloss=classe
 13	la	la	DET	_	Definite=Def|Number=Sing	12	det	_	SpaceAfter=No
@@ -190,7 +182,7 @@
 19	sòti	sòti	VERB	_	_	9	advcl	_	Gloss=sortir
 20	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 21	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	Gloss=1SG
-22	al	ale	VERB	_	Tense=Pres	19	dep	_	Gloss=aller
+22	al	ale	VERB	_	_	19	dep	_	Gloss=aller
 23	lakay	lakay	NOUN	_	_	22	obl:arg	_	Gloss=maison
 24	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	23	det	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	9	punct	_	_
@@ -198,9 +190,8 @@
 # sent_id = 01__28
 # text = Li te mete yon bèl mayo ki byen tonbe sou li, e ki gen yon koulè ki atiran.
 # text_fr = Il a mis un beau t-shirt qui lui convient, et qui a une couleur qui est attirante.
-# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	mete	mete	VERB	_	_	0	root	_	Gloss=mettre
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=un
 5	bèl	bèl	ADJ	_	_	6	amod	_	Gloss=beau
@@ -223,7 +214,6 @@
 # sent_id = 01__29
 # text = Mwen vire pou m pale ak yon kamarad, lè m tounen pou m swiv li, li gentan "disparèt".
 # text_fr = je me tourne pour parler à un camarade, quand je reviens pour le suivre, Il est déjà disparu.
-# Status = SILVER
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
 2	vire	vire	VERB	_	_	0	root	_	Gloss=tourner
 3	pou	pou	ADP	_	_	5	mark	_	Gloss=pour
@@ -250,10 +240,9 @@
 
 # sent_id = 01__30
 # text = M pa bezwen di n kijanm santi m.
-# Status = SILVER
 # text_fr = je n'ai pas besoin de vous dire comment je me sens.
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
+2	pa	pa	ADV	_	Polarity=Neg	3	advmod	_	Gloss=NEG
 3	bezwen	bezwen	NOUN	_	_	0	root	_	Gloss=avoir besoin de
 4	di	di	VERB	_	_	3	ccomp	_	Gloss=dire
 5	n	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	Gloss=2PL
@@ -265,13 +254,12 @@
 # sent_id = 01__31
 # text = Akoz lapli ki t ap tonbe a, tan an te sonb, e m te dwe rantre lakay mwen rapid.
 # text_fr = étant donné qu'il pleuvait, le temps était sombre, et je devais rentrer chez moi rapidement.
-# Status = SILVER
 1	Akoz	akoz	ADP	_	_	2	case	_	Gloss=à cause de
 2	lapli	lapli	NOUN	_	_	12	obl:mod	_	Gloss=pluie
 3	ki	ki	PRON	_	_	6	nsubj	_	Gloss=qui
 4	t	te	AUX	_	_	6	aux	_	Gloss=PAST
 5	ap	ap	AUX	_	_	6	aux	_	Gloss=PROG
-6	tonbe	tonbe	VERB	_	Tense=Past	2	acl:relcl	_	Gloss=tomber
+6	tonbe	tonbe	VERB	_	_	2	acl:relcl	_	Gloss=tomber
 7	a	a	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=DET|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	tan	tan	NOUN	_	_	12	nsubj	_	Gloss=temps
@@ -282,7 +270,7 @@
 14	e	e	CCONJ	_	_	17	cc	_	Gloss=et
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
 16	te	te	AUX	_	_	17	aux	_	Gloss=PAST
-17	dwe	dwe	VERB	_	Tense=Pres	12	conj	_	Gloss=devoir
+17	dwe	dwe	VERB	_	_	12	conj	_	Gloss=devoir
 18	rantre	rantre	VERB	_	_	17	ccomp	_	Gloss=rentrer
 19	lakay	lakay	NOUN	_	_	18	obj	_	Gloss=maison
 20	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	19	det	_	Gloss=DET
@@ -292,9 +280,8 @@
 # sent_id = 01__32
 # text = Mwen te abite Lamentin 54, Kafou.
 # text_fr = j'habitais à Lamentin 54, Carefourre
-# Status = SILVER
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	abite	abite	VERB	_	_	0	root	_	Gloss=habiter
 4	Lamentin	Lamentin	PROPN	_	_	3	obj	_	Gloss=lamentin
 5	54	54	NUM	_	_	4	nmod	_	Gloss=54|SpaceAfter=No
@@ -304,10 +291,9 @@
 
 # sent_id = 01__33
 # text = M te kouri al pran bis pou m ale.
-# Status = SILVER
 # text_fr = je courrais pour prendre le bus pour m'en aller.
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	kouri	kouri	VERB	_	_	0	root	_	Gloss=courir
 4	al	ale	VERB	_	_	3	ccomp	_	Gloss=aller
 5	pran	pran	VERB	_	_	4	ccomp	_	Gloss=prendre
@@ -320,7 +306,6 @@
 # sent_id = 01__34
 # text = Pandan m chita nan bis la mwen apiye tèt mwen sou fenèt la m ap panse ak tout sa m ta fè pou m patisipe nan fèt la.
 # text_fr = pendant je m'assois dans le bus, j'appuie ma tête contre la fenêtre, je pense à tout ce que je ferrais pour participer à cette fête.
-# Status = SILVER
 1	Pandan	Pandan	ADP	_	_	3	mark	_	Gloss=pendant
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 3	chita	chita	VERB	_	_	8	advcl	_	Gloss=s'assoir
@@ -335,13 +320,13 @@
 12	fenèt	fenèt	NOUN	_	_	8	obl	_	Gloss=fenêtre
 13	la	la	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=DET
 14	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Gloss=1SG
-15	ap	ap	AUX	_	_	16	aux	_	Gloss=PROG
+15	ap	ap	AUX	_	Aspect=Prog	16	aux	_	Gloss=PROG
 16	panse	panse	VERB	_	_	8	conj	_	Gloss=penser
 17	ak	ak	ADP	_	_	19	case	_	Gloss=avec
 18	tout	tout	ADJ	_	_	19	amod	_	Gloss=tout
 19	sa	sa	PRON	_	Number=Sing|PronType=Dem	16	obl:arg	_	Gloss=ce
 20	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	Gloss=1SG
-21	ta	ta	AUX	_	_	22	aux	_	Gloss=COND
+21	ta	ta	AUX	_	Mood=Cnd	22	aux	_	Gloss=COND
 22	fè	fè	VERB	_	_	19	acl:relcl	_	Gloss=faire
 23	pou	pou	ADP	_	_	25	mark	_	Gloss=pour
 24	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	Gloss=1SG
@@ -354,40 +339,36 @@
 # sent_id = 01__35
 # text = Men...
 # text_fr = mais...
-# Status = SILVER
 1	Men	men	INTJ	_	_	0	root	_	Gloss=mais|SpaceAfter=No
 2	...	...	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 01__36
 # text = Elas!
-# Status = SILVER
 # text_fr = hélas
 1	Elas	Elas	INTJ	_	_	0	root	_	Gloss=elas|SpaceAfter=No
 2	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 01__37
 # text = Èske vrèman se yon enkoni ki te vin nan klas la ?
-# Status = SILVER
 # text_fr = est ce que c'était vraiment un inconnu qui était venu dans la classe.
-1	Èske	èske	ADV	_	_	3	advmod	_	Gloss=est-ce que
-2	vrèman	vrèman	ADV	_	_	3	advmod	_	Gloss=vraiment
-3	se	se	VERB	_	_	0	root	_	Gloss=être
+1	Èske	èske	ADV	_	_	5	advmod	_	Gloss=est-ce que
+2	vrèman	vrèman	ADV	_	_	5	advmod	_	Gloss=vraiment
+3	se	se	AUX	_	_	5	cop	_	Gloss=être
 4	yon	yon	DET	_	Definite=Ind|Number=Sing	5	det	_	Gloss=DET
-5	enkoni	enkoni	NOUN	_	_	3	xcomp	_	Gloss=inconnu
+5	enkoni	enkoni	NOUN	_	_	0	root	_	Gloss=inconnu
 6	ki	ki	PRON	_	_	8	nsubj	_	Gloss=qui
-7	te	te	AUX	_	_	8	aux	_	Gloss=PAST
+7	te	te	AUX	_	Tense=Past	8	aux	_	Gloss=PAST
 8	vin	vini	VERB	_	_	5	acl:relcl	_	Gloss=venir
 9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	klas	klas	NOUN	_	_	8	obl	_	Gloss=classe
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=DET
-12	?	?	PUNCT	_	_	3	punct	_	_
+12	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 01__38
 # text = Nou pa imajine n kijanm anvi konn moun ki kache dèyè stati sa, m pa ka tann pou l ekri m-- byenke m pat gen asirans sa.
 # text_fr = Nous nous n'imaginons pas comment j'ai envie de connaitre la personne qui se cache derrière ce statut, je ne peux pas attendre pour qu'il m'écrive - bien que je n'avais pas cette assurance.
-# Status = SILVER
 1	Nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-2	pa	pa	ADV	_	_	3	advmod	_	Gloss=NEG
+2	pa	pa	ADV	_	Polarity=Neg	3	advmod	_	Gloss=NEG
 3	imajine	imajine	VERB	_	_	0	root	_	Gloss=imaginer
 4	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	iobj	_	Gloss=1PL
 5	kijanm	kijanm	ADV	_	_	6	advmod	_	Gloss=comment
@@ -401,7 +382,7 @@
 13	sa	sa	DET	_	Number=Sing|Person=3|Poss=Yes	12	det	_	Gloss=3SG|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	Gloss=1SG
-16	pa	pa	ADV	_	_	17	advmod	_	Gloss=NEG
+16	pa	pa	ADV	_	Polarity=Neg	17	advmod	_	Gloss=NEG
 17	ka	ka	VERB	_	_	3	conj	_	Gloss=pouvoir
 18	tann	tann	VERB	_	_	17	ccomp	_	Gloss=attendre
 19	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
@@ -410,8 +391,8 @@
 22	m--	mwen--	PRON	_	Number=Sing|Person=1|Poss=Yes	21	obj	_	Gloss=1SG
 23	byenke	byenke	ADP	_	_	27	mark	_	Gloss=bien que
 24	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Gloss=1SG
-25	pa	pa	ADV	_	_	27	advmod	_	Gloss=NEG|SpaceAfter=No
-26	t	te	AUX	_	_	27	aux	_	Gloss=PAST|wordform=pat
+25	pa	pa	ADV	_	Polarity=Neg	27	advmod	_	Gloss=NEG|SpaceAfter=No
+26	t	te	AUX	_	Tense=Past	27	aux	_	Gloss=PAST|wordform=pat
 27	gen	gen	VERB	_	_	18	advcl	_	Gloss=avoir
 28	asirans	asirans	NOUN	_	_	27	obj	_	Gloss=assurance
 29	sa	sa	DET	_	Number=Sing|PronType=Dem	28	det	_	Gloss=cette|SpaceAfter=No
@@ -420,7 +401,6 @@
 # sent_id = 01__39
 # text = M desann bis la tou dezole paske m pa t gentan pale avè l pou m konnen l plis.
 # text_fr = je descends le bus tout avec un regret parce que je n'ai pas eu le temps de le parler pour que je le connaisse mieux.
-# Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
 2	desann	desann	VERB	_	_	0	root	_	Gloss=descendre
 3	bis	bis	NOUN	_	_	2	obl:arg	_	Gloss=bus
@@ -430,8 +410,8 @@
 7	paske	paske	SCONJ	_	_	11	mark	_	ExtPos=SCONJ|Gloss=parce que
 8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Gloss=1SG
 9	pa	pa	ADV	_	_	11	advmod	_	Gloss=NEG
-10	t	te	AUX	_	_	11	aux	_	Gloss=PAST
-11	gentan	gentan	VERB	_	_	6	advcl	_	Gloss=avoir
+10	t	te	AUX	_	Tense=Past	11	aux	_	Gloss=PAST
+11	gentan	gentan	VERB	_	_	6	advcl	_	Gloss=avoir_le_temps
 12	pale	pale	VERB	_	_	11	ccomp	_	Gloss=parler
 13	avè	avè	ADP	_	_	14	case	_	Gloss=avec
 14	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obl	_	Gloss=3SG
@@ -445,7 +425,6 @@
 # sent_id = 01__40
 # text = Lè m rive lakay mwen, m retire rad sou mwen epi m lage kò m sou kabann nan pou m repase imaj sa m te wè a nan panse m.
 # text_fr = Quand je suis arrivé chez moi, j'enlève mes vêtements et je m'allonge sur le lit pour revivre cette image que j'ai vu dans ma pensée.
-# Status = SILVER
 1	Lè	lè	SCONJ	_	_	3	mark	_	Gloss=quand
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 3	rive	rive	VERB	_	_	8	advcl	_	Gloss=arriver
@@ -471,7 +450,7 @@
 23	imaj	imaj	NOUN	_	_	22	obj	_	Gloss=image
 24	sa	sa	DET	_	Number=Sing|PronType=Dem	23	det	_	Gloss=DET
 25	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Gloss=1SG
-26	te	te	AUX	_	_	27	aux	_	Gloss=PAST
+26	te	te	AUX	_	Tense=Past	27	aux	_	Gloss=PAST
 27	wè	wè	VERB	_	_	23	acl:relcl	_	Gloss=voir
 28	a	a	DET	_	_	27	det	_	Gloss=DET
 29	nan	nan	ADP	_	_	30	case	_	Gloss=dans

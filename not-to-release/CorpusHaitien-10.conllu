@@ -17,14 +17,13 @@
 # sent_id = 10__2
 # text = Yon gran jiri New York k ap mennen ankèt sou peman anba tab ki te fèt sou non Donald Trump pandan kanpay prezidansyèl ane 2016 la vin santre atansyon sou avoka distri Manhattan nan k ap jere dosye a.
 # text_fr = Un grand jury de New York qui mène l'enquête sur le paiement illégale qui a été fait sur le nom de Donald Trump pendant  la campagne présidentielle l'année 2016 vient d'attirer de l' avocat du district de Manhattan qui gère le dossier.
-# Status = SILVER
 1	Yon	yon	DET	_	_	3	det	_	Gloss=un
 2	gran	gran	ADJ	_	_	3	amod	_	Gloss=grand
 3	jiri	jiri	NOUN	_	_	27	nsubj	_	Gloss=jury
 4	New	new	PROPN	_	_	3	nmod	_	Gloss=New
 5	York	york	PROPN	_	_	4	flat:name	_	Gloss=York
 6	k	ke	PRON	_	_	8	nsubj	_	Gloss=qui
-7	ap	ap	AUX	_	_	8	aux	_	Gloss=PROG
+7	ap	ap	AUX	_	Aspect=Prog	8	aux	_	Gloss=PROG
 8	mennen	mennen	VERB	_	_	3	acl:relcl	_	Gloss=mener
 9	ankèt	ankèt	NOUN	_	_	8	obj	_	Gloss=enquête
 10	sou	sou	ADP	_	_	11	case	_	Gloss=sur
@@ -32,7 +31,7 @@
 12	anba	anba	ADP	_	_	13	case	_	Gloss=sous
 13	tab	tab	NOUN	_	_	11	nmod	_	Gloss=table
 14	ki	ki	PRON	_	_	16	nsubj	_	Gloss=qui
-15	te	te	AUX	_	_	16	aux	_	Gloss=PAST
+15	te	te	AUX	_	Tense=Past	16	aux	_	Gloss=PAST
 16	fèt	fèt	VERB	_	_	11	acl:relcl	_	Gloss=faire
 17	sou	sou	ADP	_	_	18	case	_	Gloss=sous
 18	non	non	NOUN	_	_	16	obl	_	Gloss=nom
@@ -53,7 +52,7 @@
 33	Manhattan	manhattan	PROPN	_	_	32	obj	_	Gloss=Manhattan
 34	nan	nan	DET	_	_	31	det	_	Gloss=le
 35	k	ki	PRON	_	_	37	nsubj	_	Gloss=qui
-36	ap	ap	AUX	_	_	37	aux	_	Gloss=PROG
+36	ap	ap	AUX	_	Aspect=Prog	37	aux	_	Gloss=PROG
 37	jere	jere	VERB	_	_	31	acl:relcl	_	Gloss=Gérer
 38	dosye	dosye	NOUN	_	_	37	obj	_	Gloss=dossier
 39	a	a	DET	_	_	38	det	_	Gloss=le|SpaceAfter=No
@@ -62,7 +61,6 @@
 # sent_id = 10__3
 # text = Desizyon ke Alvin Bragg pran pou konvoke gran jiri sou dosye sa nan kòmansman ane 2023 kapab debouche sou akizasyon kriminèl kont yon ansyen prezidan ameriken.
 # text_fr = La décision qu'Alvin Bragg prend pour convoquer le grand jury sur ce dossier  dans le début de l'année 2023 peut déboucher sur une accusation criminelle contre l'ancien président américain.
-# Status = SILVER
 1	Desizyon	desizyon	NOUN	_	_	17	nsubj	_	Gloss=décision
 2	ke	ke	PRON	_	_	5	obj	_	Gloss=que
 3	Alvin	Alvin	PROPN	_	_	5	nsubj	_	Gloss=Alvin
@@ -93,10 +91,9 @@
 
 # sent_id = 10__4
 # text = Yo te eli Bragg kòm premye avoka Nwa nan distri Manhattan an Novanm 2021.
-# Status = SILVER
 # text_fr = Ils ont élu Bragg comme le premier avocat noir dans le district Manhattan en novembre 2021.
 1	Yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Gloss=3PL
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	eli	eli	VERB	_	_	0	root	_	Gloss=élire
 4	Bragg	bragg	PROPN	_	_	3	obj	_	Gloss=Bragg
 5	kòm	kòm	SCONJ	_	_	7	case	_	Gloss=comme
@@ -112,7 +109,6 @@
 
 # sent_id = 10__5
 # text = Karyè legal li gen ladan travay li te fè kòm yon pwosekitè federal ak avoka dwa sivik ki te reprezante manman Eric Garner.
-# Status = SILVER
 # text_fr = Sa carrière légale a inclue le travail qu'il a fait comme un procureur fédéral et un avocat du droit civique qui représentait  la maman d'Eric Garner
 1	Karyè	Karyè	NOUN	_	_	4	nsubj	_	Gloss=carrière
 2	legal	legal	ADJ	_	_	1	amod	_	Gloss=légale
@@ -121,7 +117,7 @@
 5	ladan	ladan	NOUN	_	_	6	nmod	_	Gloss=intérieur
 6	travay	travay	NOUN	_	_	4	obj	_	Gloss=travail
 7	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Gloss=3SG
-8	te	te	AUX	_	_	9	aux	_	Gloss=PAST
+8	te	te	AUX	_	Tense=Past	9	aux	_	Gloss=PAST
 9	fè	fè	VERB	_	_	6	acl:relcl	_	Gloss=faire
 10	kòm	kòm	ADV	_	_	9	advmod	_	Gloss=comme
 11	yon	yon	DET	_	Definite=Ind|Number=Sing	12	det	_	Gloss=un
@@ -132,7 +128,7 @@
 16	dwa	dwa	NOUN	_	_	15	obj	_	Gloss=droit
 17	sivik	sivik	ADJ	_	_	16	amod	_	Gloss=civique
 18	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
-19	te	te	AUX	_	_	20	aux	_	Gloss=PAST
+19	te	te	AUX	_	Tense=Past	20	aux	_	Gloss=PAST
 20	reprezante	reprezante	VERB	_	_	12	acl:relcl	_	Gloss=représenter
 21	manman	manman	NOUN	_	_	20	obj	_	Gloss=maman
 22	Eric	Eric	PROPN	_	_	21	obj	_	Gloss=Eric

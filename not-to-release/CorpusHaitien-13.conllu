@@ -2,7 +2,6 @@
 # sent_id = 13__1
 # text = 39 Moun Mouri nan Dife nan Sant Migran Meksik Toupre Fwontyè ak Etazini
 # text_fr = 39 personnes meurent dans un incendie dans le centre des migrants au Mexique tout prêt  de la frontière avec les Etats-Unis.
-# Status = SILVER
 1	39	39	NUM	_	_	2	nummod	_	Gloss=39
 2	Moun	moun	NOUN	_	_	3	nsubj	_	Gloss=personne
 3	Mouri	mouri	VERB	_	_	0	root	_	Gloss=mourir
@@ -20,7 +19,6 @@
 # sent_id = 13__2
 # text = MEXICO CITY (AP) — Plis pase twa douzèn migran pèdi lavi yo nan yon dife ki pran nan yon dòtwa nan yon sant kote yo fèmen migran Meksiken toupre fwontyè Etazini.
 # text_fr = La ville de Mexico - Plus que trois douzaines migrants ont perdu leur vie dans un incendie qui éclaté dans un dortoir dans un centre où ils ferment les migrants mexicains tout prêt la frontière des Etats-Unis.
-# Status = SILVER
 1	MEXICO	Mexico	PROPN	_	_	12	dep	_	Gloss=MEXICO
 2	CITY	city	PROPN	_	_	1	flat:name	_	Gloss=ville
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -59,9 +57,8 @@
 # sent_id = 13__3
 # text = Se youn nan ensidan kote plis moun mouri nan yon sant pou kenbe migran nan peyi a.
 # text_fr = C'est l'un des incidents où beaucoup de gens meurent dans un centre pour accueillir les migrant du pays.
-# Status = SILVER
-1	Se	se	VERB	_	_	0	root	_	Gloss=être
-2	youn	youn	NUM	_	_	1	xcomp	_	Gloss=l'un
+1	Se	se	AUX	_	_	2	cop	_	Gloss=être
+2	youn	youn	NUM	_	_	0	root	_	Gloss=l'un
 3	nan	nan	ADP	_	_	4	case	_	Gloss=dans
 4	ensidan	ensidan	NOUN	_	_	2	nmod	_	Gloss=incident
 5	kote	kote	PRON	_	PronType=Rel	8	obl:mod	_	Gloss=où
@@ -77,30 +74,29 @@
 15	nan	nan	ADP	_	_	16	case	_	Gloss=dans
 16	peyi	peyi	NOUN	_	_	13	obl	_	Gloss=pays
 17	a	a	DET	_	_	16	det	_	Gloss=du|SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 13__4
 # text = Kèk èdtan apre dife a te eklate Lendi swa, yo te aliyen kèk kadav ke yo te kouvri anba dra deyò etablisman an nan Ciudad Juarez, anfas El Paso, Texas.
 # text_fr = Quelques heures de temps après l'incendie a éclaté lundi soir, ils ont aligné quelques cadavres qu'ils ont couverts sous le drap dehors de l'établissement dans la ville de Juarez, en face de El Paso, Texas.
-# Status = SILVER
 1	Kèk	kèk	DET	_	_	2	det	_	Gloss=quelques
 2	èdtan	èdtan	NOUN	_	_	13	obl:mod	_	Gloss=heures de temps
 3	apre	apre	ADP	_	_	7	mark	_	Gloss=après
 4	dife	dife	NOUN	_	_	7	nsubj	_	Gloss=incendie
 5	a	a	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=l'
-6	te	te	AUX	_	_	7	aux	_	Gloss=PAST
+6	te	te	AUX	_	Tense=Past	7	aux	_	Gloss=PAST
 7	eklate	eklate	VERB	_	_	2	acl	_	Gloss=éclater
 8	Lendi	Lendi	NOUN	_	_	7	obl:mod	_	Gloss=lundi
 9	swa	swa	NOUN	_	_	8	nmod	_	Gloss=soir|SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	13	nsubj	_	Gloss=3PL
-12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
+12	te	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST
 13	aliyen	aliyen	VERB	_	_	0	root	_	Gloss=aligner
 14	kèk	kèk	DET	_	_	15	det	_	Gloss=quelques
 15	kadav	kadav	NOUN	_	_	13	obj	_	Gloss=cadavre
 16	ke	ke	PRON	_	PronType=Rel	19	obj	_	Gloss=que
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Gloss=3PL
-18	te	te	AUX	_	_	19	aux	_	Gloss=PAST
+18	te	te	AUX	_	Tense=Past	19	aux	_	Gloss=PAST
 19	kouvri	kouvri	VERB	_	_	15	acl:relcl	_	Gloss=couvrir
 20	anba	anba	ADP	_	_	21	case	_	Gloss=sous
 21	dra	dra	NOUN	_	_	19	obl:mod	_	Gloss=drap
@@ -121,7 +117,6 @@
 # sent_id = 13__5
 # text = Anbilans, ponpye ak lòt kamyon ki soti nan mòg la te anvayi lye ensidan an.
 # text_fr = Ambulance, pompier et autres camions qui sortent dans la morgue ont envahi le lieu de l'incident.
-# Status = SILVER
 1	Anbilans	Anbilans	NOUN	_	_	13	nsubj	_	Gloss=ambulance|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ponpye	ponpye	NOUN	_	_	1	conj	_	Gloss=pompier
@@ -133,7 +128,7 @@
 9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	mòg	mòg	NOUN	_	_	8	obl	_	Gloss=morgue
 11	la	la	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=la
-12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
+12	te	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST
 13	anvayi	anvayi	VERB	_	_	0	root	_	Gloss=envahir
 14	lye	lye	NOUN	_	_	13	obj	_	Gloss=lieu
 15	ensidan	ensidan	NOUN	_	_	14	obj	_	Gloss=incident

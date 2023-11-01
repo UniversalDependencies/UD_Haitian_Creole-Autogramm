@@ -2,7 +2,6 @@
 # sent_id = 15__1
 # text = Biden Enpoze Premye Veto Prezidans li
 # text_fr = Biden impose son premier veto présidentiel.
-# Status = SILVER
 1	Biden	biden	PROPN	_	_	2	nsubj	_	Gloss=Biden
 2	Enpoze	enpoze	VERB	_	_	0	root	_	Gloss=imposer
 3	Premye	premye	ADJ	_	_	4	amod	_	Gloss=premier
@@ -13,7 +12,6 @@
 # sent_id = 15__2
 # text = Prezidan Joe Biden pale ak jounalis yo nan Lamezonblanch, 20 Janvye 2023.
 # text_fr = le président Joe Biden parle avec les journalistes dans la maison Blanche , le 20 janvier 2023.
-# Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
@@ -31,7 +29,6 @@
 # sent_id = 15__3
 # text = Prezidan Joe Biden enpoze premye veto prezidans li nan yon siy ki montre relasyon ant Lamezonblanch ak Kongrè a chanje apre Repibliken yo pran kontwòl Lachanm Depite yo nan mwad Janvye a.
 # text_fr = Le président Joe Biden impose son premier veto présidentiel dans un signe qui montre la relation entre la maison Blanche et le congrès qui change après que les républicains prennent le contrôle de la chambre des députés  au mois de janvier.
-# Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
@@ -69,7 +66,6 @@
 # sent_id = 15__4
 # text = Ak veto li enpoze Lendi, Biden tap chache bloke yon mezi Repibliken yo adopte ki entèdi gouvenman an konsidere chanjman klimatik ni pwose potansyèl lè lap fè envestisman pou plan retrèt sitwayen Ameriken yo.
 # text_fr = avec le véto qu'il a imposé lundi, Biden cherchait à bloquer une mesure que les Républicains ont adopté qui interdit au gouvernement de considérer le changement  climatique et le procès potentiel quand il fait l'investissement pour le plan de retraite des citoyens américains
-# Status = SILVER
 1	Ak	ak	ADP	_	_	2	case	_	Gloss=avec
 2	veto	veto	NOUN	_	_	10	obl:mod	_	Gloss=véto
 3	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=3SG
@@ -77,8 +73,8 @@
 5	Lendi	Lendi	PROPN	_	_	4	obj	_	Gloss=lundi|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Biden	Biden	PROPN	_	_	10	nsubj	_	Gloss=Biden
-8	t	te	AUX	_	_	10	aux	_	Gloss=PAST|SpaceAfter=No
-9	ap	ap	AUX	_	_	10	aux	_	Gloss=PROG
+8	t	te	AUX	_	Tense=Past	10	aux	_	Gloss=PAST|SpaceAfter=No
+9	ap	ap	AUX	_	Aspect=Prog	10	aux	_	Gloss=PROG
 10	chache	chache	VERB	_	_	0	root	_	Gloss=chercher
 11	bloke	bloke	VERB	_	_	10	ccomp	_	Gloss=bloquer
 12	yon	yon	DET	_	Definite=Ind|Number=Sing	13	det	_	Gloss=une
@@ -98,7 +94,7 @@
 26	potansyèl	potansyèl	ADJ	_	_	25	amod	_	Gloss=potentiel
 27	lè	lè	SCONJ	_	_	30	mark	_	Gloss=quand
 28	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	30	nsubj	_	Gloss=3SG|SpaceAfter=No
-29	ap	ap	AUX	_	_	30	aux	_	Gloss=PROG
+29	ap	ap	AUX	_	Aspect=Prog	30	aux	_	Gloss=PROG
 30	fè	fè	VERB	_	_	21	advcl	_	Gloss=faire
 31	envestisman	envestisman	NOUN	_	_	30	obj	_	Gloss=investissement
 32	pou	pou	ADP	_	_	33	case	_	Gloss=pour

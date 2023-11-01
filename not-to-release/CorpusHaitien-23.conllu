@@ -2,7 +2,6 @@
 # sent_id = 23__1
 # text = Depatman Deta Konfime yo Kidnape 2 Sitwayen Ameriken an Ayiti
 # text_fr = Le département d'Etat confirme qu'ils  ont kidnappé deux citoyens américains en Haïti.
-# Status = SILVER
 1	Depatman	Depatman	NOUN	_	_	3	nsubj	_	Gloss=département
 2	Deta	Deta	NOUN	_	_	1	obj	_	Gloss=d'Eta
 3	Konfime	konfime	VERB	_	_	0	root	_	Gloss=confirmer
@@ -17,7 +16,6 @@
 # sent_id = 23__2
 # text = Jean-Dickens Toussaint ak madanm ni Abigail Michael Toussaint poze pou yon foto jou maryaj yo nan Pompano Beach, Florid.
 # text_fr = Jean-Dickens  Toussaint et sa femme, Abigail Michael Toussaint reste pour prendre une photo le jour de leur mariage à Pompano Beach, Floride.
-# Status = SILVER
 1	Jean-Dickens	JeAn-dickens	PROPN	_	_	9	nsubj	_	Gloss=Jean-Dickens
 2	Toussaint	Toussaint	PROPN	_	_	1	flat:name	_	Gloss=Toussaint
 3	ak	ak	CCONJ	_	_	4	cc	_	Gloss=et
@@ -43,7 +41,6 @@
 # sent_id = 23__3
 # text = Pòtpawol adjwen Depatman Deta a, Vendant Patel konfime Jedi 30 mas 2023 ke yo kidnape 2 sitwayen Ameriken an Ayiti.
 # text_fr = Le porte-parole adjoint du département d'Etat, Vendant Patel confirme le jeudi 30 mars 2023 qu'ils ont kidnappé deux citoyens américains en Haïti.
-# Status = SILVER
 1	Pòtpawol	Pòtpawol	NOUN	_	_	9	nsubj	_	Gloss=Porte parole
 2	adjwen	adjwen	ADJ	_	_	1	amod	_	Gloss=adjoint
 3	Depatman	Depatman	NOUN	_	_	1	obj	_	Gloss=département
@@ -70,7 +67,6 @@
 # sent_id = 23__4
 # text = Li ajoute ke Washington an kontak ak otorite Ayisyen yo e ke Etazini pral kontinye travay ak yo.
 # text_fr = Il ajoute que Washington est en contact avec les autorités haïtiennes et que les Etats-Unis continueront de travailler avec eux.
-# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
 2	ajoute	ajoute	VERB	_	_	0	root	_	Gloss=ajouter
 3	ke	ke	SCONJ	_	_	6	mark	_	Gloss=que
@@ -84,7 +80,7 @@
 11	e	e	CCONJ	_	_	15	cc	_	Gloss=et
 12	ke	ke	SCONJ	_	_	15	mark	_	Gloss=que
 13	Etazini	Etazini	PROPN	_	_	15	nsubj	_	Gloss=Etats-Unis
-14	pral	pral	AUX	_	_	15	aux	_	Gloss=FUT
+14	pral	pral	AUX	_	Tense=Fut	15	aux	_	Gloss=FUT
 15	kontinye	kontinye	VERB	_	_	6	conj	_	Gloss=continuer
 16	travay	travay	NOUN	_	_	15	obj	_	Gloss=travail
 17	ak	ak	ADP	_	_	18	case	_	Gloss=avec
@@ -94,9 +90,8 @@
 # sent_id = 23__5
 # text = Patel te refize bay okenn lòt detay sou dosye a.
 # text_fr = Patel refusait de donner d'autres détails sur le dossier.
-# Status = SILVER
 1	Patel	Patel	PROPN	_	_	3	nsubj	_	Gloss=Patel
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	refize	refize	VERB	_	_	0	root	_	Gloss=refuser
 4	bay	bay	VERB	_	_	3	ccomp	_	Gloss=donner
 5	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun

@@ -2,11 +2,10 @@
 # sent_id = 12__1
 # text = Meksik di l ap Mennen ankèt sou 8 Moun nan Dife ki te Touye Moun nan yon Sant pou Migran
 # text_fr = Mexique dit qu'il mène une enquête sur 8 personnes dans l'incendie qui a tué des gens dans un centre pour migrant.
-# Status = SILVER
 1	Meksik	Meksik	PROPN	_	_	2	nsubj	_	Gloss=Mexique
 2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=3SG
-4	ap	ap	AUX	_	_	5	aux	_	Gloss=PROG
+4	ap	ap	AUX	_	Aspect=Prog	5	aux	_	Gloss=PROG
 5	Mennen	Mennen	VERB	_	_	2	ccomp	_	Gloss=mener
 6	ankèt	ankèt	NOUN	_	_	5	obj	_	Gloss=enquête
 7	sou	sou	ADP	_	_	9	case	_	Gloss=sur
@@ -15,7 +14,7 @@
 10	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 11	Dife	dife	NOUN	_	_	9	nmod	_	Gloss=incendie
 12	ki	ki	PRON	_	_	14	nsubj	_	Gloss=qui
-13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
+13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
 14	Touye	touye	VERB	_	_	11	acl:relcl	_	Gloss=tuer
 15	Moun	moun	NOUN	_	_	14	obj	_	Gloss=gens
 16	nan	nan	ADP	_	_	18	case	_	Gloss=dans
@@ -27,7 +26,6 @@
 # sent_id = 12__2
 # text = CIUDAD JUAREZ, Meksik (AP) — Otorite Meksiken yo di y ap mennen ankèt sou 8 anplwaye oswa otorite pou konnen si se move konduit nan yon sant kote yo kenbe migran ki te lakoz dife ki pran lavi 39 moun ki te anba kòd nan sant la.
 # text_fr = Ville Juarez, Mexique , les autorités mexicaines disent qu'ils mènent une enquête sur 8 employés ou bien des autorités pour savoir si c'est une mauvaise conduite  dans un centre où ils accueillent les migrants qui  a occasionné l'incendie qui ôte la vie de 39 personnes qui ont été emprisonnés dans le centre.
-# Status = SILVER
 1	CIUDAD	Ciudad	PROPN	_	_	12	dep	_	Gloss=Ville
 2	JUAREZ	Juarez	PROPN	_	_	1	flat:name	_	Gloss=Juarez|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -41,7 +39,7 @@
 11	yo	yo	DET	_	Definite=Def|Number=Plur	9	det	_	Gloss=les
 12	di	di	VERB	_	_	0	root	_	Gloss=dire
 13	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	Gloss=3PL
-14	ap	ap	AUX	_	_	15	aux	_	Gloss=PROG
+14	ap	ap	AUX	_	Aspect=Prog	15	aux	_	Gloss=PROG
 15	mennen	mennen	VERB	_	_	12	ccomp	_	Gloss=mener
 16	ankèt	ankèt	NOUN	_	_	15	obj	_	Gloss=enquête
 17	sou	sou	ADP	_	_	19	case	_	Gloss=sur
@@ -51,10 +49,10 @@
 21	otorite	otorite	NOUN	_	_	19	conj	_	Gloss=autorité
 22	pou	pou	ADP	_	_	23	mark	_	Gloss=pour
 23	konnen	konnen	VERB	_	_	16	acl	_	Gloss=savoir
-24	si	si	SCONJ	_	_	25	mark	_	Gloss=si
-25	se	se	VERB	_	_	23	ccomp	_	Gloss=être
+24	si	si	SCONJ	_	_	27	mark	_	Gloss=si
+25	se	se	AUX	_	_	27	cop	_	Gloss=être
 26	move	move	ADJ	_	_	27	amod	_	Gloss=mauvaise
-27	konduit	konduit	NOUN	_	_	25	xcomp	_	Gloss=conduite
+27	konduit	konduit	NOUN	_	_	23	ccomp	_	Gloss=conduite
 28	nan	nan	ADP	_	_	30	case	_	Gloss=dans
 29	yon	yon	DET	_	Definite=Ind|Number=Sing	30	det	_	Gloss=un
 30	sant	sant	NOUN	_	_	27	nmod	_	Gloss=centre
@@ -63,7 +61,7 @@
 33	kenbe	kenbe	VERB	_	_	31	ccomp	_	Gloss=accueillir
 34	migran	migran	NOUN	_	_	33	obj	_	Gloss=migrant
 35	ki	ki	PRON	_	_	37	nsubj	_	Gloss=qui
-36	te	te	AUX	_	_	37	aux	_	Gloss=PAST
+36	te	te	AUX	_	Tense=Past	37	aux	_	Gloss=PAST
 37	lakoz	lakoz	VERB	_	_	27	acl:relcl	_	Gloss=occasionner
 38	dife	dife	NOUN	_	_	37	obj	_	Gloss=incendie
 39	ki	ki	PRON	_	_	40	nsubj	_	Gloss=qui
@@ -72,7 +70,7 @@
 42	39	39	NUM	_	_	43	nummod	_	Gloss=39
 43	moun	moun	NOUN	_	_	41	obj	_	Gloss=personne
 44	ki	ki	PRON	_	_	46	nsubj	_	Gloss=qui
-45	te	te	AUX	_	_	46	aux	_	Gloss=PAST
+45	te	te	AUX	_	Tense=Past	46	aux	_	Gloss=PAST
 46	anba	anba	VERB	_	_	43	acl:relcl	_	Gloss=arrêter, emprisonner
 47	kòd	kòd	NOUN	_	_	46	obj	_	Gloss=corde
 48	nan	nan	ADP	_	_	49	case	_	Gloss=dans
@@ -83,7 +81,6 @@
 # sent_id = 12__3
 # text = Kòlè ak fristrasyon apre dife a nan vil Ciudad Juarez te kontinye Mèkredi pandan plizyè santèn imigran t ap mache pou rive nan yon pòtay ki toupre fwontyè peyi a ak Lèzetazini nan espwa ke yo ka travèse an mas.
 # text_fr = La colère et la frustration après l'incendie dans la ville de Ciudad Juarez continuaient mercredi pendant plusieurs centaines immigrants étaient en train de marcher pour arriver dans un portail qui est tout prêt de la frontière du pays avec les Etats-Unis dans l'espoir qu'ils peuvent traverser en mars.
-# Status = SILVER
 1	Kòlè	Kòlè	NOUN	_	_	12	nsubj	_	Gloss=colère
 2	ak	ak	CCONJ	_	_	3	cc	_	Gloss=et
 3	fristrasyon	fristrasyon	NOUN	_	_	1	conj	_	Gloss=frustration
@@ -94,15 +91,15 @@
 8	vil	vil	NOUN	_	_	5	nmod	_	Gloss=ville
 9	Ciudad	Ciudad	PROPN	_	_	8	obj	_	Gloss=Ciudad
 10	Juarez	Juarez	PROPN	_	_	9	flat:name	_	Gloss=Juarez
-11	te	te	AUX	_	_	12	aux	_	Gloss=PAST
+11	te	te	AUX	_	Tense=Past	12	aux	_	Gloss=PAST
 12	kontinye	kontinye	VERB	_	_	0	root	_	Gloss=verbe
 13	Mèkredi	mèkredi	NOUN	_	_	12	obl:mod	_	Gloss=mercredi
 14	pandan	pandan	ADP	_	_	20	mark	_	Gloss=pendant
 15	plizyè	plizyè	DET	_	_	16	det	_	Gloss=plusieurs
 16	santèn	santèn	NOUN	_	_	20	nsubj	_	Gloss=centaine
 17	imigran	imigran	NOUN	_	_	16	obj	_	Gloss=immigrant
-18	t	te	AUX	_	_	20	aux	_	Gloss=PAST
-19	ap	ap	AUX	_	_	20	aux	_	Gloss=PROG
+18	t	te	AUX	_	Tense=Past	20	aux	_	Gloss=PAST
+19	ap	ap	AUX	_	Aspect=Prog	20	aux	_	Gloss=PROG
 20	mache	mache	VERB	_	_	12	advcl	_	Gloss=marcher
 21	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 22	rive	rive	VERB	_	_	20	dep	_	Gloss=arriver
@@ -129,7 +126,6 @@
 # sent_id = 12__4
 # text = Otorite Meksiken yo sanble lage responsablite lanmò yo sou kontraktè prive ki t ap travay kòm gad sekirite.
 # text_fr = Les autorités mexicaines semblent donner la responsabilité des morts à des contracteurs privés qui étaient en train de travailler comme agent de sécurité.
-# Status = SILVER
 1	Otorite	Otorite	NOUN	_	_	4	nsubj	_	Gloss=autorité
 2	Meksiken	Meksiken	ADJ	_	_	1	amod	_	Gloss=mexicaine
 3	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=DET
@@ -142,8 +138,8 @@
 10	kontraktè	kontraktè	NOUN	_	_	5	obj	_	Gloss=contracteur
 11	prive	prive	ADJ	_	_	10	amod	_	Gloss=privé
 12	ki	ki	PRON	_	_	15	nsubj	_	Gloss=qui
-13	t	te	AUX	_	_	15	aux	_	Gloss=PAST
-14	ap	ap	AUX	_	_	15	aux	_	Gloss=PROG
+13	t	te	AUX	_	Tense=Past	15	aux	_	Gloss=PAST
+14	ap	ap	AUX	_	Aspect=Prog	15	aux	_	Gloss=PROG
 15	travay	travay	VERB	_	_	10	acl:relcl	_	Gloss=travailler
 16	kòm	kòm	ADP	_	_	17	case	_	Gloss=comme
 17	gad	gad	NOUN	_	_	15	obl:mod	_	Gloss=agent
@@ -153,21 +149,20 @@
 # sent_id = 12__5
 # text = Videyo te montre gad yo ki t ap kouri pou lafimen san yo pa chache libere prizonye yo.
 # text_fr = La vidéo a montré que les gardes qui couraient pour la fumée sans qu'ils ne menent aucune action pour libérer les prisoniers
-# Status = SILVER
 1	Videyo	Videyo	NOUN	_	_	3	nsubj	_	Gloss=vidéo
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	montre	montre	VERB	_	_	0	root	_	Gloss=montrer
 4	gad	gad	NOUN	_	_	3	obj	_	Gloss=garde
 5	yo	yo	DET	_	Definite=Def|Number=Plur	4	det	_	Gloss=les
 6	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
-7	t	te	AUX	_	_	9	aux	_	Gloss=PAST
-8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
+7	t	te	AUX	_	Tense=Past	9	aux	_	Gloss=PAST
+8	ap	ap	AUX	_	Aspect=Prog	9	aux	_	Gloss=PROG
 9	kouri	kouri	VERB	_	_	4	acl:relcl	_	Gloss=courir
 10	pou	pou	ADP	_	_	11	case	_	Gloss=pour
 11	lafimen	lafimen	NOUN	_	_	9	obl	_	Gloss=fumée
 12	san	san	ADP	_	_	15	mark	_	Gloss=sans
 13	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	Gloss=3PL
-14	pa	pa	ADV	_	_	15	advmod	_	Gloss=NEG
+14	pa	pa	ADV	_	Polarity=Neg	15	advmod	_	Gloss=NEG
 15	chache	chache	VERB	_	_	9	advcl	_	Gloss=chercher
 16	libere	libere	VERB	_	_	15	ccomp	_	Gloss=libérer
 17	prizonye	prizonye	NOUN	_	_	16	obj	_	Gloss=prisonier

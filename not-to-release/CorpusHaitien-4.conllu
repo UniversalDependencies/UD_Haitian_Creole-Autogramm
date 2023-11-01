@@ -1,7 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 04__1
 # text = SAN JUAN, Pòtoriko (AP) — Fanmi yon koup ameriken ke bandi kidnape ann Ayiti ap plede pou yo jwenn liberasyon.
-# Status = SILVER
 # text_fr = SAN JUAN, Porto Rico - et la famille d'un couple américain que les bandits ont kidnappé en Haïti est en train de plaider pour qu' ils trouvent leur libération.
 1	SAN	SAN	PROPN	_	_	19	dep	_	Gloss=SAN
 2	JUAN	JUAN	PROPN	_	_	1	flat:name	_	Gloss=JUAN|SpaceAfter=No
@@ -20,7 +19,7 @@
 15	kidnape	kidnape	VERB	_	_	11	acl:relcl	_	Gloss=kidnapper
 16	ann	ann	ADP	_	_	17	case	_	Gloss=en
 17	Ayiti	Ayiti	PROPN	_	_	15	obl	_	Gloss=Haïti
-18	ap	ap	AUX	_	_	19	aux	_	Gloss=PROG
+18	ap	ap	AUX	_	Aspect=Prog	19	aux	_	Gloss=PROG
 19	plede	plede	VERB	_	_	0	root	_	Gloss=demander
 20	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 21	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	22	nsubj	_	Gloss=3PL
@@ -31,13 +30,12 @@
 # sent_id = 04__2
 # text = Nikese Toussaint di ke gang te kidnape frè l, madanm li ak yon twazyèm moun ki t ap vwayaje avèk yo 18 mas pase.
 # text_fr = Nikese Toussaint a dit que les gangs ont kidnappé son frère, sa femme et une troisième personne qui voyageaient avec eux le 18 mars dernier.
-# Status = SILVER
 1	Nikese	Nikese	PROPN	_	_	3	nsubj	_	Gloss=Nikese
 2	Toussaint	Toussaint	PROPN	_	_	1	flat:name	_	Gloss=Toussaint
 3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ke	ke	SCONJ	_	_	7	mark	_	Gloss=que
 5	gang	gang	NOUN	_	_	7	nsubj	_	Gloss=gang
-6	te	te	AUX	_	_	7	aux	_	Gloss=PAST
+6	te	te	AUX	_	Tense=Past	7	aux	_	Gloss=PAST
 7	kidnape	kidnape	VERB	_	_	3	ccomp	_	Gloss=Kidnapper
 8	frè	frè	NOUN	_	_	7	obj	_	Gloss=frère
 9	l	li	DET	_	Number=Sing|Person=3|Poss=Yes	8	det	_	Gloss=3SG|SpaceAfter=No
@@ -49,8 +47,8 @@
 15	twazyèm	twazyèm	ADJ	_	_	16	amod	_	Gloss=troisième
 16	moun	moun	NOUN	_	_	8	conj	_	Gloss=personne
 17	ki	ki	PRON	_	_	20	nsubj	_	Gloss=qui
-18	t	te	AUX	_	_	20	aux	_	Gloss=PAST
-19	ap	ap	AUX	_	_	20	aux	_	Gloss=PROG
+18	t	te	AUX	_	Tense=Past	20	aux	_	Gloss=PAST
+19	ap	ap	AUX	_	Aspect=Prog	20	aux	_	Gloss=PROG
 20	vwayaje	vwayaje	VERB	_	_	16	acl:relcl	_	Gloss=voyager
 21	avèk	avèk	ADP	_	_	22	case	_	Gloss=avec
 22	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	20	obl	_	Gloss=3PL
@@ -62,7 +60,6 @@
 # sent_id = 04__3
 # text = Toussaint di nan yon entèvyou nan telefòn lendi ke gang nan mande $200,000 pou chak moun, e ke fanmi li pa gen kalite lajan sa a.
 # text_fr = Toussaint a dit dans un interview par téléphone lundi que le gang demande $200,000 pour chaque personne et que sa famille n'a pas cette somme d'argent.
-# Status = SILVER
 1	Toussaint	Toussaint	PROPN	_	_	2	nsubj	_	Gloss=Toussaint
 2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	nan	nan	ADP	_	_	5	case	_	Gloss=dans
@@ -85,7 +82,7 @@
 20	ke	ke	SCONJ	_	_	24	mark	_	Gloss=que
 21	fanmi	fanmi	NOUN	_	_	24	nsubj	_	Gloss=famille
 22	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	21	det	_	Gloss=3SG
-23	pa	pa	ADV	_	_	24	advmod	_	Gloss=NEG
+23	pa	pa	ADV	_	Polarity=Neg	24	advmod	_	Gloss=NEG
 24	gen	gen	VERB	_	_	12	conj	_	Gloss=avoir
 25	kalite	kalite	NOUN	_	_	26	nmod	_	Gloss=volume
 26	lajan	lajan	NOUN	_	_	24	obj	_	Gloss=argent
@@ -96,15 +93,14 @@
 # sent_id = 04__4
 # text = Li te di ke FBI ap ede jwenn liberasyon yo.
 # text_fr = Il disait que le FBI aiderait à trouver leur libération.
-# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ke	ke	SCONJ	_	_	7	mark	_	Gloss=que
 5	FBI	FBI	PROPN	_	_	7	nsubj	_	Gloss=FBI
-6	ap	ap	AUX	_	_	7	aux	_	Gloss=PROG
+6	ap	ap	AUX	_	Aspect=Prog	7	aux	_	Gloss=PROG
 7	ede	ede	VERB	_	_	3	ccomp	_	Gloss=aider
-8	jwenn	jwenn	VERB	_	_	7	ccomp	_	Gloss=trouver
+8	jwenn	jwenn	VERB	_	_	7	compound:svc	_	Gloss=trouver
 9	liberasyon	liberasyon	NOUN	_	_	8	obj	_	Gloss=libération
 10	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	9	det	_	Gloss=3PL|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_

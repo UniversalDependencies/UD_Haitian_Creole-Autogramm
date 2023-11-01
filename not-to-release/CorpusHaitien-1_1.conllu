@@ -1,7 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 01__1
 # text = Premye jou je m tonbe sou li a, m pat gen okenn presantiman lavi m ta pral chanje.
-# Status = SILVER
 # text_fr = Le premier jour que mes yeux tombent sur lui, je n'avais aucun présentiment que ma vie changerait.
 1	Premye	premye	ADJ	_	_	2	amod	_	Gloss=premier
 2	jou	jou	NOUN	_	_	13	obl:mod	_	Gloss=jour
@@ -13,26 +12,25 @@
 8	a	a	DET	_	Definite=Ind|Number=Sing	5	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Gloss=1SG
-11	pa	pa	ADV	_	_	13	advmod	_	Gloss=NEG|SpaceAfter=No
-12	t	te	AUX	_	_	13	aux	_	Gloss=PAST|wordform=pat
+11	pa	pa	ADV	_	Polarity=Neg	13	advmod	_	Gloss=NEG|SpaceAfter=No
+12	t	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST|wordform=pat
 13	gen	gen	VERB	_	_	0	root	_	Gloss=avoir
 14	okenn	okenn	DET	_	_	15	det	_	Gloss=aucun
 15	presantiman	presantiman	NOUN	_	_	13	obj	_	Gloss=pressentiment
 16	lavi	lavi	NOUN	_	_	20	nsubj	_	Gloss=vie
 17	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	Gloss=DET
-18	ta	ta	AUX	_	_	20	aux	_	Gloss=COND
-19	pral	pral	AUX	_	_	20	aux	_	Gloss=FUT
+18	ta	ta	AUX	_	Mood=Cnd	20	aux	_	Gloss=COND
+19	pral	pral	AUX	_	Tense=Fut	20	aux	_	Gloss=FUT
 20	chanje	chanje	VERB	_	_	15	acl:relcl	_	Gloss=changer|SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 01__2
 # text = Jou sa lapli te kòmanse tonbe depi nan maten.
-# Status = SILVER
 # text_fr = Ce jour là, il commençait à pleuvoir dans la matinée.
 1	Jou	jou	NOUN	_	_	5	obl:mod	_	Gloss=jour
 2	sa	sa	DET	_	PronType=Dem	1	dep	_	Gloss=DET
 3	lapli	lapli	NOUN	_	_	5	nsubj	_	Gloss=pluie
-4	te	te	AUX	_	_	5	aux	_	Gloss=PAST
+4	te	te	AUX	_	Tense=Past	5	aux	_	Gloss=PAST
 5	kòmanse	kòmanse	VERB	_	_	0	root	_	Gloss=commencer
 6	tonbe	tonbe	VERB	_	_	5	ccomp	_	Gloss=tomber
 7	depi	depi	ADV	_	_	5	advmod	_	Gloss=depuis
@@ -43,16 +41,15 @@
 # sent_id = 01__3
 # text = Yon fwa lè m te piti, m te anvi bwè dlo lapli a nan flè yo epi m te wè yon foumi ki mouri ladann.
 # text_fr = une fois quand j'étais petit, j'avais envie de boire de l'eau de pluie dans les fleurs et j'ai vu une fourmi qui y noyait (mourir).
-# Status = SILVER
 1	Yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	2	det	_	Gloss=un
 2	fwa	fwa	NOUN	_	_	10	obl:mod	_	Gloss=fois
 3	lè	lè	SCONJ	_	_	6	mark	_	Gloss=quand
 4	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Gloss=1SG
-5	te	te	AUX	_	_	6	aux	_	Gloss=PAST
+5	te	te	AUX	_	Tense=Past	6	aux	_	Gloss=PAST
 6	piti	piti	VERB	_	_	10	advcl	_	Gloss=petit|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Gloss=1SG
-9	te	te	AUX	_	_	10	aux	_	Gloss=PAST
+9	te	te	AUX	_	Tense=Past	10	aux	_	Gloss=PAST
 10	anvi	anvi	VERB	_	_	0	root	_	Gloss=avoir envie de
 11	bwè	bwè	VERB	_	_	10	ccomp	_	Gloss=boire
 12	dlo	dlo	NOUN	_	_	11	obj	_	Gloss=eau
@@ -63,7 +60,7 @@
 17	yo	yo	DET	_	Definite=Def|Number=Plur	16	det	_	Gloss=les
 18	epi	epi	CCONJ	_	_	21	cc	_	Gloss=et
 19	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	Gloss=1SG
-20	te	te	AUX	_	_	21	aux	_	Gloss=PAST
+20	te	te	AUX	_	Tense=Past	21	aux	_	Gloss=PAST
 21	wè	wè	VERB	_	_	10	conj	_	Gloss=voir
 22	yon	yon	DET	_	Definite=Ind|Number=Sing	23	det	_	Gloss=DET
 23	foumi	foumi	NOUN	_	_	21	obj	_	Gloss=fourmi
@@ -74,7 +71,6 @@
 
 # sent_id = 01__4
 # text = Yon ti souri parèt sou lèv mwen.
-# Status = SILVER
 # text_fr = un petit sourire apparait sur mes lèvres.
 1	Yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Gloss=un
 2	ti	ti	ADJ	_	_	3	amod	_	Gloss=petit
@@ -88,9 +84,8 @@
 # sent_id = 01__5
 # text = M te krache nan dlo a, manman m te fache paske, pou li, se te yon vye konpòtman.
 # text_fr = je crachais dans l'eau, ma maman était fâchée parce que, pou elle,  c'était un mauvais comportement.
-# Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	krache	krache	VERB	_	_	0	root	_	Gloss=cracher
 4	nan	nan	ADP	_	_	5	case	_	Gloss=dans
 5	dlo	dlo	NOUN	_	_	3	obl	_	Gloss=eau
@@ -98,24 +93,23 @@
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	manman	manman	NOUN	_	_	11	nsubj	_	Gloss=maman
 9	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	8	det	_	Gloss=1SG
-10	te	te	AUX	_	_	11	aux	_	Gloss=PAST
+10	te	te	AUX	_	Tense=Past	11	aux	_	Gloss=PAST
 11	fache	fache	VERB	_	_	3	acl:relcl	_	Gloss=facher
-12	paske	paske	SCONJ	_	_	17	mark	_	Gloss=parce que|SpaceAfter=No
+12	paske	paske	SCONJ	_	_	21	mark	_	Gloss=parce que|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	pou	pou	ADP	_	_	15	case	_	Gloss=pour
-15	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	17	obl:mod	_	Gloss=3SG|SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	se	se	VERB	_	_	11	advcl	_	Gloss=être
-18	te	te	AUX	_	_	17	aux	_	Gloss=PAST
+15	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obl:mod	_	Gloss=3SG|SpaceAfter=No
+16	,	,	PUNCT	_	_	21	punct	_	_
+17	se	se	AUX	_	_	21	cop	_	Gloss=être
+18	te	te	AUX	_	Tense=Past	21	aux	_	Gloss=PAST
 19	yon	yon	DET	_	Definite=Ind|Number=Sing	21	det	_	_
 20	vye	vye	ADJ	_	_	21	amod	_	Gloss=vieux
-21	konpòtman	konpòtman	NOUN	_	_	17	xcomp	_	Gloss=comportement|SpaceAfter=No
+21	konpòtman	konpòtman	NOUN	_	_	11	advcl	_	Gloss=comportement|SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 01__6
 # text = Sa pase lontan sa.
 # text_fr = Cela s'est passé depuis longtemps.
-# Status = SILVER
 1	Sa	sa	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Gloss=cela
 2	pase	pase	VERB	_	_	0	root	_	Gloss=passer
 3	lontan	lontan	ADV	_	_	2	advmod	_	Gloss=longtemps
@@ -125,9 +119,8 @@
 # sent_id = 01__7
 # text = M te chita sou yon chèz devan pòt klas la nan Fakilte Lenguistik, m t ap pale ak lòt kamarad mwen yo de maryaj yon sè m mwen t ale nan Petyonvil, epi n te tou pwofite pale de amitye nou lè n te piti.
 # text_fr = je m'asseyais sur une chaise devant la porte de la classe dans la Faculté de Linguistique, je parlais à mes camarades du mariage de ma sœur que j'allais à Pétion-Ville, puis nous avions profité de notre amitié  quand  nous  étions petits.
-# Status = SILVER
 1	M	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	chita	chita	VERB	_	_	0	root	_	Gloss=s'assoir
 4	sou	sou	ADP	_	_	6	case	_	Gloss=sur
 5	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=DET
@@ -141,8 +134,8 @@
 13	Lenguistik	lenguistik	NOUN	_	_	12	obj	_	Gloss=Linguistique|SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	Gloss=1SG
-16	t	te	AUX	_	_	18	aux	_	Gloss=PAST
-17	ap	ap	AUX	_	_	18	aux	_	Gloss=PROG
+16	t	te	AUX	_	Tense=Past	18	aux	_	Gloss=PAST
+17	ap	ap	AUX	_	Aspect=Prog	18	aux	_	Gloss=PROG
 18	pale	pale	VERB	_	_	3	conj	_	Gloss=parler
 19	ak	ak	ADP	_	_	21	case	_	Gloss=à
 20	lòt	lòt	ADJ	_	_	21	amod	_	Gloss=autre
@@ -155,14 +148,14 @@
 27	sè	sè	NOUN	_	_	25	obj	_	Gloss=sœur
 28	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	27	det	_	Gloss=DET
 29	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	31	nsubj	_	Gloss=1SG
-30	t	te	AUX	_	_	31	aux	_	Gloss=PAST
+30	t	te	AUX	_	Tense=Past	31	aux	_	Gloss=PAST
 31	ale	ale	VERB	_	_	25	acl:relcl	_	Gloss=aller
 32	nan	nan	ADP	_	_	33	case	_	Gloss=dans
 33	Petyonvil	Petyonvil	PROPN	_	_	31	obl	_	Gloss=Pétion Ville|SpaceAfter=No
 34	,	,	PUNCT	_	_	39	punct	_	_
 35	epi	epi	CCONJ	_	_	39	cc	_	Gloss=et
 36	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	39	nsubj	_	Gloss=1PL
-37	te	te	AUX	_	_	39	aux	_	Gloss=PAST
+37	te	te	AUX	_	Tense=Past	39	aux	_	Gloss=PAST
 38	tou	tou	ADV	_	_	39	advmod	_	Gloss=tout
 39	pwofite	pwofite	VERB	_	_	3	conj	_	Gloss=profiter
 40	pale	pale	VERB	_	_	39	ccomp	_	Gloss=parler
@@ -171,14 +164,13 @@
 43	nou	nou	DET	_	Number=Plur|Person=1|Poss=Yes	42	det	_	Gloss=1PL
 44	lè	lè	SCONJ	_	_	47	mark	_	Gloss=quand
 45	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	47	nsubj	_	Gloss=1PL
-46	te	te	AUX	_	_	47	aux	_	Gloss=PAST
+46	te	te	AUX	_	Tense=Past	47	aux	_	Gloss=PAST
 47	piti	piti	VERB	_	_	42	acl	_	Gloss=petit|SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 01__8
 # text = Fòk m di nou, m gen 2 gran frè ak yon ti sè bò manman epi plizyè gran sè ak yon ti frè bò papa...
 # text_fr = il faut que je vous dise que j'ai 2 grands frères  et une sœur maternels et un petit frère paternel
-# Status = SILVER
 1	Fòk	Fòk	VERB	_	_	0	root	_	Gloss=falloir
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 3	di	di	VERB	_	_	1	ccomp	_	Gloss=dire
@@ -210,27 +202,26 @@
 # sent_id = 01__9
 # text = Pandan je m fèmen, m t ap panse ak sa k te rive m nan pase, se lè sa m tande pòt klas la ouvè.
 # text_fr = Pendant que mes yeux sont fermés, j'étais en train de penser à ce qui m'est arrivé dans le passé , c'est à ce moment que j'entend la porte de la classe s'ouvre.
-# Status = SILVER
 1	Pandan	Pandan	ADP	_	_	4	mark	_	Gloss=pendant
 2	je	je	NOUN	_	_	4	nsubj	_	Gloss=yeux
 3	m	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	2	det	_	Gloss=DET
 4	fèmen	fèmen	VERB	_	_	9	advcl	_	Gloss=fermer|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Gloss=1SG
-7	t	te	AUX	_	_	9	aux	_	Gloss=PAST
-8	ap	ap	AUX	_	_	9	aux	_	Gloss=PROG
+7	t	te	AUX	_	Tense=Past	9	aux	_	Gloss=PAST
+8	ap	ap	AUX	_	Aspect=Prog	9	aux	_	Gloss=PROG
 9	panse	panse	VERB	_	_	0	root	_	Gloss=penser
 10	ak	ak	ADP	_	_	11	case	_	Gloss=à
 11	sa	sa	PRON	_	Number=Sing|PronType=Dem	9	obl	_	Gloss=ce
 12	k	ki	PRON	_	_	14	nsubj	_	Gloss=qui
-13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
+13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
 14	rive	rive	VERB	_	_	11	acl:relcl	_	Gloss=arriver
 15	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	14	obj	_	Gloss=1SG
 16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	pase	pase	NOUN	_	_	14	obl	_	Gloss=passé|SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	se	se	VERB	_	_	14	advcl	_	Gloss=être
-20	lè	lè	NOUN	_	_	19	xcomp	_	Gloss=moment
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	se	se	AUX	_	_	20	cop	_	Gloss=être
+20	lè	lè	NOUN	_	_	14	advcl	_	Gloss=moment
 21	sa	sa	ADJ	_	PronType=Dem	20	amod	_	Gloss=ce
 22	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	Gloss=1SG
 23	tande	tande	VERB	_	_	20	acl:relcl	_	Gloss=entendre
@@ -243,7 +234,6 @@
 # sent_id = 01__10
 # text = Menm moman an, tout moun fè silans.
 # text_fr = le même moment, tout le monde fait silence.
-# Status = SILVER
 1	Menm	menm	ADJ	_	_	2	amod	_	Gloss=même
 2	moman	moman	NOUN	_	_	7	obl:mod	_	Gloss=moment
 3	an	an	DET	_	Definite=Def|Number=Sing	2	det	_	Gloss=le|SpaceAfter=No
@@ -256,7 +246,6 @@
 
 # sent_id = 01__11
 # text = Mwen m toujou ret je fèmen epi tèt mwen bese sou biwo a.
-# Status = SILVER
 # text_fr = Moi , j''e reste toujours aux yeux fermés et ma tête baisse sur le bureau.
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	Gloss=1SG
 2	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=1SG
@@ -276,7 +265,6 @@
 # sent_id = 01__12
 # text = "Bonswa, m ka fè yon ti pale pandan kèk minit ak nou si sa p ap deranje n?"
 # text_fr = bonsoir, je peux faire un petit échange pendant quelques minutes avec vous si ça vous dérange pas?
-# Status = SILVER
 1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Bonswa	Bonswa	INTJ	_	_	5	reparandum	_	Gloss=bonsoir|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -293,8 +281,8 @@
 14	nou	nou	PRON	_	Number=Plur|Person=2|PronType=Prs	9	nmod	_	Gloss=2PL
 15	si	si	SCONJ	_	_	19	dep	_	Gloss=si
 16	sa	sa	PRON	_	Number=Sing|PronType=Dem	19	nsubj	_	Gloss=ça
-17	p	pa	ADV	_	_	19	advmod	_	Gloss=ne pas
-18	ap	ap	AUX	_	_	19	aux	_	Gloss=PROG
+17	p	pa	ADV	_	Polarity=Neg	19	advmod	_	Gloss=ne pas
+18	ap	ap	AUX	_	Aspect=Prog	19	aux	_	Gloss=PROG
 19	deranje	deranje	VERB	_	_	6	acl:relcl	_	Gloss=déranger
 20	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	19	obj	_	Gloss=2PL|SpaceAfter=No
 21	?"	?"	PUNCT	_	_	5	punct	_	_
@@ -302,7 +290,6 @@
 # sent_id = 01__13
 # text = Mwen santi yon frison vyolan pran m nan tout kò m lè m ouvè je m pou m gade moun ki pale a mwen wè se yon jennon m wo ak tout souri sou lèv li ki te rantre epi l kanpe.
 # text_fr = je sens un violent frisson qui me traverse dans tout mon corps quand j'ouvre mes yeux pour que je regarde la personne qui parle, je vois que c'est jeune homme haut avec tout un sourire sur ses lèvres qui rentrait puis il se tenait débout.
-# Status = SILVER
 1	Mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
 2	santi	santi	VERB	_	_	0	root	_	Gloss=sentir
 3	yon	yon	DET	_	Definite=Ind|Number=Sing	4	det	_	Gloss=DET
@@ -328,9 +315,9 @@
 23	a	a	DET	_	Definite=Ind|Number=Sing	22	det	_	Gloss=DET
 24	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	Gloss=1SG
 25	wè	wè	VERB	_	_	14	conj	_	Gloss=voir
-26	se	se	VERB	_	_	25	ccomp	_	Gloss=être
+26	se	se	AUX	_	_	28	cop	_	Gloss=être
 27	yon	yon	DET	_	Definite=Ind|Number=Sing	28	det	_	Gloss=DET
-28	jennon	jennon	NOUN	_	Typo=Yes	26	xcomp	_	Gloss=jeune homme
+28	jennon	jennon	NOUN	_	Typo=Yes	25	ccomp	_	Gloss=jeune homme
 29	m	_	X	_	_	28	goeswith	_	_
 30	wo	wo	ADJ	_	_	28	amod	_	Gloss=haut
 31	ak	ak	ADP	_	_	33	case	_	Gloss=avec
@@ -340,7 +327,7 @@
 35	lèv	lèv	NOUN	_	_	33	nmod	_	Gloss=lèvres
 36	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	35	det	_	Gloss=3SG
 37	ki	ki	PRON	_	_	39	nsubj	_	Gloss=qui
-38	te	te	AUX	_	_	39	aux	_	Gloss=PAST
+38	te	te	AUX	_	Tense=Past	39	aux	_	Gloss=PAST
 39	rantre	rantre	VERB	_	_	28	acl:relcl	_	Gloss=rentrer
 40	epi	epi	CCONJ	_	_	42	cc	_	Gloss=et
 41	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	42	nsubj	_	Gloss=3SG
@@ -350,16 +337,15 @@
 # sent_id = 01__14
 # text = Li pa t lòt ke yon enkoni ki te nan dezyèm ane a.
 # text_fr = Il n'est autre qu'un inconnu qui était dans la deuxième année.
-# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Gloss=3SG
-2	pa	pa	ADV	_	_	4	advmod	_	Gloss=NEG
-3	t	te	AUX	_	_	4	aux	_	Gloss=PAST
+2	pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=NEG
+3	t	te	AUX	_	Tense=Past	4	aux	_	Gloss=PAST
 4	lòt	lòt	ADJ	_	_	0	root	_	Gloss=autre
 5	ke	ke	SCONJ	_	_	7	case	_	Gloss=que
 6	yon	yon	DET	_	Definite=Ind|Number=Sing	7	det	_	Gloss=un
 7	enkoni	enkoni	NOUN	_	_	4	obj	_	Gloss=inconnu
 8	ki	ki	PRON	_	_	12	nsubj	_	Gloss=qui
-9	te	te	AUX	_	_	12	aux	_	Gloss=PAST
+9	te	te	AUX	_	Tense=Past	12	aux	_	Gloss=PAST
 10	nan	nan	ADP	_	_	12	case	_	Gloss=dans
 11	dezyèm	dezyèm	ADJ	_	_	12	amod	_	Gloss=deuxième
 12	ane	ane	NOUN	_	_	7	acl:relcl	_	Gloss=année
@@ -369,28 +355,26 @@
 # sent_id = 01__15
 # text = "Wi, avanse non mesye," klas la reponn.
 # text_fr = Oui, "avancez monsieur," la classe a répondu.
-# Status = SILVER
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Wi	wi	INTJ	_	_	4	discourse	_	Gloss=oui|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	avanse	avanse	VERB	_	_	10	parataxis:insert	_	Gloss=avancer
 5	non	non	DET	_	_	6	det	_	Gloss=DET
-6	mesye	mesye	NOUN	_	_	4	obj	_	Gloss=monsieur|SpaceAfter=No
+6	mesye	mesye	NOUN	_	_	4	vocative	_	Gloss=monsieur|SpaceAfter=No
 7	,"	,"	PUNCT	_	_	4	punct	_	_
 8	klas	klas	NOUN	_	_	10	nsubj	_	Gloss=classe
 9	la	la	DET	_	Definite=Def|Number=Sing	8	det	_	Gloss=la
-10	reponn	reponn	VERB	_	Tense=Pres	0	root	_	Gloss=répondre|SpaceAfter=No
+10	reponn	reponn	VERB	_	_	0	root	_	Gloss=répondre|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 01__16
 # text = Pawòl li yo t ap repete nan tèt mwen chak fwa m gade l.
 # text_fr = ses paroles remontaient dans ma tête à chaque que fois je lui regarde .
-# Status = SILVER
 1	Pawòl	Pawòl	NOUN	_	_	6	nsubj	_	Gloss=parole
 2	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	1	det	_	Gloss=3SG
 3	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	1	det	_	Gloss=3PL
-4	t	te	AUX	_	_	6	aux	_	Gloss=PAST
-5	ap	ap	AUX	_	_	6	aux	_	Gloss=PROG
+4	t	te	AUX	_	Tense=Past	6	aux	_	Gloss=PAST
+5	ap	ap	AUX	_	Aspect=Prog	6	aux	_	Gloss=PROG
 6	repete	repete	VERB	_	_	0	root	_	Gloss=répéter, remonter
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 8	tèt	tèt	NOUN	_	_	6	obl	_	Gloss=tête
@@ -405,18 +389,16 @@
 # sent_id = 01__17
 # text = Non jennonm sa se Claudy...
 # text_fr = Le nom de ce jeune homme est Claudy.
-# Status = SILVER
-1	Non	non	NOUN	_	_	4	nsubj	_	Gloss=nom
+1	Non	non	NOUN	_	_	5	nsubj	_	Gloss=nom
 2	jennonm	jennonm	NOUN	_	_	1	obj	_	Gloss=jeune homme
 3	sa	sa	DET	_	Number=Sing|PronType=Dem	2	det	_	Gloss=ce
-4	se	se	VERB	_	_	0	root	_	Gloss=être
-5	Claudy	claudy	PROPN	_	_	4	xcomp	_	Gloss=claudy|SpaceAfter=No
-6	...	...	PUNCT	_	_	4	punct	_	_
+4	se	se	AUX	_	_	5	cop	_	Gloss=être
+5	Claudy	claudy	PROPN	_	_	0	root	_	Gloss=claudy|SpaceAfter=No
+6	...	...	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 01__18
 # text = Aprè kèk mwa nou rantre nan Fakilte Lengwistik Aplike a, li te vin envite n nan fèt li t ap òganize nan mwa desanm pou klas li a (paske se li ki te prezidan).
 # text_fr = Après quelques nous rentrons à la Faculté de Linguistique Appliquée, il nous a invité à une fête qu'il organisait au mois de décembre pour sa  promotion (parce c'est lui qui était le président)
-# Status = SILVER
 1	Aprè	aprè	ADV	_	_	14	advmod	_	Gloss=après
 2	kèk	kèk	DET	_	_	3	det	_	Gloss=quelques
 3	mwa	mwa	NOUN	_	_	1	obj	_	Gloss=mois
@@ -429,15 +411,15 @@
 10	a	a	DET	_	Definite=Def|Number=Sing	7	det	_	Gloss=la|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Gloss=3SG
-13	te	te	AUX	_	_	14	aux	_	Gloss=PAST
+13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
 14	vin	vini	VERB	_	_	0	root	_	Gloss=venir
 15	envite	envite	VERB	_	_	14	ccomp	_	Gloss=inviter
 16	n	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	15	obj	_	Gloss=1PL
 17	nan	nan	ADP	_	_	18	case	_	Gloss=dans
 18	fèt	fèt	NOUN	_	_	15	obl	_	Gloss=fête
 19	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	22	nsubj	_	Gloss=3SG
-20	t	te	AUX	_	_	22	aux	_	Gloss=PAST
-21	ap	ap	AUX	_	_	22	aux	_	Gloss=PROG
+20	t	te	AUX	_	Tense=Past	22	aux	_	Gloss=PAST
+21	ap	ap	AUX	_	Aspect=Prog	22	aux	_	Gloss=PROG
 22	òganize	òganize	VERB	_	_	18	acl:relcl	_	Gloss=organiser
 23	nan	nan	ADP	_	_	24	case	_	Gloss=dans
 24	mwa	mwa	NOUN	_	_	22	obl	_	Gloss=mois
@@ -446,59 +428,57 @@
 27	klas	klas	NOUN	_	_	22	obl	_	Gloss=classe
 28	li	li	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	Gloss=3SG
 29	a	a	DET	_	Definite=Def|Number=Sing	27	det	_	_
-30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-31	paske	paske	SCONJ	_	_	32	mark	_	Gloss=parce que
-32	se	se	VERB	_	_	27	parataxis	_	Gloss=être
-33	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	32	xcomp	_	Gloss=3SG
+30	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+31	paske	paske	SCONJ	_	_	33	mark	_	Gloss=parce que
+32	se	se	AUX	_	_	33	cop	_	Gloss=être
+33	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	27	parataxis	_	Gloss=3SG
 34	ki	ki	PRON	_	_	36	nsubj	_	Gloss=qui
-35	te	te	AUX	_	_	36	aux	_	Gloss=PAST
+35	te	te	AUX	_	Tense=Past	36	aux	_	Gloss=PAST
 36	prezidan	prezidan	NOUN	_	_	33	acl:relcl	_	Gloss=président|SpaceAfter=No
 37	).	).	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 01__19
 # text = Yon sèl kou a, sèl panse ki monte nan tèt mwen se te "ale nan fèt la" pou m te ka wè l ankò.
 # text_fr = D'un coup, la seule chose qui m'est montée dans la tête était "d'aller à la fête" afin de le  voir à nouveau.
-# Status = SILVER
 1	Yon	yon	DET	_	_	3	det	_	Gloss=un
 2	sèl	sèl	ADJ	_	_	3	amod	_	Gloss=seul
-3	kou	kou	NOUN	_	_	13	obl:mod	_	Gloss=coup
+3	kou	kou	NOUN	_	_	16	obl:mod	_	Gloss=coup
 4	a	a	DET	_	Definite=Def|Number=Sing	3	det	_	Gloss=un|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	sèl	sèl	ADJ	_	_	7	amod	_	Gloss=seul
-7	panse	panse	NOUN	_	_	13	nsubj	_	Gloss=pensé
+7	panse	panse	NOUN	_	_	16	nsubj	_	Gloss=pensé
 8	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
 9	monte	monte	VERB	_	_	7	acl:relcl	_	Gloss=monter
 10	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 11	tèt	tèt	NOUN	_	_	9	obl	_	Gloss=tête
 12	mwen	mwen	DET	_	Number=Sing|Person=1|Poss=Yes	11	det	_	Gloss=DET
-13	se	se	VERB	_	_	0	root	_	Gloss=être
-14	te	te	AUX	_	_	13	aux	_	Gloss=PAST
+13	se	se	AUX	_	_	16	cop	_	Gloss=être
+14	te	te	AUX	_	Tense=Past	16	aux	_	Gloss=PAST
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	ale	ale	VERB	_	_	13	ccomp	_	Gloss=aller
+16	ale	ale	VERB	_	_	0	root	_	Gloss=aller
 17	nan	nan	ADP	_	_	18	case	_	Gloss=dans
 18	fèt	fèt	NOUN	_	_	16	obl	_	Gloss=fête
 19	la	la	DET	_	_	18	det	_	Gloss=une|SpaceAfter=No
 20	"	"	PUNCT	_	_	18	punct	_	_
 21	pou	pou	ADP	_	_	24	mark	_	Gloss=pour
 22	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	24	nsubj	_	Gloss=1SG
-23	te	te	AUX	_	_	24	aux	_	Gloss=PAST
+23	te	te	AUX	_	Tense=Past	24	aux	_	Gloss=PAST
 24	ka	ka	VERB	_	_	16	advcl	_	Gloss=pouvoir
 25	wè	wè	VERB	_	_	24	ccomp	_	Gloss=voir
 26	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	25	obj	_	Gloss=3SG
 27	ankò	ankò	ADV	_	_	25	advmod	_	Gloss=encore|SpaceAfter=No
-28	.	.	PUNCT	_	_	13	punct	_	_
+28	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 01__20
 # text = Je l ak cheve l yo te atire m anpil.
 # text_fr = Ses yeux et ses cheveux m'ont beaucoup attiré.
-# Status = SILVER
 1	Je	je	NOUN	_	_	8	nsubj	_	Gloss=yeux
 2	l	li	DET	_	Poss=Yes|PronType=Prs	1	det	_	Gloss=3SG
 3	ak	ak	CCONJ	_	_	4	cc	_	Gloss=et
 4	cheve	cheve	NOUN	_	_	1	conj	_	Gloss=cheveux
 5	l	li	DET	_	Poss=Yes|PronType=Prs	4	det	_	Gloss=3SG
 6	yo	yo	DET	_	Number=Plur|Person=3|PronType=Prs	4	det	_	Gloss=3PL
-7	te	te	AUX	_	_	8	aux	_	Gloss=PAST
+7	te	te	AUX	_	Tense=Past	8	aux	_	Gloss=PAST
 8	atire	atire	VERB	_	_	0	root	_	Gloss=attirer
 9	m	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	Gloss=1SG
 10	anpil	anpil	ADV	_	_	8	advmod	_	Gloss=beaucoup|SpaceAfter=No

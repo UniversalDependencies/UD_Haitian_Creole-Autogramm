@@ -2,12 +2,11 @@
 # sent_id = 05__1
 # text = Biden: 'Etazini Pa Ekate Posibilite pou Itilize Lafòs pou Tabli Lapè an Ayiti'
 # text_fr = Biden: "les Etats-Unis n'écartent pas la possibilité pour utiliser la force afin d'établir la paix en Haïti".
-# Status = SILVER
 1	Biden	Biden	PROPN	_	_	6	parataxis:insert	_	Gloss=Biden|SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
 4	Etazini	Etazini	PROPN	_	_	6	nsubj	_	Gloss=États-Unis
-5	Pa	pa	ADV	_	_	6	advmod	_	Gloss=NEG
+5	Pa	pa	ADV	_	Polarity=Neg	6	advmod	_	Gloss=NEG
 6	Ekate	ekate	VERB	_	_	0	root	_	Gloss=écarter
 7	Posibilite	posibilite	NOUN	_	_	6	obj	_	Gloss=possibilité
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
@@ -22,7 +21,6 @@
 # sent_id = 05__2
 # text = Prezidan Joe Biden pale pandan yon konferans pou lapres ak Premye Minis Kanadyen Justin Trudeau nan Ottawa, Kanada, 24 Mas, 2023.
 # text_fr = Le président Joe Biden parle pendant une conférence pour la presse, avec le premier ministre canadien Justin Trudeau à Ottawa, Canada, le 24 mars, 2023.
-# Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	4	nsubj	_	Gloss=président
 2	Joe	Joe	PROPN	_	_	1	obj	_	Gloss=Joe
 3	Biden	Biden	PROPN	_	_	2	flat:name	_	Gloss=Biden
@@ -51,9 +49,8 @@
 # sent_id = 05__3
 # text = Etazini ap chache sipò pou fòs polis nasyonal Ayiti e lap etidye posibilite pou Nasyonzini ta jwe yon wol nan jefò pou tabli lape an Ayiti.
 # text_fr = Les Etats-Unis sont en train de chercher un support pour la force de la police nationale d'Haïti et ils étudient la possibilité pour les Nations Unies joueraient un rôle dans l'effort pour établir la paix en Haïti.
-# Status = SILVER
 1	Etazini	Etazini	PROPN	_	_	3	nsubj	_	Gloss=États-Unis
-2	ap	ap	AUX	_	_	3	aux	_	Gloss=PROG
+2	ap	ap	AUX	_	Aspect=Prog	3	aux	_	Gloss=PROG
 3	chache	chache	VERB	_	_	0	root	_	Gloss=chercher
 4	sipò	sipò	NOUN	_	_	3	obj	_	Gloss=support
 5	pou	pou	ADP	_	_	6	case	_	Gloss=pour
@@ -63,12 +60,12 @@
 9	Ayiti	Ayiti	PROPN	_	_	7	nmod	_	Gloss=haïtien
 10	e	e	CCONJ	_	_	13	cc	_	Gloss=et
 11	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Gloss=3SG|SpaceAfter=No
-12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
+12	ap	ap	AUX	_	Aspect=Prog	13	aux	_	Gloss=PROG
 13	etidye	etidye	VERB	_	_	3	conj	_	Gloss=étudier
 14	posibilite	posibilite	NOUN	_	_	13	obj	_	Gloss=possibilité
 15	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 16	Nasyonzini	Nasyonzini	PROPN	_	_	18	nsubj	_	Gloss=Nations Unies
-17	ta	ta	AUX	_	_	18	aux	_	Gloss=COND
+17	ta	ta	AUX	_	Mood=Cnd	18	aux	_	Gloss=COND
 18	jwe	jwe	VERB	_	_	14	acl	_	Gloss=jouer
 19	yon	yon	DET	_	Definite=Ind|Number=Sing	20	det	_	Gloss=DET
 20	wol	wol	NOUN	_	_	18	obj	_	Gloss=rôle
@@ -84,9 +81,8 @@
 # sent_id = 05__4
 # text = Se sa Prezidan Joe Biden fe konnen pandan vizit li nan peyi Kanada Vandredi 24 Mas la.
 # text_fr = c'est ce que le Président Joe Biden a fait savoir pendant sa visite au Canada le vendredi 24 mars .
-# Status = SILVER
-1	Se	se	VERB	_	_	0	root	_	Gloss=être
-2	sa	sa	PRON	_	Number=Sing|PronType=Dem	1	xcomp	_	Gloss=DET
+1	Se	se	AUX	_	_	2	cop	_	Gloss=être
+2	sa	sa	PRON	_	Number=Sing|PronType=Dem	0	root	_	Gloss=DET
 3	Prezidan	prezidan	NOUN	_	_	6	nsubj	_	Gloss=président
 4	Joe	Joe	PROPN	_	_	3	obj	_	Gloss=Joe
 5	Biden	Biden	PROPN	_	_	4	flat:name	_	Gloss=Biden
@@ -102,17 +98,16 @@
 15	24	24	NUM	_	_	14	nmod	_	Gloss=24
 16	Mas	mas	NOUN	_	_	15	nmod	_	Gloss=mars
 17	la	la	DET	_	Definite=Def|Number=Sing	15	dep	_	Gloss=DET|SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 05__5
 # text = "Nempòt ki desizyon pa rapo ak yon fòs milite - ke nou diskite souvan, ta dwe fèt an konsiltasyon ak Nasyonzini epi gouvenman Ayisyen an.
 # text_fr = N'importe quelle décision par rapport à une force militaire - que nous discutons souvent, devrait se faire en consultation avec les Nations Unies puis le gouvernement haïtien.
-# Status = SILVER
 1	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 2	Nempòt	nempòt	DET	_	_	4	det	_	Gloss=n'importe
 3	ki	ki	DET	_	_	2	dep	_	Gloss=quelle
 4	desizyon	desizyon	NOUN	_	_	18	nsubj	_	Gloss=décision
-5	pa	pa	ADV	_	_	4	advmod	_	Gloss=par
+5	pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=par
 6	rapo	rapo	NOUN	_	_	5	obj	_	Gloss=rapport
 7	ak	ak	ADP	_	_	9	case	_	Gloss=à
 8	yon	yon	DET	_	Definite=Ind|Number=Sing	9	det	_	Gloss=DET
@@ -124,7 +119,7 @@
 14	diskite	diskite	VERB	_	_	4	acl:relcl	_	Gloss=discuter
 15	souvan	souvan	ADV	_	_	14	advmod	_	Gloss=souvent|SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
-17	ta	ta	AUX	_	_	18	aux	_	Gloss=COND
+17	ta	ta	AUX	_	Mood=Cnd	18	aux	_	Gloss=COND
 18	dwe	dwe	VERB	_	_	0	root	_	Gloss=devoir
 19	fèt	fèt	VERB	_	_	18	ccomp	_	Gloss=faire
 20	an	an	ADP	_	_	21	case	_	Gloss=en
@@ -140,18 +135,17 @@
 # sent_id = 05__6
 # text = Donk nou pa ekate posibilite a men se pa yon bagay nou anvizaje fè kounyela a."
 # text_fr = Donc, nous n'écartons pas la possibilité, mais c'est pas quelque chose que nous envisageons de faire maintenant .
-# Status = SILVER
 1	Donk	donk	ADV	_	_	4	advmod	_	Gloss=donc
 2	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Gloss=1PL
-3	pa	pa	ADV	_	_	4	advmod	_	Gloss=NEG
+3	pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=NEG
 4	ekate	ekate	VERB	_	_	0	root	_	Gloss=écarter
 5	posibilite	posibilite	NOUN	_	_	4	obj	_	Gloss=possibilité
 6	a	a	DET	_	Definite=Def|Number=Sing	5	det	_	Gloss=DET
-7	men	men	CCONJ	_	_	8	cc	_	Gloss=mais
-8	se	se	VERB	_	_	4	conj	_	Gloss=être
-9	pa	pa	ADV	_	_	8	advmod	_	Gloss=NEG
+7	men	men	CCONJ	_	_	11	cc	_	Gloss=mais
+8	se	se	AUX	_	_	11	cop	_	Gloss=être
+9	pa	pa	ADV	_	Polarity=Neg	11	advmod	_	Gloss=NEG
 10	yon	yon	DET	_	Definite=Ind|Number=Sing	11	det	_	Gloss=DET
-11	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
+11	bagay	bagay	NOUN	_	_	4	conj	_	Gloss=chose
 12	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	Gloss=1PL
 13	anvizaje	anvizaje	VERB	_	_	11	acl:relcl	_	Gloss=envisager
 14	fè	fè	VERB	_	_	13	ccomp	_	Gloss=faire
@@ -162,13 +156,12 @@
 # sent_id = 05__7
 # text = Prezidan Biden di, yap gade pou wè si kominote entènasyonal la pata jwe yon pi gwo wòl nan jefò a.
 # text_fr = Le Président Biden a dit: Ils regardent pour si la communauté internationale ne jouerait pas un plus grand rôle dans l'effort .
-# Status = SILVER
 1	Prezidan	Prezidan	NOUN	_	_	3	nsubj	_	Gloss=président
 2	Biden	Biden	PROPN	_	_	1	obj	_	Gloss=Biden
 3	di	di	VERB	_	_	0	root	_	Gloss=dire|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Gloss=3PL|SpaceAfter=No
-6	ap	ap	AUX	_	_	7	aux	_	Gloss=PROG
+6	ap	ap	AUX	_	Aspect=Prog	7	aux	_	Gloss=PROG
 7	gade	gade	VERB	_	_	3	ccomp	_	Gloss=regarder
 8	pou	pou	ADP	_	_	9	mark	_	Gloss=pour
 9	wè	wè	VERB	_	_	7	dep	_	Gloss=voir
@@ -176,9 +169,9 @@
 11	kominote	kominote	NOUN	_	_	16	nsubj	_	Gloss=communauté
 12	entènasyonal	entènasyonal	ADJ	_	_	11	amod	_	Gloss=international
 13	la	la	DET	_	Definite=Def|Number=Sing	11	det	_	Gloss=DET
-14	pa	pa	ADV	_	_	16	advmod	_	Gloss=NEG|SpaceAfter=No
-15	ta	ta	AUX	_	_	16	aux	_	Gloss=COND
-16	jwe	jwe	VERB	_	Mood=Cnd	9	ccomp	_	Gloss=jouer
+14	pa	pa	ADV	_	Polarity=Neg	16	advmod	_	Gloss=NEG|SpaceAfter=No
+15	ta	ta	AUX	_	Mood=Cnd	16	aux	_	Gloss=COND
+16	jwe	jwe	VERB	_	_	9	ccomp	_	Gloss=jouer
 17	yon	yon	DET	_	Definite=Ind|Number=Sing	20	det	_	Gloss=DET
 18	pi	pi	ADV	_	_	19	advmod	_	Gloss=plus
 19	gwo	gwo	ADJ	_	_	20	amod	_	Gloss=grand
@@ -191,9 +184,8 @@
 # sent_id = 05__8
 # text = Li te pale de aktivite gang yo tou.
 # text_fr = Il parlait des activités des gangs aussi.
-# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
-2	te	te	AUX	_	_	3	aux	_	Gloss=PAST
+2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	pale	pale	VERB	_	_	0	root	_	Gloss=parler
 4	de	de	ADP	_	_	5	case	_	Gloss=de
 5	aktivite	aktivite	NOUN	_	_	3	obl	_	Gloss=activité
@@ -205,19 +197,18 @@
 # sent_id = 05__9
 # text = " Lide sou kijan nou pral fè fas ak sakap pase an Ayiti, kote gang yo esansyèlman ranplase gouvènman an, an efè yap dirije peyi a.
 # text_fr = L'idée sur la façon dont nous ferrons face à  ce qui ce passe en Haïti, où les gangs remplacent essentiellement le gouvernement,  en effet, ils dirigent le pays.
-# Status = SILVER
 1	"	"	PUNCT	_	_	2	punct	_	_
 2	Lide	lide	NOUN	_	_	0	root	_	Gloss=idée
 3	sou	sou	ADP	_	_	7	mark	_	Gloss=sur
 4	kijan	kijan	NOUN	_	_	7	obl:mod	_	Gloss=façon, comment
 5	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	Gloss=1PL
-6	pral	pral	AUX	_	_	7	aux	_	Gloss=FUT
+6	pral	pral	AUX	_	Tense=Fut	7	aux	_	Gloss=FUT
 7	fè	fè	VERB	_	_	2	acl	_	Gloss=faire
 8	fas	fas	NOUN	_	_	7	obj	_	Gloss=face
 9	ak	ak	ADP	_	_	10	case	_	Gloss=à
 10	sa	sa	PRON	_	_	8	nmod	_	Gloss=3SG|SpaceAfter=No
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
-12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
+12	ap	ap	AUX	_	Aspect=Prog	13	aux	_	Gloss=PROG
 13	pase	pase	VERB	_	_	10	acl:relcl	_	Gloss=passer
 14	an	an	ADP	_	_	15	case	_	Gloss=en
 15	Ayiti	Ayiti	PROPN	_	_	13	obl	_	Gloss=Haïti|SpaceAfter=No
@@ -233,7 +224,7 @@
 25	an	an	ADP	_	_	21	dep	_	Gloss=en
 26	efè	efè	NOUN	_	_	25	dep	_	Gloss=effet
 27	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL|SpaceAfter=No
-28	ap	ap	AUX	_	_	29	aux	_	Gloss=PROG
+28	ap	ap	AUX	_	Aspect=Prog	29	aux	_	Gloss=PROG
 29	dirije	dirije	VERB	_	_	26	ccomp	_	Gloss=diriger
 30	peyi	peyi	NOUN	_	_	29	obj	_	Gloss=pays
 31	a	a	DET	_	Definite=Def|Number=Sing	30	det	_	SpaceAfter=No
@@ -242,7 +233,6 @@
 # sent_id = 05__10
 # text = Kidonk mwen kwè sa Premye Minis Trudeau di sou koze a fè anpil sans.
 # text_fr = donc, je crois à ce que le premier Ministre Trudeau a dit sur l'affaire fait beaucoup de sens .
-# Status = SILVER
 1	Kidonk	kidonk	ADV	_	_	3	advmod	_	Gloss=donc
 2	mwen	mwen	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
 3	kwè	kwè	VERB	_	_	0	root	_	Gloss=croire
@@ -262,24 +252,23 @@
 # sent_id = 05__11
 # text = Pi gwo bagay nou ka fè e se yon bagay kap pran tan, se ogmante kapasite polis nasyonal la genyen pou fè fas ak pwoblèm yo konstate.
 # text_fr = la plus grande chose que nous pouvons faire e c'est quelque chose qui prendra du temps, c'et d'augmenter la capacité qu'a  la police nationale  pour faire face aux problème  qu'ils constatent.
-# Status = SILVER
 1	Pi	pi	ADJ	_	_	2	amod	_	Gloss=plus
 2	gwo	gwo	ADJ	_	_	3	amod	_	Gloss=grand
-3	bagay	bagay	NOUN	_	_	16	nsubj	_	Gloss=chose
+3	bagay	bagay	NOUN	_	_	17	nsubj	_	Gloss=chose
 4	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Gloss=1PL
 5	ka	ka	VERB	_	_	3	acl:relcl	_	Gloss=pouvoir
 6	fè	fè	VERB	_	_	5	ccomp	_	Gloss=faire
-7	e	e	CCONJ	_	_	8	cc	_	Gloss=et
-8	se	se	VERB	_	_	6	conj	_	Gloss=être
+7	e	e	CCONJ	_	_	10	cc	_	Gloss=et
+8	se	se	AUX	_	_	10	cop	_	Gloss=être
 9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
-10	bagay	bagay	NOUN	_	_	8	xcomp	_	Gloss=chose
+10	bagay	bagay	NOUN	_	_	6	conj	_	Gloss=chose
 11	k	ki	PRON	_	_	13	nsubj	_	Gloss=qui|SpaceAfter=No
-12	ap	ap	AUX	_	_	13	aux	_	Gloss=PROG
+12	ap	ap	AUX	_	Aspect=Prog	13	aux	_	Gloss=PROG
 13	pran	pran	VERB	_	_	10	acl:relcl	_	Gloss=prrendre
 14	tan	tan	NOUN	_	_	13	obj	_	Gloss=temps|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	se	se	VERB	_	_	0	root	_	Gloss=être
-17	ogmante	ogmante	VERB	_	_	16	ccomp	_	Gloss=augmenter
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	se	se	AUX	_	_	17	cop	_	Gloss=être
+17	ogmante	ogmante	VERB	_	_	0	root	_	Gloss=augmenter
 18	kapasite	kapasite	NOUN	_	_	17	obj	_	Gloss=capacité
 19	polis	polis	NOUN	_	_	22	nsubj	_	Gloss=police
 20	nasyonal	nasyonal	ADJ	_	_	19	amod	_	Gloss=national
@@ -292,14 +281,13 @@
 27	pwoblèm	pwoblèm	NOUN	_	_	25	nmod	_	Gloss=problème
 28	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL
 29	konstate	konstate	VERB	_	_	27	acl:relcl	_	Gloss=constater|SpaceAfter=No
-30	.	.	PUNCT	_	_	16	punct	_	_
+30	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 05__12
 # text = Nap gade tou pou wè si kominote entènasyonal la pa l entèmedyè Nasyonzini taka jwe yon pi gwo wòl nan jefò sa a.
-# Status = SILVER
 # text_fr = Nous regardons aussi pour voir si la communauté internationale par son intermédiaire des Nations Unies pourrait jouer un plus grand rôle dans cet effort.
 1	N	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Gloss=1PL|SpaceAfter=No
-2	ap	ap	AUX	_	_	3	aux	_	Gloss=PROG
+2	ap	ap	AUX	_	Aspect=Prog	3	aux	_	Gloss=PROG
 3	gade	gade	VERB	_	_	0	root	_	Gloss=regarder
 4	tou	tou	ADV	_	_	3	advmod	_	Gloss=aussi
 5	pou	pou	ADP	_	_	6	mark	_	Gloss=pour
@@ -312,8 +300,8 @@
 12	l	li	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	Gloss=3SG
 13	entèmedyè	entèmedyè	NOUN	_	_	8	nmod	_	Gloss=intermédiaire
 14	Nasyonzini	Nasyonzini	PROPN	_	_	13	obj	_	Gloss=Nations Unies
-15	ta	ta	AUX	_	_	16	aux	_	Gloss=COND|SpaceAfter=No
-16	ka	ka	VERB	_	Mood=Cnd	6	ccomp	_	Gloss=pouvoir|wordform=taka
+15	ta	ta	AUX	_	Mood=Cnd	16	aux	_	Gloss=COND|SpaceAfter=No
+16	ka	ka	VERB	_	_	6	ccomp	_	Gloss=pouvoir|wordform=taka
 17	jwe	jwe	VERB	_	_	16	ccomp	_	Gloss=jouer
 18	yon	yon	DET	_	Definite=Ind|Number=Sing	21	det	_	Gloss=DET
 19	pi	pi	ADV	_	_	20	advmod	_	Gloss=plus
@@ -328,35 +316,33 @@
 # sent_id = 05__13
 # text = Men vreman vre, se yon gwo ke sote pou nou."
 # text_fr = mais en réalité, c'est une grande préoccupation pour nous.
-# Status = SILVER
-1	Men	men	CCONJ	_	_	5	cc	_	Gloss=mais
-2	vreman	vreman	ADV	_	_	5	advmod	_	Gloss=en réalité
+1	Men	men	CCONJ	_	_	9	cc	_	Gloss=mais
+2	vreman	vreman	ADV	_	_	9	advmod	_	Gloss=en réalité
 3	vre	vre	ADJ	_	_	2	dep	_	Gloss=vrai|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	_
-5	se	se	VERB	_	_	0	root	_	Gloss=être
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	se	se	AUX	_	_	9	cop	_	Gloss=être
 6	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
 7	gwo	gwo	ADJ	_	_	8	amod	_	Gloss=grand
 8	ke	kè	NOUN	_	_	9	nsubj	_	Gloss=coeur
-9	sote	sote	VERB	_	_	5	ccomp	_	Gloss=sauter
+9	sote	sote	VERB	_	_	0	root	_	Gloss=sauter
 10	pou	pou	ADP	_	_	11	case	_	Gloss=pour
 11	nou	nou	PRON	_	Number=Plur|Person=1|PronType=Prs	9	obl	_	Gloss=1PL|SpaceAfter=No
-12	."	."	PUNCT	_	_	5	punct	_	_
+12	."	."	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 05__14
 # text = Ayiti sete youn nan kestyon prensipal Prezidan Joe Biden te diskite ak Premye Minis Justin Trudeau pandan vizit 2 jou li nan Ottawa.
 # text_fr = Haïti était l'une des questions principales que le Président Joe Biden discutait avec le premier ministre Justin Trudeau pendant sa visite de deux jours à Ottawa.
-# Status = SILVER
-1	Ayiti	Ayiti	PROPN	_	_	2	nsubj	_	Gloss=Haïti
-2	se	se	VERB	_	_	0	root	_	Gloss=être|SpaceAfter=No
-3	te	te	AUX	_	_	2	aux	_	Gloss=PAST
-4	youn	youn	NOUN	_	_	2	xcomp	_	Gloss=l'un
+1	Ayiti	Ayiti	PROPN	_	_	4	nsubj	_	Gloss=Haïti
+2	se	se	AUX	_	_	4	cop	_	Gloss=être|SpaceAfter=No
+3	te	te	AUX	_	Tense=Past	4	aux	_	Gloss=PAST
+4	youn	youn	NOUN	_	_	0	root	_	Gloss=l'un
 5	nan	nan	ADP	_	_	6	case	_	Gloss=dans
 6	kestyon	kestyon	NOUN	_	_	4	nmod	_	Gloss=question
 7	prensipal	prensipal	ADJ	_	_	6	amod	_	Gloss=principal
 8	Prezidan	prezidan	NOUN	_	_	12	nsubj	_	Gloss=président
 9	Joe	Joe	PROPN	_	_	8	obj	_	Gloss=Joe
 10	Biden	Biden	PROPN	_	_	9	flat:name	_	Gloss=Biden
-11	te	te	AUX	_	_	12	aux	_	Gloss=PAST
+11	te	te	AUX	_	Tense=Past	12	aux	_	Gloss=PAST
 12	diskite	diskite	VERB	_	_	6	acl:relcl	_	Gloss=discuter
 13	ak	ak	ADP	_	_	15	case	_	Gloss=avec
 14	Premye	premye	ADJ	_	_	15	amod	_	Gloss=premier
@@ -370,5 +356,5 @@
 22	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	19	det	_	Gloss=DET
 23	nan	nan	ADP	_	_	24	case	_	Gloss=dans
 24	Ottawa	Ottawa	PROPN	_	_	19	nmod	_	Gloss=Ottawa|SpaceAfter=No
-25	.	.	PUNCT	_	_	2	punct	_	_
+25	.	.	PUNCT	_	_	4	punct	_	_
 

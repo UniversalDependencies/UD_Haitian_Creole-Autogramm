@@ -2,10 +2,9 @@
 # sent_id = 19__1
 # text = Anpil Ikrenyen Pa Konn sa pou yo Fè Akoz Pèmisyon yo te Genyen pou Rete nan Etazini Ekspire
 # text_fr = beaucoup d'ukrainiens ne savent pas ce qu'il faut faire à cause leur permis qu'il avait pour rester aux Etats-Unis est expiré.
-# Status = SILVER
 1	Anpil	anpil	ADV	_	_	2	advmod	_	Gloss=beaucoup
 2	Ikrenyen	ikrenyen	NOUN	_	_	4	nsubj	_	Gloss=ukrainien
-3	Pa	pa	ADV	_	_	4	advmod	_	Gloss=NEG
+3	Pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=NEG
 4	Konn	konnen	VERB	_	_	0	root	_	Gloss=savoir, connaitre
 5	sa	sa	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Gloss=ce
 6	pou	pou	VERB	_	_	5	ccomp	_	Gloss=falloir, devoir
@@ -14,7 +13,7 @@
 9	Akoz	akoz	ADP	_	_	18	mark	_	Gloss=à cause de
 10	Pèmisyon	pèmisyon	NOUN	_	_	18	nsubj	_	Gloss=permit
 11	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	_
-12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
+12	te	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST
 13	Genyen	genyen	VERB	_	_	10	acl:relcl	_	Gloss=avoir
 14	pou	pou	ADP	_	_	15	mark	_	Gloss=pour
 15	Rete	rete	VERB	_	_	13	dep	_	Gloss=rester
@@ -25,7 +24,6 @@
 # sent_id = 19__2
 # text = SAN DIEGO (AP) — Plis pase 20,000 Ikrenyen ki te jwenn pèmisyon pou yo rete sou teritwa ameriken an pou yon ane, apre yo te kouri kite peyi yo akoz envazyon Larisi te lanse lakay yo, yo ap fè fas gwo pwoblèm akoz Pwogram Pawòl imanitè ki ekpire pou yo.
 # text_fr = San Diego,  plus que 20 000 ukrainiens qui trouvaient leur permis pour qu'ils restent  sur le territoire américain pour une année, après qu'ils ont couru de quitter leur pays à cause de l'invasion que la Russie avait lancé  chez eux.  Ils font face à une grande difficulté à cause du programme humanitaire qui est expiré pour  eux.
-# Status = SILVER
 1	SAN	San	PROPN	_	_	43	dep	_	Gloss=San
 2	DIEGO	Diego	PROPN	_	_	1	flat:name	_	Gloss=Diego
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -37,7 +35,7 @@
 9	20,000	20,000	NUM	_	_	10	nummod	_	Gloss=20 000
 10	Ikrenyen	ikrenyen	NOUN	_	_	43	dislocated	_	Gloss=ukrainien
 11	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
-12	te	te	AUX	_	_	13	aux	_	Gloss=PAST
+12	te	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST
 13	jwenn	jwenn	VERB	_	_	10	acl:relcl	_	Gloss=trouver
 14	pèmisyon	pèmisyon	NOUN	_	_	13	obj	_	Gloss=permis
 15	pou	pou	ADP	_	_	17	mark	_	Gloss=pour
@@ -53,21 +51,21 @@
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	apre	apre	ADP	_	_	29	mark	_	Gloss=après
 27	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	29	nsubj	_	Gloss=3PL
-28	te	te	AUX	_	_	29	aux	_	Gloss=PAST
+28	te	te	AUX	_	Tense=Past	29	aux	_	Gloss=PAST
 29	kouri	kouri	VERB	_	_	13	advcl	_	Gloss=courir
-30	kite	kite	VERB	_	_	29	ccomp	_	Gloss=quitter
+30	kite	kite	VERB	_	_	29	compound:svc	_	Gloss=quitter
 31	peyi	peyi	NOUN	_	_	30	obj	_	Gloss=pays
 32	yo	yo	DET	_	Definite=Def|Number=Plur	31	det	_	Gloss=3PL
 33	akoz	akoz	ADP	_	_	34	case	_	Gloss=à cause de
 34	envazyon	envazyon	NOUN	_	_	30	obl:mod	_	Gloss=invasion
 35	Larisi	larisi	PROPN	_	_	37	nsubj	_	Gloss=Russie
-36	te	te	AUX	_	_	37	aux	_	Gloss=PAST
+36	te	te	AUX	_	Tense=Past	37	aux	_	Gloss=PAST
 37	lanse	lanse	VERB	_	_	34	acl:relcl	_	Gloss=lancer
 38	lakay	lakay	NOUN	_	_	37	obj	_	Gloss=maison
 39	yo	yo	DET	_	Definite=Def|Number=Plur	38	det	_	Gloss=DET|SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	43	nsubj	_	Gloss=3PL
-42	ap	ap	AUX	_	_	43	aux	_	Gloss=PAST
+42	ap	ap	AUX	_	Aspect=Prog	43	aux	_	Gloss=PAST
 43	fè	fè	VERB	_	_	0	root	_	Gloss=faire
 44	fas	fas	NOUN	_	_	43	obj	_	Gloss=face
 45	gwo	gwo	ADJ	_	_	46	amod	_	Gloss=gros
@@ -85,10 +83,9 @@
 # sent_id = 19__3
 # text = Moun ki ap defann imigran sa yo di ke administrasyon Biden nan enfòme yo ke li ap travay pou ranje sitiyasyon an, men ke li pa di ki sa moun yo ka fè pou yo pwolonje estati yo, ki mache ak avantaj tankou èd lòjman ak koupon manje, ki rele ann angle “Food Stamps”.
 # text_fr = La personne qui défend ces migrants disent que l'administration de Biden les informe qu'elle travaille arranger la situation, mais elle n'a pas dit  ce qu'ils peuvent faire pour changer leur statut, qui marche avec des avantages tels que des aides au logement,  kit  alimentaire,  qui s'appelle en anglais Food Stamps.
-# Status = SILVER
 1	Moun	moun	NOUN	_	_	8	nsubj	_	Gloss=personne
 2	ki	ki	PRON	_	_	4	nsubj	_	Gloss=qui
-3	ap	ap	AUX	_	_	4	aux	_	Gloss=PROG
+3	ap	ap	AUX	_	Aspect=Prog	4	aux	_	Gloss=PROG
 4	defann	defann	VERB	_	_	1	acl:relcl	_	Gloss=défendre
 5	imigran	imigran	NOUN	_	_	4	obj	_	Gloss=immigrant
 6	sa	sa	DET	_	Definite=Def|Number=Sing	5	det	_	_
@@ -102,7 +99,7 @@
 14	yo	yo	PRON	_	Definite=Def|Number=Plur	13	obj	_	Gloss=les
 15	ke	ke	SCONJ	_	_	18	mark	_	Gloss=que
 16	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	Gloss=3SG
-17	ap	ap	AUX	_	_	18	aux	_	Gloss=PROG
+17	ap	ap	AUX	_	Aspect=Prog	18	aux	_	Gloss=PROG
 18	travay	travay	VERB	_	_	13	ccomp	_	Gloss=travailler
 19	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
 20	ranje	ranje	VERB	_	_	18	dep	_	Gloss=arranger
@@ -112,7 +109,7 @@
 24	men	men	CCONJ	_	_	28	cc	_	Gloss=mais
 25	ke	ke	SCONJ	_	_	28	mark	_	Gloss=que
 26	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	Gloss=3SG
-27	pa	pa	ADV	_	_	28	advmod	_	Gloss=NEG
+27	pa	pa	ADV	_	Polarity=Neg	28	advmod	_	Gloss=NEG
 28	di	di	VERB	_	_	18	conj	_	Gloss=dire
 29	ki	ki	PRON	_	_	28	obj	_	Gloss=qui
 30	sa	sa	PRON	_	Number=Sing|PronType=Dem	29	obj	_	_
@@ -149,11 +146,10 @@
 
 # sent_id = 19__4
 # text = Pifò Ikrenyen te jwenn otorizasyon pou yo patisipe nan pwogram imanitè sa pou yon ane apre yo te fin travèse fwontyè Etazini ak Meksik pandan kèk mwa lè lagè a te koumanse.
-# Status = SILVER
 # text_fr = la majorité des ukrainiens ont trouvé l'autorisation pour participer à ce programme humanitaire pour une année après qu'ils ont fini de traverser la frontière des Etats-Unis avec le Mexique pendant quelques mois quand la guerre avait commencé.
 1	Pifò	Pifò	NOUN	_	_	2	nmod	_	Gloss=majorité
 2	Ikrenyen	Ikrenyen	PROPN	_	_	4	nsubj	_	Gloss=ukrainien
-3	te	te	AUX	_	_	4	aux	_	Gloss=PAST
+3	te	te	AUX	_	Tense=Past	4	aux	_	Gloss=PAST
 4	jwenn	jwenn	VERB	_	_	0	root	_	Gloss=trouver
 5	otorizasyon	otorizasyon	NOUN	_	_	4	obj	_	Gloss=autorisation
 6	pou	pou	ADP	_	_	8	mark	_	Gloss=pour
@@ -168,7 +164,7 @@
 15	ane	ane	NOUN	_	_	8	obl	_	Gloss=année
 16	apre	apre	ADP	_	_	19	mark	_	Gloss=après
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Gloss=3PL
-18	te	te	AUX	_	_	19	aux	_	Gloss=PAST
+18	te	te	AUX	_	Tense=Past	19	aux	_	Gloss=PAST
 19	fin	fini	VERB	_	_	4	advcl	_	Gloss=finir
 20	travèse	travèse	VERB	_	_	19	ccomp	_	Gloss=traverser
 21	fwontyè	fwontyè	NOUN	_	_	20	obj	_	Gloss=frontière
@@ -181,14 +177,13 @@
 28	lè	lè	ADP	_	_	32	mark	_	Gloss=quand
 29	lagè	lagè	NOUN	_	_	32	nsubj	_	Gloss=guerre
 30	a	a	DET	_	Definite=Def|Number=Sing	29	det	_	Gloss=la
-31	te	te	AUX	_	_	32	aux	_	Gloss=PAST
+31	te	te	AUX	_	Tense=Past	32	aux	_	Gloss=PAST
 32	koumanse	koumanse	VERB	_	_	27	acl	_	Gloss=commencer|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 19__5
 # text = Anpil moun di ensètitid la ba yo tèt-chaje.
 # text_fr = beaucoup de gens disent que l'incertitude leur donne du problème.
-# Status = SILVER
 1	Anpil	anpil	ADV	_	_	2	advmod	_	Gloss=beaucoup
 2	moun	moun	NOUN	_	_	3	nsubj	_	Gloss=gens, personne
 3	di	di	VERB	_	_	0	root	_	Gloss=dire
