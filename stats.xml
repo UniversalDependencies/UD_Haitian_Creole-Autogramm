@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>144</sentences><tokens>3278</tokens><words>3278</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>144</sentences><tokens>3278</tokens><words>3278</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="877" /><!-- ., te, mwen, yo, ,, nan, pou, li, yon, ki, ak, a, ap, sa, la -->
+  <forms unique="892" /><!-- ., yo, ,, nan, pou, m, yon, te, ak, ki, li, a, ap, sa, la -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">147</tag><!-- ameriken, gwo, premye, lòt, meksiken, ti, gran, nasyonal, plis, sèl -->
+    <tag name="ADP">342</tag><!-- nan, pou, ak, sou, an, pandan, apre, de, akoz, a -->
+    <tag name="ADV">105</tag><!-- pa, pi, tou, plis, anpil, la, lontan, ankò, apre, byen -->
+    <tag name="AUX">190</tag><!-- te, ap, se, ta, pral -->
+    <tag name="CCONJ">54</tag><!-- ak, epi, e, men, aprè, kidonk, ni, oswa -->
+    <tag name="DET">335</tag><!-- yon, yo, a, la, li, mwen, sa, an, nan, kèk -->
+    <tag name="INTJ">6</tag><!-- Bonswa, Elas, hmm, men, mèsi, wi -->
+    <tag name="NOUN">703</tag><!-- moun, prezidan, dife, migran, gang, misil, sant, mas, peyi, bank -->
+    <tag name="NUM">51</tag><!-- 2, 2023., 5, 2021, 2023, 24, 3, 30, 39, 6 -->
+    <tag name="PRON">313</tag><!-- mwen, ki, li, yo, nou, sa, ke, kote, ou, anyen -->
+    <tag name="PROPN">249</tag><!-- biden, Etazini, Ayiti, larisi, taiwan, Joe, Toussaint, ikrèn, lachin, Washington -->
+    <tag name="PUNCT">268</tag><!-- ., ,, ", (, ), —, -, .", ..., ," -->
+    <tag name="SCONJ">41</tag><!-- ke, lè, paske, si, kòm, kijanm -->
+    <tag name="SYM">1</tag><!-- $ -->
+    <tag name="VERB">467</tag><!-- di, fè, gen, pale, ka, bay, konnen, pran, ale, wè -->
+    <tag name="X">6</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="19">
+    <feat name="Aspect" value="Prog" upos="AUX">43</feat><!-- ap -->
+    <feat name="Definite" value="Def" upos="DET,PRON">132</feat><!-- yo, a, la, an, nan, ni, sa -->
+    <feat name="Definite" value="Ind" upos="DET">76</feat><!-- yon, a, yo, yoon -->
+    <feat name="Mood" value="Cnd" upos="AUX">10</feat><!-- ta -->
+    <feat name="Number" value="Plur" upos="DET,PRON,VERB">123</feat><!-- yo, nou, n, y, pase, yon -->
+    <feat name="Number" value="Sing" upos="DET,PRON">383</feat><!-- m, yon, li, a, la, sa, mwen, l, an, w -->
+    <feat name="NumType" value="Card" upos="NUM">1</feat><!-- 200,000 -->
+    <feat name="Person" value="1" upos="DET,PRON">125</feat><!-- m, mwen, nou, n, m–, yo -->
+    <feat name="Person" value="2" upos="PRON">10</feat><!-- w, nou, Ou, n -->
+    <feat name="Person" value="3" upos="DET,PRON,VERB">130</feat><!-- li, yo, l, y, ni, pase, sa, yon -->
+    <feat name="Polarity" value="Neg" upos="ADV">30</feat><!-- pa, p -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">71</feat><!-- li, yo, mwen, m, l, nou, m–, ni, sa -->
+    <feat name="PronType" value="Art" upos="DET">2</feat><!-- Yon -->
+    <feat name="PronType" value="Dem" upos="ADJ,DET,PRON">35</feat><!-- sa, a -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">210</feat><!-- m, li, yo, l, nou, mwen, n, w, y, Ou -->
+    <feat name="PronType" value="Rel" upos="PRON">4</feat><!-- kote, ke, yo -->
+    <feat name="Tense" value="Fut" upos="AUX">8</feat><!-- pral, pwal -->
+    <feat name="Tense" value="Past" upos="AUX">97</feat><!-- te, t -->
+    <feat name="Typo" value="Yes" upos="ADJ,NOUN,PROPN">6</feat><!-- d, o, jennon -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="35">
+    <dep name="acl">22</dep>
+    <dep name="acl:relcl">123</dep>
+    <dep name="advcl">41</dep>
+    <dep name="advcl:cleft">1</dep>
+    <dep name="advmod">99</dep>
+    <dep name="amod">133</dep>
+    <dep name="appos">26</dep>
+    <dep name="aux">165</dep>
+    <dep name="case">266</dep>
+    <dep name="cc">53</dep>
+    <dep name="ccomp">100</dep>
+    <dep name="compound:svc">10</dep>
+    <dep name="conj">60</dep>
+    <dep name="cop">25</dep>
+    <dep name="dep">60</dep>
+    <dep name="det">333</dep>
+    <dep name="discourse">1</dep>
+    <dep name="dislocated">2</dep>
+    <dep name="flat:name">64</dep>
+    <dep name="goeswith">6</dep>
+    <dep name="iobj">14</dep>
+    <dep name="mark">112</dep>
+    <dep name="nmod">160</dep>
+    <dep name="nsubj">386</dep>
+    <dep name="nummod">27</dep>
+    <dep name="obj">345</dep>
+    <dep name="obl">116</dep>
+    <dep name="obl:arg">17</dep>
+    <dep name="obl:mod">87</dep>
+    <dep name="parataxis">6</dep>
+    <dep name="parataxis:insert">4</dep>
+    <dep name="punct">268</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">144</dep>
+    <dep name="vocative">1</dep>
+  </deps>
+</treebank>
