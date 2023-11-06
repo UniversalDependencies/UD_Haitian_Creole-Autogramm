@@ -1,0 +1,40 @@
+Running the following version of UD tools:
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 4 17:10:55 2023 +0100
+Evaluating the following revision of UD_Haitian_Creole-Autogramm:
+commit 6553c6e6c51e18d6dc40fa5b24f6976253fcfb60
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 4 23:35:41 2023 +0100
+Size: counted 3278 of 3278 words (nodes).
+Size: min(0, log((N/1000)**2)) = 2.37446696064328.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 712 out of 3278 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 30 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Udapi:
+               TOTAL        918
+Udapi: found 918 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 3278 words.
+Genres: found 1 out of 17 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Autogramm/ht_autogramm-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.171869649744827) = 0.044069140960212
+(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
+(TOTAL score=0.274478011369082) * (availability=1) * (validity=1) = 0.274478011369082
+STARS = 1.5
+UD_Haitian_Creole-Autogramm	0.274478011369082	1.5
