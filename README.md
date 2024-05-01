@@ -27,6 +27,8 @@ It was funded by:
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * Review of some POS tags, mainly DET vs PRON
 * 2023-11-15 v2.13
   * Initial release in Universal Dependencies.
 
