@@ -2,10 +2,11 @@
 # sent_id = 16__1
 # text = Aksyon Bank Credit Suisse Pèdi Valè nan Moman Kè Sote Global Pa Rapò ak Bank yo Ogmante
 # text_fr = L'action de la banque de crédit de la Suisse perd sa valeur dans le moment d'inquiétude globale par rapport aux banques qui augmentent
+# Status = SILVER
 1	Aksyon	aksyon	NOUN	_	_	5	nsubj	_	Gloss=action
-2	Bank	bank	NOUN	_	_	1	obj	_	Gloss=banque
-3	Credit	credit	PROPN	_	_	2	obj	_	Gloss=Crédit
-4	Suisse	suisse	PROPN	_	_	3	flat:name	_	Gloss=Suisse
+2	Bank	bank	NOUN	_	_	1	nmod	_	Gloss=banque
+3	Credit	Credit	PROPN	_	_	2	flat:name	_	Gloss=Crédit
+4	Suisse	Suisse	PROPN	_	_	2	flat:name	_	Gloss=Suisse
 5	Pèdi	pèdi	VERB	_	_	0	root	_	Gloss=perdre
 6	Valè	valè	NOUN	_	_	5	obj	_	Gloss=valeur
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
@@ -15,30 +16,31 @@
 11	Global	global	ADJ	_	_	10	advcl	_	Gloss=global
 12	Pa	pa	ADP	_	_	13	case	_	Gloss=par
 13	Rapò	rapò	NOUN	_	_	5	obl	_	Gloss=rapport
-14	ak	ak	ADP	_	_	17	mark	_	Gloss=à
+14	ak	ak	ADP	_	_	17	mark	_	Gloss=avec
 15	Bank	bank	NOUN	_	_	17	nsubj	_	Gloss=banque
-16	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
+16	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	Gloss=les
 17	Ogmante	ogmante	VERB	_	_	13	acl	_	Gloss=augmenter
 
 # sent_id = 16__2
 # text = Yon afich ki gen non Credit Suisse make sou li sou pis Mache Labous Nouyok la (New York Stock Exchange) nan Nouyok, 15 Mas, 2023.
 # text_fr = Une affiche qui a le nom de Crédit Suisse figure sur elle sur la piste du marché de la bourse de New York ( New York Stock Exchange) à New York, le 15 mars 2023.
-1	Yon	yon	DET	_	Definite=Ind|Number=Sing	2	det	_	Gloss=DET
+# Status = SILVER
+1	Yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	2	det	_	Gloss=un
 2	afich	afich	NOUN	_	_	8	nsubj	_	Gloss=affiche
 3	ki	ki	PRON	_	_	4	nsubj	_	Gloss=qui
 4	gen	gen	VERB	_	_	2	acl:relcl	_	Gloss=avoir
 5	non	non	NOUN	_	_	4	obj	_	Gloss=nom
-6	Credit	credit	PROPN	_	_	5	obj	_	Gloss=Crédit
-7	Suisse	suisse	PROPN	_	_	6	flat:name	_	Gloss=Suisse
-8	make	make	VERB	_	_	0	root	_	Gloss=marquer, figure
+6	Credit	Credit	PROPN	_	_	5	nmod	_	Gloss=Crédit
+7	Suisse	Suisse	PROPN	_	_	6	flat:name	_	Gloss=Suisse
+8	make	make	VERB	_	_	0	root	_	Gloss=marquer
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obl	_	Gloss=3SG
 11	sou	sou	ADP	_	_	12	case	_	Gloss=sur
 12	pis	pis	NOUN	_	_	8	obl	_	Gloss=piste
-13	Mache	mache	NOUN	_	_	12	obj	_	Gloss=marché
-14	Labous	labous	NOUN	_	_	13	obj	_	Gloss=bourse
-15	Nouyok	nouyok	PROPN	_	_	13	nmod	_	Gloss=New York
-16	la	la	DET	_	Definite=Def|Number=Sing	13	det	_	Gloss=DET
+13	Mache	mache	NOUN	_	_	12	nmod	_	Gloss=marché
+14	Labous	labous	NOUN	_	_	13	nmod	_	Gloss=bourse
+15	Nouyok	Nouyok	PROPN	_	_	13	nmod	_	Gloss=New York
+16	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gloss=le
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	New	New	PROPN	_	_	13	appos	_	Gloss=New
 19	York	York	PROPN	_	_	18	flat:name	_	Gloss=York
@@ -56,74 +58,77 @@
 # sent_id = 16__3
 # text = Aksyon bank Credit Suisse yo pedi plis pase yon ka valè yo sou mache d labous la.
 # text_fr = L'action des banques Crédits Suisse perd plus qu'un quart de leurs valeurs sur le marché de la bourse .
+# Status = SILVER
 1	Aksyon	aksyon	NOUN	_	_	6	nsubj	_	Gloss=action
-2	bank	bank	NOUN	_	_	1	obj	_	Gloss=banque
-3	Credit	Credit	PROPN	_	_	2	obj	_	Gloss=Crédit
+2	bank	bank	NOUN	_	_	1	nmod	_	Gloss=banque
+3	Credit	Credit	PROPN	_	_	2	nmod	_	Gloss=Crédit
 4	Suisse	Suisse	PROPN	_	_	3	flat:name	_	Gloss=Suisse
-5	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=DET
+5	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	1	det	_	Gloss=les
 6	pedi	pedi	VERB	_	_	0	root	_	Gloss=perdre
 7	plis	plis	ADJ	_	_	10	amod	_	Gloss=plus
-8	pase	pase	ADJ	_	_	7	dep	_	Gloss=que
-9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	Gloss=DET
+8	pase	pase	ADJ	_	_	7	dep	_	_
+9	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	10	det	_	Gloss=un
 10	ka	ka	NOUN	_	_	6	obj	_	Gloss=quart
-11	valè	valè	NOUN	_	_	10	obj	_	Gloss=valeur
-12	yo	yo	DET	_	Definite=Def|Number=Plur|Poss=Yes	11	det	_	Gloss=DET
+11	valè	valè	NOUN	_	_	10	nmod	_	Gloss=valeur
+12	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	11	det	_	Gloss=les
 13	sou	sou	ADP	_	_	14	case	_	Gloss=sur
 14	mache	mache	NOUN	_	_	6	obl	_	Gloss=marché
 15	d	d	ADP	_	_	16	case	_	Gloss=de
 16	labous	labous	NOUN	_	_	14	nmod	_	Gloss=bourse
-17	la	la	DET	_	Definite=Def|Number=Sing	16	det	_	Gloss=DET|SpaceAfter=No
+17	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	Gloss=le|SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 16__4
 # text = Bès istorik sa a vini apre Bank Nasyonal Saoudyen an - ki kontwole majorite aksyon Credit Suisse yo - te di jounalis yo li pap bay bank Suis la okenn lòt lajan pou kontrekare pwoblèm li yo.
 # text_fr = cette baisse historique vient après que la Banque nationale saoudienne - qui contrôle la majorité d'action des  Crédits Suisse disaient aux journalistes qu'ils ne donneront aucun autre somme d'argent pour contrecarrer ses problèmes.
+# Status = SILVER
 1	Bès	bès	NOUN	_	_	5	nsubj	_	Gloss=baisse
 2	istorik	istorik	ADJ	_	_	1	amod	_	Gloss=historique
-3	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
-4	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
+3	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=cet
+4	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	1	det	_	Gloss=le
 5	vini	vini	VERB	_	_	0	root	_	Gloss=venir
 6	apre	apre	ADP	_	_	21	mark	_	Gloss=après
 7	Bank	bank	NOUN	_	_	21	nsubj	_	Gloss=banque
 8	Nasyonal	nasyonal	ADJ	_	_	7	amod	_	Gloss=national
 9	Saoudyen	saoudyen	ADJ	_	_	7	amod	_	Gloss=saoudien
-10	an	an	DET	_	Definite=Def|Number=Sing	7	det	_	Gloss=DET
+10	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gloss=le
 11	-	-	PUNCT	_	_	13	punct	_	_
 12	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
-13	kontwole	kontwole	VERB	_	_	7	acl:relcl	_	Gloss=contrôle
+13	kontwole	kontwole	VERB	_	_	7	acl:relcl	_	Gloss=contrôler
 14	majorite	majorite	NOUN	_	_	13	obj	_	Gloss=majorité
-15	aksyon	aksyon	NOUN	_	_	14	obj	_	Gloss=action
-16	Credit	credit	NOUN	_	_	15	obj	_	Gloss=Crédit
-17	Suisse	suisse	PROPN	_	_	16	flat:name	_	Gloss=Suisse
-18	yo	yo	DET	_	Definite=Def|Number=Plur	15	det	_	Gloss=DET
+15	aksyon	aksyon	NOUN	_	_	14	nmod	_	Gloss=action
+16	Credit	credit	NOUN	_	_	15	nmod	_	Gloss=Crédit
+17	Suisse	Suisse	PROPN	_	_	16	flat:name	_	Gloss=Suisse
+18	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	Gloss=les
 19	-	-	PUNCT	_	_	13	punct	_	_
 20	te	te	AUX	_	Tense=Past	21	aux	_	Gloss=PAST
 21	di	di	VERB	_	_	5	advcl	_	Gloss=dire
-22	jounalis	jounalis	NOUN	_	_	21	iobj	_	Gloss=journalist
-23	yo	yo	DET	_	Definite=Def|Number=Plur	22	det	_	Gloss=DET
-24	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes	27	nsubj	_	Gloss=3SG
+22	jounalis	jounalis	NOUN	_	_	21	iobj	_	Gloss=journaliste
+23	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	Gloss=les
+24	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nsubj	_	Gloss=3SG
 25	p	pa	ADV	_	Polarity=Neg	27	advmod	_	Gloss=NEG|SpaceAfter=No
 26	ap	ap	AUX	_	Aspect=Prog	27	aux	_	Gloss=PROG|wordform=pap
 27	bay	bay	VERB	_	_	21	ccomp	_	Gloss=donner
 28	bank	bank	NOUN	_	_	27	iobj	_	Gloss=banque
-29	Suis	suis	PROPN	_	_	28	nmod	_	Gloss=suisse
-30	la	la	DET	_	Definite=Def|Number=Sing	28	det	_	Gloss=DET
-31	okenn	okenn	DET	_	_	33	det	_	Gloss=aucun
+29	Suis	suis	PROPN	_	_	28	nmod	_	Gloss=Suisse
+30	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	Gloss=le
+31	okenn	okenn	DET	_	Polarity=Neg	33	det	_	Gloss=aucun
 32	lòt	lòt	ADJ	_	_	33	amod	_	Gloss=autre
 33	lajan	lajan	NOUN	_	_	27	obj	_	Gloss=argent
 34	pou	pou	ADP	_	_	35	mark	_	Gloss=pour
 35	kontrekare	kontrekare	VERB	_	_	33	acl	_	Gloss=contrecarrer
 36	pwoblèm	pwoblèm	NOUN	_	_	35	obj	_	Gloss=problème
-37	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	36	det	_	Gloss=3SG
-38	yo	yo	DET	_	Definite=Def|Number=Plur	36	det	_	Gloss=DET|SpaceAfter=No
+37	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod	_	Gloss=3SG
+38	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	Gloss=les|SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 16__5
 # text = Desizyon sa a te pran byen lontan anvan 2 bank Ameriken yo te fè fayit.
 # text_fr = Cette décision a été prise bien longtemps avant que les 2 banques américaines  ont fait faillite.
+# Status = SILVER
 1	Desizyon	desizyon	NOUN	_	_	5	nsubj	_	Gloss=décision
-2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	_
-3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	_
+2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=cet
+3	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	1	det	_	Gloss=le
 4	te	te	AUX	_	Tense=Past	5	aux	_	Gloss=PAST
 5	pran	pran	VERB	_	_	0	root	_	Gloss=prendre
 6	byen	byen	ADV	_	_	5	advmod	_	Gloss=bien
@@ -131,8 +136,8 @@
 8	anvan	anvan	ADP	_	_	14	mark	_	Gloss=avant
 9	2	2	NUM	_	_	10	nummod	_	Gloss=2
 10	bank	bank	NOUN	_	_	14	nsubj	_	Gloss=banque
-11	Ameriken	ameriken	ADJ	_	_	10	amod	_	Gloss=américain
-12	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	_
+11	Ameriken	Ameriken	ADJ	_	_	10	amod	_	Gloss=américain
+12	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	Gloss=les
 13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
 14	fè	fè	VERB	_	_	5	advcl	_	Gloss=faire
 15	fayit	fayit	NOUN	_	_	14	obj	_	Gloss=faillite|SpaceAfter=No
@@ -141,43 +146,45 @@
 # sent_id = 16__6
 # text = Tibilans sa koze Mèkredi te lakoz yo te kanpe lavant aksyon Credit Suisse yo sou mache Suis la.
 # text_fr = Cette turbulence qui surgit mercredi a suscité qu'ils cessent la vente des actions de Crédits Suisse  sur le marché de la Suisse.
+# Status = SILVER
 1	Tibilans	Tibilans	NOUN	_	_	6	nsubj	_	Gloss=turbulence
-2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
+2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=cet
 3	koze	koze	VERB	_	_	1	acl	_	Gloss=occasionne
 4	Mèkredi	mèkredi	NOUN	_	_	3	obl:mod	_	Gloss=mercredi
 5	te	te	AUX	_	Tense=Past	6	aux	_	Gloss=PAST
-6	lakoz	lakoz	VERB	_	_	0	root	_	Gloss=susciter
+6	lakoz	lakoz	VERB	_	_	0	root	_	Gloss=causer
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Gloss=3PL
 8	te	te	AUX	_	Tense=Past	9	aux	_	Gloss=PAST
 9	kanpe	kanpe	VERB	_	_	6	ccomp	_	Gloss=cesser
 10	lavant	lavant	NOUN	_	_	9	obj	_	Gloss=vente
-11	aksyon	aksyon	NOUN	_	_	10	obj	_	Gloss=action
-12	Credit	credit	PROPN	_	_	11	obj	_	Gloss=Credit
-13	Suisse	suisse	PROPN	_	_	12	flat:name	_	Gloss=Suisse
-14	yo	yo	DET	_	Definite=Def|Number=Plur	11	det	_	Gloss=DET
+11	aksyon	aksyon	NOUN	_	_	10	nmod	_	Gloss=action
+12	Credit	Credit	PROPN	_	_	11	nmod	_	Gloss=Crédit
+13	Suisse	Suisse	PROPN	_	_	12	flat:name	_	Gloss=Suisse
+14	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	Gloss=les
 15	sou	sou	ADP	_	_	16	case	_	Gloss=sur
 16	mache	mache	NOUN	_	_	10	nmod	_	Gloss=marché
 17	Suis	suis	PROPN	_	_	16	nmod	_	Gloss=Suisse
-18	la	la	DET	_	Definite=Def|Number=Sing	16	det	_	Gloss=DET|SpaceAfter=No
+18	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	Gloss=le|SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 16__7
 # text = An menm tan sa te lakoz valè aksyon lòt bank Ewopeyen yo te plonje desann.
-# text_fr = Au  ce même moment, cela a  suscité la chute de beaucoup d'autre banque européenne.
+# text_fr = En même temps, cela a  provoqué la chute des autres banques européennes.
+# Status = SILVER
 1	An	an	ADP	_	_	3	case	_	Gloss=en
 2	menm	menm	ADJ	_	_	3	amod	_	Gloss=même
 3	tan	tan	NOUN	_	_	6	obl:mod	_	Gloss=temps
-4	sa	sa	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	Gloss=3SG
+4	sa	sa	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	Gloss=ça
 5	te	te	AUX	_	Tense=Past	6	aux	_	Gloss=PAST
 6	lakoz	lakoz	VERB	_	_	0	root	_	Gloss=causer
-7	valè	valè	NOUN	_	_	6	obj	_	Gloss=valeur
-8	aksyon	aksyon	NOUN	_	_	7	obj	_	Gloss=action
+7	valè	valè	NOUN	_	_	14	nsubj	_	Gloss=valeur
+8	aksyon	aksyon	NOUN	_	_	7	nmod	_	Gloss=action
 9	lòt	lòt	ADJ	_	_	10	amod	_	Gloss=autre
-10	bank	bank	NOUN	_	_	8	obj	_	Gloss=banque
-11	Ewopeyen	ewopeyen	ADJ	_	_	10	amod	_	Gloss=européenne
-12	yo	yo	PRON	_	Definite=Def|Number=Plur	14	nsubj	_	Gloss=3PL
+10	bank	bank	NOUN	_	_	8	nmod	_	Gloss=banque
+11	Ewopeyen	ewopeyen	ADJ	_	_	10	amod	_	Gloss=européen
+12	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	Gloss=les
 13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
-14	plonje	plonje	VERB	_	_	10	acl:relcl	_	Gloss=plonger
+14	plonje	plonje	VERB	_	_	6	ccomp	_	Gloss=plonger
 15	desann	desann	VERB	_	_	14	compound:svc	_	Gloss=descendre|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 

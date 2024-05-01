@@ -2,6 +2,7 @@
 # sent_id = 12__1
 # text = Meksik di l ap Mennen ankèt sou 8 Moun nan Dife ki te Touye Moun nan yon Sant pou Migran
 # text_fr = Mexique dit qu'il mène une enquête sur 8 personnes dans l'incendie qui a tué des gens dans un centre pour migrant.
+# Status = SILVER
 1	Meksik	Meksik	PROPN	_	_	2	nsubj	_	Gloss=Mexique
 2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Gloss=3SG
@@ -13,12 +14,12 @@
 9	Moun	moun	NOUN	_	_	6	nmod	_	Gloss=personne
 10	nan	nan	ADP	_	_	11	case	_	Gloss=dans
 11	Dife	dife	NOUN	_	_	9	nmod	_	Gloss=incendie
-12	ki	ki	PRON	_	_	14	nsubj	_	Gloss=qui
+12	ki	ki	PRON	_	PronType=Rel	14	nsubj	_	Gloss=qui
 13	te	te	AUX	_	Tense=Past	14	aux	_	Gloss=PAST
 14	Touye	touye	VERB	_	_	11	acl:relcl	_	Gloss=tuer
-15	Moun	moun	NOUN	_	_	14	obj	_	Gloss=gens
+15	Moun	moun	NOUN	_	_	14	obj	_	Gloss=personne
 16	nan	nan	ADP	_	_	18	case	_	Gloss=dans
-17	yon	yon	DET	_	Definite=Ind|Number=Sing	18	det	_	Gloss=un
+17	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	18	det	_	Gloss=un
 18	Sant	sant	NOUN	_	_	15	nmod	_	Gloss=centre
 19	pou	pou	ADP	_	_	20	case	_	Gloss=pour
 20	Migran	migran	NOUN	_	_	18	nmod	_	Gloss=migrant
@@ -26,17 +27,18 @@
 # sent_id = 12__2
 # text = CIUDAD JUAREZ, Meksik (AP) — Otorite Meksiken yo di y ap mennen ankèt sou 8 anplwaye oswa otorite pou konnen si se move konduit nan yon sant kote yo kenbe migran ki te lakoz dife ki pran lavi 39 moun ki te anba kòd nan sant la.
 # text_fr = Ville Juarez, Mexique , les autorités mexicaines disent qu'ils mènent une enquête sur 8 employés ou bien des autorités pour savoir si c'est une mauvaise conduite  dans un centre où ils accueillent les migrants qui  a occasionné l'incendie qui ôte la vie de 39 personnes qui ont été emprisonnés dans le centre.
+# Status = SILVER
 1	CIUDAD	Ciudad	PROPN	_	_	12	dep	_	Gloss=Ville
 2	JUAREZ	Juarez	PROPN	_	_	1	flat:name	_	Gloss=Juarez|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Meksik	Meksik	PROPN	_	_	1	appos	_	Gloss=Mexique
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	AP	ap	PROPN	_	_	4	dep	_	Gloss=Associated Press|SpaceAfter=No
+6	AP	AP	PROPN	_	_	4	dep	_	Gloss=Associated Press|SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
 8	—	—	PUNCT	_	_	1	punct	_	_
 9	Otorite	otorite	NOUN	_	_	12	nsubj	_	Gloss=autorité
-10	Meksiken	meksiken	ADJ	_	_	9	amod	_	Gloss=mexicaine
-11	yo	yo	DET	_	Definite=Def|Number=Plur	9	det	_	Gloss=les
+10	Meksiken	Meksiken	ADJ	_	_	9	amod	_	Gloss=mexicain
+11	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	Gloss=les
 12	di	di	VERB	_	_	0	root	_	Gloss=dire
 13	y	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	15	nsubj	_	Gloss=3PL
 14	ap	ap	AUX	_	Aspect=Prog	15	aux	_	Gloss=PROG
@@ -54,71 +56,72 @@
 26	move	move	ADJ	_	_	27	amod	_	Gloss=mauvaise
 27	konduit	konduit	NOUN	_	_	23	ccomp	_	Gloss=conduite
 28	nan	nan	ADP	_	_	30	case	_	Gloss=dans
-29	yon	yon	DET	_	Definite=Ind|Number=Sing	30	det	_	Gloss=un
+29	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	30	det	_	Gloss=un
 30	sant	sant	NOUN	_	_	27	nmod	_	Gloss=centre
-31	kote	kote	PRON	_	_	30	acl:relcl	_	Gloss=où
+31	kote	kote	ADV	_	PronType=Rel	30	acl:relcl	_	Gloss=où
 32	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	33	nsubj	_	Gloss=3PL
 33	kenbe	kenbe	VERB	_	_	31	ccomp	_	Gloss=accueillir
 34	migran	migran	NOUN	_	_	33	obj	_	Gloss=migrant
-35	ki	ki	PRON	_	_	37	nsubj	_	Gloss=qui
+35	ki	ki	PRON	_	PronType=Rel	37	nsubj	_	Gloss=qui
 36	te	te	AUX	_	Tense=Past	37	aux	_	Gloss=PAST
-37	lakoz	lakoz	VERB	_	_	27	acl:relcl	_	Gloss=occasionner
+37	lakoz	lakoz	VERB	_	_	27	acl:relcl	_	Gloss=causer
 38	dife	dife	NOUN	_	_	37	obj	_	Gloss=incendie
-39	ki	ki	PRON	_	_	40	nsubj	_	Gloss=qui
+39	ki	ki	PRON	_	PronType=Rel	40	nsubj	_	Gloss=qui
 40	pran	pran	VERB	_	_	38	acl:relcl	_	Gloss=prendre
 41	lavi	lavi	NOUN	_	_	40	obj	_	Gloss=vie
 42	39	39	NUM	_	_	43	nummod	_	Gloss=39
-43	moun	moun	NOUN	_	_	41	obj	_	Gloss=personne
-44	ki	ki	PRON	_	_	46	nsubj	_	Gloss=qui
+43	moun	moun	NOUN	_	_	41	nmod	_	Gloss=personne
+44	ki	ki	PRON	_	PronType=Rel	46	nsubj	_	Gloss=qui
 45	te	te	AUX	_	Tense=Past	46	aux	_	Gloss=PAST
 46	anba	anba	VERB	_	_	43	acl:relcl	_	Gloss=arrêter, emprisonner
 47	kòd	kòd	NOUN	_	_	46	obj	_	Gloss=corde
 48	nan	nan	ADP	_	_	49	case	_	Gloss=dans
 49	sant	sant	NOUN	_	_	46	obl	_	Gloss=centre
-50	la	la	DET	_	Definite=Def|Number=Sing	49	det	_	Gloss=le|SpaceAfter=No
+50	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	Gloss=le|SpaceAfter=No
 51	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 12__3
 # text = Kòlè ak fristrasyon apre dife a nan vil Ciudad Juarez te kontinye Mèkredi pandan plizyè santèn imigran t ap mache pou rive nan yon pòtay ki toupre fwontyè peyi a ak Lèzetazini nan espwa ke yo ka travèse an mas.
 # text_fr = La colère et la frustration après l'incendie dans la ville de Ciudad Juarez continuaient mercredi pendant plusieurs centaines immigrants étaient en train de marcher pour arriver dans un portail qui est tout prêt de la frontière du pays avec les Etats-Unis dans l'espoir qu'ils peuvent traverser en mars.
+# Status = SILVER
 1	Kòlè	Kòlè	NOUN	_	_	12	nsubj	_	Gloss=colère
 2	ak	ak	CCONJ	_	_	3	cc	_	Gloss=et
 3	fristrasyon	fristrasyon	NOUN	_	_	1	conj	_	Gloss=frustration
 4	apre	apre	ADP	_	_	5	case	_	Gloss=après
 5	dife	dife	NOUN	_	_	3	nmod	_	Gloss=incendie
-6	a	a	DET	_	Definite=Def|Number=Sing	5	det	_	Gloss=l'
+6	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gloss=le
 7	nan	nan	ADP	_	_	8	case	_	Gloss=dans
 8	vil	vil	NOUN	_	_	5	nmod	_	Gloss=ville
-9	Ciudad	Ciudad	PROPN	_	_	8	obj	_	Gloss=Ciudad
+9	Ciudad	Ciudad	PROPN	_	_	8	nmod	_	Gloss=Ciudad
 10	Juarez	Juarez	PROPN	_	_	9	flat:name	_	Gloss=Juarez
 11	te	te	AUX	_	Tense=Past	12	aux	_	Gloss=PAST
-12	kontinye	kontinye	VERB	_	_	0	root	_	Gloss=verbe
+12	kontinye	kontinye	VERB	_	_	0	root	_	Gloss=continuer
 13	Mèkredi	mèkredi	NOUN	_	_	12	obl:mod	_	Gloss=mercredi
 14	pandan	pandan	ADP	_	_	20	mark	_	Gloss=pendant
-15	plizyè	plizyè	DET	_	_	16	det	_	Gloss=plusieurs
+15	plizyè	plizyè	DET	_	Number=Plur	16	det	_	Gloss=plusieurs
 16	santèn	santèn	NOUN	_	_	20	nsubj	_	Gloss=centaine
-17	imigran	imigran	NOUN	_	_	16	obj	_	Gloss=immigrant
+17	imigran	imigran	NOUN	_	_	16	nmod	_	Gloss=immigrant
 18	t	te	AUX	_	Tense=Past	20	aux	_	Gloss=PAST
 19	ap	ap	AUX	_	Aspect=Prog	20	aux	_	Gloss=PROG
 20	mache	mache	VERB	_	_	12	advcl	_	Gloss=marcher
 21	pou	pou	ADP	_	_	22	mark	_	Gloss=pour
 22	rive	rive	VERB	_	_	20	dep	_	Gloss=arriver
 23	nan	nan	ADP	_	_	25	case	_	Gloss=dans
-24	yon	yon	DET	_	_	25	det	_	Gloss=un
+24	yon	yon	DET	_	PronType=Art	25	det	_	Gloss=un
 25	pòtay	pòtay	NOUN	_	_	22	obl:arg	_	Gloss=portail
-26	ki	ki	PRON	_	_	28	nsubj	_	Gloss=qui
+26	ki	ki	PRON	_	PronType=Rel	28	nsubj	_	Gloss=qui
 27	toupre	toupre	ADV	_	_	28	advmod	_	Gloss=tout prêt de
 28	fwontyè	fwontyè	NOUN	_	_	25	acl:relcl	_	Gloss=frontière
-29	peyi	peyi	NOUN	_	_	28	obj	_	Gloss=pays
-30	a	a	DET	_	Definite=Ind|Number=Sing	28	det	_	Gloss=une
-31	ak	ak	ADP	_	_	32	case	_	Gloss=et
+29	peyi	peyi	NOUN	_	_	28	nmod	_	Gloss=pays
+30	a	la	DET	_	Definite=Ind|Number=Sing|PronType=Art	28	det	_	Gloss=le
+31	ak	ak	ADP	_	_	32	case	_	Gloss=avec
 32	Lèzetazini	Lèzetazini	PROPN	_	_	28	nmod	_	Gloss=Etats-Unis
 33	nan	nan	ADP	_	_	34	case	_	Gloss=dans
 34	espwa	espwa	NOUN	_	_	20	obl:mod	_	Gloss=espoir
-35	ke	ke	SCONJ	_	_	37	mark	_	Gloss=que
-36	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	37	nsubj	_	Gloss=3PL
-37	ka	ka	VERB	_	_	34	ccomp	_	Gloss=peuvent
-38	travèse	travèse	VERB	_	_	37	ccomp	_	Gloss=traverser
+35	ke	ke	SCONJ	_	_	38	mark	_	Gloss=que
+36	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	38	nsubj	_	Gloss=3PL
+37	ka	ka	AUX	_	_	38	aux	_	Gloss=pouvoir
+38	travèse	travèse	VERB	_	_	34	acl	_	Gloss=traverser
 39	an	an	ADP	_	_	40	case	_	Gloss=en
 40	mas	mas	NOUN	_	_	38	obl	_	Gloss=mars|SpaceAfter=No
 41	.	.	PUNCT	_	_	12	punct	_	_
@@ -126,35 +129,37 @@
 # sent_id = 12__4
 # text = Otorite Meksiken yo sanble lage responsablite lanmò yo sou kontraktè prive ki t ap travay kòm gad sekirite.
 # text_fr = Les autorités mexicaines semblent donner la responsabilité des morts à des contracteurs privés qui étaient en train de travailler comme agent de sécurité.
-1	Otorite	Otorite	NOUN	_	_	4	nsubj	_	Gloss=autorité
-2	Meksiken	Meksiken	ADJ	_	_	1	amod	_	Gloss=mexicaine
-3	yo	yo	DET	_	Definite=Def|Number=Plur	1	det	_	Gloss=DET
+# Status = SILVER
+1	Otorite	otorite	NOUN	_	_	4	nsubj	_	Gloss=autorité
+2	Meksiken	Meksiken	ADJ	_	_	1	amod	_	Gloss=mexicain
+3	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	1	det	_	Gloss=les
 4	sanble	sanble	VERB	_	_	0	root	_	Gloss=sembler
 5	lage	lage	VERB	_	_	4	ccomp	_	Gloss=donner
 6	responsablite	responsablite	NOUN	_	_	5	obl:arg	_	Gloss=responsabilité
-7	lanmò	lanmò	NOUN	_	_	6	obj	_	Gloss=mort
-8	yo	yo	DET	_	Definite=Def|Number=Plur	7	det	_	Gloss=les
-9	sou	sou	ADP	_	_	10	case	_	Gloss=à
+7	lanmò	lanmò	NOUN	_	_	6	nmod	_	Gloss=mort
+8	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	Gloss=les
+9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	kontraktè	kontraktè	NOUN	_	_	5	obj	_	Gloss=contracteur
 11	prive	prive	ADJ	_	_	10	amod	_	Gloss=privé
-12	ki	ki	PRON	_	_	15	nsubj	_	Gloss=qui
+12	ki	ki	PRON	_	PronType=Rel	15	nsubj	_	Gloss=qui
 13	t	te	AUX	_	Tense=Past	15	aux	_	Gloss=PAST
 14	ap	ap	AUX	_	Aspect=Prog	15	aux	_	Gloss=PROG
 15	travay	travay	VERB	_	_	10	acl:relcl	_	Gloss=travailler
 16	kòm	kòm	ADP	_	_	17	case	_	Gloss=comme
-17	gad	gad	NOUN	_	_	15	obl:mod	_	Gloss=agent
-18	sekirite	sekirite	NOUN	_	_	17	obj	_	Gloss=sécurité|SpaceAfter=No
+17	gad	gad	NOUN	_	_	15	obl:mod	_	Gloss=garde
+18	sekirite	sekirite	NOUN	_	_	17	nmod	_	Gloss=sécurité|SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 12__5
 # text = Videyo te montre gad yo ki t ap kouri pou lafimen san yo pa chache libere prizonye yo.
 # text_fr = La vidéo a montré que les gardes qui couraient pour la fumée sans qu'ils ne menent aucune action pour libérer les prisoniers
+# Status = SILVER
 1	Videyo	Videyo	NOUN	_	_	3	nsubj	_	Gloss=vidéo
 2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	montre	montre	VERB	_	_	0	root	_	Gloss=montrer
 4	gad	gad	NOUN	_	_	3	obj	_	Gloss=garde
-5	yo	yo	DET	_	Definite=Def|Number=Plur	4	det	_	Gloss=les
-6	ki	ki	PRON	_	_	9	nsubj	_	Gloss=qui
+5	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	Gloss=les
+6	ki	ki	PRON	_	PronType=Rel	9	nsubj	_	Gloss=qui
 7	t	te	AUX	_	Tense=Past	9	aux	_	Gloss=PAST
 8	ap	ap	AUX	_	Aspect=Prog	9	aux	_	Gloss=PROG
 9	kouri	kouri	VERB	_	_	4	acl:relcl	_	Gloss=courir
@@ -166,6 +171,6 @@
 15	chache	chache	VERB	_	_	9	advcl	_	Gloss=chercher
 16	libere	libere	VERB	_	_	15	ccomp	_	Gloss=libérer
 17	prizonye	prizonye	NOUN	_	_	16	obj	_	Gloss=prisonier
-18	yo	yo	DET	_	Definite=Def|Number=Plur	17	det	_	Gloss=les|SpaceAfter=No
+18	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	Gloss=les|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 

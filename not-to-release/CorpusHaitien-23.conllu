@@ -2,35 +2,37 @@
 # sent_id = 23__1
 # text = Depatman Deta Konfime yo Kidnape 2 Sitwayen Ameriken an Ayiti
 # text_fr = Le département d'Etat confirme qu'ils  ont kidnappé deux citoyens américains en Haïti.
+# Status = SILVER
 1	Depatman	Depatman	NOUN	_	_	3	nsubj	_	Gloss=département
-2	Deta	Deta	NOUN	_	_	1	obj	_	Gloss=d'Eta
+2	Deta	Deta	NOUN	_	_	1	nmod	_	Gloss=d'Etat
 3	Konfime	konfime	VERB	_	_	0	root	_	Gloss=confirmer
 4	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Gloss=3PL
 5	Kidnape	kidnape	VERB	_	_	3	ccomp	_	Gloss=kidnapper
-6	2	2	NUM	_	_	7	nummod	_	Gloss=deux
+6	2	2	NUM	_	_	7	nummod	_	Gloss=2
 7	Sitwayen	sitwayen	NOUN	_	_	5	obj	_	Gloss=citoyen
-8	Ameriken	ameriken	ADJ	_	_	7	amod	_	Gloss=américain
+8	Ameriken	Ameriken	ADJ	_	_	7	amod	_	Gloss=américain
 9	an	an	ADP	_	_	10	case	_	Gloss=en
 10	Ayiti	Ayiti	PROPN	_	_	5	obl	_	Gloss=Haïti
 
 # sent_id = 23__2
 # text = Jean-Dickens Toussaint ak madanm ni Abigail Michael Toussaint poze pou yon foto jou maryaj yo nan Pompano Beach, Florid.
 # text_fr = Jean-Dickens  Toussaint et sa femme, Abigail Michael Toussaint reste pour prendre une photo le jour de leur mariage à Pompano Beach, Floride.
-1	Jean-Dickens	JeAn-dickens	PROPN	_	_	9	nsubj	_	Gloss=Jean-Dickens
+# Status = SILVER
+1	Jean-Dickens	Jean-Dickens	PROPN	_	_	9	nsubj	_	Gloss=Jean-Dickens
 2	Toussaint	Toussaint	PROPN	_	_	1	flat:name	_	Gloss=Toussaint
 3	ak	ak	CCONJ	_	_	4	cc	_	Gloss=et
 4	madanm	madanm	NOUN	_	_	2	conj	_	Gloss=femme
-5	ni	ni	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	det	_	Gloss=3SG
+5	ni	li	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nmod	_	Gloss=3SG
 6	Abigail	Abigail	PROPN	_	_	4	appos	_	Gloss=Abigail
 7	Michael	Michael	PROPN	_	_	6	flat:name	_	Gloss=Michael
 8	Toussaint	Toussaint	PROPN	_	_	6	flat:name	_	Gloss=Toussaint
 9	poze	poze	VERB	_	_	0	root	_	Gloss=prendre
 10	pou	pou	ADP	_	_	12	case	_	Gloss=pour
-11	yon	yon	DET	_	Definite=Ind|Number=Sing	12	det	_	Gloss=une
+11	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	12	det	_	Gloss=un
 12	foto	foto	NOUN	_	_	9	obl	_	Gloss=photo
 13	jou	jou	NOUN	_	_	9	obl:mod	_	Gloss=jour
 14	maryaj	maryaj	NOUN	_	_	13	nmod	_	Gloss=mariage
-15	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	14	det	_	Gloss=DET
+15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	14	nmod	_	Gloss=les
 16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
 17	Pompano	Pompano	PROPN	_	_	9	obl	_	Gloss=Pompano
 18	Beach	Beach	PROPN	_	_	17	flat:name	_	Gloss=Beach|SpaceAfter=No
@@ -41,11 +43,12 @@
 # sent_id = 23__3
 # text = Pòtpawol adjwen Depatman Deta a, Vendant Patel konfime Jedi 30 mas 2023 ke yo kidnape 2 sitwayen Ameriken an Ayiti.
 # text_fr = Le porte-parole adjoint du département d'Etat, Vendant Patel confirme le jeudi 30 mars 2023 qu'ils ont kidnappé deux citoyens américains en Haïti.
+# Status = SILVER
 1	Pòtpawol	Pòtpawol	NOUN	_	_	9	nsubj	_	Gloss=Porte parole
 2	adjwen	adjwen	ADJ	_	_	1	amod	_	Gloss=adjoint
-3	Depatman	Depatman	NOUN	_	_	1	obj	_	Gloss=département
-4	Deta	Deta	NOUN	_	_	3	obj	_	Gloss=d'Etat
-5	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=le|SpaceAfter=No
+3	Depatman	Depatman	NOUN	_	_	1	nmod	_	Gloss=département
+4	Deta	Deta	NOUN	_	_	3	nmod	_	Gloss=d'Etat
+5	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	1	det	_	Gloss=le|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	Vendant	Vendant	PROPN	_	_	1	appos	_	Gloss=Vendant
 8	Patel	Patel	PROPN	_	_	7	flat:name	_	Gloss=Patel
@@ -55,10 +58,10 @@
 12	mas	mas	NOUN	_	_	11	nmod	_	Gloss=mars
 13	2023	2023	NUM	_	_	12	nmod	_	Gloss=2023
 14	ke	ke	SCONJ	_	_	16	mark	_	Gloss=que
-15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Rel	16	nsubj	_	Gloss=3PL
+15	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	16	nsubj	_	Gloss=3PL
 16	kidnape	kidnape	VERB	_	_	9	ccomp	_	Gloss=kidnapper
 17	2	2	NUM	_	_	18	nummod	_	Gloss=2
-18	sitwayen	sitwayen	NOUN	_	_	16	obj	_	Gloss=citoyens
+18	sitwayen	sitwayen	NOUN	_	_	16	obj	_	Gloss=citoyen
 19	Ameriken	Ameriken	ADJ	_	_	18	amod	_	Gloss=américain
 20	an	an	ADP	_	_	21	case	_	Gloss=en
 21	Ayiti	Ayiti	PROPN	_	_	16	obl	_	Gloss=Haïti|SpaceAfter=No
@@ -67,6 +70,7 @@
 # sent_id = 23__4
 # text = Li ajoute ke Washington an kontak ak otorite Ayisyen yo e ke Etazini pral kontinye travay ak yo.
 # text_fr = Il ajoute que Washington est en contact avec les autorités haïtiennes et que les Etats-Unis continueront de travailler avec eux.
+# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
 2	ajoute	ajoute	VERB	_	_	0	root	_	Gloss=ajouter
 3	ke	ke	SCONJ	_	_	6	mark	_	Gloss=que
@@ -75,30 +79,31 @@
 6	kontak	kontak	NOUN	_	_	2	ccomp	_	Gloss=contact
 7	ak	ak	ADP	_	_	8	case	_	Gloss=avec
 8	otorite	otorite	NOUN	_	_	6	nmod	_	Gloss=autorité
-9	Ayisyen	ayisyen	ADJ	_	_	8	amod	_	Gloss=haïtien
-10	yo	yo	DET	_	Definite=Def|Number=Plur|Poss=Yes	8	det	_	Gloss=3PL
+9	Ayisyen	Ayisyen	ADJ	_	_	8	amod	_	Gloss=haïtien
+10	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	Gloss=les
 11	e	e	CCONJ	_	_	15	cc	_	Gloss=et
-12	ke	ke	SCONJ	_	_	15	mark	_	Gloss=que
-13	Etazini	Etazini	PROPN	_	_	15	nsubj	_	Gloss=Etats-Unis
+12	ke	ke	SCONJ	_	PronType=Rel	15	mark	_	Gloss=que
+13	Etazini	Etazini	PROPN	_	_	15	nsubj	_	Gloss=États-Unis
 14	pral	pral	AUX	_	Tense=Fut	15	aux	_	Gloss=FUT
 15	kontinye	kontinye	VERB	_	_	6	conj	_	Gloss=continuer
 16	travay	travay	NOUN	_	_	15	obj	_	Gloss=travail
 17	ak	ak	ADP	_	_	18	case	_	Gloss=avec
-18	yo	yo	PRON	_	Definite=Def|Number=Plur|PronType=Prs	16	nmod	_	Gloss=3PL|SpaceAfter=No
+18	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	16	nmod	_	Gloss=3PL|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 23__5
 # text = Patel te refize bay okenn lòt detay sou dosye a.
 # text_fr = Patel refusait de donner d'autres détails sur le dossier.
+# Status = SILVER
 1	Patel	Patel	PROPN	_	_	3	nsubj	_	Gloss=Patel
 2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	refize	refize	VERB	_	_	0	root	_	Gloss=refuser
 4	bay	bay	VERB	_	_	3	ccomp	_	Gloss=donner
-5	okenn	okenn	DET	_	_	7	det	_	Gloss=aucun
+5	okenn	okenn	DET	_	Polarity=Neg	7	det	_	Gloss=aucun
 6	lòt	lòt	ADJ	_	_	7	amod	_	Gloss=autre
 7	detay	detay	NOUN	_	_	4	obj	_	Gloss=détail
 8	sou	sou	ADP	_	_	9	case	_	Gloss=sur
 9	dosye	dosye	NOUN	_	_	7	nmod	_	Gloss=dossier
-10	a	a	DET	_	Definite=Def|Number=Sing	9	det	_	Gloss=le|SpaceAfter=No
+10	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gloss=le|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 

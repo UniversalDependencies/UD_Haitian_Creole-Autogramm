@@ -2,134 +2,139 @@
 # sent_id = 06__1
 # text = Lachin Lanse yon Pinga bay Lidè Taiwan Akoz yon Rankont li Pral Fè ak Responsab Ameriken
 # text_fr = la Chine lance une mise en garde au leader du Taiwan à cause d'une rencontre qu'elle fera avec les responsables américains.
-1	Lachin	lachin	PROPN	_	_	2	nsubj	_	Gloss=Chine
+# Status = SILVER
+1	Lachin	Lachin	PROPN	_	_	2	nsubj	_	Gloss=Chine
 2	Lanse	lanse	VERB	_	_	0	root	_	Gloss=lancer
-3	yon	yon	DET	_	Definite=Ind|Number=Sing	4	det	_	Gloss=DET
+3	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	4	det	_	Gloss=un
 4	Pinga	pinga	NOUN	_	_	5	obj	_	Gloss=mise en garde
-5	bay	bay	VERB	_	_	2	ccomp	_	Gloss=au, donner
+5	bay	bay	VERB	_	_	2	ccomp	_	Gloss=donner
 6	Lidè	lidè	NOUN	_	_	5	iobj	_	Gloss=leader
-7	Taiwan	taiwan	PROPN	_	_	6	obj	_	Gloss=Taïwan
+7	Taiwan	Taiwan	PROPN	_	_	6	nmod	_	Gloss=Taïwan
 8	Akoz	akoz	ADV	_	_	2	advmod	_	Gloss=à cause de
-9	yon	yon	DET	_	Definite=Ind|Number=Sing	10	det	_	_
+9	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	10	det	_	Gloss=un
 10	Rankont	rankont	NOUN	_	_	8	obj	_	Gloss=rencontre
-11	li	li	PRON	_	Number=Sing|Person=3|Poss=Yes	13	nsubj	_	Gloss=3SG
+11	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Gloss=3SG
 12	Pral	pral	AUX	_	Tense=Fut	13	aux	_	Gloss=FUT
 13	Fè	fè	VERB	_	_	10	acl:relcl	_	Gloss=faire
 14	ak	ak	ADP	_	_	15	case	_	Gloss=avec
 15	Responsab	responsab	NOUN	_	_	13	obl	_	Gloss=responsable
-16	Ameriken	ameriken	ADJ	_	_	15	amod	_	Gloss=américain
+16	Ameriken	Ameriken	ADJ	_	_	15	amod	_	Gloss=américain
 
 # sent_id = 06__2
 # text = Prezidan Taiwan Tsai Ing-wen (mitan) ak sekrete jeneral biwo prezidans la Lin Chia-lung (a goch) epi Minis Afe Etranje Joseph Wu (a dwat), nan Taipei, Taiwan, 29 Mas, 2023.
 # text_fr = le Président du Taïwan Tsai Ing-wen au milieu et le secrétaire général  du bureau de la présidence Lin Chia-Lung à gauche puis le Ministre des Affaires étrangères Joseph Wu à droite, à Taipei, le 29 mars 2023.
-1	Prezidan	Prezidan	NOUN	_	_	0	root	_	Gloss=président
-2	Taiwan	Taiwan	PROPN	_	_	1	nmod	_	Gloss=Taiwan
-3	Tsai	Tsai	PROPN	_	_	1	appos	_	Gloss=Tsai
+# Status = SILVER
+1	Prezidan	prezidan	NOUN	_	_	0	root	_	Gloss=président
+2	Taiwan	Taiwan	PROPN	_	_	1	nmod	_	Gloss=Taïwan
+3	Tsai	tsai	PROPN	_	_	1	appos	_	Gloss=Tsai
 4	Ing-wen	Ing-wen	PROPN	_	_	3	flat:name	_	Gloss=Ing-wen
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	mitan	mitan	NOUN	_	_	1	parataxis	_	Gloss=milieu|SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
 8	ak	ak	CCONJ	_	_	9	cc	_	Gloss=et
 9	sekrete	sekretè	NOUN	_	_	1	conj	_	Gloss=secrétaire
-10	jeneral	jeneral	ADJ	_	_	9	amod	_	Gloss=générale
+10	jeneral	jeneral	ADJ	_	_	9	amod	_	Gloss=général
 11	biwo	biwo	NOUN	_	_	9	nmod	_	Gloss=bureau
-12	prezidans	prezidans	NOUN	_	_	11	obj	_	Gloss=présidence
-13	la	la	DET	_	Definite=Def|Number=Sing	11	det	_	_
+12	prezidans	prezidans	NOUN	_	_	11	nmod	_	Gloss=présidence
+13	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gloss=le
 14	Lin	Lin	PROPN	_	_	9	appos	_	Gloss=Lin
 15	Chia-lung	Chia-lung	PROPN	_	_	14	flat:name	_	Gloss=Chia-lung
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	a	a	ADP	_	_	18	case	_	Gloss=à
 18	goch	goch	NOUN	_	_	14	parataxis	_	Gloss=gauche|SpaceAfter=No
 19	)	)	PUNCT	_	_	18	punct	_	_
-20	epi	epi	CCONJ	_	_	21	cc	_	Gloss=puis
+20	epi	epi	CCONJ	_	_	21	cc	_	Gloss=et puis
 21	Minis	minis	NOUN	_	_	14	conj	_	Gloss=ministre
-22	Afe	afè	NOUN	_	_	21	obj	_	Gloss=affaire
+22	Afe	afè	NOUN	_	_	21	nmod	_	Gloss=affaire
 23	Etranje	etranjè	ADJ	_	_	22	amod	_	Gloss=étranger
 24	Joseph	Joseph	PROPN	_	_	21	appos	_	Gloss=Joseph
 25	Wu	Wu	PROPN	_	_	24	flat:name	_	Gloss=Wu
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	a	a	DET	_	_	21	parataxis	_	Gloss=à
+27	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	21	parataxis	_	Gloss=le
 28	dwat	dwat	NOUN	_	_	27	obj	_	Gloss=droite|SpaceAfter=No
 29	),	),	PUNCT	_	_	28	punct	_	_
 30	nan	nan	ADP	_	_	31	case	_	Gloss=dans
 31	Taipei	Taipei	PROPN	_	_	1	nmod	_	Gloss=Taipei|SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	Taiwan	Taiwan	PROPN	_	_	31	appos	_	Gloss=Taiwan|SpaceAfter=No
+33	Taiwan	Taiwan	PROPN	_	_	31	appos	_	Gloss=Taïwan|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	29	29	NUM	_	_	1	nmod	_	Gloss=29
 36	Mas	mas	NOUN	_	_	35	nmod	_	Gloss=mars|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	2023.	2023.	NUM	_	_	36	nmod	_	Gloss=2023.
+38	2023.	2023.	NUM	_	_	36	nmod	_	Gloss=2023
 
 # sent_id = 06__3
 # text = Lachin menase pou l "kontrekare yon fason rezolu" rankont prezidan Taiwan nan ap planifye pou fè ak Lide Lachanm Depite Etazini pandan yon vizit nan vil Los Angeles.
 # text_fr = La chine menace pour qu'elle affronte d'une manière résolue la rencontre que le président de Taiwan planifie à faire avec le leader de la Chambre des députés des Etats-Unis pendant une visite dans la ville de Los Angeles.
+# Status = SILVER
 1	Lachin	Lachin	PROPN	_	_	2	nsubj	_	Gloss=Chine
 2	menase	menase	VERB	_	_	0	root	_	Gloss=menacer
 3	pou	pou	ADP	_	_	6	mark	_	Gloss=pour
 4	l	li	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Gloss=3SG
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	kontrekare	kontrekare	VERB	_	_	2	dep	_	Gloss=affronter
-7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	_
+7	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	Gloss=un
 8	fason	fason	NOUN	_	_	6	obl:mod	_	Gloss=façon
 9	rezolu	rezolu	ADJ	_	_	8	amod	_	Gloss=résolu|SpaceAfter=No
 10	"	"	PUNCT	_	_	6	punct	_	_
 11	rankont	rankont	NOUN	_	_	6	obj	_	Gloss=rencontre
 12	prezidan	prezidan	NOUN	_	_	16	nsubj	_	Gloss=président
-13	Taiwan	taiwan	PROPN	_	_	12	nmod	_	Gloss=Taiwan
-14	nan	nan	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=le
-15	ap	ap	AUX	_	Aspect=Prog	16	aux	_	Gloss=PAST
+13	Taiwan	Taiwan	PROPN	_	_	12	nmod	_	Gloss=Taïwan
+14	nan	la	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gloss=le
+15	ap	ap	AUX	_	Aspect=Prog	16	aux	_	Gloss=PROG
 16	planifye	planifye	VERB	_	_	11	acl:relcl	_	_
 17	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 18	fè	fè	VERB	_	_	16	dep	_	Gloss=faire
 19	ak	ak	ADP	_	_	20	case	_	Gloss=avec
 20	Lide	lide	NOUN	_	_	18	obl	_	Gloss=leader
-21	Lachanm	lachanm	NOUN	_	_	20	obj	_	Gloss=chambre
-22	Depite	depite	NOUN	_	_	21	obj	_	Gloss=député
-23	Etazini	Etazini	PROPN	_	_	22	nmod	_	Gloss=Etats-Unis
+21	Lachanm	lachanm	NOUN	_	_	20	nmod	_	Gloss=chambre
+22	Depite	depite	NOUN	_	_	21	nmod	_	Gloss=député
+23	Etazini	Etazini	PROPN	_	_	22	nmod	_	Gloss=États-Unis
 24	pandan	pandan	ADP	_	_	26	case	_	Gloss=pendant
-25	yon	yon	DET	_	Definite=Ind|Number=Sing	26	det	_	_
+25	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	26	det	_	Gloss=un
 26	vizit	vizit	NOUN	_	_	18	obl:mod	_	Gloss=visite
 27	nan	nan	ADP	_	_	28	case	_	Gloss=dans
 28	vil	vil	NOUN	_	_	26	nmod	_	Gloss=ville
-29	Los	Los	PROPN	_	_	28	obj	_	Gloss=Los
+29	Los	Los	PROPN	_	_	28	nmod	_	Gloss=Los
 30	Angeles	Angeles	PROPN	_	_	29	flat:name	_	Gloss=Angeles|SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 06__4
 # text = Biwo Chinwa pou Zafè ki gen pou wè ak Taiwan nan mande pou oken responsab Ameriken pa rankontre Prezidan Taiwanèz Tsai Ing-wen.
 # text_fr = le bureau chinois pour l'affaire qui a à voir avec Taiwan demande pour  qu'aucun responsable américain ne rencontre la président taiwanaise  Tsai Ing-wen.
+# Status = SILVER
 1	Biwo	biwo	NOUN	_	_	12	nsubj	_	Gloss=bros
 2	Chinwa	chinwa	ADJ	_	_	1	amod	_	Gloss=chinois
 3	pou	pou	ADP	_	_	4	case	_	Gloss=pour
 4	Zafè	Zafè	NOUN	_	_	1	nmod	_	Gloss=affaire
-5	ki	ki	PRON	_	_	6	nsubj	_	Gloss=qui
+5	ki	ki	PRON	_	PronType=Rel	6	nsubj	_	Gloss=qui
 6	gen	gen	VERB	_	_	4	acl:relcl	_	Gloss=avoir
 7	pou	pou	ADP	_	_	8	mark	_	Gloss=pour
 8	wè	wè	VERB	_	_	6	dep	_	Gloss=voir
-9	ak	ak	ADP	_	_	10	case	_	Gloss=à
-10	Taiwan	taiwan	PROPN	_	_	6	obl	_	Gloss=Taiwan
-11	nan	nan	DET	_	Definite=Def|Number=Sing	10	det	_	Gloss=le
+9	ak	ak	ADP	_	_	10	case	_	Gloss=avec
+10	Taiwan	Taiwan	PROPN	_	_	6	obl	_	Gloss=Taïwan
+11	nan	la	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Gloss=le
 12	mande	mande	VERB	_	_	0	root	_	Gloss=demander
 13	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
-14	oken	oken	DET	_	_	15	det	_	Gloss=aucun
+14	oken	oken	DET	_	Polarity=Neg	15	det	_	Gloss=aucun
 15	responsab	responsab	NOUN	_	_	18	nsubj	_	Gloss=responsable
-16	Ameriken	ameriken	ADJ	_	_	15	amod	_	Gloss=américain
+16	Ameriken	Ameriken	ADJ	_	_	15	amod	_	Gloss=américain
 17	pa	pa	ADV	_	Polarity=Neg	18	advmod	_	Gloss=NEG
 18	rankontre	rankontre	VERB	_	_	12	dep	_	Gloss=rencontrer
-19	Prezidan	prezidan	NOUN	_	_	18	obj	_	Gloss=présidente
+19	Prezidan	prezidan	NOUN	_	_	18	obj	_	Gloss=président
 20	Taiwanèz	taiwanèz	ADJ	_	_	19	amod	_	Gloss=taiwanaise
-21	Tsai	Tsai	PROPN	_	_	19	appos	_	Gloss=Tsai
+21	Tsai	tsai	PROPN	_	_	19	appos	_	Gloss=Tsai
 22	Ing-wen	Ing-wen	PROPN	_	_	21	flat:name	_	Gloss=Ing-wen|SpaceAfter=No
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 06__5
 # text = Tsai pati kite Taiwan Mekredi pou peyi etranje.
 # text_fr = Tsai a laissé Taïwan mercredi pour aller à un pays étranger.
+# Status = SILVER
 1	Tsai	tsai	PROPN	_	_	2	nsubj	_	Gloss=Tsai
 2	pati	pati	VERB	_	_	0	root	_	Gloss=partir
 3	kite	kite	VERB	_	_	2	compound:svc	_	Gloss=quitter
-4	Taiwan	Taiwan	PROPN	_	_	3	obj	_	Gloss=Taiwan
+4	Taiwan	Taiwan	PROPN	_	_	3	obj	_	Gloss=Taïwan
 5	Mekredi	mekredi	NOUN	_	_	2	obl:mod	_	Gloss=mercredi
 6	pou	pou	ADP	_	_	7	case	_	Gloss=pour
 7	peyi	peyi	NOUN	_	_	2	obl	_	Gloss=pays
@@ -139,6 +144,7 @@
 # sent_id = 06__6
 # text = Li pral vizite Guatemala ak Belize.
 # text_fr = Elle visitera le Guatemala et la Belize.
+# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Gloss=3SG
 2	pral	pral	AUX	_	Tense=Fut	3	aux	_	Gloss=FUT
 3	vizite	vizite	VERB	_	_	0	root	_	Gloss=visiter
@@ -150,38 +156,40 @@
 # sent_id = 06__7
 # text = Prezidan an sipoze fè yon pase Los Angeles 5 Avril la anvan li retounen Taiwan.
 # text_fr = La présidente devrait faire son passage à Los Angeles le 5 avril avant qu'elle retourne à Taiwan.
-1	Prezidan	Prezidan	NOUN	_	_	3	nsubj	_	Gloss=Présidente
-2	an	an	DET	_	_	1	det	_	Gloss=la
+# Status = SILVER
+1	Prezidan	prezidan	NOUN	_	_	3	nsubj	_	Gloss=président
+2	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	1	det	_	Gloss=le
 3	sipoze	sipoze	VERB	_	_	0	root	_	Gloss=supposer
 4	fè	fè	VERB	_	_	3	ccomp	_	Gloss=faire
-5	yon	yon	DET	_	Definite=Ind|Number=Sing	6	det	_	Gloss=une
+5	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Gloss=un
 6	pase	pase	NOUN	_	_	4	obj	_	Gloss=visite
 7	Los	Los	PROPN	_	_	4	obl	_	Gloss=Los
 8	Angeles	Angeles	PROPN	_	_	7	flat:name	_	Gloss=Angeles
 9	5	5	NUM	_	_	4	obl:mod	_	Gloss=5
 10	Avril	avril	NOUN	_	_	9	nmod	_	Gloss=avril
-11	la	la	DET	_	Definite=Def|Number=Sing	9	det	_	_
+11	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gloss=le
 12	anvan	anvan	ADV	_	_	4	advmod	_	Gloss=avant
 13	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Gloss=3SG
 14	retounen	retounen	VERB	_	_	12	ccomp	_	Gloss=retourner
-15	Taiwan	Taiwan	PROPN	_	_	14	obj	_	Gloss=Taiwan|SpaceAfter=No
+15	Taiwan	Taiwan	PROPN	_	_	14	obj	_	Gloss=Taïwan|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 06__8
 # text = Se pandan eskal sa a ke li gen entansyon rankontre Lidè Lachanm Kevin McCarthy.
 # text_fr = c'est pendant cet escale qu'il avait l'intention de rencontrer le leader de la chambre Kevin McCarthy.
+# Status = SILVER
 1	Se	se	AUX	_	_	2	cop	_	Gloss=être
 2	pandan	pandan	ADV	_	_	0	root	_	Gloss=pendant
 3	eskal	eskal	NOUN	_	_	2	obj	_	Gloss=escale
-4	sa	sa	DET	_	Number=Sing|PronType=Dem	3	det	_	_
-5	a	a	DET	_	Definite=Def|Number=Sing	3	det	_	_
+4	sa	sa	DET	_	Number=Sing|PronType=Dem	3	det	_	Gloss=cet
+5	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	Gloss=le
 6	ke	ke	SCONJ	_	_	8	mark	_	Gloss=que
 7	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Gloss=3SG
 8	gen	gen	VERB	_	_	2	advcl:cleft	_	Gloss=avoir
 9	entansyon	entansyon	NOUN	_	_	8	obj	_	Gloss=intension
 10	rankontre	rankontre	VERB	_	_	9	ccomp	_	Gloss=rencontrer
 11	Lidè	lidè	NOUN	_	_	10	obj	_	Gloss=leader
-12	Lachanm	lachanm	NOUN	_	_	11	obj	_	Gloss=chambre
+12	Lachanm	lachanm	NOUN	_	_	11	nmod	_	Gloss=chambre
 13	Kevin	Kevin	PROPN	_	_	11	appos	_	Gloss=Kevin
 14	McCarthy	Mccarthy	PROPN	_	_	13	flat:name	_	Gloss=McCarthy|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
@@ -189,26 +197,28 @@
 # sent_id = 06__9
 # text = Ministe Afè Etranjè Lachin nan blame Washington pou tansyon ki egziste ant Peken ak Etazini.
 # text_fr = le ministère des affaires de la Chine blâme le Washington pour la tension qui existe entre le Pékin et les Etats-Unis.
+# Status = SILVER
 1	Ministe	ministe	NOUN	_	_	6	nsubj	_	Gloss=ministère
-2	Afè	afè	NOUN	_	_	1	obj	_	Gloss=affaire
+2	Afè	afè	NOUN	_	_	1	nmod	_	Gloss=affaire
 3	Etranjè	etranjè	ADJ	_	_	2	amod	_	Gloss=étranger
 4	Lachin	Lachin	PROPN	_	_	1	nmod	_	Gloss=Chine
-5	nan	nan	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=la
+5	nan	la	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gloss=le
 6	blame	blame	VERB	_	_	0	root	_	Gloss=blâmer
 7	Washington	Washington	PROPN	_	_	6	obj	_	Gloss=Washington
 8	pou	pou	ADP	_	_	9	case	_	Gloss=pour
 9	tansyon	tansyon	NOUN	_	_	6	obl	_	Gloss=tension
-10	ki	ki	PRON	_	_	11	nsubj	_	Gloss=qui
+10	ki	ki	PRON	_	PronType=Rel	11	nsubj	_	Gloss=qui
 11	egziste	egziste	VERB	_	_	9	acl:relcl	_	Gloss=exister
 12	ant	ant	ADP	_	_	13	case	_	Gloss=entre
 13	Peken	Peken	PROPN	_	_	11	obl	_	Gloss=Pékin
 14	ak	ak	CCONJ	_	_	15	cc	_	Gloss=et
-15	Etazini	Etazini	PROPN	_	_	13	conj	_	Gloss=Etats-Unis|SpaceAfter=No
+15	Etazini	Etazini	PROPN	_	_	13	conj	_	Gloss=États-Unis|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 06__10
 # text = Li di se paske Washington ogmante relasyon ni ak Tsai.
 # text_fr = Elle dit que c'est parce que le Washington augmente ses relation avec Tsai.
+# Status = SILVER
 1	Li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
 2	di	di	VERB	_	_	0	root	_	Gloss=dire
 3	se	se	AUX	_	_	6	cop	_	Gloss=être
@@ -216,21 +226,22 @@
 5	Washington	Washington	PROPN	_	_	6	nsubj	_	Gloss=Washington
 6	ogmante	ogmante	VERB	_	_	2	ccomp	_	Gloss=augmenter
 7	relasyon	relasyon	NOUN	_	_	6	obj	_	Gloss=relation
-8	ni	li	DET	_	Definite=Def|Number=Sing	7	det	_	_
+8	ni	li	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod	_	Gloss=3SG
 9	ak	ak	ADP	_	_	10	case	_	Gloss=avec
-10	Tsai	Tsai	PROPN	_	_	7	nmod	_	Gloss=Tsai|SpaceAfter=No
+10	Tsai	tsai	PROPN	_	_	7	nmod	_	Gloss=Tsai|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 06__11
 # text = Taiwan te separe ak Lachin apre yon gè sivil an 1949.
 # text_fr = Taiwan a été séparé avec la Chine après la guerre civile en 1949.
-1	Taiwan	Taiwan	PROPN	_	_	3	nsubj	_	Gloss=Taiwan
+# Status = SILVER
+1	Taiwan	Taiwan	PROPN	_	_	3	nsubj	_	Gloss=Taïwan
 2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	separe	separe	VERB	_	_	0	root	_	Gloss=séparer
 4	ak	ak	ADP	_	_	5	case	_	Gloss=avec
 5	Lachin	Lachin	PROPN	_	_	3	obl:mod	_	Gloss=Chine
 6	apre	apre	ADP	_	_	8	case	_	Gloss=après
-7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=une
+7	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	Gloss=un
 8	gè	gè	NOUN	_	_	3	obl:mod	_	Gloss=guerre
 9	sivil	sivil	ADJ	_	_	8	amod	_	Gloss=civile
 10	an	an	ADP	_	_	11	case	_	Gloss=en
@@ -240,9 +251,10 @@
 # sent_id = 06__12
 # text = Kounyea zile a endepandan.
 # text_fr = Maintenant, l'île est indépendante.
+# Status = SILVER
 1	Kounyea	kounyea	ADV	_	_	4	advmod	_	Gloss=maintenant
 2	zile	zile	NOUN	_	_	1	obj	_	Gloss=île
-3	a	a	DET	_	Definite=Def|Number=Sing	2	det	_	Gloss=l'
+3	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	Gloss=le
 4	endepandan	endepandan	VERB	_	_	0	root	_	Gloss=indépendante|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
