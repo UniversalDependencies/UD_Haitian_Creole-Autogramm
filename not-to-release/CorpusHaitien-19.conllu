@@ -2,39 +2,41 @@
 # sent_id = 19__1
 # text = Anpil Ikrenyen Pa Konn sa pou yo Fè Akoz Pèmisyon yo te Genyen pou Rete nan Etazini Ekspire
 # text_fr = beaucoup d'ukrainiens ne savent pas ce qu'il faut faire à cause leur permis qu'il avait pour rester aux Etats-Unis est expiré.
+# Status = SILVER
 1	Anpil	anpil	ADV	_	_	2	advmod	_	Gloss=beaucoup
 2	Ikrenyen	ikrenyen	NOUN	_	_	4	nsubj	_	Gloss=ukrainien
 3	Pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=NEG
 4	Konn	konnen	VERB	_	_	0	root	_	Gloss=savoir, connaitre
-5	sa	sa	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Gloss=ce
+5	sa	sa	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Gloss=ça
 6	pou	pou	VERB	_	_	5	ccomp	_	Gloss=falloir, devoir
-7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Gloss=3PL
 8	Fè	fè	VERB	_	_	6	ccomp	_	Gloss=faire
 9	Akoz	akoz	ADP	_	_	18	mark	_	Gloss=à cause de
 10	Pèmisyon	pèmisyon	NOUN	_	_	18	nsubj	_	Gloss=permit
-11	yo	yo	DET	_	Definite=Def|Number=Plur	10	det	_	_
+11	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	Gloss=les
 12	te	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST
 13	Genyen	genyen	VERB	_	_	10	acl:relcl	_	Gloss=avoir
 14	pou	pou	ADP	_	_	15	mark	_	Gloss=pour
 15	Rete	rete	VERB	_	_	13	dep	_	Gloss=rester
 16	nan	nan	ADP	_	_	17	case	_	Gloss=dans
-17	Etazini	Etazini	PROPN	_	_	15	obl	_	Gloss=Etats-Unis
+17	Etazini	Etazini	PROPN	_	_	15	obl	_	Gloss=États-Unis
 18	Ekspire	ekspire	VERB	_	_	8	advcl	_	Gloss=expirer
 
 # sent_id = 19__2
 # text = SAN DIEGO (AP) — Plis pase 20,000 Ikrenyen ki te jwenn pèmisyon pou yo rete sou teritwa ameriken an pou yon ane, apre yo te kouri kite peyi yo akoz envazyon Larisi te lanse lakay yo, yo ap fè fas gwo pwoblèm akoz Pwogram Pawòl imanitè ki ekpire pou yo.
 # text_fr = San Diego,  plus que 20 000 ukrainiens qui trouvaient leur permis pour qu'ils restent  sur le territoire américain pour une année, après qu'ils ont couru de quitter leur pays à cause de l'invasion que la Russie avait lancé  chez eux.  Ils font face à une grande difficulté à cause du programme humanitaire qui est expiré pour  eux.
+# Status = SILVER
 1	SAN	San	PROPN	_	_	43	dep	_	Gloss=San
 2	DIEGO	Diego	PROPN	_	_	1	flat:name	_	Gloss=Diego
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	AP	ap	PROPN	_	_	2	dep	_	Gloss=Associated Press|SpaceAfter=No
+4	AP	AP	PROPN	_	_	2	dep	_	Gloss=Associated Press|SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 6	—	—	PUNCT	_	_	1	punct	_	_
 7	Plis	plis	ADV	_	_	10	advmod	_	Gloss=plus
 8	pase	pase	ADV	_	_	7	dep	_	Gloss=passé (que)
 9	20,000	20,000	NUM	_	_	10	nummod	_	Gloss=20 000
 10	Ikrenyen	ikrenyen	NOUN	_	_	43	dislocated	_	Gloss=ukrainien
-11	ki	ki	PRON	_	_	13	nsubj	_	Gloss=qui
+11	ki	ki	PRON	_	PronType=Rel	13	nsubj	_	Gloss=qui
 12	te	te	AUX	_	Tense=Past	13	aux	_	Gloss=PAST
 13	jwenn	jwenn	VERB	_	_	10	acl:relcl	_	Gloss=trouver
 14	pèmisyon	pèmisyon	NOUN	_	_	13	obj	_	Gloss=permis
@@ -44,9 +46,9 @@
 18	sou	sou	ADP	_	_	19	case	_	Gloss=sur
 19	teritwa	teritwa	NOUN	_	_	17	obl	_	Gloss=territoire
 20	ameriken	ameriken	ADJ	_	_	19	amod	_	Gloss=américain
-21	an	an	DET	_	Definite=Def|Number=Sing	19	det	_	Gloss=DET
+21	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	Gloss=le
 22	pou	pou	ADP	_	_	24	case	_	Gloss=pour
-23	yon	yon	DET	_	Definite=Ind|Number=Sing	24	det	_	Gloss=DET
+23	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	24	det	_	Gloss=un
 24	ane	ane	NOUN	_	_	17	obl	_	Gloss=année|SpaceAfter=No
 25	,	,	PUNCT	_	_	29	punct	_	_
 26	apre	apre	ADP	_	_	29	mark	_	Gloss=après
@@ -55,26 +57,26 @@
 29	kouri	kouri	VERB	_	_	13	advcl	_	Gloss=courir
 30	kite	kite	VERB	_	_	29	compound:svc	_	Gloss=quitter
 31	peyi	peyi	NOUN	_	_	30	obj	_	Gloss=pays
-32	yo	yo	DET	_	Definite=Def|Number=Plur	31	det	_	Gloss=3PL
+32	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	Gloss=les
 33	akoz	akoz	ADP	_	_	34	case	_	Gloss=à cause de
 34	envazyon	envazyon	NOUN	_	_	30	obl:mod	_	Gloss=invasion
 35	Larisi	larisi	PROPN	_	_	37	nsubj	_	Gloss=Russie
 36	te	te	AUX	_	Tense=Past	37	aux	_	Gloss=PAST
 37	lanse	lanse	VERB	_	_	34	acl:relcl	_	Gloss=lancer
 38	lakay	lakay	NOUN	_	_	37	obj	_	Gloss=maison
-39	yo	yo	DET	_	Definite=Def|Number=Plur	38	det	_	Gloss=DET|SpaceAfter=No
+39	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	Gloss=les|SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
 41	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	43	nsubj	_	Gloss=3PL
-42	ap	ap	AUX	_	Aspect=Prog	43	aux	_	Gloss=PAST
+42	ap	ap	AUX	_	Aspect=Prog	43	aux	_	Gloss=PROG
 43	fè	fè	VERB	_	_	0	root	_	Gloss=faire
 44	fas	fas	NOUN	_	_	43	obj	_	Gloss=face
-45	gwo	gwo	ADJ	_	_	46	amod	_	Gloss=gros
-46	pwoblèm	pwoblèm	NOUN	_	_	44	obj	_	Gloss=difficulté, problème
+45	gwo	gwo	ADJ	_	_	46	amod	_	Gloss=grand
+46	pwoblèm	pwoblèm	NOUN	_	_	44	nmod	_	Gloss=problème
 47	akoz	akoz	ADP	_	_	48	case	_	Gloss=à cause de
 48	Pwogram	pwogram	NOUN	_	_	44	nmod	_	Gloss=programme
-49	Pawòl	pawòl	NOUN	_	_	48	obj	_	Gloss=parole
+49	Pawòl	pawòl	NOUN	_	_	48	nmod	_	Gloss=parole
 50	imanitè	imanitè	NOUN	_	_	49	nmod	_	Gloss=humanitaire
-51	ki	ki	PRON	_	_	52	nsubj	_	Gloss=qui
+51	ki	ki	PRON	_	PronType=Rel	52	nsubj	_	Gloss=qui
 52	ekpire	ekpire	VERB	_	_	48	acl:relcl	_	Gloss=expirer
 53	pou	pou	ADP	_	_	54	case	_	Gloss=pour
 54	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	52	obl	_	Gloss=3PL|SpaceAfter=No
@@ -83,20 +85,21 @@
 # sent_id = 19__3
 # text = Moun ki ap defann imigran sa yo di ke administrasyon Biden nan enfòme yo ke li ap travay pou ranje sitiyasyon an, men ke li pa di ki sa moun yo ka fè pou yo pwolonje estati yo, ki mache ak avantaj tankou èd lòjman ak koupon manje, ki rele ann angle “Food Stamps”.
 # text_fr = La personne qui défend ces migrants disent que l'administration de Biden les informe qu'elle travaille arranger la situation, mais elle n'a pas dit  ce qu'ils peuvent faire pour changer leur statut, qui marche avec des avantages tels que des aides au logement,  kit  alimentaire,  qui s'appelle en anglais Food Stamps.
+# Status = SILVER
 1	Moun	moun	NOUN	_	_	8	nsubj	_	Gloss=personne
-2	ki	ki	PRON	_	_	4	nsubj	_	Gloss=qui
+2	ki	ki	PRON	_	PronType=Rel	4	nsubj	_	Gloss=qui
 3	ap	ap	AUX	_	Aspect=Prog	4	aux	_	Gloss=PROG
 4	defann	defann	VERB	_	_	1	acl:relcl	_	Gloss=défendre
 5	imigran	imigran	NOUN	_	_	4	obj	_	Gloss=immigrant
-6	sa	sa	DET	_	Definite=Def|Number=Sing	5	det	_	_
-7	yo	yo	DET	_	Number=Plur|Person=3|PronType=Prs	5	det	_	_
+6	sa	sa	DET	_	Definite=Def|Number=Sing|PronType=Dem	5	det	_	Gloss=cet
+7	yo	yo	DET	_	Number=Plur|PronType=Art	5	det	_	Gloss=les
 8	di	di	VERB	_	_	0	root	_	Gloss=dire
 9	ke	ke	SCONJ	_	_	13	mark	_	Gloss=que
 10	administrasyon	administrasyon	NOUN	_	_	13	nsubj	_	Gloss=administration
 11	Biden	Biden	PROPN	_	_	10	obj	_	Gloss=Biden
-12	nan	nan	DET	_	_	10	det	_	Gloss=de
+12	nan	la	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	Gloss=le
 13	enfòme	enfòme	VERB	_	_	8	ccomp	_	Gloss=informer
-14	yo	yo	PRON	_	Definite=Def|Number=Plur	13	obj	_	Gloss=les
+14	yo	yo	DET	_	Definite=Def|Number=Plur	13	dep	_	Gloss=les
 15	ke	ke	SCONJ	_	_	18	mark	_	Gloss=que
 16	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	Gloss=3SG
 17	ap	ap	AUX	_	Aspect=Prog	18	aux	_	Gloss=PROG
@@ -104,26 +107,26 @@
 19	pou	pou	ADP	_	_	20	mark	_	Gloss=pour
 20	ranje	ranje	VERB	_	_	18	dep	_	Gloss=arranger
 21	sitiyasyon	sitiyasyon	NOUN	_	_	20	obj	_	Gloss=situation
-22	an	an	DET	_	Definite=Def|Number=Sing	21	det	_	SpaceAfter=No
+22	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Gloss=le|SpaceAfter=No
 23	,	,	PUNCT	_	_	28	punct	_	_
 24	men	men	CCONJ	_	_	28	cc	_	Gloss=mais
 25	ke	ke	SCONJ	_	_	28	mark	_	Gloss=que
 26	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nsubj	_	Gloss=3SG
 27	pa	pa	ADV	_	Polarity=Neg	28	advmod	_	Gloss=NEG
 28	di	di	VERB	_	_	18	conj	_	Gloss=dire
-29	ki	ki	PRON	_	_	28	obj	_	Gloss=qui
-30	sa	sa	PRON	_	Number=Sing|PronType=Dem	29	obj	_	_
-31	moun	moun	NOUN	_	_	33	nsubj	_	Gloss=gens, personne
-32	yo	yo	DET	_	Definite=Def|Number=Plur	31	det	_	_
-33	ka	ka	VERB	_	_	30	acl:relcl	_	Gloss=pouvoir
-34	fè	fè	VERB	_	_	33	ccomp	_	Gloss=faire
+29	ki	ki	PRON	_	PronType=Rel	28	obj	_	Gloss=qui
+30	sa	sa	PRON	_	Number=Sing|PronType=Dem	29	obj	_	Gloss=ça
+31	moun	moun	NOUN	_	_	34	nsubj	_	Gloss=personne
+32	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	Gloss=les
+33	ka	ka	AUX	_	_	34	aux	_	Gloss=pouvoir
+34	fè	fè	VERB	_	_	30	acl:relcl	_	Gloss=faire
 35	pou	pou	ADP	_	_	37	mark	_	Gloss=pour
 36	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	37	nsubj	_	Gloss=3PL
 37	pwolonje	pwolonje	VERB	_	_	34	dep	_	Gloss=prolonger
 38	estati	estati	NOUN	_	_	37	obj	_	Gloss=statut
-39	yo	yo	DET	_	Number=Plur|Person=3|Poss=Yes	38	det	_	Gloss=3SG|SpaceAfter=No
+39	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	38	nmod	_	Gloss=3PL|SpaceAfter=No
 40	,	,	PUNCT	_	_	42	punct	_	_
-41	ki	ki	PRON	_	_	42	nsubj	_	Gloss=qui
+41	ki	ki	PRON	_	PronType=Rel	42	nsubj	_	Gloss=qui
 42	mache	mache	VERB	_	_	38	acl:relcl	_	Gloss=marcher
 43	ak	ak	ADP	_	_	44	case	_	Gloss=avec
 44	avantaj	avantaj	NOUN	_	_	42	obl:arg	_	Gloss=avantage
@@ -134,9 +137,9 @@
 49	koupon	koupon	NOUN	_	_	46	conj	_	Gloss=kit, coupon
 50	manje	manje	NOUN	_	_	49	nmod	_	Gloss=nourriture|SpaceAfter=No
 51	,	,	PUNCT	_	_	53	punct	_	_
-52	ki	ki	PRON	_	_	53	nsubj	_	Gloss=qui
+52	ki	ki	PRON	_	PronType=Rel	53	nsubj	_	Gloss=qui
 53	rele	rele	VERB	_	_	49	acl:relcl	_	Gloss=appeler
-54	ann	an	ADP	_	_	55	case	_	Gloss=en
+54	ann	ann	ADP	_	_	55	case	_	Gloss=en
 55	angle	angle	NOUN	_	_	53	obl	_	Gloss=anglais
 56	“	“	PUNCT	_	_	57	punct	_	SpaceAfter=No
 57	Food	Food	NOUN	_	_	53	obj	_	Gloss=Food
@@ -146,6 +149,7 @@
 
 # sent_id = 19__4
 # text = Pifò Ikrenyen te jwenn otorizasyon pou yo patisipe nan pwogram imanitè sa pou yon ane apre yo te fin travèse fwontyè Etazini ak Meksik pandan kèk mwa lè lagè a te koumanse.
+# Status = SILVER
 # text_fr = la majorité des ukrainiens ont trouvé l'autorisation pour participer à ce programme humanitaire pour une année après qu'ils ont fini de traverser la frontière des Etats-Unis avec le Mexique pendant quelques mois quand la guerre avait commencé.
 1	Pifò	Pifò	NOUN	_	_	2	nmod	_	Gloss=majorité
 2	Ikrenyen	Ikrenyen	PROPN	_	_	4	nsubj	_	Gloss=ukrainien
@@ -158,9 +162,9 @@
 9	nan	nan	ADP	_	_	10	case	_	Gloss=dans
 10	pwogram	pwogram	NOUN	_	_	8	obl	_	Gloss=programme
 11	imanitè	imanitè	ADJ	_	_	10	amod	_	Gloss=humanitaire
-12	sa	sa	DET	_	Number=Sing|PronType=Dem	10	det	_	_
+12	sa	sa	DET	_	Number=Sing|PronType=Dem	10	det	_	Gloss=cet
 13	pou	pou	ADP	_	_	15	case	_	Gloss=pour
-14	yon	yon	DET	_	Definite=Ind|Number=Sing	15	det	_	_
+14	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	15	det	_	Gloss=un
 15	ane	ane	NOUN	_	_	8	obl	_	Gloss=année
 16	apre	apre	ADP	_	_	19	mark	_	Gloss=après
 17	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	19	nsubj	_	Gloss=3PL
@@ -168,15 +172,15 @@
 19	fin	fini	VERB	_	_	4	advcl	_	Gloss=finir
 20	travèse	travèse	VERB	_	_	19	ccomp	_	Gloss=traverser
 21	fwontyè	fwontyè	NOUN	_	_	20	obj	_	Gloss=frontière
-22	Etazini	Etazini	PROPN	_	_	21	obj	_	Gloss=Etats-Unis
+22	Etazini	Etazini	PROPN	_	_	21	nmod	_	Gloss=États-Unis
 23	ak	ak	ADP	_	_	24	case	_	Gloss=avec
 24	Meksik	Meksik	PROPN	_	_	21	nmod	_	Gloss=Mexique
 25	pandan	pandan	ADP	_	_	27	case	_	Gloss=pendant
-26	kèk	kèk	DET	_	_	27	det	_	Gloss=quelques
+26	kèk	kèk	DET	_	Number=Plur	27	det	_	Gloss=quelques
 27	mwa	mwa	NOUN	_	_	20	obl:mod	_	Gloss=mois
 28	lè	lè	ADP	_	_	32	mark	_	Gloss=quand
 29	lagè	lagè	NOUN	_	_	32	nsubj	_	Gloss=guerre
-30	a	a	DET	_	Definite=Def|Number=Sing	29	det	_	Gloss=la
+30	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	Gloss=le
 31	te	te	AUX	_	Tense=Past	32	aux	_	Gloss=PAST
 32	koumanse	koumanse	VERB	_	_	27	acl	_	Gloss=commencer|SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
@@ -184,11 +188,12 @@
 # sent_id = 19__5
 # text = Anpil moun di ensètitid la ba yo tèt-chaje.
 # text_fr = beaucoup de gens disent que l'incertitude leur donne du problème.
+# Status = SILVER
 1	Anpil	anpil	ADV	_	_	2	advmod	_	Gloss=beaucoup
-2	moun	moun	NOUN	_	_	3	nsubj	_	Gloss=gens, personne
+2	moun	moun	NOUN	_	_	3	nsubj	_	Gloss=personne
 3	di	di	VERB	_	_	0	root	_	Gloss=dire
 4	ensètitid	ensètitid	NOUN	_	_	6	nsubj	_	Gloss=incertitude
-5	la	la	DET	_	Definite=Def|Number=Sing	4	det	_	Gloss=l'
+5	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Gloss=le
 6	ba	bay	VERB	_	_	3	ccomp	_	Gloss=donner
 7	yo	yo	PRON	_	Number=Plur|Person=3|PronType=Prs	6	iobj	_	Gloss=3PL
 8	tèt-chaje	tèt-chaje	NOUN	_	_	6	obj	_	Gloss=problème|SpaceAfter=No

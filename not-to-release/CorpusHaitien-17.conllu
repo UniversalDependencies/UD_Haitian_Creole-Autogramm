@@ -2,15 +2,16 @@
 # sent_id = 17__1
 # text = Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen
 # text_fr = Joe Biden rencontrera avec le président de la commission européenne, Ursula Von Der Leyen .
+# Status = SILVER
 1	Joe	Joe	PROPN	_	_	4	nsubj	_	Gloss=Joe
 2	Biden	Biden	PROPN	_	_	1	flat:name	_	Gloss=Biden
 3	ap	ap	AUX	_	Aspect=Prog	4	aux	_	Gloss=PROG
 4	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 5	ak	ak	ADP	_	_	6	case	_	Gloss=avec
 6	Prezidan	prezidan	NOUN	_	_	4	obl	_	Gloss=président
-7	Komisyon	komisyon	NOUN	_	_	6	obj	_	Gloss=commission
+7	Komisyon	komisyon	NOUN	_	_	6	nmod	_	Gloss=commission
 8	Ewopeyen	ewopeyen	ADJ	_	_	7	amod	_	Gloss=européenne
-9	Ursula	ursula	PROPN	_	_	6	appos	_	Gloss=Ursula
+9	Ursula	Ursula	PROPN	_	_	6	appos	_	Gloss=Ursula
 10	von	von	PROPN	_	_	9	flat:name	_	Gloss=von
 11	der	der	PROPN	_	_	9	flat:name	_	Gloss=der
 12	Leyen	Leyen	PROPN	_	_	9	flat:name	_	Gloss=Leyen
@@ -18,15 +19,16 @@
 # sent_id = 17__2
 # text = Prezidan Etazini Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen vandredi nan Mezon Blanch pou yo pale sou sanksyon posib kont LaChin pandan gen kè-sote kòmkwa LaChin ap pare pou voye zam bay LaRisi, ak fristrasyon Ewòp poutèt plan Washington genyen pou bay konpayi ameriken yo sibvansyon nan kad Lwa pou Redui Enflasyon an.
 # text_fr = Le président des Etats-Unis, Joe Biden, rencontrera avec le président de la commission européenne Ursula Von Der Leyen vendredi dans la maison Blanche pour qu'ils parlent sur la sanction possible contre la Chine pendant qu'il y'a une inquiétude comme quoi la Chine se prépare pour envoyer des armes à la Russie, avec la frustration de l'Europe à cause le plan de Washington a pour donner aux compagnies américaines une subvention dans le cadre de loi pour réduire l'inflation.
-1	Prezidan	Prezidan	NOUN	_	_	6	nsubj	_	Gloss=président
-2	Etazini	Etazini	PROPN	_	_	1	obj	_	Gloss=États-Unis
+# Status = SILVER
+1	Prezidan	prezidan	NOUN	_	_	6	nsubj	_	Gloss=président
+2	Etazini	Etazini	PROPN	_	_	1	nmod	_	Gloss=États-Unis
 3	Joe	Joe	PROPN	_	_	1	appos	_	Gloss=Joe
 4	Biden	Biden	PROPN	_	_	3	flat:name	_	Gloss=Biden
 5	ap	ap	AUX	_	Aspect=Prog	6	aux	_	Gloss=PROG
 6	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
 7	ak	ak	ADP	_	_	8	case	_	Gloss=avec
 8	Prezidan	prezidan	NOUN	_	_	6	obl	_	Gloss=président
-9	Komisyon	komisyon	NOUN	_	_	8	obj	_	Gloss=commission
+9	Komisyon	komisyon	NOUN	_	_	8	nmod	_	Gloss=commission
 10	Ewopeyen	ewopeyen	PROPN	_	_	9	nmod	_	Gloss=européenne
 11	Ursula	Ursula	PROPN	_	_	8	appos	_	Gloss=Ursula
 12	von	von	PROPN	_	_	11	flat:name	_	Gloss=von
@@ -67,36 +69,37 @@
 47	pou	pou	ADP	_	_	48	mark	_	Gloss=pour
 48	bay	bay	VERB	_	_	46	dep	_	Gloss=donner
 49	konpayi	konpayi	NOUN	_	_	48	iobj	_	Gloss=compagnie
-50	ameriken	ameriken	ADJ	_	_	49	amod	_	Gloss=américaine
-51	yo	yo	DET	_	Definite=Def|Number=Plur	49	det	_	Gloss=DET.PL.
+50	ameriken	ameriken	ADJ	_	_	49	amod	_	Gloss=américain
+51	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	Gloss=les
 52	sibvansyon	sibvansyon	NOUN	_	_	48	obj	_	Gloss=subventions
 53	nan	nan	ADP	_	_	54	case	_	Gloss=dans
 54	kad	kad	NOUN	_	_	48	obl	_	Gloss=cadre
-55	Lwa	lwa	NOUN	_	_	54	obj	_	Gloss=loi
+55	Lwa	lwa	NOUN	_	_	54	nmod	_	Gloss=loi
 56	pou	pou	ADP	_	_	57	mark	_	Gloss=pour
 57	Redui	redui	VERB	_	_	48	dep	_	Gloss=réduire
 58	Enflasyon	enflasyon	NOUN	_	_	57	obj	_	Gloss=inflation
-59	an	an	DET	_	Definite=Def|Number=Sing	58	det	_	Gloss=DET|SpaceAfter=No
+59	an	la	DET	_	Definite=Def|Number=Sing|PronType=Art	58	det	_	Gloss=le|SpaceAfter=No
 60	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 17__3
 # text = Biden ak von der Leyen pwal pale tou sou jan Etazini ak Inyon Ewòp la ap kòdone ansanm pou konbat kriz klima a nan envesti nan teknoloji pwòp ki baze sou chèn distribisyon machandiz ki asire, se sa sekretè laprès Mezon Blanch Karine Jean-Pierre di nan yon deklarasyon.
 # text_fr = Biden et  Ursula Von Der Leyen parlera aussi sur la façon dont les Etats-Unis avec l'Européenne coordonne ensemble pour combattre la crise du climat dans l'investissement dans la technologie propre qui se base sur la chaîne de la distribution des marchandises qui est assuré, c'est ce que le secrétaire de la maison Blanche Karine Jean-Pierre dit dans une déclaration.
+# Status = SILVER
 1	Biden	Biden	PROPN	_	_	7	nsubj	_	Gloss=Biden
-2	ak	ak	CCONJ	_	_	3	cc	_	Gloss=avec
+2	ak	ak	CCONJ	_	_	3	cc	_	Gloss=et
 3	von	von	PROPN	_	_	1	conj	_	Gloss=von
 4	der	der	PROPN	_	_	3	flat:name	_	Gloss=der
 5	Leyen	Leyen	PROPN	_	_	3	flat:name	_	Gloss=Leyen
 6	pwal	pral	AUX	_	Tense=Fut	7	aux	_	Gloss=FUT
 7	pale	pale	VERB	_	_	0	root	_	Gloss=parler
-8	tou	tou	ADV	_	_	7	advmod	_	Gloss=aussi
+8	tou	tou	ADV	_	_	7	advmod	_	Gloss=tout
 9	sou	sou	ADP	_	_	10	case	_	Gloss=sur
 10	jan	jan	NOUN	_	_	7	obl	_	Gloss=façon
 11	Etazini	Etazini	PROPN	_	_	17	nsubj	_	Gloss=États-Unis
-12	ak	ak	CCONJ	_	_	13	cc	_	Gloss=avec
+12	ak	ak	CCONJ	_	_	13	cc	_	Gloss=et
 13	Inyon	inyon	PROPN	_	_	11	conj	_	Gloss=Union
-14	Ewòp	ewòp	PROPN	_	_	13	flat:name	_	Gloss=Européenne
-15	la	la	DET	_	Definite=Def|Number=Sing	13	det	_	_
+14	Ewòp	ewòp	PROPN	_	_	13	flat:name	_	Gloss=Europe
+15	la	la	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gloss=le
 16	ap	ap	AUX	_	Aspect=Prog	17	aux	_	Gloss=PROG
 17	kòdone	kòdone	VERB	_	_	10	acl:relcl	_	Gloss=coordonner
 18	ansanm	ansanm	ADV	_	_	17	advmod	_	Gloss=ensemble
@@ -104,72 +107,74 @@
 20	konbat	konbat	VERB	_	_	17	dep	_	Gloss=combattre
 21	kriz	kriz	NOUN	_	_	20	obj	_	Gloss=crise
 22	klima	klima	NOUN	_	_	21	nmod	_	Gloss=climat
-23	a	a	DET	_	Definite=Def|Number=Sing	21	det	_	Gloss=DET
+23	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Gloss=le
 24	nan	nan	ADP	_	_	25	case	_	Gloss=dans
 25	envesti	envesti	NOUN	_	_	17	obl	_	Gloss=investissement
 26	nan	nan	ADP	_	_	27	case	_	Gloss=dans
 27	teknoloji	teknoloji	NOUN	_	_	25	nmod	_	Gloss=technologie
 28	pwòp	pwòp	NOUN	_	_	27	nmod	_	Gloss=propre
-29	ki	ki	PRON	_	_	30	nsubj	_	Gloss=qui
+29	ki	ki	PRON	_	PronType=Rel	30	nsubj	_	Gloss=qui
 30	baze	baze	VERB	_	_	27	acl:relcl	_	Gloss=baser
 31	sou	sou	ADP	_	_	32	case	_	Gloss=sur
 32	chèn	chèn	NOUN	_	_	30	obl	_	Gloss=chaîne
-33	distribisyon	distribisyon	NOUN	_	_	32	obj	_	Gloss=distribution
-34	machandiz	machandiz	NOUN	_	_	33	obj	_	Gloss=marchandise
-35	ki	ki	PRON	_	_	36	nsubj	_	Gloss=qui
+33	distribisyon	distribisyon	NOUN	_	_	32	nmod	_	Gloss=distribution
+34	machandiz	machandiz	NOUN	_	_	33	nmod	_	Gloss=marchandise
+35	ki	ki	PRON	_	PronType=Rel	36	nsubj	_	Gloss=qui
 36	asire	asire	VERB	_	_	32	acl:relcl	_	Gloss=assurer|SpaceAfter=No
 37	,	,	PUNCT	_	_	39	punct	_	_
 38	se	se	AUX	_	_	39	cop	_	Gloss=être
-39	sa	sa	PRON	_	Number=Sing|PronType=Dem	36	ccomp	_	Gloss=3SG
+39	sa	sa	PRON	_	Number=Sing|PronType=Dem	36	ccomp	_	Gloss=ça
 40	sekretè	sekretè	NOUN	_	_	46	nsubj	_	Gloss=secrétaire
-41	laprès	laprès	NOUN	_	_	40	obj	_	Gloss=presse
-42	Mezon	mezon	PROPN	_	_	41	obj	_	Gloss=maison
+41	laprès	laprès	NOUN	_	_	40	nmod	_	Gloss=presse
+42	Mezon	mezon	PROPN	_	_	41	nmod	_	Gloss=maison
 43	Blanch	blanch	PROPN	_	_	42	flat:name	_	Gloss=blanche
 44	Karine	Karine	PROPN	_	_	40	appos	_	Gloss=Karine
 45	Jean-Pierre	Jean-pierre	PROPN	_	_	44	flat:name	_	Gloss=Jean-Pierre
 46	di	di	VERB	_	_	39	acl:relcl	_	Gloss=dire
 47	nan	nan	ADP	_	_	49	case	_	Gloss=dans
-48	yon	yon	DET	_	Definite=Ind|Number=Sing	49	det	_	Gloss=DET
+48	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	49	det	_	Gloss=un
 49	deklarasyon	deklarasyon	NOUN	_	_	46	obl	_	Gloss=déclaration|SpaceAfter=No
 50	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 17__4
 # text = Rankont sa a se dènye nan yon seri reyinyon diplomatik nan wo-nivo ak lidè Ewòp yo pou kòdone sipò pou ede Ikrèn defann tèt li kont yon envazyon LaRisi.
 # text_fr = Cette rencontre est la dernière dans une série de réunion diplomatique au haut niveau avec les leaders d'Europe pour coordonner le support pour aider l'Ukraine se défendre contre l'invasion  de la Russie.
-1	Rankont	Rankont	NOUN	_	_	5	nsubj	_	Gloss=rancontre
-2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=DET
-3	a	a	DET	_	Definite=Def|Number=Sing	1	det	_	Gloss=DET
+# Status = SILVER
+1	Rankont	rankont	NOUN	_	_	5	nsubj	_	Gloss=rencontre
+2	sa	sa	DET	_	Number=Sing|PronType=Dem	1	det	_	Gloss=cet
+3	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	1	det	_	Gloss=le
 4	se	se	AUX	_	_	5	cop	_	Gloss=être
 5	dènye	dènye	ADJ	_	_	0	root	_	Gloss=dernier
 6	nan	nan	ADP	_	_	8	case	_	Gloss=dans
-7	yon	yon	DET	_	Definite=Ind|Number=Sing	8	det	_	Gloss=DET
+7	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	8	det	_	Gloss=un
 8	seri	seri	NOUN	_	_	5	obl	_	Gloss=serie
-9	reyinyon	reyinyon	NOUN	_	_	8	obj	_	Gloss=réunion
+9	reyinyon	reyinyon	NOUN	_	_	8	nmod	_	Gloss=réunion
 10	diplomatik	diplomatik	ADJ	_	_	9	amod	_	Gloss=diplomatique
 11	nan	nan	ADP	_	_	12	case	_	Gloss=dans
 12	wo-nivo	wo-nivo	ADJ	_	_	9	nmod	_	Gloss=haut niveau
 13	ak	ak	ADP	_	_	14	case	_	Gloss=avec
 14	lidè	lidè	NOUN	_	_	9	nmod	_	Gloss=dirigeant
 15	Ewòp	ewòp	PROPN	_	_	14	nmod	_	Gloss=Europe
-16	yo	yo	DET	_	Definite=Def|Number=Plur	14	det	_	Gloss=DET
+16	yo	yo	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	Gloss=les
 17	pou	pou	ADP	_	_	18	mark	_	Gloss=pour
 18	kòdone	kòdone	VERB	_	_	9	acl	_	Gloss=coordonner
 19	sipò	sipò	NOUN	_	_	18	obj	_	Gloss=support
 20	pou	pou	ADP	_	_	21	mark	_	Gloss=pour
 21	ede	ede	VERB	_	_	19	acl	_	Gloss=aider
-22	Ikrèn	ikrèn	PROPN	_	_	21	iobj	_	Gloss=Ukraine
+22	Ikrèn	Ikrèn	PROPN	_	_	21	iobj	_	Gloss=Ukraine
 23	defann	defann	VERB	_	_	21	ccomp	_	Gloss=défendre
 24	tèt	tèt	NOUN	_	_	23	obj	_	Gloss=tête
-25	li	li	DET	_	Number=Sing|Person=3|Poss=Yes	24	det	_	Gloss=3SG
+25	li	li	PRON	_	Number=Sing|Person=3|PronType=Prs	24	nmod	_	Gloss=3SG
 26	kont	kont	ADP	_	_	28	case	_	Gloss=contre
-27	yon	yon	DET	_	Definite=Ind|Number=Sing	28	det	_	Gloss=DET
+27	yon	yon	DET	_	Definite=Ind|Number=Sing|PronType=Art	28	det	_	Gloss=un
 28	envazyon	envazyon	NOUN	_	_	23	obl	_	Gloss=invasion
-29	LaRisi	Larisi	PROPN	_	_	28	nmod	_	Gloss=Russe|SpaceAfter=No
+29	LaRisi	Larisi	PROPN	_	_	28	nmod	_	Gloss=Russie|SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 17__5
 # text = Biden te rankontre ak chanselye alman Olaf Scholz nan Washington, semèn pase a.
 # text_fr = Biden a rencontré avec le chancelier  allemand Olaf Scholz à Washington, la semaine dernière.
+# Status = SILVER
 1	Biden	Biden	PROPN	_	_	3	nsubj	_	Gloss=Biden
 2	te	te	AUX	_	Tense=Past	3	aux	_	Gloss=PAST
 3	rankontre	rankontre	VERB	_	_	0	root	_	Gloss=rencontrer
@@ -183,6 +188,6 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	semèn	semèn	NOUN	_	_	3	obl:mod	_	Gloss=semaine
 13	pase	pase	ADJ	_	_	12	amod	_	Gloss=passé
-14	a	a	DET	_	Definite=Def|Number=Sing	12	det	_	Gloss=DET|SpaceAfter=No
+14	a	la	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gloss=le|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
