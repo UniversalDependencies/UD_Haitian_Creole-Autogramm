@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Haitian_Creole-Autogramm:
-commit 4a5923bacb8afd93fd57caba8d852d27358a63b9
-Merge: efef992 4cebd37
+commit d6f561fd5fc4ab6c4ac01868d82e6b9c157bed51
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:28:30 2024 +0200
 Size: counted 3279 of 3279 words (nodes).
 Size: min(0, log((N/1000)**2)) = 2.37507699572502.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,8 @@ Udapi: found 541 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 3279 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Autogramm/ht_autogramm-ud-test.conllu
+[Line 1370 Sent 05__5 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:Nempòt:det --> 3:ki:dep)
+Warnings: 1
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
