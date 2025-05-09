@@ -33,11 +33,12 @@
     <tag name="X">6</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="21">
+  <feats unique="22">
     <feat name="Aspect" value="Prog" upos="AUX">43</feat><!-- ap -->
     <feat name="Definite" value="Def" upos="DET">145</feat><!-- a, yo, la, an, nan, sa -->
     <feat name="Definite" value="Ind" upos="DET">76</feat><!-- yon, a, yo, yoon -->
     <feat name="ExtPos" value="CCONJ" upos="SCONJ">1</feat><!-- kòm -->
+    <feat name="ExtPos" value="DET" upos="DET">1</feat><!-- Nempòt -->
     <feat name="Mood" value="Cnd" upos="AUX">10</feat><!-- ta -->
     <feat name="Number" value="Plur" upos="DET,PRON">132</feat><!-- yo, nou, n, kèk, y, plizyè, yon -->
     <feat name="Number" value="Sing" upos="DET,PRON">402</feat><!-- m, yon, li, a, la, sa, mwen, l, an, nan -->
@@ -72,11 +73,11 @@
     <dep name="compound:svc">10</dep>
     <dep name="conj">60</dep>
     <dep name="cop">25</dep>
-    <dep name="dep">60</dep>
+    <dep name="dep">59</dep>
     <dep name="det">275</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">3</dep>
-    <dep name="fixed">1</dep>
+    <dep name="fixed">2</dep>
     <dep name="flat:name">65</dep>
     <dep name="goeswith">6</dep>
     <dep name="iobj">14</dep>
