@@ -1366,8 +1366,8 @@
 # text_fr = N'importe quelle décision par rapport à une force militaire - que nous discutons souvent, devrait se faire en consultation avec les Nations Unies puis le gouvernement haïtien.
 # Status = SILVER
 1	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
-2	Nempòt	nempòt	DET	_	_	4	det	_	Gloss=n'importe
-3	ki	ki	DET	_	PronType=Rel	2	dep	_	Gloss=quelle
+2	Nempòt	nempòt	DET	_	ExtPos=DET	4	det	_	Gloss=n'importe|Idiom=Yes
+3	ki	ki	DET	_	PronType=Rel	2	fixed	_	Gloss=quelle|InIdiom=Yes
 4	desizyon	desizyon	NOUN	_	_	19	nsubj	_	Gloss=décision
 5	pa	pa	ADV	_	Polarity=Neg	4	advmod	_	Gloss=par
 6	rapo	rapo	NOUN	_	_	5	obj	_	Gloss=rapport
