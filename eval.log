@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Haitian_Creole-Autogramm:
-commit 3bac8d751c75f3b23c223479bcfeea4d938f4c2f
-Merge: 521d17d 2d3804f
+commit ed399f3e22f317b5c9f4502c8b9eb7a6a4043fa5
+Merge: 8dcf186 0bf92a2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ht_autogramm'
@@ -25,17 +25,17 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ht --max-err=10 UD_Haitian_Creole-Autogramm/ht_autogramm-ud-test.conllu
-[Line 19 Sent 01__1]: [L3 Warning pron-det-without-prontype] The word 'okenn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 133 Sent 01__7]: [L3 Warning pron-det-without-prontype] The word 'yon' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 138 Sent 01__7]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 151 Sent 01__7]: [L3 Warning pron-det-without-prontype] The word 'yo' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 154 Sent 01__7]: [L3 Warning pron-det-without-prontype] The word 'yon' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 199 Sent 01__8]: [L3 Warning pron-det-without-prontype] The word 'plizyè' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 225 Sent 01__9]: [L3 Warning pron-det-without-prontype] The word 'k' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 290 Sent 01__12]: [L3 Warning pron-det-without-prontype] The word 'kèk' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 377 Sent 01__15]: [L3 Warning pron-det-without-prontype] The word 'non' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 398 Sent 01__16]: [L3 Warning pron-det-without-prontype] The word 'chak' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 18 Sent 01__1]: [L3 WARNING pron-det-without-prontype] The word 'okenn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 132 Sent 01__7]: [L3 WARNING pron-det-without-prontype] The word 'yon' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 137 Sent 01__7]: [L3 WARNING pron-det-without-prontype] The word 'la' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 150 Sent 01__7]: [L3 WARNING pron-det-without-prontype] The word 'yo' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 153 Sent 01__7]: [L3 WARNING pron-det-without-prontype] The word 'yon' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 198 Sent 01__8]: [L3 WARNING pron-det-without-prontype] The word 'plizyè' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 224 Sent 01__9]: [L3 WARNING pron-det-without-prontype] The word 'k' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 289 Sent 01__12]: [L3 WARNING pron-det-without-prontype] The word 'kèk' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 376 Sent 01__15]: [L3 WARNING pron-det-without-prontype] The word 'non' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 397 Sent 01__16]: [L3 WARNING pron-det-without-prontype] The word 'chak' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 35
 *** PASSED ***
 Validity: 1
