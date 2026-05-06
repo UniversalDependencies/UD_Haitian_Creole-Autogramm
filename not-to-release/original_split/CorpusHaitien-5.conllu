@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 05__1
 # text = Biden: 'Etazini Pa Ekate Posibilite pou Itilize Lafòs pou Tabli Lapè an Ayiti'
 # text_fr = Biden: "les Etats-Unis n'écartent pas la possibilité pour utiliser la force afin d'établir la paix en Haïti".

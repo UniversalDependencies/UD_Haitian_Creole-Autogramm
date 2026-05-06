@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 17__1
 # text = Joe Biden ap rankontre ak Prezidan Komisyon Ewopeyen Ursula von der Leyen
 # text_fr = Joe Biden rencontrera avec le président de la commission européenne, Ursula Von Der Leyen .

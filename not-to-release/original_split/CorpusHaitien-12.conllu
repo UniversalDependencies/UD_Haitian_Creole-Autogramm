@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 12__1
 # text = Meksik di l ap Mennen ankèt sou 8 Moun nan Dife ki te Touye Moun nan yon Sant pou Migran
 # text_fr = Mexique dit qu'il mène une enquête sur 8 personnes dans l'incendie qui a tué des gens dans un centre pour migrant.
